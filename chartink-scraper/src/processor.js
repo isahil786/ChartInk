@@ -81,6 +81,10 @@ export function processScreener(raw) {
 
 // ─── Backtest processor ──────────────────────────────────────────────────────
 
+function tsToDate(ms) {
+  return new Date(ms).toISOString().slice(0, 10);
+}
+
 export function processBacktest(raw) {
   const data = raw.data;
   if (!data) return { type: "backtest", error: "No data found" };
@@ -89,9 +93,17 @@ export function processBacktest(raw) {
   const groupData = data.groupData ?? {};
   const numDays = aggregatedStockList.length;
 
+  // Actual trading dates from metaData tradeTimes (Unix ms, oldest → newest)
+  const tradeTimes = data.metaData?.[0]?.tradeTimes ?? [];
+  const dates = tradeTimes.map(tsToDate);
+
+  function dateLabel(i) {
+    return dates[i] ?? `Day ${i}`;
+  }
+
   // ── 1. Daily stocks CSV ──────────────────────────────────────────────────
-  // aggregatedStockList[i] = flat array of [symbol, cap, sector, symbol, cap, sector, ...]
-  const dailyHeaders = ["Day Index", "Symbol", "Cap Type", "Sector"];
+  // aggregatedStockList[i] = flat array of [symbol, cap, sector, ...]
+  const dailyHeaders = ["Date", "Symbol", "Cap Type", "Sector"];
   const dailyRows = [];
 
   for (let i = 0; i < numDays; i++) {
@@ -101,14 +113,13 @@ export function processBacktest(raw) {
       const cap = flat[j + 1];
       const sector = flat[j + 2];
       if (symbol) {
-        dailyRows.push([i, symbol, cap, sector]);
+        dailyRows.push([dateLabel(i), symbol, cap, sector]);
       }
     }
   }
 
   // ── 2. Sector counts pivot CSV ───────────────────────────────────────────
   // groupData = { "0": { name, results: [{ formula: [count x numDays] }] }, ... }
-  // Build: rows = day index, columns = sectors
   const sectorEntries = Object.values(groupData).map((g) => {
     const counts = g.results?.[0]
       ? Object.values(g.results[0])[0]
@@ -117,13 +128,13 @@ export function processBacktest(raw) {
   });
 
   const sectorNames = sectorEntries.map((e) => e.name);
-  const sectorHeaders = ["Day Index", "Total Signals", ...sectorNames];
+  const sectorHeaders = ["Date", "Total Signals", ...sectorNames];
   const sectorRows = [];
 
   for (let i = 0; i < numDays; i++) {
     const colCounts = sectorEntries.map((e) => e.counts[i] ?? 0);
     const total = colCounts.reduce((sum, v) => sum + v, 0);
-    sectorRows.push([i, total, ...colCounts]);
+    sectorRows.push([dateLabel(i), total, ...colCounts]);
   }
 
   // ── 3. Summary stats ─────────────────────────────────────────────────────
@@ -143,7 +154,7 @@ export function processBacktest(raw) {
   // Peak day
   const dayCounts = aggregatedStockList.map((a) => Math.floor(a.length / 3));
   const peakCount = Math.max(...dayCounts);
-  const peakDay = dayCounts.indexOf(peakCount);
+  const peakDayIdx = dayCounts.indexOf(peakCount);
 
   // Sector totals
   const sectorTotals = sectorEntries
@@ -154,12 +165,16 @@ export function processBacktest(raw) {
     .sort((a, b) => b.total - a.total);
 
   const summary = {
+    dateRange: {
+      from: dateLabel(0),
+      to: dateLabel(numDays - 1),
+    },
     totalDays: numDays,
     activeDays,
     totalSignalOccurrences: totalSignals,
     avgSignalsPerActiveDay:
       activeDays > 0 ? (totalSignals / activeDays).toFixed(2) : 0,
-    peakDay,
+    peakDate: dateLabel(peakDayIdx),
     peakDaySignalCount: peakCount,
     topSymbols,
     sectorTotals,

@@ -116,11 +116,11 @@ async function processAllBacktests() {
         .join(", ");
 
       printSummaryBox(`${slug} — Backtest`, [
-        `Time periods   : ${s.totalDays} days`,
-        `Active days    : ${s.activeDays} (days with signals)`,
+        `Date range     : ${s.dateRange.from}  →  ${s.dateRange.to}`,
+        `Total days     : ${s.totalDays}  (active: ${s.activeDays})`,
         `Total signals  : ${s.totalSignalOccurrences}`,
         `Avg/active day : ${s.avgSignalsPerActiveDay}`,
-        `Peak day       : Day ${s.peakDay} (${s.peakDaySignalCount} signals)`,
+        `Peak date      : ${s.peakDate} (${s.peakDaySignalCount} signals)`,
         `Top symbols    : ${topSymbolsLine}`,
         `Top sectors    : ${topSectorLine}`,
         `Daily CSV      : ${path.relative(process.cwd(), dailyCsvPath)}`,

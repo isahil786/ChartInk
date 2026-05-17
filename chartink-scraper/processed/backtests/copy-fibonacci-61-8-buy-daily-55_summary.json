@@ -1,9 +1,13 @@
 {
+  "dateRange": {
+    "from": "2025-09-18",
+    "to": "2026-05-14"
+  },
   "totalDays": 160,
   "activeDays": 127,
   "totalSignalOccurrences": 833,
   "avgSignalsPerActiveDay": "6.56",
-  "peakDay": 115,
+  "peakDate": "2026-03-08",
   "peakDaySignalCount": 38,
   "topSymbols": [
     {
