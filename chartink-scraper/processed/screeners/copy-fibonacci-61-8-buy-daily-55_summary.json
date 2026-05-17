@@ -1,0 +1,25 @@
+{
+  "totalStocks": 4,
+  "gainers": 1,
+  "losers": 3,
+  "avgPercentChange": -3.04,
+  "avgVolume": 12710615,
+  "topGainer": {
+    "sr": 2,
+    "nsecode": "TIINDIA",
+    "name": "Tube Investments of India Ltd",
+    "bsecode": "540762",
+    "close": 2850.3,
+    "per_chg": 1.77,
+    "volume": 566267
+  },
+  "topLoser": {
+    "sr": 1,
+    "nsecode": "MUTHOOTFIN",
+    "name": "Muthoot Finance Limited",
+    "bsecode": "533398",
+    "close": 3311.4,
+    "per_chg": -6.22,
+    "volume": 5094743
+  }
+}

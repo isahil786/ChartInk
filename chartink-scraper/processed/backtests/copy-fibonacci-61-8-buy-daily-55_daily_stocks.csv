@@ -1,0 +1,834 @@
+Day Index,Symbol,Cap Type,Sector
+0,TITAN,Largecap,Consumer Discretionary
+0,PIDILITIND,Largecap,Chemicals
+1,DABUR,Largecap,FMCG
+1,ITC,Largecap,FMCG
+1,UPL,Largecap,Chemicals
+1,TECHM,Largecap,I.T
+2,HINDUNILVR,Largecap,FMCG
+2,INDHOTEL,Largecap,Services
+2,UPL,Largecap,Chemicals
+2,MPHASIS,Largecap,I.T
+2,MARICO,Largecap,FMCG
+2,GODREJCP,Largecap,FMCG
+2,COFORGE,Largecap,I.T
+2,KFINTECH,Midcap,Financials
+3,PIDILITIND,Largecap,Chemicals
+3,BOSCHLTD,Largecap,Auto
+3,WIPRO,Largecap,I.T
+3,CONCOR,Largecap,Transportation
+3,DALBHARAT,Largecap,Building Materials
+3,IDFCFIRSTB,Largecap,Bank
+3,IEX,Midcap,Financials
+3,PAYTM,Largecap,I.T
+4,EXIDEIND,Largecap,Auto
+4,CIPLA,Largecap,Healthcare
+4,DABUR,Largecap,FMCG
+4,TATAELXSI,Largecap,I.T
+4,SIEMENS,Largecap,Industrials
+4,TMPV,Largecap,Auto
+4,ASIANPAINT,Largecap,Building Materials
+4,COLPAL,Largecap,FMCG
+4,GAIL,Largecap,Energy
+4,DALBHARAT,Largecap,Building Materials
+4,INOXWIND,Midcap,Industrials
+4,CDSL,Largecap,Financials
+4,MANKIND,Largecap,Healthcare
+4,JIOFIN,Largecap,Financials
+5,ABB,Largecap,Industrials
+5,DRREDDY,Largecap,Healthcare
+5,GODFRYPHLP,Largecap,FMCG
+5,INFY,Largecap,I.T
+5,LICHSGFIN,Largecap,Financials
+5,LUPIN,Largecap,Healthcare
+5,GRASIM,Largecap,Textiles
+5,PIDILITIND,Largecap,Chemicals
+5,M&M,Largecap,Auto
+5,SIEMENS,Largecap,Industrials
+5,VOLTAS,Largecap,Consumer Discretionary
+5,ASIANPAINT,Largecap,Building Materials
+5,HAVELLS,Largecap,Consumer Discretionary
+5,SUNPHARMA,Largecap,Healthcare
+5,GLENMARK,Largecap,Healthcare
+5,ZYDUSLIFE,Largecap,Healthcare
+5,UNITDSPR,Largecap,FMCG
+5,OFSS,Largecap,I.T
+5,ULTRACEMCO,Largecap,Building Materials
+5,GMRAIRPORT,Largecap,Miscellaneous
+5,FORTIS,Largecap,Healthcare
+5,POWERGRID,Largecap,Power & Utilities
+5,BAJAJ-AUTO,Largecap,Auto
+5,NBCC,Largecap,Miscellaneous
+5,INDIGO,Largecap,Transportation
+5,LAURUSLABS,Largecap,Healthcare
+5,NIFTY,Smallcap,Indices
+5,DMART,Largecap,Consumer Discretionary
+5,ABCAPITAL,Largecap,Financials
+5,KPITTECH,Midcap,I.T
+5,CAMS,Midcap,Financials
+5,IRFC,Largecap,Financials
+5,ETERNAL,Largecap,I.T
+5,IREDA,Largecap,Financials
+5,WAAREEENER,Largecap,Industrials
+6,BLUESTARCO,Largecap,Consumer Discretionary
+6,DRREDDY,Largecap,Healthcare
+6,HINDUNILVR,Largecap,FMCG
+6,NESTLEIND,Largecap,FMCG
+6,BHARTIARTL,Largecap,Telecom-Service
+6,PGEL,Midcap,Consumer Discretionary
+6,DIXON,Largecap,Consumer Discretionary
+6,TIINDIA,Largecap,Industrials
+6,HDFCAMC,Largecap,Financials
+6,MAZDOCK,Largecap,Aerospace & Defence
+6,SWIGGY,Largecap,I.T
+6,VMM,Largecap,Consumer Discretionary
+7,CUMMINSIND,Largecap,Industrials
+7,PHOENIXLTD,Largecap,Realty
+7,BHARTIARTL,Largecap,Telecom-Service
+7,ASTRAL,Largecap,Plastic products
+7,DALBHARAT,Largecap,Building Materials
+7,NYKAA,Largecap,I.T
+7,PAYTM,Largecap,I.T
+8,APOLLOHOSP,Largecap,Healthcare
+8,BAJAJFINSV,Largecap,Financials
+8,DELHIVERY,Largecap,Transportation
+8,HYUNDAI,Largecap,Auto
+9,TVSMOTOR,Largecap,Auto
+9,BAJAJFINSV,Largecap,Financials
+9,COALINDIA,Largecap,Metals & Mining
+10,DMART,Largecap,Consumer Discretionary
+10,SWIGGY,Largecap,I.T
+12,ABB,Largecap,Industrials
+12,LICHSGFIN,Largecap,Financials
+12,NTPC,Largecap,Power & Utilities
+12,OBEROIRLTY,Largecap,Realty
+13,ICICIGI,Largecap,Financials
+15,SIEMENS,Largecap,Industrials
+15,COCHINSHIP,Largecap,Aerospace & Defence
+15,IEX,Midcap,Financials
+15,KAYNES,Largecap,Consumer Discretionary
+16,JINDALSTEL,Largecap,Metals & Mining
+16,PFC,Largecap,Financials
+16,RVNL,Largecap,Realty
+16,HYUNDAI,Largecap,Auto
+18,HYUNDAI,Largecap,Auto
+19,ASHOKLEY,Largecap,Auto
+19,NMDC,Largecap,Metals & Mining
+19,PFC,Largecap,Financials
+19,BANDHANBNK,Largecap,Bank
+19,POLYCAB,Largecap,Industrials
+19,LICI,Largecap,Financials
+20,INDUSINDBK,Largecap,Bank
+20,JSWENERGY,Largecap,Power & Utilities
+22,GODFRYPHLP,Largecap,FMCG
+23,BHEL,Largecap,Industrials
+23,BPCL,Largecap,Energy
+23,HINDUNILVR,Largecap,FMCG
+23,AUROPHARMA,Largecap,Healthcare
+23,PFC,Largecap,Financials
+23,SBICARD,Largecap,Financials
+25,HINDZINC,Largecap,Metals & Mining
+25,PIDILITIND,Largecap,Chemicals
+25,ALKEM,Largecap,Healthcare
+25,HAL,Largecap,Aerospace & Defence
+25,ADANIGREEN,Largecap,Power & Utilities
+25,RVNL,Largecap,Realty
+25,MAZDOCK,Largecap,Aerospace & Defence
+26,MANAPPURAM,Largecap,Financials
+26,COALINDIA,Largecap,Metals & Mining
+26,NAM-INDIA,Largecap,Financials
+26,CAMS,Midcap,Financials
+27,CIPLA,Largecap,Healthcare
+27,IDEA,Largecap,Telecom-Service
+27,AMBER,Largecap,Consumer Discretionary
+27,SBICARD,Largecap,Financials
+27,KFINTECH,Midcap,Financials
+28,VOLTAS,Largecap,Consumer Discretionary
+28,SRF,Largecap,Chemicals
+28,KEI,Largecap,Industrials
+28,MANAPPURAM,Largecap,Financials
+28,MARUTI,Largecap,Auto
+28,MOTILALOFS,Largecap,Financials
+28,INDIGO,Largecap,Transportation
+28,TIINDIA,Largecap,Industrials
+28,BANDHANBNK,Largecap,Bank
+28,360ONE,Largecap,Financials
+28,ETERNAL,Largecap,I.T
+29,BLUESTARCO,Largecap,Consumer Discretionary
+29,KEI,Largecap,Industrials
+29,ZYDUSLIFE,Largecap,Healthcare
+29,NTPC,Largecap,Power & Utilities
+30,HEROMOTOCO,Largecap,Auto
+30,TATACONSUM,Largecap,FMCG
+30,ADANIENT,Largecap,Services
+30,POWERGRID,Largecap,Power & Utilities
+30,BAJAJ-AUTO,Largecap,Auto
+30,COALINDIA,Largecap,Metals & Mining
+30,BDL,Largecap,Aerospace & Defence
+30,360ONE,Largecap,Financials
+30,KFINTECH,Midcap,Financials
+31,KOTAKBANK,Largecap,Bank
+31,GRASIM,Largecap,Textiles
+31,TATAPOWER,Largecap,Power & Utilities
+31,HINDALCO,Largecap,Metals & Mining
+31,ITC,Largecap,FMCG
+31,ADANIENT,Largecap,Services
+31,CONCOR,Largecap,Transportation
+31,TVSMOTOR,Largecap,Auto
+31,PETRONET,Largecap,Energy
+31,PFC,Largecap,Financials
+31,FORTIS,Largecap,Healthcare
+31,CDSL,Largecap,Financials
+31,COCHINSHIP,Largecap,Aerospace & Defence
+31,AMBER,Largecap,Consumer Discretionary
+31,MAXHEALTH,Largecap,Healthcare
+31,DELHIVERY,Largecap,Transportation
+31,PREMIERENE,Largecap,Services
+31,WAAREEENER,Largecap,Industrials
+32,APOLLOHOSP,Largecap,Healthcare
+32,NMDC,Largecap,Metals & Mining
+32,MARICO,Largecap,FMCG
+32,JINDALSTEL,Largecap,Metals & Mining
+32,BAJAJFINSV,Largecap,Financials
+32,NHPC,Largecap,Power & Utilities
+32,JSWENERGY,Largecap,Power & Utilities
+32,PGEL,Midcap,Consumer Discretionary
+32,INDIGO,Largecap,Transportation
+32,CDSL,Largecap,Financials
+32,AMBER,Largecap,Consumer Discretionary
+32,HAL,Largecap,Aerospace & Defence
+32,POLYCAB,Largecap,Industrials
+32,NYKAA,Largecap,I.T
+32,KAYNES,Largecap,Consumer Discretionary
+33,FORTIS,Largecap,Healthcare
+34,BAJFINANCE,Largecap,Financials
+34,BRITANNIA,Largecap,FMCG
+34,PETRONET,Largecap,Energy
+34,FORTIS,Largecap,Healthcare
+34,BAJAJFINSV,Largecap,Financials
+36,TATAPOWER,Largecap,Power & Utilities
+36,APOLLOHOSP,Largecap,Healthcare
+36,NBCC,Largecap,Miscellaneous
+36,VBL,Largecap,FMCG
+36,COCHINSHIP,Largecap,Aerospace & Defence
+36,LICI,Largecap,Financials
+37,ONGC,Largecap,Energy
+37,TATASTEEL,Largecap,Metals & Mining
+37,PETRONET,Largecap,Energy
+37,FORTIS,Largecap,Healthcare
+37,APLAPOLLO,Largecap,Industrials
+37,POLICYBZR,Largecap,I.T
+38,INOXWIND,Midcap,Industrials
+39,ASTRAL,Largecap,Plastic products
+39,KALYANKJIL,Largecap,Consumer Discretionary
+40,DLF,Largecap,Realty
+40,GODREJPROP,Largecap,Realty
+40,APLAPOLLO,Largecap,Industrials
+40,SAMMAANCAP,Midcap,Financials
+40,SBICARD,Largecap,Financials
+41,SAMMAANCAP,Midcap,Financials
+42,SAIL,Largecap,Metals & Mining
+42,HINDZINC,Largecap,Metals & Mining
+42,JSWSTEEL,Largecap,Metals & Mining
+42,DIVISLAB,Largecap,Healthcare
+42,SUZLON,Largecap,Industrials
+42,GODREJPROP,Largecap,Realty
+42,OBEROIRLTY,Largecap,Realty
+42,LODHA,Largecap,Realty
+42,PAYTM,Largecap,I.T
+43,BEL,Largecap,Aerospace & Defence
+43,TATAPOWER,Largecap,Power & Utilities
+43,TATASTEEL,Largecap,Metals & Mining
+43,NMDC,Largecap,Metals & Mining
+43,JINDALSTEL,Largecap,Metals & Mining
+43,OIL,Largecap,Energy
+43,PRESTIGE,Largecap,Realty
+43,SAMMAANCAP,Midcap,Financials
+43,PNBHOUSING,Largecap,Financials
+43,HAL,Largecap,Aerospace & Defence
+43,POLYCAB,Largecap,Industrials
+43,KALYANKJIL,Largecap,Consumer Discretionary
+43,NUVAMA,Largecap,Financials
+44,FORCEMOT,Largecap,Auto
+44,HINDPETRO,Largecap,Energy
+44,OIL,Largecap,Energy
+44,CDSL,Largecap,Financials
+46,MOTILALOFS,Largecap,Financials
+46,OIL,Largecap,Energy
+46,LODHA,Largecap,Realty
+47,ONGC,Largecap,Energy
+47,GAIL,Largecap,Energy
+47,ICICIGI,Largecap,Financials
+48,ASTRAL,Largecap,Plastic products
+48,RBLBANK,Largecap,Bank
+48,LICI,Largecap,Financials
+49,POLYCAB,Largecap,Industrials
+50,DABUR,Largecap,FMCG
+50,ONGC,Largecap,Energy
+50,TATASTEEL,Largecap,Metals & Mining
+50,TATACONSUM,Largecap,FMCG
+50,MANAPPURAM,Largecap,Financials
+50,PNB,Largecap,Bank
+50,INDIANB,Largecap,Bank
+50,OIL,Largecap,Energy
+50,ADANIENSOL,Largecap,Power & Utilities
+50,CDSL,Largecap,Financials
+50,HDFCLIFE,Largecap,Financials
+50,CAMS,Midcap,Financials
+50,JIOFIN,Largecap,Financials
+51,CDSL,Largecap,Financials
+52,TITAN,Largecap,Consumer Discretionary
+52,JINDALSTEL,Largecap,Metals & Mining
+52,PGEL,Midcap,Consumer Discretionary
+52,CAMS,Midcap,Financials
+52,SONACOMS,Largecap,Auto
+52,NYKAA,Largecap,I.T
+53,BEL,Largecap,Aerospace & Defence
+53,SAIL,Largecap,Metals & Mining
+53,BANKINDIA,Largecap,Bank
+53,UNIONBANK,Largecap,Bank
+53,BIOCON,Largecap,Healthcare
+53,GMRAIRPORT,Largecap,Miscellaneous
+53,INDIANB,Largecap,Bank
+53,PRESTIGE,Largecap,Realty
+53,PGEL,Midcap,Consumer Discretionary
+53,NBCC,Largecap,Miscellaneous
+53,SAMMAANCAP,Midcap,Financials
+53,CDSL,Largecap,Financials
+53,POWERINDIA,Largecap,Industrials
+53,ANGELONE,Largecap,Financials
+53,KALYANKJIL,Largecap,Consumer Discretionary
+54,DABUR,Largecap,FMCG
+54,JSWSTEEL,Largecap,Metals & Mining
+54,BHARATFORG,Largecap,Industrials
+54,SIEMENS,Largecap,Industrials
+54,NESTLEIND,Largecap,FMCG
+54,TATACONSUM,Largecap,FMCG
+54,KEI,Largecap,Industrials
+54,IOC,Largecap,Energy
+54,PNB,Largecap,Bank
+54,ADANIPORTS,Largecap,Transportation
+54,NBCC,Largecap,Miscellaneous
+55,COFORGE,Largecap,I.T
+55,PERSISTENT,Largecap,I.T
+55,360ONE,Largecap,Financials
+56,FORCEMOT,Largecap,Auto
+56,BHARTIARTL,Largecap,Telecom-Service
+56,NIFTY,Smallcap,Indices
+56,ICICIGI,Largecap,Financials
+56,NYKAA,Largecap,I.T
+57,SIEMENS,Largecap,Industrials
+58,M&M,Largecap,Auto
+59,AXISBANK,Largecap,Bank
+59,KPITTECH,Midcap,I.T
+59,SBICARD,Largecap,Financials
+60,COLPAL,Largecap,FMCG
+60,ICICIBANK,Largecap,Bank
+60,POLICYBZR,Largecap,I.T
+61,HEROMOTOCO,Largecap,Auto
+61,M&M,Largecap,Auto
+61,SUNPHARMA,Largecap,Healthcare
+61,BAJAJ-AUTO,Largecap,Auto
+61,ALKEM,Largecap,Healthcare
+61,POWERINDIA,Largecap,Industrials
+62,CUMMINSIND,Largecap,Industrials
+62,ANGELONE,Largecap,Financials
+63,CHOLAFIN,Largecap,Financials
+64,COFORGE,Largecap,I.T
+65,SUNPHARMA,Largecap,Healthcare
+66,COFORGE,Largecap,I.T
+67,HCLTECH,Largecap,I.T
+67,ADANIPORTS,Largecap,Transportation
+68,VOLTAS,Largecap,Consumer Discretionary
+68,MUTHOOTFIN,Largecap,Financials
+68,NAM-INDIA,Largecap,Financials
+68,ANGELONE,Largecap,Financials
+69,IDEA,Largecap,Telecom-Service
+72,INFY,Largecap,I.T
+72,CUMMINSIND,Largecap,Industrials
+72,TCS,Largecap,I.T
+72,KPITTECH,Midcap,I.T
+73,TRENT,Largecap,Consumer Discretionary
+73,RELIANCE,Largecap,Energy
+73,FEDERALBNK,Largecap,Bank
+73,CUMMINSIND,Largecap,Industrials
+73,VMM,Largecap,Consumer Discretionary
+74,CIPLA,Largecap,Healthcare
+74,KOTAKBANK,Largecap,Bank
+74,INDHOTEL,Largecap,Services
+75,ABB,Largecap,Industrials
+75,BHEL,Largecap,Industrials
+75,HINDPETRO,Largecap,Energy
+75,LT,Largecap,Realty
+75,BPCL,Largecap,Energy
+75,TCS,Largecap,I.T
+75,NBCC,Largecap,Miscellaneous
+75,ADANIENSOL,Largecap,Power & Utilities
+75,NIFTY,Smallcap,Indices
+75,ICICIGI,Largecap,Financials
+75,ADANIGREEN,Largecap,Power & Utilities
+75,HDFCAMC,Largecap,Financials
+75,KFINTECH,Midcap,Financials
+76,GRASIM,Largecap,Textiles
+76,AMBUJACEM,Largecap,Building Materials
+76,BRITANNIA,Largecap,FMCG
+76,MOTHERSON,Largecap,Auto
+76,MANAPPURAM,Largecap,Financials
+76,MARUTI,Largecap,Auto
+76,ADANIPORTS,Largecap,Transportation
+76,ADANIENSOL,Largecap,Power & Utilities
+76,NIFTY,Smallcap,Indices
+76,COCHINSHIP,Largecap,Aerospace & Defence
+76,RVNL,Largecap,Realty
+76,360ONE,Largecap,Financials
+76,ANGELONE,Largecap,Financials
+76,NYKAA,Largecap,I.T
+76,IREDA,Largecap,Financials
+77,BHEL,Largecap,Industrials
+77,RELIANCE,Largecap,Energy
+77,LT,Largecap,Realty
+77,BPCL,Largecap,Energy
+77,TMPV,Largecap,Auto
+77,CONCOR,Largecap,Transportation
+77,GLENMARK,Largecap,Healthcare
+77,CANBK,Largecap,Bank
+77,BIOCON,Largecap,Healthcare
+77,TECHM,Largecap,I.T
+77,OBEROIRLTY,Largecap,Realty
+77,DALBHARAT,Largecap,Building Materials
+77,ADANIENSOL,Largecap,Power & Utilities
+77,LAURUSLABS,Largecap,Healthcare
+77,IRFC,Largecap,Financials
+77,SONACOMS,Largecap,Auto
+78,FEDERALBNK,Largecap,Bank
+78,LT,Largecap,Realty
+78,AUROPHARMA,Largecap,Healthcare
+78,LTF,Largecap,Financials
+78,LAURUSLABS,Largecap,Healthcare
+78,AUBANK,Largecap,Bank
+79,SUNPHARMA,Largecap,Healthcare
+79,POLYCAB,Largecap,Industrials
+79,KALYANKJIL,Largecap,Consumer Discretionary
+80,APOLLOHOSP,Largecap,Healthcare
+80,BHARTIARTL,Largecap,Telecom-Service
+80,MARUTI,Largecap,Auto
+80,IREDA,Largecap,Financials
+81,BHEL,Largecap,Industrials
+81,PHOENIXLTD,Largecap,Realty
+81,WIPRO,Largecap,I.T
+81,PETRONET,Largecap,Energy
+81,LTF,Largecap,Financials
+81,PGEL,Midcap,Consumer Discretionary
+81,RBLBANK,Largecap,Bank
+81,SONACOMS,Largecap,Auto
+82,BLUESTARCO,Largecap,Consumer Discretionary
+82,MFSL,Largecap,Miscellaneous
+82,GRASIM,Largecap,Textiles
+82,BHARATFORG,Largecap,Industrials
+82,M&M,Largecap,Auto
+82,VOLTAS,Largecap,Consumer Discretionary
+82,PHOENIXLTD,Largecap,Realty
+82,SRF,Largecap,Chemicals
+82,EICHERMOT,Largecap,Auto
+82,SUPREMEIND,Largecap,Plastic products
+82,CHOLAFIN,Largecap,Financials
+82,UPL,Largecap,Chemicals
+82,MOTHERSON,Largecap,Auto
+82,KEI,Largecap,Industrials
+82,AUROPHARMA,Largecap,Healthcare
+82,NMDC,Largecap,Metals & Mining
+82,CONCOR,Largecap,Transportation
+82,GLENMARK,Largecap,Healthcare
+82,TCS,Largecap,I.T
+82,YESBANK,Largecap,Bank
+82,GMRAIRPORT,Largecap,Miscellaneous
+82,ASTRAL,Largecap,Plastic products
+82,FORTIS,Largecap,Healthcare
+82,BAJAJ-AUTO,Largecap,Auto
+82,NHPC,Largecap,Power & Utilities
+82,PGEL,Midcap,Consumer Discretionary
+82,INDUSTOWER,Largecap,Telecom
+82,LAURUSLABS,Largecap,Healthcare
+82,NAM-INDIA,Largecap,Financials
+82,HAL,Largecap,Aerospace & Defence
+83,BEL,Largecap,Aerospace & Defence
+83,MFSL,Largecap,Miscellaneous
+83,BHARATFORG,Largecap,Industrials
+83,BPCL,Largecap,Energy
+83,TATACONSUM,Largecap,FMCG
+83,PHOENIXLTD,Largecap,Realty
+83,EICHERMOT,Largecap,Auto
+83,MPHASIS,Largecap,I.T
+83,NMDC,Largecap,Metals & Mining
+83,MARICO,Largecap,FMCG
+83,TVSMOTOR,Largecap,Auto
+83,TCS,Largecap,I.T
+83,SOLARINDS,Largecap,Aerospace & Defence
+83,IDEA,Largecap,Telecom-Service
+83,RECLTD,Largecap,Financials
+83,JSWENERGY,Largecap,Power & Utilities
+83,PERSISTENT,Largecap,I.T
+83,LTF,Largecap,Financials
+83,IDFCFIRSTB,Largecap,Bank
+83,LTM,Largecap,I.T
+83,ICICIPRULI,Largecap,Financials
+83,VBL,Largecap,FMCG
+83,BANKNIFTY,Smallcap,Indices
+83,ABCAPITAL,Largecap,Financials
+83,360ONE,Largecap,Financials
+83,PAYTM,Largecap,I.T
+84,TITAN,Largecap,Consumer Discretionary
+84,MUTHOOTFIN,Largecap,Financials
+84,PNBHOUSING,Largecap,Financials
+84,SBILIFE,Largecap,Financials
+85,TATACONSUM,Largecap,FMCG
+85,PHOENIXLTD,Largecap,Realty
+85,NMDC,Largecap,Metals & Mining
+85,MARICO,Largecap,FMCG
+85,AXISBANK,Largecap,Bank
+85,PNB,Largecap,Bank
+85,IDEA,Largecap,Telecom-Service
+85,ICICIPRULI,Largecap,Financials
+85,BDL,Largecap,Aerospace & Defence
+86,TITAN,Largecap,Consumer Discretionary
+86,LUPIN,Largecap,Healthcare
+86,ASIANPAINT,Largecap,Building Materials
+86,INDUSINDBK,Largecap,Bank
+86,GODREJCP,Largecap,FMCG
+86,VBL,Largecap,FMCG
+87,MARICO,Largecap,FMCG
+88,TITAN,Largecap,Consumer Discretionary
+88,TATAELXSI,Largecap,I.T
+88,HINDUNILVR,Largecap,FMCG
+88,NESTLEIND,Largecap,FMCG
+88,CANBK,Largecap,Bank
+88,PERSISTENT,Largecap,I.T
+88,ICICIPRULI,Largecap,Financials
+88,LAURUSLABS,Largecap,Healthcare
+88,ABCAPITAL,Largecap,Financials
+88,SBILIFE,Largecap,Financials
+89,HINDZINC,Largecap,Metals & Mining
+89,TORNTPHARM,Largecap,Healthcare
+89,COLPAL,Largecap,FMCG
+89,MANAPPURAM,Largecap,Financials
+89,CANBK,Largecap,Bank
+90,SBIN,Largecap,Bank
+90,HINDZINC,Largecap,Metals & Mining
+90,VEDL,Largecap,Metals & Mining
+90,SHREECEM,Largecap,Building Materials
+90,HINDALCO,Largecap,Metals & Mining
+90,BHARATFORG,Largecap,Industrials
+90,BANKBARODA,Largecap,Bank
+90,BANKINDIA,Largecap,Bank
+90,NATIONALUM,Largecap,Metals & Mining
+90,HCLTECH,Largecap,I.T
+90,PNB,Largecap,Bank
+90,CANBK,Largecap,Bank
+90,RECLTD,Largecap,Financials
+90,MUTHOOTFIN,Largecap,Financials
+90,MCX,Largecap,Financials
+90,ALKEM,Largecap,Healthcare
+90,BANKNIFTY,Smallcap,Indices
+90,BSE,Largecap,Financials
+90,AUBANK,Largecap,Bank
+90,ABCAPITAL,Largecap,Financials
+90,SBILIFE,Largecap,Financials
+90,BDL,Largecap,Aerospace & Defence
+90,HAL,Largecap,Aerospace & Defence
+90,360ONE,Largecap,Financials
+90,ANGELONE,Largecap,Financials
+91,HINDUNILVR,Largecap,FMCG
+91,GLENMARK,Largecap,Healthcare
+91,INDIANB,Largecap,Bank
+91,IDFCFIRSTB,Largecap,Bank
+93,INFY,Largecap,I.T
+93,MPHASIS,Largecap,I.T
+93,HCLTECH,Largecap,I.T
+93,OFSS,Largecap,I.T
+93,TCS,Largecap,I.T
+93,TECHM,Largecap,I.T
+93,PERSISTENT,Largecap,I.T
+93,LTM,Largecap,I.T
+93,HAL,Largecap,Aerospace & Defence
+95,TATAELXSI,Largecap,I.T
+97,AUROPHARMA,Largecap,Healthcare
+99,TECHM,Largecap,I.T
+100,ALKEM,Largecap,Healthcare
+101,COALINDIA,Largecap,Metals & Mining
+103,OIL,Largecap,Energy
+104,ETERNAL,Largecap,I.T
+105,HINDPETRO,Largecap,Energy
+105,BPCL,Largecap,Energy
+106,UPL,Largecap,Chemicals
+106,IDFCFIRSTB,Largecap,Bank
+106,AUBANK,Largecap,Bank
+106,SWIGGY,Largecap,I.T
+107,BHARTIARTL,Largecap,Telecom-Service
+107,DLF,Largecap,Realty
+107,JUBLFOOD,Largecap,Consumer Discretionary
+107,PRESTIGE,Largecap,Realty
+108,RELIANCE,Largecap,Energy
+108,ANGELONE,Largecap,Financials
+108,PREMIERENE,Largecap,Services
+108,WAAREEENER,Largecap,Industrials
+109,TRENT,Largecap,Consumer Discretionary
+110,GRASIM,Largecap,Textiles
+110,BAJAJHLDNG,Largecap,Financials
+110,DALBHARAT,Largecap,Building Materials
+110,LTF,Largecap,Financials
+110,NIFTY,Smallcap,Indices
+110,BSE,Largecap,Financials
+110,CAMS,Midcap,Financials
+111,EXIDEIND,Largecap,Auto
+111,HINDPETRO,Largecap,Energy
+111,KOTAKBANK,Largecap,Bank
+111,PIDILITIND,Largecap,Chemicals
+111,TATAPOWER,Largecap,Power & Utilities
+111,LT,Largecap,Realty
+111,TMPV,Largecap,Auto
+111,NESTLEIND,Largecap,FMCG
+111,BRITANNIA,Largecap,FMCG
+111,INDHOTEL,Largecap,Services
+111,ICICIBANK,Largecap,Bank
+111,ZYDUSLIFE,Largecap,Healthcare
+111,ULTRACEMCO,Largecap,Building Materials
+111,UNOMINDA,Largecap,Auto
+111,IDEA,Largecap,Telecom-Service
+111,BAJAJFINSV,Largecap,Financials
+111,ADANIPOWER,Largecap,Power & Utilities
+111,INDIGO,Largecap,Transportation
+111,BANKNIFTY,Smallcap,Indices
+111,DMART,Largecap,Consumer Discretionary
+111,SBILIFE,Largecap,Financials
+111,ICICIGI,Largecap,Financials
+111,LODHA,Largecap,Realty
+111,LICI,Largecap,Financials
+112,FORCEMOT,Largecap,Auto
+112,BAJFINANCE,Largecap,Financials
+112,BHEL,Largecap,Industrials
+112,JSWSTEEL,Largecap,Metals & Mining
+112,TATASTEEL,Largecap,Metals & Mining
+112,BPCL,Largecap,Energy
+112,NESTLEIND,Largecap,FMCG
+112,SHRIRAMFIN,Largecap,Financials
+112,HAVELLS,Largecap,Consumer Discretionary
+112,NMDC,Largecap,Metals & Mining
+112,TVSMOTOR,Largecap,Auto
+112,UNITDSPR,Largecap,FMCG
+112,PETRONET,Largecap,Energy
+112,ULTRACEMCO,Largecap,Building Materials
+112,GMRAIRPORT,Largecap,Miscellaneous
+112,INDUSTOWER,Largecap,Telecom
+112,RBLBANK,Largecap,Bank
+112,ICICIPRULI,Largecap,Financials
+112,NAM-INDIA,Largecap,Financials
+112,HDFCAMC,Largecap,Financials
+112,NYKAA,Largecap,I.T
+112,KAYNES,Largecap,Consumer Discretionary
+114,LICHSGFIN,Largecap,Financials
+114,ASHOKLEY,Largecap,Auto
+114,CHOLAFIN,Largecap,Financials
+114,IOC,Largecap,Energy
+114,ADANIGREEN,Largecap,Power & Utilities
+115,FORCEMOT,Largecap,Auto
+115,SBIN,Largecap,Bank
+115,SAIL,Largecap,Metals & Mining
+115,HINDZINC,Largecap,Metals & Mining
+115,JSWSTEEL,Largecap,Metals & Mining
+115,MFSL,Largecap,Miscellaneous
+115,TATASTEEL,Largecap,Metals & Mining
+115,ASHOKLEY,Largecap,Auto
+115,BRITANNIA,Largecap,FMCG
+115,EICHERMOT,Largecap,Auto
+115,ADANIENT,Largecap,Services
+115,MOTHERSON,Largecap,Auto
+115,HAVELLS,Largecap,Consumer Discretionary
+115,IOC,Largecap,Energy
+115,BANKBARODA,Largecap,Bank
+115,BANKINDIA,Largecap,Bank
+115,INDUSINDBK,Largecap,Bank
+115,AXISBANK,Largecap,Bank
+115,JINDALSTEL,Largecap,Metals & Mining
+115,ZYDUSLIFE,Largecap,Healthcare
+115,TVSMOTOR,Largecap,Auto
+115,UNIONBANK,Largecap,Bank
+115,DIVISLAB,Largecap,Healthcare
+115,GMRAIRPORT,Largecap,Miscellaneous
+115,PFC,Largecap,Financials
+115,INDIANB,Largecap,Bank
+115,FORTIS,Largecap,Healthcare
+115,ADANIPORTS,Largecap,Transportation
+115,BAJAJ-AUTO,Largecap,Auto
+115,GODREJPROP,Largecap,Realty
+115,PGEL,Midcap,Consumer Discretionary
+115,APLAPOLLO,Largecap,Industrials
+115,CROMPTON,Midcap,Consumer Discretionary
+115,LAURUSLABS,Largecap,Healthcare
+115,KALYANKJIL,Largecap,Consumer Discretionary
+115,NYKAA,Largecap,I.T
+115,DELHIVERY,Largecap,Transportation
+115,KAYNES,Largecap,Consumer Discretionary
+117,COLPAL,Largecap,FMCG
+117,EICHERMOT,Largecap,Auto
+117,KEI,Largecap,Industrials
+117,BAJAJ-AUTO,Largecap,Auto
+117,APLAPOLLO,Largecap,Industrials
+117,POLYCAB,Largecap,Industrials
+118,TITAN,Largecap,Consumer Discretionary
+118,JSWSTEEL,Largecap,Metals & Mining
+118,FEDERALBNK,Largecap,Bank
+118,ASHOKLEY,Largecap,Auto
+118,BRITANNIA,Largecap,FMCG
+118,ADANIPORTS,Largecap,Transportation
+118,INDUSTOWER,Largecap,Telecom
+118,TIINDIA,Largecap,Industrials
+118,KAYNES,Largecap,Consumer Discretionary
+119,BLUESTARCO,Largecap,Consumer Discretionary
+119,SBIN,Largecap,Bank
+119,ONGC,Largecap,Energy
+119,VOLTAS,Largecap,Consumer Discretionary
+119,INDIANB,Largecap,Bank
+119,APLAPOLLO,Largecap,Industrials
+119,INDUSTOWER,Largecap,Telecom
+119,AMBER,Largecap,Consumer Discretionary
+119,MAXHEALTH,Largecap,Healthcare
+120,BEL,Largecap,Aerospace & Defence
+120,BLUESTARCO,Largecap,Consumer Discretionary
+120,VEDL,Largecap,Metals & Mining
+120,TATASTEEL,Largecap,Metals & Mining
+120,SIEMENS,Largecap,Industrials
+120,MARICO,Largecap,FMCG
+120,ZYDUSLIFE,Largecap,Healthcare
+120,UNIONBANK,Largecap,Bank
+120,BIOCON,Largecap,Healthcare
+120,INDIANB,Largecap,Bank
+120,TIINDIA,Largecap,Industrials
+120,BANDHANBNK,Largecap,Bank
+120,SONACOMS,Largecap,Auto
+120,MANKIND,Largecap,Healthcare
+123,BLUESTARCO,Largecap,Consumer Discretionary
+123,LUPIN,Largecap,Healthcare
+123,HINDALCO,Largecap,Metals & Mining
+123,VOLTAS,Largecap,Consumer Discretionary
+123,APOLLOHOSP,Largecap,Healthcare
+123,SUNPHARMA,Largecap,Healthcare
+123,MARICO,Largecap,FMCG
+123,BIOCON,Largecap,Healthcare
+124,HINDALCO,Largecap,Metals & Mining
+124,SHRIRAMFIN,Largecap,Financials
+124,NATIONALUM,Largecap,Metals & Mining
+125,BEL,Largecap,Aerospace & Defence
+125,SAIL,Largecap,Metals & Mining
+125,TITAN,Largecap,Consumer Discretionary
+125,DRREDDY,Largecap,Healthcare
+125,FEDERALBNK,Largecap,Bank
+125,CUMMINSIND,Largecap,Industrials
+125,BHARATFORG,Largecap,Industrials
+125,SIEMENS,Largecap,Industrials
+125,APOLLOHOSP,Largecap,Healthcare
+125,SUPREMEIND,Largecap,Plastic products
+125,JINDALSTEL,Largecap,Metals & Mining
+125,UNIONBANK,Largecap,Bank
+125,NTPC,Largecap,Power & Utilities
+125,INDIANB,Largecap,Bank
+125,ASTRAL,Largecap,Plastic products
+125,MCX,Largecap,Financials
+125,ADANIENSOL,Largecap,Power & Utilities
+125,CROMPTON,Midcap,Consumer Discretionary
+125,DMART,Largecap,Consumer Discretionary
+125,AMBER,Largecap,Consumer Discretionary
+125,MAZDOCK,Largecap,Aerospace & Defence
+126,TORNTPHARM,Largecap,Healthcare
+126,GLENMARK,Largecap,Healthcare
+129,UNIONBANK,Largecap,Bank
+129,PFC,Largecap,Financials
+129,NHPC,Largecap,Power & Utilities
+130,DRREDDY,Largecap,Healthcare
+131,LUPIN,Largecap,Healthcare
+131,TATAPOWER,Largecap,Power & Utilities
+131,TORNTPHARM,Largecap,Healthcare
+131,SUPREMEIND,Largecap,Plastic products
+131,SUNPHARMA,Largecap,Healthcare
+131,JINDALSTEL,Largecap,Metals & Mining
+131,GLENMARK,Largecap,Healthcare
+131,NTPC,Largecap,Power & Utilities
+131,ASTRAL,Largecap,Plastic products
+131,JSWENERGY,Largecap,Power & Utilities
+136,COALINDIA,Largecap,Metals & Mining
+143,INFY,Largecap,I.T
+143,HCLTECH,Largecap,I.T
+144,TATAELXSI,Largecap,I.T
+144,TVSMOTOR,Largecap,Auto
+144,INDIANB,Largecap,Bank
+144,SBILIFE,Largecap,Financials
+145,MPHASIS,Largecap,I.T
+145,UNIONBANK,Largecap,Bank
+145,TCS,Largecap,I.T
+145,TECHM,Largecap,I.T
+145,PERSISTENT,Largecap,I.T
+145,LTM,Largecap,I.T
+145,IEX,Midcap,Financials
+147,INDIANB,Largecap,Bank
+147,APLAPOLLO,Largecap,Industrials
+149,FORCEMOT,Largecap,Auto
+149,SHREECEM,Largecap,Building Materials
+149,SHRIRAMFIN,Largecap,Financials
+149,BANKINDIA,Largecap,Bank
+149,ICICIBANK,Largecap,Bank
+149,TVSMOTOR,Largecap,Auto
+149,SAMMAANCAP,Midcap,Financials
+149,INDIGO,Largecap,Transportation
+149,MAXHEALTH,Largecap,Healthcare
+149,KFINTECH,Midcap,Financials
+151,BHARTIARTL,Largecap,Telecom-Service
+151,PNB,Largecap,Bank
+151,CDSL,Largecap,Financials
+152,UNITDSPR,Largecap,FMCG
+153,ONGC,Largecap,Energy
+153,GODREJCP,Largecap,FMCG
+154,SBIN,Largecap,Bank
+154,BRITANNIA,Largecap,FMCG
+154,DALBHARAT,Largecap,Building Materials
+155,ABB,Largecap,Industrials
+155,HDFCBANK,Largecap,Bank
+155,LUPIN,Largecap,Healthcare
+155,VOLTAS,Largecap,Consumer Discretionary
+155,WIPRO,Largecap,I.T
+155,HAVELLS,Largecap,Consumer Discretionary
+155,BHARTIARTL,Largecap,Telecom-Service
+155,PNB,Largecap,Bank
+155,CANBK,Largecap,Bank
+155,KALYANKJIL,Largecap,Consumer Discretionary
+155,SWIGGY,Largecap,I.T
+156,BEL,Largecap,Aerospace & Defence
+156,BLUESTARCO,Largecap,Consumer Discretionary
+156,TITAN,Largecap,Consumer Discretionary
+156,AMBUJACEM,Largecap,Building Materials
+156,ASHOKLEY,Largecap,Auto
+156,BPCL,Largecap,Energy
+156,MPHASIS,Largecap,I.T
+156,IOC,Largecap,Energy
+156,NHPC,Largecap,Power & Utilities
+156,JUBLFOOD,Largecap,Consumer Discretionary
+156,MUTHOOTFIN,Largecap,Financials
+156,LTM,Largecap,I.T
+156,DIXON,Largecap,Consumer Discretionary
+156,ETERNAL,Largecap,I.T
+156,JIOFIN,Largecap,Financials
+157,DRREDDY,Largecap,Healthcare
+157,RELIANCE,Largecap,Energy
+157,TATAPOWER,Largecap,Power & Utilities
+157,BANKBARODA,Largecap,Bank
+157,POWERGRID,Largecap,Power & Utilities
+157,JSWENERGY,Largecap,Power & Utilities
+157,PREMIERENE,Largecap,Services
+158,AXISBANK,Largecap,Bank
+158,COALINDIA,Largecap,Metals & Mining
+158,PGEL,Midcap,Consumer Discretionary
+158,KPITTECH,Midcap,I.T
+158,KAYNES,Largecap,Consumer Discretionary
+158,VMM,Largecap,Consumer Discretionary
+159,BPCL,Largecap,Energy
+159,IOC,Largecap,Energy
+159,MUTHOOTFIN,Largecap,Financials
+159,TIINDIA,Largecap,Industrials
