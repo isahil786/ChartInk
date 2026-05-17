@@ -1,0 +1,25 @@
+{
+  "totalStocks": 5,
+  "gainers": 5,
+  "losers": 0,
+  "avgPercentChange": 4.03,
+  "avgVolume": 4928153,
+  "topGainer": {
+    "sr": 2,
+    "nsecode": "PGIL",
+    "name": "Pearl Global Industries Limited",
+    "bsecode": "532808",
+    "close": 1671.6,
+    "per_chg": 9.34,
+    "volume": 1917483
+  },
+  "topLoser": {
+    "sr": 1,
+    "nsecode": "BHARTIARTL",
+    "name": "Bharti Airtel Limited",
+    "bsecode": "532454",
+    "close": 1905.4,
+    "per_chg": 1.16,
+    "volume": 15807294
+  }
+}

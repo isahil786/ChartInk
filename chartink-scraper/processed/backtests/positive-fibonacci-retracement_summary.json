@@ -1,0 +1,160 @@
+{
+  "dateRange": {
+    "from": "2025-09-18",
+    "to": "2026-05-14"
+  },
+  "totalDays": 160,
+  "activeDays": 159,
+  "totalSignalOccurrences": 4061,
+  "avgSignalsPerActiveDay": "25.54",
+  "peakDate": "2026-04-16",
+  "peakDaySignalCount": 81,
+  "topSymbols": [
+    {
+      "symbol": "FEDERALBNK",
+      "appearances": 60
+    },
+    {
+      "symbol": "NATIONALUM",
+      "appearances": 59
+    },
+    {
+      "symbol": "SHRIRAMFIN",
+      "appearances": 58
+    },
+    {
+      "symbol": "MCX",
+      "appearances": 57
+    },
+    {
+      "symbol": "VEDL",
+      "appearances": 55
+    },
+    {
+      "symbol": "SBIN",
+      "appearances": 54
+    },
+    {
+      "symbol": "AUBANK",
+      "appearances": 50
+    },
+    {
+      "symbol": "LAURUSLABS",
+      "appearances": 48
+    },
+    {
+      "symbol": "ASHOKLEY",
+      "appearances": 46
+    },
+    {
+      "symbol": "BHARATFORG",
+      "appearances": 46
+    }
+  ],
+  "sectorTotals": [
+    {
+      "sector": "financials",
+      "total": 691
+    },
+    {
+      "sector": "bank",
+      "total": 596
+    },
+    {
+      "sector": "metals & mining",
+      "total": 410
+    },
+    {
+      "sector": "healthcare",
+      "total": 308
+    },
+    {
+      "sector": "industrials",
+      "total": 280
+    },
+    {
+      "sector": "i.t",
+      "total": 247
+    },
+    {
+      "sector": "auto",
+      "total": 224
+    },
+    {
+      "sector": "power & utilities",
+      "total": 213
+    },
+    {
+      "sector": "energy",
+      "total": 199
+    },
+    {
+      "sector": "fmcg",
+      "total": 183
+    },
+    {
+      "sector": "consumer discretionary",
+      "total": 171
+    },
+    {
+      "sector": "realty",
+      "total": 133
+    },
+    {
+      "sector": "aerospace & defence",
+      "total": 76
+    },
+    {
+      "sector": "transportation",
+      "total": 65
+    },
+    {
+      "sector": "miscellaneous",
+      "total": 55
+    },
+    {
+      "sector": "services",
+      "total": 50
+    },
+    {
+      "sector": "chemicals",
+      "total": 37
+    },
+    {
+      "sector": "building materials",
+      "total": 36
+    },
+    {
+      "sector": "telecom",
+      "total": 31
+    },
+    {
+      "sector": "plastic products",
+      "total": 21
+    },
+    {
+      "sector": "telecom-service",
+      "total": 19
+    },
+    {
+      "sector": "textiles",
+      "total": 16
+    },
+    {
+      "sector": "n/a",
+      "total": 0
+    },
+    {
+      "sector": "indices",
+      "total": 0
+    },
+    {
+      "sector": "media",
+      "total": 0
+    },
+    {
+      "sector": "co-working",
+      "total": 0
+    }
+  ]
+}

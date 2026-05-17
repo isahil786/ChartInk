@@ -1,0 +1,25 @@
+{
+  "totalStocks": 2,
+  "gainers": 2,
+  "losers": 0,
+  "avgPercentChange": 0.8,
+  "avgVolume": 1386670,
+  "topGainer": {
+    "sr": 1,
+    "nsecode": "INDIGO",
+    "name": "Interglobe Aviation Limited",
+    "bsecode": "539448",
+    "close": 4314.9,
+    "per_chg": 0.8,
+    "volume": 713589
+  },
+  "topLoser": {
+    "sr": 1,
+    "nsecode": "INDIGO",
+    "name": "Interglobe Aviation Limited",
+    "bsecode": "539448",
+    "close": 4314.9,
+    "per_chg": 0.8,
+    "volume": 713589
+  }
+}

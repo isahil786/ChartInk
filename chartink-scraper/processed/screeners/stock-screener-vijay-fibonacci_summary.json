@@ -1,0 +1,25 @@
+{
+  "totalStocks": 92,
+  "gainers": 12,
+  "losers": 79,
+  "avgPercentChange": -2.25,
+  "avgVolume": 1571142,
+  "topGainer": {
+    "sr": 69,
+    "nsecode": "PALREDTEC",
+    "name": "Palred Technologies Limited",
+    "bsecode": "532521",
+    "close": 39.03,
+    "per_chg": 2.41,
+    "volume": 4518
+  },
+  "topLoser": {
+    "sr": 47,
+    "nsecode": "MOLDTECH",
+    "name": "Mold-tek Technologies Limited",
+    "bsecode": "526263",
+    "close": 124.64,
+    "per_chg": -10.9,
+    "volume": 269690
+  }
+}

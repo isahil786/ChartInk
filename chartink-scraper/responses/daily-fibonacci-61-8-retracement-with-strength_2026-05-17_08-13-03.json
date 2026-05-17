@@ -1,0 +1,69 @@
+{
+  "screenerUrl": "https://chartink.com/screener/daily-fibonacci-61-8-retracement-with-strength",
+  "screenerName": "daily-fibonacci-61-8-retracement-with-strength",
+  "scanClause": "( {cash} ( ( latest close - latest open ) / ( latest high - latest low ) > .50 and latest low > ( latest min( 55 , latest low ) + ( latest max( 55 , latest high ) - latest min( 55 , latest low ) * 0.382 ) ) * 0.99 and 1 day ago  low <= ( 1 day ago  min( 55 , latest low )+ ( 1 day ago  max( 55 , latest high )- 1 day ago  min( 55 , latest low )* 0.382 ) ) * 0.99 ) )",
+  "fetchedAt": "2026-05-17T08:13:03.759Z",
+  "totalResults": 6,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 6,
+    "recordsFiltered": 6,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "BHARTIARTL",
+        "name": "Bharti Airtel Limited",
+        "bsecode": "532454",
+        "close": 1905.4,
+        "per_chg": 1.16,
+        "volume": 15807294
+      },
+      {
+        "sr": 2,
+        "nsecode": "PGIL",
+        "name": "Pearl Global Industries Limited",
+        "bsecode": "532808",
+        "close": 1671.6,
+        "per_chg": 9.34,
+        "volume": 1917483
+      },
+      {
+        "sr": 3,
+        "nsecode": "SPECTRUM",
+        "name": "Spectrum Electrical Industries Ltd",
+        "bsecode": "535112",
+        "close": 1444.3,
+        "per_chg": 5.88,
+        "volume": 14113
+      },
+      {
+        "sr": 4,
+        "nsecode": "UNITDSPR",
+        "name": "United Spirits Ltd",
+        "bsecode": "532432",
+        "close": 1320.7,
+        "per_chg": 3.79,
+        "volume": 3849617
+      },
+      {
+        "sr": 5,
+        "nsecode": "KARURVYSYA",
+        "name": "Karur Vysya Bank Limited",
+        "bsecode": "590003",
+        "close": 299.05,
+        "per_chg": 3.12,
+        "volume": 2934490
+      },
+      {
+        "sr": 6,
+        "nsecode": "AKI",
+        "name": "AKI India Ltd",
+        "bsecode": "542020",
+        "close": 4.89,
+        "per_chg": 2.73,
+        "volume": 131883
+      }
+    ],
+    "link": "scanlink:471c131d8333c2816990627d5c7ec7bc"
+  }
+}

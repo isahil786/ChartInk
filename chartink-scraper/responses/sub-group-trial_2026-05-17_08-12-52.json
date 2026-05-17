@@ -1,0 +1,33 @@
+{
+  "screenerUrl": "https://chartink.com/screener/sub-group-trial",
+  "screenerName": "sub-group-trial",
+  "scanClause": "( {33489} ( latest close > 100 and latest close < 5000 and latest volume > 100000 and latest high > ( 1 day ago close * 1.015 ) and( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 < latest close and( {33489} ( ( {33489} ( ( ( latest high - ( ( latest high - latest low ) * 0.382 ) ) ) >= ( ( ( ( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 ) * 2 ) - 1 day ago low ) and( ( latest high - ( ( latest high - latest low ) * 0.382 ) ) - ( ( ( ( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 ) * 2 ) - 1 day ago low ) ) <= ( latest high * 0.001 ) ) ) or( {33489} ( ( ( ( ( ( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 ) * 2 ) - 1 day ago low ) ) >= ( latest high - ( ( latest high - latest low ) * 0.382 ) ) and( ( ( ( ( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 ) * 2 ) - 1 day ago low ) - ( latest high - ( ( latest high - latest low ) * 0.382 ) ) ) <= ( latest high * 0.001 ) ) ) ) ) and( latest high - latest open ) > ( latest open - latest low ) ) )",
+  "fetchedAt": "2026-05-17T08:12:52.130Z",
+  "totalResults": 2,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 2,
+    "recordsFiltered": 2,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "INDIGO",
+        "name": "Interglobe Aviation Limited",
+        "bsecode": "539448",
+        "close": 4314.9,
+        "per_chg": 0.8,
+        "volume": 713589
+      },
+      {
+        "sr": 2,
+        "nsecode": "LUPIN",
+        "name": "Lupin Limited",
+        "bsecode": "500257",
+        "close": 2276.2,
+        "per_chg": 0.8,
+        "volume": 2059751
+      }
+    ],
+    "link": "scanlink:cde32ad23b869d3866c2f158ccfb3f34"
+  }
+}

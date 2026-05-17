@@ -1,0 +1,60 @@
+{
+  "screenerUrl": "https://chartink.com/screener/copy-daily-fibonacci-61-8-retracement-with-strength-90",
+  "screenerName": "copy-daily-fibonacci-61-8-retracement-with-strength-90",
+  "scanClause": "( {cash} ( ( latest close - latest open ) / ( latest high - latest low ) > .50 and latest low > ( latest min( 55 , latest low ) + ( latest max( 55 , latest high ) - latest min( 55 , latest low ) * 0.382 ) ) * 0.99 and 1 day ago  low <= ( 1 day ago  min( 55 , latest low )+ ( 1 day ago  max( 55 , latest high )- 1 day ago  min( 55 , latest low )* 0.382 ) ) * 0.99 and latest volume > 100000 ) )",
+  "fetchedAt": "2026-05-17T08:12:46.193Z",
+  "totalResults": 5,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 5,
+    "recordsFiltered": 5,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "BHARTIARTL",
+        "name": "Bharti Airtel Limited",
+        "bsecode": "532454",
+        "close": 1905.4,
+        "per_chg": 1.16,
+        "volume": 15807294
+      },
+      {
+        "sr": 2,
+        "nsecode": "PGIL",
+        "name": "Pearl Global Industries Limited",
+        "bsecode": "532808",
+        "close": 1671.6,
+        "per_chg": 9.34,
+        "volume": 1917483
+      },
+      {
+        "sr": 3,
+        "nsecode": "UNITDSPR",
+        "name": "United Spirits Ltd",
+        "bsecode": "532432",
+        "close": 1320.7,
+        "per_chg": 3.79,
+        "volume": 3849617
+      },
+      {
+        "sr": 4,
+        "nsecode": "KARURVYSYA",
+        "name": "Karur Vysya Bank Limited",
+        "bsecode": "590003",
+        "close": 299.05,
+        "per_chg": 3.12,
+        "volume": 2934490
+      },
+      {
+        "sr": 5,
+        "nsecode": "AKI",
+        "name": "AKI India Ltd",
+        "bsecode": "542020",
+        "close": 4.89,
+        "per_chg": 2.73,
+        "volume": 131883
+      }
+    ],
+    "link": "scanlink:508cf53a1ae67fd852fbd0077517da54"
+  }
+}

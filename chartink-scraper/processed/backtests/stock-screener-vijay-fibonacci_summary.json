@@ -1,0 +1,160 @@
+{
+  "dateRange": {
+    "from": "2025-09-18",
+    "to": "2026-05-14"
+  },
+  "totalDays": 160,
+  "activeDays": 160,
+  "totalSignalOccurrences": 11685,
+  "avgSignalsPerActiveDay": "73.03",
+  "peakDate": "2026-03-26",
+  "peakDaySignalCount": 255,
+  "topSymbols": [
+    {
+      "symbol": "MAHKTECH",
+      "appearances": 30
+    },
+    {
+      "symbol": "MAFANG",
+      "appearances": 28
+    },
+    {
+      "symbol": "LTGILTCASE",
+      "appearances": 22
+    },
+    {
+      "symbol": "MID150CASE",
+      "appearances": 21
+    },
+    {
+      "symbol": "TOP100CASE",
+      "appearances": 19
+    },
+    {
+      "symbol": "MASPTOP50",
+      "appearances": 19
+    },
+    {
+      "symbol": "HAVISHA",
+      "appearances": 18
+    },
+    {
+      "symbol": "AXISNIFTY",
+      "appearances": 17
+    },
+    {
+      "symbol": "SML100CASE",
+      "appearances": 17
+    },
+    {
+      "symbol": "GROBTEA",
+      "appearances": 17
+    }
+  ],
+  "sectorTotals": [
+    {
+      "sector": "indices",
+      "total": 1996
+    },
+    {
+      "sector": "financials",
+      "total": 833
+    },
+    {
+      "sector": "industrials",
+      "total": 819
+    },
+    {
+      "sector": "i.t",
+      "total": 773
+    },
+    {
+      "sector": "realty",
+      "total": 760
+    },
+    {
+      "sector": "textiles",
+      "total": 693
+    },
+    {
+      "sector": "fmcg",
+      "total": 650
+    },
+    {
+      "sector": "chemicals",
+      "total": 626
+    },
+    {
+      "sector": "consumer discretionary",
+      "total": 607
+    },
+    {
+      "sector": "healthcare",
+      "total": 600
+    },
+    {
+      "sector": "services",
+      "total": 546
+    },
+    {
+      "sector": "metals & mining",
+      "total": 406
+    },
+    {
+      "sector": "building materials",
+      "total": 390
+    },
+    {
+      "sector": "auto",
+      "total": 365
+    },
+    {
+      "sector": "miscellaneous",
+      "total": 364
+    },
+    {
+      "sector": "media",
+      "total": 233
+    },
+    {
+      "sector": "transportation",
+      "total": 223
+    },
+    {
+      "sector": "n/a",
+      "total": 164
+    },
+    {
+      "sector": "plastic products",
+      "total": 159
+    },
+    {
+      "sector": "bank",
+      "total": 114
+    },
+    {
+      "sector": "energy",
+      "total": 107
+    },
+    {
+      "sector": "power & utilities",
+      "total": 90
+    },
+    {
+      "sector": "aerospace & defence",
+      "total": 82
+    },
+    {
+      "sector": "telecom-service",
+      "total": 35
+    },
+    {
+      "sector": "telecom",
+      "total": 29
+    },
+    {
+      "sector": "co-working",
+      "total": 21
+    }
+  ]
+}

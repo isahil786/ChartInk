@@ -1,0 +1,4062 @@
+Date,Symbol,Cap Type,Sector
+2025-09-18,BHEL,Largecap,Industrials
+2025-09-18,HINDPETRO,Largecap,Energy
+2025-09-18,SBIN,Largecap,Bank
+2025-09-18,SAIL,Largecap,Metals & Mining
+2025-09-18,DRREDDY,Largecap,Healthcare
+2025-09-18,HEROMOTOCO,Largecap,Auto
+2025-09-18,JSWSTEEL,Largecap,Metals & Mining
+2025-09-18,LICHSGFIN,Largecap,Financials
+2025-09-18,LUPIN,Largecap,Healthcare
+2025-09-18,GRASIM,Largecap,Textiles
+2025-09-18,TATASTEEL,Largecap,Metals & Mining
+2025-09-18,ASHOKLEY,Largecap,Auto
+2025-09-18,BPCL,Largecap,Energy
+2025-09-18,EICHERMOT,Largecap,Auto
+2025-09-18,CHOLAFIN,Largecap,Financials
+2025-09-18,ADANIENT,Largecap,Services
+2025-09-18,SUNPHARMA,Largecap,Healthcare
+2025-09-18,AUROPHARMA,Largecap,Healthcare
+2025-09-18,NMDC,Largecap,Metals & Mining
+2025-09-18,IOC,Largecap,Energy
+2025-09-18,BANKBARODA,Largecap,Bank
+2025-09-18,BANKINDIA,Largecap,Bank
+2025-09-18,AXISBANK,Largecap,Bank
+2025-09-18,JINDALSTEL,Largecap,Metals & Mining
+2025-09-18,BHARTIARTL,Largecap,Telecom-Service
+2025-09-18,PNB,Largecap,Bank
+2025-09-18,UNIONBANK,Largecap,Bank
+2025-09-18,CANBK,Largecap,Bank
+2025-09-18,MARUTI,Largecap,Auto
+2025-09-18,UNOMINDA,Largecap,Auto
+2025-09-18,GMRAIRPORT,Largecap,Miscellaneous
+2025-09-18,ADANIPORTS,Largecap,Transportation
+2025-09-18,BAJAJFINSV,Largecap,Financials
+2025-09-18,ADANIPOWER,Largecap,Power & Utilities
+2025-09-18,JSWENERGY,Largecap,Power & Utilities
+2025-09-18,GODREJPROP,Largecap,Realty
+2025-09-18,NBCC,Largecap,Miscellaneous
+2025-09-18,SAMMAANCAP,Midcap,Financials
+2025-09-18,ADANIENSOL,Largecap,Power & Utilities
+2025-09-18,PNBHOUSING,Largecap,Financials
+2025-09-18,LAURUSLABS,Largecap,Healthcare
+2025-09-18,BDL,Largecap,Aerospace & Defence
+2025-09-18,HAL,Largecap,Aerospace & Defence
+2025-09-18,ADANIGREEN,Largecap,Power & Utilities
+2025-09-18,HDFCAMC,Largecap,Financials
+2025-09-18,RVNL,Largecap,Realty
+2025-09-18,CAMS,Midcap,Financials
+2025-09-18,ETERNAL,Largecap,I.T
+2025-09-18,MANKIND,Largecap,Healthcare
+2025-09-18,IREDA,Largecap,Financials
+2025-09-18,HYUNDAI,Largecap,Auto
+2025-09-18,SWIGGY,Largecap,I.T
+2025-09-21,BAJFINANCE,Largecap,Financials
+2025-09-21,BLUESTARCO,Largecap,Consumer Discretionary
+2025-09-21,BHEL,Largecap,Industrials
+2025-09-21,SAIL,Largecap,Metals & Mining
+2025-09-21,HEROMOTOCO,Largecap,Auto
+2025-09-21,HINDZINC,Largecap,Metals & Mining
+2025-09-21,VEDL,Largecap,Metals & Mining
+2025-09-21,AMBUJACEM,Largecap,Building Materials
+2025-09-21,TATACONSUM,Largecap,FMCG
+2025-09-21,PHOENIXLTD,Largecap,Realty
+2025-09-21,CHOLAFIN,Largecap,Financials
+2025-09-21,ADANIENT,Largecap,Services
+2025-09-21,MOTHERSON,Largecap,Auto
+2025-09-21,MANAPPURAM,Largecap,Financials
+2025-09-21,BANKINDIA,Largecap,Bank
+2025-09-21,AXISBANK,Largecap,Bank
+2025-09-21,CANBK,Largecap,Bank
+2025-09-21,FORTIS,Largecap,Healthcare
+2025-09-21,BAJAJFINSV,Largecap,Financials
+2025-09-21,ADANIPOWER,Largecap,Power & Utilities
+2025-09-21,MUTHOOTFIN,Largecap,Financials
+2025-09-21,LTF,Largecap,Financials
+2025-09-21,NBCC,Largecap,Miscellaneous
+2025-09-21,ADANIENSOL,Largecap,Power & Utilities
+2025-09-21,COCHINSHIP,Largecap,Aerospace & Defence
+2025-09-21,ADANIGREEN,Largecap,Power & Utilities
+2025-09-21,ETERNAL,Largecap,I.T
+2025-09-21,LICI,Largecap,Financials
+2025-09-21,IREDA,Largecap,Financials
+2025-09-22,BAJFINANCE,Largecap,Financials
+2025-09-22,HINDPETRO,Largecap,Energy
+2025-09-22,SBIN,Largecap,Bank
+2025-09-22,SAIL,Largecap,Metals & Mining
+2025-09-22,JSWSTEEL,Largecap,Metals & Mining
+2025-09-22,KOTAKBANK,Largecap,Bank
+2025-09-22,TATASTEEL,Largecap,Metals & Mining
+2025-09-22,ASHOKLEY,Largecap,Auto
+2025-09-22,M&M,Largecap,Auto
+2025-09-22,BPCL,Largecap,Energy
+2025-09-22,EICHERMOT,Largecap,Auto
+2025-09-22,CHOLAFIN,Largecap,Financials
+2025-09-22,ADANIENT,Largecap,Services
+2025-09-22,MOTHERSON,Largecap,Auto
+2025-09-22,KEI,Largecap,Industrials
+2025-09-22,NMDC,Largecap,Metals & Mining
+2025-09-22,MANAPPURAM,Largecap,Financials
+2025-09-22,BANKBARODA,Largecap,Bank
+2025-09-22,BANKINDIA,Largecap,Bank
+2025-09-22,AXISBANK,Largecap,Bank
+2025-09-22,JINDALSTEL,Largecap,Metals & Mining
+2025-09-22,ZYDUSLIFE,Largecap,Healthcare
+2025-09-22,CANBK,Largecap,Bank
+2025-09-22,MARUTI,Largecap,Auto
+2025-09-22,NTPC,Largecap,Power & Utilities
+2025-09-22,PFC,Largecap,Financials
+2025-09-22,FORTIS,Largecap,Healthcare
+2025-09-22,MOTILALOFS,Largecap,Financials
+2025-09-22,RECLTD,Largecap,Financials
+2025-09-22,BAJAJFINSV,Largecap,Financials
+2025-09-22,ADANIPOWER,Largecap,Power & Utilities
+2025-09-22,MUTHOOTFIN,Largecap,Financials
+2025-09-22,PNBHOUSING,Largecap,Financials
+2025-09-22,ADANIGREEN,Largecap,Power & Utilities
+2025-09-22,HDFCAMC,Largecap,Financials
+2025-09-23,BAJFINANCE,Largecap,Financials
+2025-09-23,HINDPETRO,Largecap,Energy
+2025-09-23,SBIN,Largecap,Bank
+2025-09-23,JSWSTEEL,Largecap,Metals & Mining
+2025-09-23,TATACONSUM,Largecap,FMCG
+2025-09-23,BANKBARODA,Largecap,Bank
+2025-09-23,BANKINDIA,Largecap,Bank
+2025-09-23,CANBK,Largecap,Bank
+2025-09-23,MARUTI,Largecap,Auto
+2025-09-23,NTPC,Largecap,Power & Utilities
+2025-09-23,INDIANB,Largecap,Bank
+2025-09-23,POWERGRID,Largecap,Power & Utilities
+2025-09-23,MUTHOOTFIN,Largecap,Financials
+2025-09-23,PNBHOUSING,Largecap,Financials
+2025-09-23,LAURUSLABS,Largecap,Healthcare
+2025-09-23,NAM-INDIA,Largecap,Financials
+2025-09-23,SBICARD,Largecap,Financials
+2025-09-23,KAYNES,Largecap,Consumer Discretionary
+2025-09-24,HEROMOTOCO,Largecap,Auto
+2025-09-24,HINDZINC,Largecap,Metals & Mining
+2025-09-24,AXISBANK,Largecap,Bank
+2025-09-24,RBLBANK,Largecap,Bank
+2025-09-24,PNBHOUSING,Largecap,Financials
+2025-09-24,COCHINSHIP,Largecap,Aerospace & Defence
+2025-09-24,NAM-INDIA,Largecap,Financials
+2025-09-24,AMBER,Largecap,Consumer Discretionary
+2025-09-24,SBICARD,Largecap,Financials
+2025-09-24,KAYNES,Largecap,Consumer Discretionary
+2025-09-25,ASHOKLEY,Largecap,Auto
+2025-09-25,LT,Largecap,Realty
+2025-09-25,EICHERMOT,Largecap,Auto
+2025-09-25,NAM-INDIA,Largecap,Financials
+2025-09-28,HINDPETRO,Largecap,Energy
+2025-09-28,SBIN,Largecap,Bank
+2025-09-28,HINDALCO,Largecap,Metals & Mining
+2025-09-28,ASHOKLEY,Largecap,Auto
+2025-09-28,BPCL,Largecap,Energy
+2025-09-28,IOC,Largecap,Energy
+2025-09-28,BANKBARODA,Largecap,Bank
+2025-09-28,CANBK,Largecap,Bank
+2025-09-28,INDIANB,Largecap,Bank
+2025-09-28,LTF,Largecap,Financials
+2025-09-28,SAMMAANCAP,Midcap,Financials
+2025-09-28,RBLBANK,Largecap,Bank
+2025-09-28,NAM-INDIA,Largecap,Financials
+2025-09-29,BHEL,Largecap,Industrials
+2025-09-29,HINDPETRO,Largecap,Energy
+2025-09-29,SBIN,Largecap,Bank
+2025-09-29,HEROMOTOCO,Largecap,Auto
+2025-09-29,HINDZINC,Largecap,Metals & Mining
+2025-09-29,JSWSTEEL,Largecap,Metals & Mining
+2025-09-29,HINDALCO,Largecap,Metals & Mining
+2025-09-29,BPCL,Largecap,Energy
+2025-09-29,CHOLAFIN,Largecap,Financials
+2025-09-29,IOC,Largecap,Energy
+2025-09-29,BANKBARODA,Largecap,Bank
+2025-09-29,BANKINDIA,Largecap,Bank
+2025-09-29,NATIONALUM,Largecap,Metals & Mining
+2025-09-29,JINDALSTEL,Largecap,Metals & Mining
+2025-09-29,PNB,Largecap,Bank
+2025-09-29,CANBK,Largecap,Bank
+2025-09-29,INDIANB,Largecap,Bank
+2025-09-29,MUTHOOTFIN,Largecap,Financials
+2025-09-29,LTF,Largecap,Financials
+2025-09-29,SAMMAANCAP,Midcap,Financials
+2025-09-30,BHEL,Largecap,Industrials
+2025-09-30,HEROMOTOCO,Largecap,Auto
+2025-09-30,HINDZINC,Largecap,Metals & Mining
+2025-09-30,JSWSTEEL,Largecap,Metals & Mining
+2025-09-30,KOTAKBANK,Largecap,Bank
+2025-09-30,ONGC,Largecap,Energy
+2025-09-30,HINDALCO,Largecap,Metals & Mining
+2025-09-30,TATACONSUM,Largecap,FMCG
+2025-09-30,SHRIRAMFIN,Largecap,Financials
+2025-09-30,ADANIENT,Largecap,Services
+2025-09-30,BANKBARODA,Largecap,Bank
+2025-09-30,BANKINDIA,Largecap,Bank
+2025-09-30,AXISBANK,Largecap,Bank
+2025-09-30,NATIONALUM,Largecap,Metals & Mining
+2025-09-30,JINDALSTEL,Largecap,Metals & Mining
+2025-09-30,PNB,Largecap,Bank
+2025-09-30,CANBK,Largecap,Bank
+2025-09-30,UNOMINDA,Largecap,Auto
+2025-09-30,FORTIS,Largecap,Healthcare
+2025-09-30,ADANIPOWER,Largecap,Power & Utilities
+2025-09-30,LTF,Largecap,Financials
+2025-09-30,APLAPOLLO,Largecap,Industrials
+2025-09-30,SAMMAANCAP,Midcap,Financials
+2025-09-30,ADANIENSOL,Largecap,Power & Utilities
+2025-09-30,ABCAPITAL,Largecap,Financials
+2025-09-30,NAM-INDIA,Largecap,Financials
+2025-10-02,BEL,Largecap,Aerospace & Defence
+2025-10-02,BHEL,Largecap,Industrials
+2025-10-02,HINDPETRO,Largecap,Energy
+2025-10-02,HEROMOTOCO,Largecap,Auto
+2025-10-02,HINDZINC,Largecap,Metals & Mining
+2025-10-02,JSWSTEEL,Largecap,Metals & Mining
+2025-10-02,KOTAKBANK,Largecap,Bank
+2025-10-02,VEDL,Largecap,Metals & Mining
+2025-10-02,ONGC,Largecap,Energy
+2025-10-02,HINDALCO,Largecap,Metals & Mining
+2025-10-02,TATASTEEL,Largecap,Metals & Mining
+2025-10-02,LT,Largecap,Realty
+2025-10-02,SHRIRAMFIN,Largecap,Financials
+2025-10-02,ADANIENT,Largecap,Services
+2025-10-02,NMDC,Largecap,Metals & Mining
+2025-10-02,BANKBARODA,Largecap,Bank
+2025-10-02,BANKINDIA,Largecap,Bank
+2025-10-02,AXISBANK,Largecap,Bank
+2025-10-02,NATIONALUM,Largecap,Metals & Mining
+2025-10-02,JINDALSTEL,Largecap,Metals & Mining
+2025-10-02,PNB,Largecap,Bank
+2025-10-02,CANBK,Largecap,Bank
+2025-10-02,INDIANB,Largecap,Bank
+2025-10-02,MUTHOOTFIN,Largecap,Financials
+2025-10-02,LTF,Largecap,Financials
+2025-10-02,APLAPOLLO,Largecap,Industrials
+2025-10-02,NBCC,Largecap,Miscellaneous
+2025-10-02,ADANIENSOL,Largecap,Power & Utilities
+2025-10-02,ABCAPITAL,Largecap,Financials
+2025-10-02,NAM-INDIA,Largecap,Financials
+2025-10-02,HAL,Largecap,Aerospace & Defence
+2025-10-02,SBICARD,Largecap,Financials
+2025-10-02,NUVAMA,Largecap,Financials
+2025-10-05,BAJFINANCE,Largecap,Financials
+2025-10-05,BEL,Largecap,Aerospace & Defence
+2025-10-05,BHEL,Largecap,Industrials
+2025-10-05,HINDPETRO,Largecap,Energy
+2025-10-05,SBIN,Largecap,Bank
+2025-10-05,HEROMOTOCO,Largecap,Auto
+2025-10-05,HINDZINC,Largecap,Metals & Mining
+2025-10-05,KOTAKBANK,Largecap,Bank
+2025-10-05,ONGC,Largecap,Energy
+2025-10-05,LT,Largecap,Realty
+2025-10-05,BPCL,Largecap,Energy
+2025-10-05,TATACONSUM,Largecap,FMCG
+2025-10-05,SHRIRAMFIN,Largecap,Financials
+2025-10-05,CHOLAFIN,Largecap,Financials
+2025-10-05,IOC,Largecap,Energy
+2025-10-05,BANKBARODA,Largecap,Bank
+2025-10-05,BANKINDIA,Largecap,Bank
+2025-10-05,AXISBANK,Largecap,Bank
+2025-10-05,TVSMOTOR,Largecap,Auto
+2025-10-05,PNB,Largecap,Bank
+2025-10-05,CANBK,Largecap,Bank
+2025-10-05,UNOMINDA,Largecap,Auto
+2025-10-05,FORTIS,Largecap,Healthcare
+2025-10-05,ADANIPOWER,Largecap,Power & Utilities
+2025-10-05,MCX,Largecap,Financials
+2025-10-05,ADANIENSOL,Largecap,Power & Utilities
+2025-10-05,PNBHOUSING,Largecap,Financials
+2025-10-05,AUBANK,Largecap,Bank
+2025-10-05,ABCAPITAL,Largecap,Financials
+2025-10-05,HAL,Largecap,Aerospace & Defence
+2025-10-05,SBICARD,Largecap,Financials
+2025-10-05,NYKAA,Largecap,I.T
+2025-10-05,NUVAMA,Largecap,Financials
+2025-10-06,BAJFINANCE,Largecap,Financials
+2025-10-06,HINDPETRO,Largecap,Energy
+2025-10-06,HDFCBANK,Largecap,Bank
+2025-10-06,HEROMOTOCO,Largecap,Auto
+2025-10-06,SHRIRAMFIN,Largecap,Financials
+2025-10-06,CHOLAFIN,Largecap,Financials
+2025-10-06,IOC,Largecap,Energy
+2025-10-06,BANKINDIA,Largecap,Bank
+2025-10-06,CANBK,Largecap,Bank
+2025-10-06,PETRONET,Largecap,Energy
+2025-10-06,UNOMINDA,Largecap,Auto
+2025-10-06,FORTIS,Largecap,Healthcare
+2025-10-06,ADANIPOWER,Largecap,Power & Utilities
+2025-10-06,OIL,Largecap,Energy
+2025-10-06,JSWENERGY,Largecap,Power & Utilities
+2025-10-06,SAMMAANCAP,Midcap,Financials
+2025-10-06,AUBANK,Largecap,Bank
+2025-10-06,ABCAPITAL,Largecap,Financials
+2025-10-06,SBICARD,Largecap,Financials
+2025-10-06,ETERNAL,Largecap,I.T
+2025-10-06,NYKAA,Largecap,I.T
+2025-10-06,PAYTM,Largecap,I.T
+2025-10-06,LICI,Largecap,Financials
+2025-10-06,KAYNES,Largecap,Consumer Discretionary
+2025-10-06,NUVAMA,Largecap,Financials
+2025-10-07,BAJFINANCE,Largecap,Financials
+2025-10-07,HINDZINC,Largecap,Metals & Mining
+2025-10-07,FEDERALBNK,Largecap,Bank
+2025-10-07,BPCL,Largecap,Energy
+2025-10-07,NATIONALUM,Largecap,Metals & Mining
+2025-10-07,FORTIS,Largecap,Healthcare
+2025-10-07,RBLBANK,Largecap,Bank
+2025-10-07,AUBANK,Largecap,Bank
+2025-10-07,SBICARD,Largecap,Financials
+2025-10-07,ETERNAL,Largecap,I.T
+2025-10-07,NUVAMA,Largecap,Financials
+2025-10-08,BAJFINANCE,Largecap,Financials
+2025-10-08,SAIL,Largecap,Metals & Mining
+2025-10-08,HINDZINC,Largecap,Metals & Mining
+2025-10-08,JSWSTEEL,Largecap,Metals & Mining
+2025-10-08,KOTAKBANK,Largecap,Bank
+2025-10-08,VEDL,Largecap,Metals & Mining
+2025-10-08,FEDERALBNK,Largecap,Bank
+2025-10-08,TATASTEEL,Largecap,Metals & Mining
+2025-10-08,LT,Largecap,Realty
+2025-10-08,SHRIRAMFIN,Largecap,Financials
+2025-10-08,NMDC,Largecap,Metals & Mining
+2025-10-08,IOC,Largecap,Energy
+2025-10-08,MANAPPURAM,Largecap,Financials
+2025-10-08,BANKBARODA,Largecap,Bank
+2025-10-08,BANKINDIA,Largecap,Bank
+2025-10-08,NATIONALUM,Largecap,Metals & Mining
+2025-10-08,HCLTECH,Largecap,I.T
+2025-10-08,PNB,Largecap,Bank
+2025-10-08,INDIANB,Largecap,Bank
+2025-10-08,FORTIS,Largecap,Healthcare
+2025-10-08,MOTILALOFS,Largecap,Financials
+2025-10-08,LTF,Largecap,Financials
+2025-10-08,MCX,Largecap,Financials
+2025-10-08,ADANIENSOL,Largecap,Power & Utilities
+2025-10-08,IDFCFIRSTB,Largecap,Bank
+2025-10-08,RBLBANK,Largecap,Bank
+2025-10-08,BSE,Largecap,Financials
+2025-10-08,ETERNAL,Largecap,I.T
+2025-10-08,NYKAA,Largecap,I.T
+2025-10-08,PAYTM,Largecap,I.T
+2025-10-09,BAJFINANCE,Largecap,Financials
+2025-10-09,BEL,Largecap,Aerospace & Defence
+2025-10-09,SBIN,Largecap,Bank
+2025-10-09,JSWSTEEL,Largecap,Metals & Mining
+2025-10-09,KOTAKBANK,Largecap,Bank
+2025-10-09,VEDL,Largecap,Metals & Mining
+2025-10-09,ONGC,Largecap,Energy
+2025-10-09,FEDERALBNK,Largecap,Bank
+2025-10-09,LT,Largecap,Realty
+2025-10-09,VOLTAS,Largecap,Consumer Discretionary
+2025-10-09,SRF,Largecap,Chemicals
+2025-10-09,SUNPHARMA,Largecap,Healthcare
+2025-10-09,AUROPHARMA,Largecap,Healthcare
+2025-10-09,BANKBARODA,Largecap,Bank
+2025-10-09,BANKINDIA,Largecap,Bank
+2025-10-09,AXISBANK,Largecap,Bank
+2025-10-09,HCLTECH,Largecap,I.T
+2025-10-09,PNB,Largecap,Bank
+2025-10-09,CANBK,Largecap,Bank
+2025-10-09,DIVISLAB,Largecap,Healthcare
+2025-10-09,INDIANB,Largecap,Bank
+2025-10-09,PGEL,Midcap,Consumer Discretionary
+2025-10-09,MCX,Largecap,Financials
+2025-10-09,SAMMAANCAP,Midcap,Financials
+2025-10-09,IDFCFIRSTB,Largecap,Bank
+2025-10-09,RBLBANK,Largecap,Bank
+2025-10-09,BSE,Largecap,Financials
+2025-10-09,CDSL,Largecap,Financials
+2025-10-09,SBICARD,Largecap,Financials
+2025-10-09,ETERNAL,Largecap,I.T
+2025-10-09,NYKAA,Largecap,I.T
+2025-10-09,NUVAMA,Largecap,Financials
+2025-10-12,BAJFINANCE,Largecap,Financials
+2025-10-12,SBIN,Largecap,Bank
+2025-10-12,HINDZINC,Largecap,Metals & Mining
+2025-10-12,KOTAKBANK,Largecap,Bank
+2025-10-12,FEDERALBNK,Largecap,Bank
+2025-10-12,PHOENIXLTD,Largecap,Realty
+2025-10-12,SHRIRAMFIN,Largecap,Financials
+2025-10-12,CHOLAFIN,Largecap,Financials
+2025-10-12,SUNPHARMA,Largecap,Healthcare
+2025-10-12,AUROPHARMA,Largecap,Healthcare
+2025-10-12,BANKBARODA,Largecap,Bank
+2025-10-12,BANKINDIA,Largecap,Bank
+2025-10-12,AXISBANK,Largecap,Bank
+2025-10-12,HCLTECH,Largecap,I.T
+2025-10-12,TVSMOTOR,Largecap,Auto
+2025-10-12,BHARTIARTL,Largecap,Telecom-Service
+2025-10-12,PNB,Largecap,Bank
+2025-10-12,DIVISLAB,Largecap,Healthcare
+2025-10-12,INDIANB,Largecap,Bank
+2025-10-12,FORTIS,Largecap,Healthcare
+2025-10-12,MOTILALOFS,Largecap,Financials
+2025-10-12,ADANIPORTS,Largecap,Transportation
+2025-10-12,ADANIPOWER,Largecap,Power & Utilities
+2025-10-12,LTF,Largecap,Financials
+2025-10-12,PGEL,Midcap,Consumer Discretionary
+2025-10-12,MCX,Largecap,Financials
+2025-10-12,ADANIENSOL,Largecap,Power & Utilities
+2025-10-12,RBLBANK,Largecap,Bank
+2025-10-12,BSE,Largecap,Financials
+2025-10-12,AUBANK,Largecap,Bank
+2025-10-12,CDSL,Largecap,Financials
+2025-10-12,NAM-INDIA,Largecap,Financials
+2025-10-12,360ONE,Largecap,Financials
+2025-10-12,ETERNAL,Largecap,I.T
+2025-10-12,PAYTM,Largecap,I.T
+2025-10-12,KFINTECH,Midcap,Financials
+2025-10-13,HINDZINC,Largecap,Metals & Mining
+2025-10-13,KOTAKBANK,Largecap,Bank
+2025-10-13,VEDL,Largecap,Metals & Mining
+2025-10-13,FEDERALBNK,Largecap,Bank
+2025-10-13,PHOENIXLTD,Largecap,Realty
+2025-10-13,SHRIRAMFIN,Largecap,Financials
+2025-10-13,CHOLAFIN,Largecap,Financials
+2025-10-13,HCLTECH,Largecap,I.T
+2025-10-13,TVSMOTOR,Largecap,Auto
+2025-10-13,MOTILALOFS,Largecap,Financials
+2025-10-13,ADANIPOWER,Largecap,Power & Utilities
+2025-10-13,MUTHOOTFIN,Largecap,Financials
+2025-10-13,LTF,Largecap,Financials
+2025-10-13,MCX,Largecap,Financials
+2025-10-13,SAMMAANCAP,Midcap,Financials
+2025-10-13,BSE,Largecap,Financials
+2025-10-13,AUBANK,Largecap,Bank
+2025-10-13,360ONE,Largecap,Financials
+2025-10-13,ANGELONE,Largecap,Financials
+2025-10-13,SONACOMS,Largecap,Auto
+2025-10-14,BAJFINANCE,Largecap,Financials
+2025-10-14,SBIN,Largecap,Bank
+2025-10-14,JSWSTEEL,Largecap,Metals & Mining
+2025-10-14,ONGC,Largecap,Energy
+2025-10-14,FEDERALBNK,Largecap,Bank
+2025-10-14,LT,Largecap,Realty
+2025-10-14,NESTLEIND,Largecap,FMCG
+2025-10-14,PHOENIXLTD,Largecap,Realty
+2025-10-14,SRF,Largecap,Chemicals
+2025-10-14,SHRIRAMFIN,Largecap,Financials
+2025-10-14,CHOLAFIN,Largecap,Financials
+2025-10-14,BANKBARODA,Largecap,Bank
+2025-10-14,BANKINDIA,Largecap,Bank
+2025-10-14,TVSMOTOR,Largecap,Auto
+2025-10-14,BHARTIARTL,Largecap,Telecom-Service
+2025-10-14,CANBK,Largecap,Bank
+2025-10-14,COFORGE,Largecap,I.T
+2025-10-14,MOTILALOFS,Largecap,Financials
+2025-10-14,ADANIPORTS,Largecap,Transportation
+2025-10-14,BAJAJFINSV,Largecap,Financials
+2025-10-14,ADANIPOWER,Largecap,Power & Utilities
+2025-10-14,GODREJPROP,Largecap,Realty
+2025-10-14,PERSISTENT,Largecap,I.T
+2025-10-14,PRESTIGE,Largecap,Realty
+2025-10-14,MUTHOOTFIN,Largecap,Financials
+2025-10-14,LTF,Largecap,Financials
+2025-10-14,MCX,Largecap,Financials
+2025-10-14,SAMMAANCAP,Midcap,Financials
+2025-10-14,ADANIENSOL,Largecap,Power & Utilities
+2025-10-14,RBLBANK,Largecap,Bank
+2025-10-14,AUBANK,Largecap,Bank
+2025-10-14,ABCAPITAL,Largecap,Financials
+2025-10-14,ICICIGI,Largecap,Financials
+2025-10-14,NAM-INDIA,Largecap,Financials
+2025-10-14,360ONE,Largecap,Financials
+2025-10-14,SBICARD,Largecap,Financials
+2025-10-14,ANGELONE,Largecap,Financials
+2025-10-14,SONACOMS,Largecap,Auto
+2025-10-14,ETERNAL,Largecap,I.T
+2025-10-14,NYKAA,Largecap,I.T
+2025-10-14,PAYTM,Largecap,I.T
+2025-10-15,BAJFINANCE,Largecap,Financials
+2025-10-15,HINDPETRO,Largecap,Energy
+2025-10-15,SBIN,Largecap,Bank
+2025-10-15,TITAN,Largecap,Consumer Discretionary
+2025-10-15,HDFCBANK,Largecap,Bank
+2025-10-15,JSWSTEEL,Largecap,Metals & Mining
+2025-10-15,KOTAKBANK,Largecap,Bank
+2025-10-15,GRASIM,Largecap,Textiles
+2025-10-15,ONGC,Largecap,Energy
+2025-10-15,TATAPOWER,Largecap,Power & Utilities
+2025-10-15,HINDALCO,Largecap,Metals & Mining
+2025-10-15,BHARATFORG,Largecap,Industrials
+2025-10-15,LT,Largecap,Realty
+2025-10-15,NESTLEIND,Largecap,FMCG
+2025-10-15,TATACONSUM,Largecap,FMCG
+2025-10-15,PHOENIXLTD,Largecap,Realty
+2025-10-15,SRF,Largecap,Chemicals
+2025-10-15,WIPRO,Largecap,I.T
+2025-10-15,ICICIBANK,Largecap,Bank
+2025-10-15,AXISBANK,Largecap,Bank
+2025-10-15,NATIONALUM,Largecap,Metals & Mining
+2025-10-15,HCLTECH,Largecap,I.T
+2025-10-15,TVSMOTOR,Largecap,Auto
+2025-10-15,BHARTIARTL,Largecap,Telecom-Service
+2025-10-15,FORTIS,Largecap,Healthcare
+2025-10-15,DLF,Largecap,Realty
+2025-10-15,ADANIPORTS,Largecap,Transportation
+2025-10-15,BAJAJFINSV,Largecap,Financials
+2025-10-15,ADANIPOWER,Largecap,Power & Utilities
+2025-10-15,GODREJPROP,Largecap,Realty
+2025-10-15,PERSISTENT,Largecap,I.T
+2025-10-15,OBEROIRLTY,Largecap,Realty
+2025-10-15,PRESTIGE,Largecap,Realty
+2025-10-15,LTF,Largecap,Financials
+2025-10-15,SAMMAANCAP,Midcap,Financials
+2025-10-15,ADANIENSOL,Largecap,Power & Utilities
+2025-10-15,INDIGO,Largecap,Transportation
+2025-10-15,RBLBANK,Largecap,Bank
+2025-10-15,BSE,Largecap,Financials
+2025-10-15,AUBANK,Largecap,Bank
+2025-10-15,ICICIGI,Largecap,Financials
+2025-10-15,360ONE,Largecap,Financials
+2025-10-15,SBICARD,Largecap,Financials
+2025-10-15,ANGELONE,Largecap,Financials
+2025-10-15,SONACOMS,Largecap,Auto
+2025-10-15,NYKAA,Largecap,I.T
+2025-10-15,PAYTM,Largecap,I.T
+2025-10-15,WAAREEENER,Largecap,Industrials
+2025-10-15,SWIGGY,Largecap,I.T
+2025-10-16,CIPLA,Largecap,Healthcare
+2025-10-16,SBIN,Largecap,Bank
+2025-10-16,TITAN,Largecap,Consumer Discretionary
+2025-10-16,HDFCBANK,Largecap,Bank
+2025-10-16,KOTAKBANK,Largecap,Bank
+2025-10-16,ONGC,Largecap,Energy
+2025-10-16,RELIANCE,Largecap,Energy
+2025-10-16,PIDILITIND,Largecap,Chemicals
+2025-10-16,M&M,Largecap,Auto
+2025-10-16,VOLTAS,Largecap,Consumer Discretionary
+2025-10-16,HINDUNILVR,Largecap,FMCG
+2025-10-16,NESTLEIND,Largecap,FMCG
+2025-10-16,TATACONSUM,Largecap,FMCG
+2025-10-16,ASIANPAINT,Largecap,Building Materials
+2025-10-16,APOLLOHOSP,Largecap,Healthcare
+2025-10-16,SUNPHARMA,Largecap,Healthcare
+2025-10-16,MARICO,Largecap,FMCG
+2025-10-16,ICICIBANK,Largecap,Bank
+2025-10-16,TVSMOTOR,Largecap,Auto
+2025-10-16,BHARTIARTL,Largecap,Telecom-Service
+2025-10-16,ADANIPORTS,Largecap,Transportation
+2025-10-16,ADANIPOWER,Largecap,Power & Utilities
+2025-10-16,GODREJPROP,Largecap,Realty
+2025-10-16,OBEROIRLTY,Largecap,Realty
+2025-10-16,PRESTIGE,Largecap,Realty
+2025-10-16,MUTHOOTFIN,Largecap,Financials
+2025-10-16,PGEL,Midcap,Consumer Discretionary
+2025-10-16,APLAPOLLO,Largecap,Industrials
+2025-10-16,SAMMAANCAP,Midcap,Financials
+2025-10-16,NAM-INDIA,Largecap,Financials
+2025-10-16,HAL,Largecap,Aerospace & Defence
+2025-10-16,MAXHEALTH,Largecap,Healthcare
+2025-10-16,ANGELONE,Largecap,Financials
+2025-10-19,BAJFINANCE,Largecap,Financials
+2025-10-19,BEL,Largecap,Aerospace & Defence
+2025-10-19,CIPLA,Largecap,Healthcare
+2025-10-19,SBIN,Largecap,Bank
+2025-10-19,TITAN,Largecap,Consumer Discretionary
+2025-10-19,HDFCBANK,Largecap,Bank
+2025-10-19,KOTAKBANK,Largecap,Bank
+2025-10-19,ONGC,Largecap,Energy
+2025-10-19,RELIANCE,Largecap,Energy
+2025-10-19,TATAPOWER,Largecap,Power & Utilities
+2025-10-19,HINDALCO,Largecap,Metals & Mining
+2025-10-19,FEDERALBNK,Largecap,Bank
+2025-10-19,LT,Largecap,Realty
+2025-10-19,VOLTAS,Largecap,Consumer Discretionary
+2025-10-19,TATACONSUM,Largecap,FMCG
+2025-10-19,ASIANPAINT,Largecap,Building Materials
+2025-10-19,ITC,Largecap,FMCG
+2025-10-19,SHRIRAMFIN,Largecap,Financials
+2025-10-19,CHOLAFIN,Largecap,Financials
+2025-10-19,SUNPHARMA,Largecap,Healthcare
+2025-10-19,IOC,Largecap,Energy
+2025-10-19,BANKBARODA,Largecap,Bank
+2025-10-19,BANKINDIA,Largecap,Bank
+2025-10-19,AXISBANK,Largecap,Bank
+2025-10-19,TVSMOTOR,Largecap,Auto
+2025-10-19,BHARTIARTL,Largecap,Telecom-Service
+2025-10-19,PNB,Largecap,Bank
+2025-10-19,CANBK,Largecap,Bank
+2025-10-19,INDIANB,Largecap,Bank
+2025-10-19,DLF,Largecap,Realty
+2025-10-19,MOTILALOFS,Largecap,Financials
+2025-10-19,BAJAJFINSV,Largecap,Financials
+2025-10-19,ADANIPOWER,Largecap,Power & Utilities
+2025-10-19,GODREJPROP,Largecap,Realty
+2025-10-19,SAMMAANCAP,Midcap,Financials
+2025-10-19,IDFCFIRSTB,Largecap,Bank
+2025-10-19,RBLBANK,Largecap,Bank
+2025-10-19,LAURUSLABS,Largecap,Healthcare
+2025-10-19,AUBANK,Largecap,Bank
+2025-10-19,ABCAPITAL,Largecap,Financials
+2025-10-19,NAM-INDIA,Largecap,Financials
+2025-10-19,360ONE,Largecap,Financials
+2025-10-19,SBICARD,Largecap,Financials
+2025-10-19,MAXHEALTH,Largecap,Healthcare
+2025-10-19,PAYTM,Largecap,I.T
+2025-10-20,BAJFINANCE,Largecap,Financials
+2025-10-20,BEL,Largecap,Aerospace & Defence
+2025-10-20,CIPLA,Largecap,Healthcare
+2025-10-20,SBIN,Largecap,Bank
+2025-10-20,ONGC,Largecap,Energy
+2025-10-20,RELIANCE,Largecap,Energy
+2025-10-20,FEDERALBNK,Largecap,Bank
+2025-10-20,SHRIRAMFIN,Largecap,Financials
+2025-10-20,IOC,Largecap,Energy
+2025-10-20,BANKBARODA,Largecap,Bank
+2025-10-20,BANKINDIA,Largecap,Bank
+2025-10-20,AXISBANK,Largecap,Bank
+2025-10-20,NATIONALUM,Largecap,Metals & Mining
+2025-10-20,PNB,Largecap,Bank
+2025-10-20,ADANIPOWER,Largecap,Power & Utilities
+2025-10-20,SAMMAANCAP,Midcap,Financials
+2025-10-20,IDFCFIRSTB,Largecap,Bank
+2025-10-20,RBLBANK,Largecap,Bank
+2025-10-20,LAURUSLABS,Largecap,Healthcare
+2025-10-20,PAYTM,Largecap,I.T
+2025-10-22,BAJFINANCE,Largecap,Financials
+2025-10-22,BEL,Largecap,Aerospace & Defence
+2025-10-22,SBIN,Largecap,Bank
+2025-10-22,TITAN,Largecap,Consumer Discretionary
+2025-10-22,HDFCBANK,Largecap,Bank
+2025-10-22,KOTAKBANK,Largecap,Bank
+2025-10-22,VEDL,Largecap,Metals & Mining
+2025-10-22,ONGC,Largecap,Energy
+2025-10-22,HINDALCO,Largecap,Metals & Mining
+2025-10-22,CUMMINSIND,Largecap,Industrials
+2025-10-22,BHARATFORG,Largecap,Industrials
+2025-10-22,LT,Largecap,Realty
+2025-10-22,M&M,Largecap,Auto
+2025-10-22,ITC,Largecap,FMCG
+2025-10-22,PHOENIXLTD,Largecap,Realty
+2025-10-22,SHRIRAMFIN,Largecap,Financials
+2025-10-22,CHOLAFIN,Largecap,Financials
+2025-10-22,BANKINDIA,Largecap,Bank
+2025-10-22,AXISBANK,Largecap,Bank
+2025-10-22,NATIONALUM,Largecap,Metals & Mining
+2025-10-22,HCLTECH,Largecap,I.T
+2025-10-22,UNIONBANK,Largecap,Bank
+2025-10-22,GMRAIRPORT,Largecap,Miscellaneous
+2025-10-22,INDIANB,Largecap,Bank
+2025-10-22,ASTRAL,Largecap,Plastic products
+2025-10-22,DLF,Largecap,Realty
+2025-10-22,BAJAJFINSV,Largecap,Financials
+2025-10-22,PERSISTENT,Largecap,I.T
+2025-10-22,PRESTIGE,Largecap,Realty
+2025-10-22,MCX,Largecap,Financials
+2025-10-22,INOXWIND,Midcap,Industrials
+2025-10-22,ADANIENSOL,Largecap,Power & Utilities
+2025-10-22,IDFCFIRSTB,Largecap,Bank
+2025-10-22,LAURUSLABS,Largecap,Healthcare
+2025-10-22,AUBANK,Largecap,Bank
+2025-10-22,ABCAPITAL,Largecap,Financials
+2025-10-22,SBILIFE,Largecap,Financials
+2025-10-22,ANGELONE,Largecap,Financials
+2025-10-22,SONACOMS,Largecap,Auto
+2025-10-22,NUVAMA,Largecap,Financials
+2025-10-23,BEL,Largecap,Aerospace & Defence
+2025-10-23,BLUESTARCO,Largecap,Consumer Discretionary
+2025-10-23,VEDL,Largecap,Metals & Mining
+2025-10-23,ONGC,Largecap,Energy
+2025-10-23,HINDALCO,Largecap,Metals & Mining
+2025-10-23,CUMMINSIND,Largecap,Industrials
+2025-10-23,SHRIRAMFIN,Largecap,Financials
+2025-10-23,CHOLAFIN,Largecap,Financials
+2025-10-23,NATIONALUM,Largecap,Metals & Mining
+2025-10-23,GMRAIRPORT,Largecap,Miscellaneous
+2025-10-23,MOTILALOFS,Largecap,Financials
+2025-10-23,PRESTIGE,Largecap,Realty
+2025-10-23,COALINDIA,Largecap,Metals & Mining
+2025-10-23,SAMMAANCAP,Midcap,Financials
+2025-10-23,INOXWIND,Midcap,Industrials
+2025-10-23,PNBHOUSING,Largecap,Financials
+2025-10-23,IEX,Midcap,Financials
+2025-10-23,ANGELONE,Largecap,Financials
+2025-10-23,SONACOMS,Largecap,Auto
+2025-10-23,KFINTECH,Midcap,Financials
+2025-10-26,HINDPETRO,Largecap,Energy
+2025-10-26,SBIN,Largecap,Bank
+2025-10-26,LICHSGFIN,Largecap,Financials
+2025-10-26,VEDL,Largecap,Metals & Mining
+2025-10-26,GRASIM,Largecap,Textiles
+2025-10-26,RELIANCE,Largecap,Energy
+2025-10-26,TATAPOWER,Largecap,Power & Utilities
+2025-10-26,HINDALCO,Largecap,Metals & Mining
+2025-10-26,FEDERALBNK,Largecap,Bank
+2025-10-26,TATASTEEL,Largecap,Metals & Mining
+2025-10-26,CUMMINSIND,Largecap,Industrials
+2025-10-26,BHARATFORG,Largecap,Industrials
+2025-10-26,LT,Largecap,Realty
+2025-10-26,NESTLEIND,Largecap,FMCG
+2025-10-26,TATACONSUM,Largecap,FMCG
+2025-10-26,ASIANPAINT,Largecap,Building Materials
+2025-10-26,ITC,Largecap,FMCG
+2025-10-26,PHOENIXLTD,Largecap,Realty
+2025-10-26,SHRIRAMFIN,Largecap,Financials
+2025-10-26,CHOLAFIN,Largecap,Financials
+2025-10-26,IOC,Largecap,Energy
+2025-10-26,BANKBARODA,Largecap,Bank
+2025-10-26,BANKINDIA,Largecap,Bank
+2025-10-26,AXISBANK,Largecap,Bank
+2025-10-26,NATIONALUM,Largecap,Metals & Mining
+2025-10-26,HCLTECH,Largecap,I.T
+2025-10-26,BHARTIARTL,Largecap,Telecom-Service
+2025-10-26,PNB,Largecap,Bank
+2025-10-26,UNIONBANK,Largecap,Bank
+2025-10-26,CANBK,Largecap,Bank
+2025-10-26,COFORGE,Largecap,I.T
+2025-10-26,DLF,Largecap,Realty
+2025-10-26,MOTILALOFS,Largecap,Financials
+2025-10-26,GODREJPROP,Largecap,Realty
+2025-10-26,OBEROIRLTY,Largecap,Realty
+2025-10-26,PRESTIGE,Largecap,Realty
+2025-10-26,COALINDIA,Largecap,Metals & Mining
+2025-10-26,MCX,Largecap,Financials
+2025-10-26,INDUSTOWER,Largecap,Telecom
+2025-10-26,SAMMAANCAP,Midcap,Financials
+2025-10-26,RBLBANK,Largecap,Bank
+2025-10-26,PNBHOUSING,Largecap,Financials
+2025-10-26,LAURUSLABS,Largecap,Healthcare
+2025-10-26,BSE,Largecap,Financials
+2025-10-26,CDSL,Largecap,Financials
+2025-10-26,ABCAPITAL,Largecap,Financials
+2025-10-26,SBILIFE,Largecap,Financials
+2025-10-26,IEX,Midcap,Financials
+2025-10-26,CAMS,Midcap,Financials
+2025-10-26,ANGELONE,Largecap,Financials
+2025-10-26,SONACOMS,Largecap,Auto
+2025-10-26,PAYTM,Largecap,I.T
+2025-10-26,KFINTECH,Midcap,Financials
+2025-10-26,NUVAMA,Largecap,Financials
+2025-10-26,PREMIERENE,Largecap,Services
+2025-10-27,SBIN,Largecap,Bank
+2025-10-27,JSWSTEEL,Largecap,Metals & Mining
+2025-10-27,LICHSGFIN,Largecap,Financials
+2025-10-27,GRASIM,Largecap,Textiles
+2025-10-27,RELIANCE,Largecap,Energy
+2025-10-27,HINDALCO,Largecap,Metals & Mining
+2025-10-27,FEDERALBNK,Largecap,Bank
+2025-10-27,TATASTEEL,Largecap,Metals & Mining
+2025-10-27,CUMMINSIND,Largecap,Industrials
+2025-10-27,BHARATFORG,Largecap,Industrials
+2025-10-27,LT,Largecap,Realty
+2025-10-27,UPL,Largecap,Chemicals
+2025-10-27,BANKBARODA,Largecap,Bank
+2025-10-27,BANKINDIA,Largecap,Bank
+2025-10-27,INDUSINDBK,Largecap,Bank
+2025-10-27,JINDALSTEL,Largecap,Metals & Mining
+2025-10-27,BHARTIARTL,Largecap,Telecom-Service
+2025-10-27,PNB,Largecap,Bank
+2025-10-27,UNIONBANK,Largecap,Bank
+2025-10-27,CANBK,Largecap,Bank
+2025-10-27,INDIANB,Largecap,Bank
+2025-10-27,MOTILALOFS,Largecap,Financials
+2025-10-27,LTF,Largecap,Financials
+2025-10-27,INDUSTOWER,Largecap,Telecom
+2025-10-27,IDFCFIRSTB,Largecap,Bank
+2025-10-27,RBLBANK,Largecap,Bank
+2025-10-27,PNBHOUSING,Largecap,Financials
+2025-10-27,LAURUSLABS,Largecap,Healthcare
+2025-10-27,AUBANK,Largecap,Bank
+2025-10-27,CDSL,Largecap,Financials
+2025-10-27,ABCAPITAL,Largecap,Financials
+2025-10-27,SBILIFE,Largecap,Financials
+2025-10-27,ICICIGI,Largecap,Financials
+2025-10-27,BANDHANBNK,Largecap,Bank
+2025-10-27,CAMS,Midcap,Financials
+2025-10-27,SONACOMS,Largecap,Auto
+2025-10-27,PAYTM,Largecap,I.T
+2025-10-27,KFINTECH,Midcap,Financials
+2025-10-28,BHEL,Largecap,Industrials
+2025-10-28,HINDPETRO,Largecap,Energy
+2025-10-28,SBIN,Largecap,Bank
+2025-10-28,SAIL,Largecap,Metals & Mining
+2025-10-28,TITAN,Largecap,Consumer Discretionary
+2025-10-28,HDFCBANK,Largecap,Bank
+2025-10-28,JSWSTEEL,Largecap,Metals & Mining
+2025-10-28,LICHSGFIN,Largecap,Financials
+2025-10-28,VEDL,Largecap,Metals & Mining
+2025-10-28,GRASIM,Largecap,Textiles
+2025-10-28,ONGC,Largecap,Energy
+2025-10-28,RELIANCE,Largecap,Energy
+2025-10-28,TATAPOWER,Largecap,Power & Utilities
+2025-10-28,HINDALCO,Largecap,Metals & Mining
+2025-10-28,TATASTEEL,Largecap,Metals & Mining
+2025-10-28,BHARATFORG,Largecap,Industrials
+2025-10-28,BPCL,Largecap,Energy
+2025-10-28,TATACONSUM,Largecap,FMCG
+2025-10-28,ASIANPAINT,Largecap,Building Materials
+2025-10-28,ITC,Largecap,FMCG
+2025-10-28,SHRIRAMFIN,Largecap,Financials
+2025-10-28,UPL,Largecap,Chemicals
+2025-10-28,SUNPHARMA,Largecap,Healthcare
+2025-10-28,IOC,Largecap,Energy
+2025-10-28,CONCOR,Largecap,Transportation
+2025-10-28,GAIL,Largecap,Energy
+2025-10-28,INDUSINDBK,Largecap,Bank
+2025-10-28,HCLTECH,Largecap,I.T
+2025-10-28,JINDALSTEL,Largecap,Metals & Mining
+2025-10-28,UNITDSPR,Largecap,FMCG
+2025-10-28,BHARTIARTL,Largecap,Telecom-Service
+2025-10-28,PNB,Largecap,Bank
+2025-10-28,BIOCON,Largecap,Healthcare
+2025-10-28,NTPC,Largecap,Power & Utilities
+2025-10-28,SUZLON,Largecap,Industrials
+2025-10-28,INDIANB,Largecap,Bank
+2025-10-28,DLF,Largecap,Realty
+2025-10-28,POWERGRID,Largecap,Power & Utilities
+2025-10-28,RECLTD,Largecap,Financials
+2025-10-28,GODREJPROP,Largecap,Realty
+2025-10-28,APLAPOLLO,Largecap,Industrials
+2025-10-28,INOXWIND,Midcap,Industrials
+2025-10-28,ADANIENSOL,Largecap,Power & Utilities
+2025-10-28,IDFCFIRSTB,Largecap,Bank
+2025-10-28,RBLBANK,Largecap,Bank
+2025-10-28,PNBHOUSING,Largecap,Financials
+2025-10-28,VBL,Largecap,FMCG
+2025-10-28,LAURUSLABS,Largecap,Healthcare
+2025-10-28,AUBANK,Largecap,Bank
+2025-10-28,SBILIFE,Largecap,Financials
+2025-10-28,IEX,Midcap,Financials
+2025-10-28,ADANIGREEN,Largecap,Power & Utilities
+2025-10-28,KALYANKJIL,Largecap,Consumer Discretionary
+2025-10-28,PREMIERENE,Largecap,Services
+2025-10-29,BHEL,Largecap,Industrials
+2025-10-29,HINDPETRO,Largecap,Energy
+2025-10-29,TITAN,Largecap,Consumer Discretionary
+2025-10-29,JSWSTEEL,Largecap,Metals & Mining
+2025-10-29,PATANJALI,Largecap,FMCG
+2025-10-29,TATAPOWER,Largecap,Power & Utilities
+2025-10-29,HINDALCO,Largecap,Metals & Mining
+2025-10-29,LT,Largecap,Realty
+2025-10-29,BPCL,Largecap,Energy
+2025-10-29,NESTLEIND,Largecap,FMCG
+2025-10-29,SHRIRAMFIN,Largecap,Financials
+2025-10-29,CHOLAFIN,Largecap,Financials
+2025-10-29,UPL,Largecap,Chemicals
+2025-10-29,IOC,Largecap,Energy
+2025-10-29,HCLTECH,Largecap,I.T
+2025-10-29,UNITDSPR,Largecap,FMCG
+2025-10-29,CANBK,Largecap,Bank
+2025-10-29,DIVISLAB,Largecap,Healthcare
+2025-10-29,BIOCON,Largecap,Healthcare
+2025-10-29,COFORGE,Largecap,I.T
+2025-10-29,SUZLON,Largecap,Industrials
+2025-10-29,GMRAIRPORT,Largecap,Miscellaneous
+2025-10-29,INDIANB,Largecap,Bank
+2025-10-29,OIL,Largecap,Energy
+2025-10-29,OBEROIRLTY,Largecap,Realty
+2025-10-29,NBCC,Largecap,Miscellaneous
+2025-10-29,ADANIENSOL,Largecap,Power & Utilities
+2025-10-29,VBL,Largecap,FMCG
+2025-10-29,LAURUSLABS,Largecap,Healthcare
+2025-10-29,ABCAPITAL,Largecap,Financials
+2025-10-29,SBILIFE,Largecap,Financials
+2025-10-29,ADANIGREEN,Largecap,Power & Utilities
+2025-10-29,ANGELONE,Largecap,Financials
+2025-10-29,KALYANKJIL,Largecap,Consumer Discretionary
+2025-10-29,POLICYBZR,Largecap,I.T
+2025-10-29,PAYTM,Largecap,I.T
+2025-10-29,PREMIERENE,Largecap,Services
+2025-10-30,BEL,Largecap,Aerospace & Defence
+2025-10-30,BHEL,Largecap,Industrials
+2025-10-30,HINDPETRO,Largecap,Energy
+2025-10-30,ONGC,Largecap,Energy
+2025-10-30,FEDERALBNK,Largecap,Bank
+2025-10-30,BHARATFORG,Largecap,Industrials
+2025-10-30,LT,Largecap,Realty
+2025-10-30,BPCL,Largecap,Energy
+2025-10-30,ITC,Largecap,FMCG
+2025-10-30,SHRIRAMFIN,Largecap,Financials
+2025-10-30,AUROPHARMA,Largecap,Healthcare
+2025-10-30,IOC,Largecap,Energy
+2025-10-30,BANKBARODA,Largecap,Bank
+2025-10-30,UNITDSPR,Largecap,FMCG
+2025-10-30,PNB,Largecap,Bank
+2025-10-30,UNIONBANK,Largecap,Bank
+2025-10-30,CANBK,Largecap,Bank
+2025-10-30,DIVISLAB,Largecap,Healthcare
+2025-10-30,SUZLON,Largecap,Industrials
+2025-10-30,INDIANB,Largecap,Bank
+2025-10-30,OIL,Largecap,Energy
+2025-10-30,OBEROIRLTY,Largecap,Realty
+2025-10-30,LTF,Largecap,Financials
+2025-10-30,MCX,Largecap,Financials
+2025-10-30,SAMMAANCAP,Midcap,Financials
+2025-10-30,ADANIENSOL,Largecap,Power & Utilities
+2025-10-30,IDFCFIRSTB,Largecap,Bank
+2025-10-30,RBLBANK,Largecap,Bank
+2025-10-30,BSE,Largecap,Financials
+2025-10-30,ABCAPITAL,Largecap,Financials
+2025-10-30,ADANIGREEN,Largecap,Power & Utilities
+2025-11-02,BHEL,Largecap,Industrials
+2025-11-02,HINDPETRO,Largecap,Energy
+2025-11-02,SBIN,Largecap,Bank
+2025-11-02,SAIL,Largecap,Metals & Mining
+2025-11-02,VEDL,Largecap,Metals & Mining
+2025-11-02,ONGC,Largecap,Energy
+2025-11-02,TATAPOWER,Largecap,Power & Utilities
+2025-11-02,FEDERALBNK,Largecap,Bank
+2025-11-02,CUMMINSIND,Largecap,Industrials
+2025-11-02,BHARATFORG,Largecap,Industrials
+2025-11-02,BPCL,Largecap,Energy
+2025-11-02,TATACONSUM,Largecap,FMCG
+2025-11-02,PHOENIXLTD,Largecap,Realty
+2025-11-02,SHRIRAMFIN,Largecap,Financials
+2025-11-02,CHOLAFIN,Largecap,Financials
+2025-11-02,UPL,Largecap,Chemicals
+2025-11-02,SUNPHARMA,Largecap,Healthcare
+2025-11-02,AUROPHARMA,Largecap,Healthcare
+2025-11-02,IOC,Largecap,Energy
+2025-11-02,BANKBARODA,Largecap,Bank
+2025-11-02,BANKINDIA,Largecap,Bank
+2025-11-02,NATIONALUM,Largecap,Metals & Mining
+2025-11-02,JINDALSTEL,Largecap,Metals & Mining
+2025-11-02,GODREJCP,Largecap,FMCG
+2025-11-02,BHARTIARTL,Largecap,Telecom-Service
+2025-11-02,PNB,Largecap,Bank
+2025-11-02,UNIONBANK,Largecap,Bank
+2025-11-02,CANBK,Largecap,Bank
+2025-11-02,BIOCON,Largecap,Healthcare
+2025-11-02,INDIANB,Largecap,Bank
+2025-11-02,ASTRAL,Largecap,Plastic products
+2025-11-02,OIL,Largecap,Energy
+2025-11-02,PRESTIGE,Largecap,Realty
+2025-11-02,LTF,Largecap,Financials
+2025-11-02,MCX,Largecap,Financials
+2025-11-02,INDUSTOWER,Largecap,Telecom
+2025-11-02,SAMMAANCAP,Midcap,Financials
+2025-11-02,INOXWIND,Midcap,Industrials
+2025-11-02,ADANIENSOL,Largecap,Power & Utilities
+2025-11-02,IDFCFIRSTB,Largecap,Bank
+2025-11-02,RBLBANK,Largecap,Bank
+2025-11-02,PNBHOUSING,Largecap,Financials
+2025-11-02,LAURUSLABS,Largecap,Healthcare
+2025-11-02,BSE,Largecap,Financials
+2025-11-02,ABCAPITAL,Largecap,Financials
+2025-11-02,SBILIFE,Largecap,Financials
+2025-11-02,ANGELONE,Largecap,Financials
+2025-11-02,KALYANKJIL,Largecap,Consumer Discretionary
+2025-11-02,LODHA,Largecap,Realty
+2025-11-02,SONACOMS,Largecap,Auto
+2025-11-02,LICI,Largecap,Financials
+2025-11-03,BHEL,Largecap,Industrials
+2025-11-03,HINDPETRO,Largecap,Energy
+2025-11-03,SBIN,Largecap,Bank
+2025-11-03,TITAN,Largecap,Consumer Discretionary
+2025-11-03,BPCL,Largecap,Energy
+2025-11-03,PHOENIXLTD,Largecap,Realty
+2025-11-03,SHRIRAMFIN,Largecap,Financials
+2025-11-03,CHOLAFIN,Largecap,Financials
+2025-11-03,UPL,Largecap,Chemicals
+2025-11-03,IOC,Largecap,Energy
+2025-11-03,BANKINDIA,Largecap,Bank
+2025-11-03,JINDALSTEL,Largecap,Metals & Mining
+2025-11-03,UNITDSPR,Largecap,FMCG
+2025-11-03,BHARTIARTL,Largecap,Telecom-Service
+2025-11-03,UNIONBANK,Largecap,Bank
+2025-11-03,BIOCON,Largecap,Healthcare
+2025-11-03,SUZLON,Largecap,Industrials
+2025-11-03,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-03,LTF,Largecap,Financials
+2025-11-03,INDUSTOWER,Largecap,Telecom
+2025-11-03,LAURUSLABS,Largecap,Healthcare
+2025-11-03,AUBANK,Largecap,Bank
+2025-11-03,SBILIFE,Largecap,Financials
+2025-11-03,ICICIGI,Largecap,Financials
+2025-11-03,POWERINDIA,Largecap,Industrials
+2025-11-03,KALYANKJIL,Largecap,Consumer Discretionary
+2025-11-03,SONACOMS,Largecap,Auto
+2025-11-05,DABUR,Largecap,FMCG
+2025-11-05,SBIN,Largecap,Bank
+2025-11-05,RELIANCE,Largecap,Energy
+2025-11-05,TATACONSUM,Largecap,FMCG
+2025-11-05,ASIANPAINT,Largecap,Building Materials
+2025-11-05,UPL,Largecap,Chemicals
+2025-11-05,DIVISLAB,Largecap,Healthcare
+2025-11-05,BIOCON,Largecap,Healthcare
+2025-11-05,ASTRAL,Largecap,Plastic products
+2025-11-05,INDUSTOWER,Largecap,Telecom
+2025-11-05,AUBANK,Largecap,Bank
+2025-11-05,PAYTM,Largecap,I.T
+2025-11-05,NUVAMA,Largecap,Financials
+2025-11-06,HINDPETRO,Largecap,Energy
+2025-11-06,SAIL,Largecap,Metals & Mining
+2025-11-06,VEDL,Largecap,Metals & Mining
+2025-11-06,FEDERALBNK,Largecap,Bank
+2025-11-06,TATASTEEL,Largecap,Metals & Mining
+2025-11-06,M&M,Largecap,Auto
+2025-11-06,ASIANPAINT,Largecap,Building Materials
+2025-11-06,BRITANNIA,Largecap,FMCG
+2025-11-06,PHOENIXLTD,Largecap,Realty
+2025-11-06,SHRIRAMFIN,Largecap,Financials
+2025-11-06,UPL,Largecap,Chemicals
+2025-11-06,IOC,Largecap,Energy
+2025-11-06,BANKBARODA,Largecap,Bank
+2025-11-06,BANKINDIA,Largecap,Bank
+2025-11-06,INDUSINDBK,Largecap,Bank
+2025-11-06,UNIONBANK,Largecap,Bank
+2025-11-06,CANBK,Largecap,Bank
+2025-11-06,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-06,INDIANB,Largecap,Bank
+2025-11-06,ASTRAL,Largecap,Plastic products
+2025-11-06,OIL,Largecap,Energy
+2025-11-06,LTF,Largecap,Financials
+2025-11-06,APLAPOLLO,Largecap,Industrials
+2025-11-06,MCX,Largecap,Financials
+2025-11-06,INDUSTOWER,Largecap,Telecom
+2025-11-06,IDFCFIRSTB,Largecap,Bank
+2025-11-06,ICICIPRULI,Largecap,Financials
+2025-11-06,BSE,Largecap,Financials
+2025-11-06,AUBANK,Largecap,Bank
+2025-11-06,ABCAPITAL,Largecap,Financials
+2025-11-06,SBILIFE,Largecap,Financials
+2025-11-06,ANGELONE,Largecap,Financials
+2025-11-06,SONACOMS,Largecap,Auto
+2025-11-06,PAYTM,Largecap,I.T
+2025-11-09,BAJFINANCE,Largecap,Financials
+2025-11-09,BHEL,Largecap,Industrials
+2025-11-09,HINDPETRO,Largecap,Energy
+2025-11-09,SAIL,Largecap,Metals & Mining
+2025-11-09,TITAN,Largecap,Consumer Discretionary
+2025-11-09,VEDL,Largecap,Metals & Mining
+2025-11-09,TORNTPHARM,Largecap,Healthcare
+2025-11-09,FEDERALBNK,Largecap,Bank
+2025-11-09,TATASTEEL,Largecap,Metals & Mining
+2025-11-09,ASHOKLEY,Largecap,Auto
+2025-11-09,BHARATFORG,Largecap,Industrials
+2025-11-09,M&M,Largecap,Auto
+2025-11-09,BPCL,Largecap,Energy
+2025-11-09,ASIANPAINT,Largecap,Building Materials
+2025-11-09,SHRIRAMFIN,Largecap,Financials
+2025-11-09,CHOLAFIN,Largecap,Financials
+2025-11-09,UPL,Largecap,Chemicals
+2025-11-09,AUROPHARMA,Largecap,Healthcare
+2025-11-09,IOC,Largecap,Energy
+2025-11-09,BANKINDIA,Largecap,Bank
+2025-11-09,INDUSINDBK,Largecap,Bank
+2025-11-09,NATIONALUM,Largecap,Metals & Mining
+2025-11-09,PNB,Largecap,Bank
+2025-11-09,UNIONBANK,Largecap,Bank
+2025-11-09,CANBK,Largecap,Bank
+2025-11-09,BIOCON,Largecap,Healthcare
+2025-11-09,UNOMINDA,Largecap,Auto
+2025-11-09,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-09,INDIANB,Largecap,Bank
+2025-11-09,ASTRAL,Largecap,Plastic products
+2025-11-09,PRESTIGE,Largecap,Realty
+2025-11-09,LTF,Largecap,Financials
+2025-11-09,MCX,Largecap,Financials
+2025-11-09,IDFCFIRSTB,Largecap,Bank
+2025-11-09,ICICIPRULI,Largecap,Financials
+2025-11-09,LAURUSLABS,Largecap,Healthcare
+2025-11-09,BSE,Largecap,Financials
+2025-11-09,AUBANK,Largecap,Bank
+2025-11-09,SBILIFE,Largecap,Financials
+2025-11-09,ANGELONE,Largecap,Financials
+2025-11-09,NUVAMA,Largecap,Financials
+2025-11-10,BEL,Largecap,Aerospace & Defence
+2025-11-10,BHEL,Largecap,Industrials
+2025-11-10,HINDPETRO,Largecap,Energy
+2025-11-10,SAIL,Largecap,Metals & Mining
+2025-11-10,TITAN,Largecap,Consumer Discretionary
+2025-11-10,MFSL,Largecap,Miscellaneous
+2025-11-10,VEDL,Largecap,Metals & Mining
+2025-11-10,RELIANCE,Largecap,Energy
+2025-11-10,TORNTPHARM,Largecap,Healthcare
+2025-11-10,ASHOKLEY,Largecap,Auto
+2025-11-10,BHARATFORG,Largecap,Industrials
+2025-11-10,LT,Largecap,Realty
+2025-11-10,M&M,Largecap,Auto
+2025-11-10,BPCL,Largecap,Energy
+2025-11-10,ASIANPAINT,Largecap,Building Materials
+2025-11-10,SHRIRAMFIN,Largecap,Financials
+2025-11-10,CHOLAFIN,Largecap,Financials
+2025-11-10,SUNPHARMA,Largecap,Healthcare
+2025-11-10,AUROPHARMA,Largecap,Healthcare
+2025-11-10,IOC,Largecap,Energy
+2025-11-10,INDUSINDBK,Largecap,Bank
+2025-11-10,NATIONALUM,Largecap,Metals & Mining
+2025-11-10,HCLTECH,Largecap,I.T
+2025-11-10,JINDALSTEL,Largecap,Metals & Mining
+2025-11-10,BIOCON,Largecap,Healthcare
+2025-11-10,UNOMINDA,Largecap,Auto
+2025-11-10,ADANIPORTS,Largecap,Transportation
+2025-11-10,OIL,Largecap,Energy
+2025-11-10,PERSISTENT,Largecap,I.T
+2025-11-10,MCX,Largecap,Financials
+2025-11-10,INDUSTOWER,Largecap,Telecom
+2025-11-10,ADANIENSOL,Largecap,Power & Utilities
+2025-11-10,ICICIPRULI,Largecap,Financials
+2025-11-11,BHEL,Largecap,Industrials
+2025-11-11,HINDPETRO,Largecap,Energy
+2025-11-11,SBIN,Largecap,Bank
+2025-11-11,TITAN,Largecap,Consumer Discretionary
+2025-11-11,INFY,Largecap,I.T
+2025-11-11,LUPIN,Largecap,Healthcare
+2025-11-11,MFSL,Largecap,Miscellaneous
+2025-11-11,RELIANCE,Largecap,Energy
+2025-11-11,FEDERALBNK,Largecap,Bank
+2025-11-11,CUMMINSIND,Largecap,Industrials
+2025-11-11,BHARATFORG,Largecap,Industrials
+2025-11-11,LT,Largecap,Realty
+2025-11-11,M&M,Largecap,Auto
+2025-11-11,BPCL,Largecap,Energy
+2025-11-11,NESTLEIND,Largecap,FMCG
+2025-11-11,ASIANPAINT,Largecap,Building Materials
+2025-11-11,SHRIRAMFIN,Largecap,Financials
+2025-11-11,UPL,Largecap,Chemicals
+2025-11-11,SUNPHARMA,Largecap,Healthcare
+2025-11-11,AUROPHARMA,Largecap,Healthcare
+2025-11-11,IOC,Largecap,Energy
+2025-11-11,BANKINDIA,Largecap,Bank
+2025-11-11,INDUSINDBK,Largecap,Bank
+2025-11-11,NATIONALUM,Largecap,Metals & Mining
+2025-11-11,HCLTECH,Largecap,I.T
+2025-11-11,UNITDSPR,Largecap,FMCG
+2025-11-11,PNB,Largecap,Bank
+2025-11-11,UNIONBANK,Largecap,Bank
+2025-11-11,CANBK,Largecap,Bank
+2025-11-11,BIOCON,Largecap,Healthcare
+2025-11-11,UNOMINDA,Largecap,Auto
+2025-11-11,TCS,Largecap,I.T
+2025-11-11,COFORGE,Largecap,I.T
+2025-11-11,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-11,ASTRAL,Largecap,Plastic products
+2025-11-11,ADANIPORTS,Largecap,Transportation
+2025-11-11,OIL,Largecap,Energy
+2025-11-11,PERSISTENT,Largecap,I.T
+2025-11-11,APLAPOLLO,Largecap,Industrials
+2025-11-11,INDUSTOWER,Largecap,Telecom
+2025-11-11,ADANIENSOL,Largecap,Power & Utilities
+2025-11-11,IDFCFIRSTB,Largecap,Bank
+2025-11-11,LTM,Largecap,I.T
+2025-11-11,ICICIPRULI,Largecap,Financials
+2025-11-11,BSE,Largecap,Financials
+2025-11-11,CDSL,Largecap,Financials
+2025-11-11,ABCAPITAL,Largecap,Financials
+2025-11-11,SBILIFE,Largecap,Financials
+2025-11-11,HDFCLIFE,Largecap,Financials
+2025-11-11,KPITTECH,Midcap,I.T
+2025-11-11,ANGELONE,Largecap,Financials
+2025-11-11,SONACOMS,Largecap,Auto
+2025-11-12,SAIL,Largecap,Metals & Mining
+2025-11-12,LUPIN,Largecap,Healthcare
+2025-11-12,MFSL,Largecap,Miscellaneous
+2025-11-12,VEDL,Largecap,Metals & Mining
+2025-11-12,ASHOKLEY,Largecap,Auto
+2025-11-12,LT,Largecap,Realty
+2025-11-12,ASIANPAINT,Largecap,Building Materials
+2025-11-12,MOTHERSON,Largecap,Auto
+2025-11-12,SUNPHARMA,Largecap,Healthcare
+2025-11-12,AUROPHARMA,Largecap,Healthcare
+2025-11-12,INDUSINDBK,Largecap,Bank
+2025-11-12,NATIONALUM,Largecap,Metals & Mining
+2025-11-12,HCLTECH,Largecap,I.T
+2025-11-12,JINDALSTEL,Largecap,Metals & Mining
+2025-11-12,BHARTIARTL,Largecap,Telecom-Service
+2025-11-12,CANBK,Largecap,Bank
+2025-11-12,BIOCON,Largecap,Healthcare
+2025-11-12,MUTHOOTFIN,Largecap,Financials
+2025-11-12,MCX,Largecap,Financials
+2025-11-12,INDUSTOWER,Largecap,Telecom
+2025-11-12,ADANIENSOL,Largecap,Power & Utilities
+2025-11-12,LAURUSLABS,Largecap,Healthcare
+2025-11-12,ABCAPITAL,Largecap,Financials
+2025-11-12,HDFCLIFE,Largecap,Financials
+2025-11-12,KPITTECH,Midcap,I.T
+2025-11-12,ANGELONE,Largecap,Financials
+2025-11-13,SBIN,Largecap,Bank
+2025-11-13,LUPIN,Largecap,Healthcare
+2025-11-13,RELIANCE,Largecap,Energy
+2025-11-13,LT,Largecap,Realty
+2025-11-13,ASIANPAINT,Largecap,Building Materials
+2025-11-13,MOTHERSON,Largecap,Auto
+2025-11-13,SUNPHARMA,Largecap,Healthcare
+2025-11-13,AUROPHARMA,Largecap,Healthcare
+2025-11-13,MARICO,Largecap,FMCG
+2025-11-13,BANKBARODA,Largecap,Bank
+2025-11-13,BANKINDIA,Largecap,Bank
+2025-11-13,AXISBANK,Largecap,Bank
+2025-11-13,BHARTIARTL,Largecap,Telecom-Service
+2025-11-13,CANBK,Largecap,Bank
+2025-11-13,INDIANB,Largecap,Bank
+2025-11-13,ADANIPORTS,Largecap,Transportation
+2025-11-13,MUTHOOTFIN,Largecap,Financials
+2025-11-13,LTF,Largecap,Financials
+2025-11-13,MCX,Largecap,Financials
+2025-11-13,INDUSTOWER,Largecap,Telecom
+2025-11-13,ADANIENSOL,Largecap,Power & Utilities
+2025-11-13,LAURUSLABS,Largecap,Healthcare
+2025-11-13,BSE,Largecap,Financials
+2025-11-13,AUBANK,Largecap,Bank
+2025-11-13,SBILIFE,Largecap,Financials
+2025-11-13,BDL,Largecap,Aerospace & Defence
+2025-11-13,ANGELONE,Largecap,Financials
+2025-11-13,JIOFIN,Largecap,Financials
+2025-11-16,BHEL,Largecap,Industrials
+2025-11-16,HINDPETRO,Largecap,Energy
+2025-11-16,SBIN,Largecap,Bank
+2025-11-16,TITAN,Largecap,Consumer Discretionary
+2025-11-16,HEROMOTOCO,Largecap,Auto
+2025-11-16,MFSL,Largecap,Miscellaneous
+2025-11-16,RELIANCE,Largecap,Energy
+2025-11-16,FEDERALBNK,Largecap,Bank
+2025-11-16,CUMMINSIND,Largecap,Industrials
+2025-11-16,LT,Largecap,Realty
+2025-11-16,M&M,Largecap,Auto
+2025-11-16,SIEMENS,Largecap,Industrials
+2025-11-16,SHRIRAMFIN,Largecap,Financials
+2025-11-16,UPL,Largecap,Chemicals
+2025-11-16,SUNPHARMA,Largecap,Healthcare
+2025-11-16,AUROPHARMA,Largecap,Healthcare
+2025-11-16,IOC,Largecap,Energy
+2025-11-16,MARICO,Largecap,FMCG
+2025-11-16,BANKBARODA,Largecap,Bank
+2025-11-16,BANKINDIA,Largecap,Bank
+2025-11-16,GAIL,Largecap,Energy
+2025-11-16,AXISBANK,Largecap,Bank
+2025-11-16,HCLTECH,Largecap,I.T
+2025-11-16,BHARTIARTL,Largecap,Telecom-Service
+2025-11-16,PNB,Largecap,Bank
+2025-11-16,UNIONBANK,Largecap,Bank
+2025-11-16,CANBK,Largecap,Bank
+2025-11-16,BIOCON,Largecap,Healthcare
+2025-11-16,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-16,INDIANB,Largecap,Bank
+2025-11-16,MUTHOOTFIN,Largecap,Financials
+2025-11-16,LTF,Largecap,Financials
+2025-11-16,MCX,Largecap,Financials
+2025-11-16,SAMMAANCAP,Midcap,Financials
+2025-11-16,IDFCFIRSTB,Largecap,Bank
+2025-11-16,LAURUSLABS,Largecap,Healthcare
+2025-11-16,BSE,Largecap,Financials
+2025-11-16,AUBANK,Largecap,Bank
+2025-11-16,ABCAPITAL,Largecap,Financials
+2025-11-16,SBILIFE,Largecap,Financials
+2025-11-16,ANGELONE,Largecap,Financials
+2025-11-16,NYKAA,Largecap,I.T
+2025-11-16,PAYTM,Largecap,I.T
+2025-11-17,BHEL,Largecap,Industrials
+2025-11-17,TITAN,Largecap,Consumer Discretionary
+2025-11-17,HEROMOTOCO,Largecap,Auto
+2025-11-17,RELIANCE,Largecap,Energy
+2025-11-17,FEDERALBNK,Largecap,Bank
+2025-11-17,BHARATFORG,Largecap,Industrials
+2025-11-17,SIEMENS,Largecap,Industrials
+2025-11-17,AUROPHARMA,Largecap,Healthcare
+2025-11-17,AXISBANK,Largecap,Bank
+2025-11-17,BHARTIARTL,Largecap,Telecom-Service
+2025-11-17,CANBK,Largecap,Bank
+2025-11-17,BIOCON,Largecap,Healthcare
+2025-11-17,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-17,INDIANB,Largecap,Bank
+2025-11-17,SAMMAANCAP,Midcap,Financials
+2025-11-17,ADANIENSOL,Largecap,Power & Utilities
+2025-11-17,BSE,Largecap,Financials
+2025-11-17,AUBANK,Largecap,Bank
+2025-11-17,SONACOMS,Largecap,Auto
+2025-11-17,NYKAA,Largecap,I.T
+2025-11-18,BHEL,Largecap,Industrials
+2025-11-18,SBIN,Largecap,Bank
+2025-11-18,TITAN,Largecap,Consumer Discretionary
+2025-11-18,HEROMOTOCO,Largecap,Auto
+2025-11-18,FEDERALBNK,Largecap,Bank
+2025-11-18,BHARATFORG,Largecap,Industrials
+2025-11-18,LT,Largecap,Realty
+2025-11-18,M&M,Largecap,Auto
+2025-11-18,NESTLEIND,Largecap,FMCG
+2025-11-18,MOTHERSON,Largecap,Auto
+2025-11-18,SUNPHARMA,Largecap,Healthcare
+2025-11-18,BANKBARODA,Largecap,Bank
+2025-11-18,BANKINDIA,Largecap,Bank
+2025-11-18,AXISBANK,Largecap,Bank
+2025-11-18,HCLTECH,Largecap,I.T
+2025-11-18,BHARTIARTL,Largecap,Telecom-Service
+2025-11-18,PNB,Largecap,Bank
+2025-11-18,UNIONBANK,Largecap,Bank
+2025-11-18,CANBK,Largecap,Bank
+2025-11-18,TCS,Largecap,I.T
+2025-11-18,COFORGE,Largecap,I.T
+2025-11-18,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-18,PERSISTENT,Largecap,I.T
+2025-11-18,MCX,Largecap,Financials
+2025-11-18,LTM,Largecap,I.T
+2025-11-18,BSE,Largecap,Financials
+2025-11-18,AUBANK,Largecap,Bank
+2025-11-18,SBILIFE,Largecap,Financials
+2025-11-18,SONACOMS,Largecap,Auto
+2025-11-19,SBIN,Largecap,Bank
+2025-11-19,HDFCBANK,Largecap,Bank
+2025-11-19,HEROMOTOCO,Largecap,Auto
+2025-11-19,MFSL,Largecap,Miscellaneous
+2025-11-19,RELIANCE,Largecap,Energy
+2025-11-19,BHARATFORG,Largecap,Industrials
+2025-11-19,LT,Largecap,Realty
+2025-11-19,M&M,Largecap,Auto
+2025-11-19,NESTLEIND,Largecap,FMCG
+2025-11-19,EICHERMOT,Largecap,Auto
+2025-11-19,SHRIRAMFIN,Largecap,Financials
+2025-11-19,MOTHERSON,Largecap,Auto
+2025-11-19,SUNPHARMA,Largecap,Healthcare
+2025-11-19,BANKINDIA,Largecap,Bank
+2025-11-19,AXISBANK,Largecap,Bank
+2025-11-19,HCLTECH,Largecap,I.T
+2025-11-19,TCS,Largecap,I.T
+2025-11-19,COFORGE,Largecap,I.T
+2025-11-19,PGEL,Midcap,Consumer Discretionary
+2025-11-19,MCX,Largecap,Financials
+2025-11-19,BSE,Largecap,Financials
+2025-11-19,SBILIFE,Largecap,Financials
+2025-11-19,360ONE,Largecap,Financials
+2025-11-19,CAMS,Midcap,Financials
+2025-11-19,SONACOMS,Largecap,Auto
+2025-11-19,NYKAA,Largecap,I.T
+2025-11-20,HEROMOTOCO,Largecap,Auto
+2025-11-20,RELIANCE,Largecap,Energy
+2025-11-20,M&M,Largecap,Auto
+2025-11-20,EICHERMOT,Largecap,Auto
+2025-11-20,INDUSINDBK,Largecap,Bank
+2025-11-20,BHARTIARTL,Largecap,Telecom-Service
+2025-11-20,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-20,PGEL,Midcap,Consumer Discretionary
+2025-11-20,SBILIFE,Largecap,Financials
+2025-11-20,360ONE,Largecap,Financials
+2025-11-23,FEDERALBNK,Largecap,Bank
+2025-11-23,EICHERMOT,Largecap,Auto
+2025-11-23,SHRIRAMFIN,Largecap,Financials
+2025-11-23,TECHM,Largecap,I.T
+2025-11-23,PERSISTENT,Largecap,I.T
+2025-11-23,LTF,Largecap,Financials
+2025-11-23,MCX,Largecap,Financials
+2025-11-23,INDUSTOWER,Largecap,Telecom
+2025-11-23,AUBANK,Largecap,Bank
+2025-11-23,ABCAPITAL,Largecap,Financials
+2025-11-23,NYKAA,Largecap,I.T
+2025-11-24,BHEL,Largecap,Industrials
+2025-11-24,SBIN,Largecap,Bank
+2025-11-24,HEROMOTOCO,Largecap,Auto
+2025-11-24,MFSL,Largecap,Miscellaneous
+2025-11-24,FEDERALBNK,Largecap,Bank
+2025-11-24,SHRIRAMFIN,Largecap,Financials
+2025-11-24,UPL,Largecap,Chemicals
+2025-11-24,AUROPHARMA,Largecap,Healthcare
+2025-11-24,BANKINDIA,Largecap,Bank
+2025-11-24,BHARTIARTL,Largecap,Telecom-Service
+2025-11-24,CANBK,Largecap,Bank
+2025-11-24,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-24,TECHM,Largecap,I.T
+2025-11-24,INDIANB,Largecap,Bank
+2025-11-24,MUTHOOTFIN,Largecap,Financials
+2025-11-24,LTF,Largecap,Financials
+2025-11-24,MCX,Largecap,Financials
+2025-11-24,INDUSTOWER,Largecap,Telecom
+2025-11-24,AUBANK,Largecap,Bank
+2025-11-24,ABCAPITAL,Largecap,Financials
+2025-11-24,NYKAA,Largecap,I.T
+2025-11-25,BHEL,Largecap,Industrials
+2025-11-25,SBIN,Largecap,Bank
+2025-11-25,LUPIN,Largecap,Healthcare
+2025-11-25,MFSL,Largecap,Miscellaneous
+2025-11-25,RELIANCE,Largecap,Energy
+2025-11-25,FEDERALBNK,Largecap,Bank
+2025-11-25,ASHOKLEY,Largecap,Auto
+2025-11-25,BHARATFORG,Largecap,Industrials
+2025-11-25,LT,Largecap,Realty
+2025-11-25,SIEMENS,Largecap,Industrials
+2025-11-25,SHRIRAMFIN,Largecap,Financials
+2025-11-25,UPL,Largecap,Chemicals
+2025-11-25,MOTHERSON,Largecap,Auto
+2025-11-25,SUNPHARMA,Largecap,Healthcare
+2025-11-25,AUROPHARMA,Largecap,Healthcare
+2025-11-25,BANKINDIA,Largecap,Bank
+2025-11-25,INDUSINDBK,Largecap,Bank
+2025-11-25,AXISBANK,Largecap,Bank
+2025-11-25,NATIONALUM,Largecap,Metals & Mining
+2025-11-25,HCLTECH,Largecap,I.T
+2025-11-25,UNITDSPR,Largecap,FMCG
+2025-11-25,PNB,Largecap,Bank
+2025-11-25,UNIONBANK,Largecap,Bank
+2025-11-25,CANBK,Largecap,Bank
+2025-11-25,TCS,Largecap,I.T
+2025-11-25,COFORGE,Largecap,I.T
+2025-11-25,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-25,TECHM,Largecap,I.T
+2025-11-25,INDIANB,Largecap,Bank
+2025-11-25,ADANIPORTS,Largecap,Transportation
+2025-11-25,LTF,Largecap,Financials
+2025-11-25,PGEL,Midcap,Consumer Discretionary
+2025-11-25,MCX,Largecap,Financials
+2025-11-25,INDUSTOWER,Largecap,Telecom
+2025-11-25,BSE,Largecap,Financials
+2025-11-25,AUBANK,Largecap,Bank
+2025-11-25,ABCAPITAL,Largecap,Financials
+2025-11-25,SBILIFE,Largecap,Financials
+2025-11-25,HDFCLIFE,Largecap,Financials
+2025-11-25,360ONE,Largecap,Financials
+2025-11-25,ANGELONE,Largecap,Financials
+2025-11-25,SONACOMS,Largecap,Auto
+2025-11-26,BHEL,Largecap,Industrials
+2025-11-26,TITAN,Largecap,Consumer Discretionary
+2025-11-26,INFY,Largecap,I.T
+2025-11-26,LUPIN,Largecap,Healthcare
+2025-11-26,MFSL,Largecap,Miscellaneous
+2025-11-26,RELIANCE,Largecap,Energy
+2025-11-26,ASHOKLEY,Largecap,Auto
+2025-11-26,CUMMINSIND,Largecap,Industrials
+2025-11-26,LT,Largecap,Realty
+2025-11-26,SHRIRAMFIN,Largecap,Financials
+2025-11-26,UPL,Largecap,Chemicals
+2025-11-26,MOTHERSON,Largecap,Auto
+2025-11-26,SUNPHARMA,Largecap,Healthcare
+2025-11-26,AUROPHARMA,Largecap,Healthcare
+2025-11-26,INDUSINDBK,Largecap,Bank
+2025-11-26,AXISBANK,Largecap,Bank
+2025-11-26,NATIONALUM,Largecap,Metals & Mining
+2025-11-26,HCLTECH,Largecap,I.T
+2025-11-26,GLENMARK,Largecap,Healthcare
+2025-11-26,CANBK,Largecap,Bank
+2025-11-26,COFORGE,Largecap,I.T
+2025-11-26,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-26,ADANIPORTS,Largecap,Transportation
+2025-11-26,LTF,Largecap,Financials
+2025-11-26,MCX,Largecap,Financials
+2025-11-26,LAURUSLABS,Largecap,Healthcare
+2025-11-26,BSE,Largecap,Financials
+2025-11-26,ABCAPITAL,Largecap,Financials
+2025-11-26,ANGELONE,Largecap,Financials
+2025-11-26,SONACOMS,Largecap,Auto
+2025-11-27,TITAN,Largecap,Consumer Discretionary
+2025-11-27,HEROMOTOCO,Largecap,Auto
+2025-11-27,LUPIN,Largecap,Healthcare
+2025-11-27,VEDL,Largecap,Metals & Mining
+2025-11-27,FEDERALBNK,Largecap,Bank
+2025-11-27,ASHOKLEY,Largecap,Auto
+2025-11-27,CUMMINSIND,Largecap,Industrials
+2025-11-27,M&M,Largecap,Auto
+2025-11-27,MOTHERSON,Largecap,Auto
+2025-11-27,SUNPHARMA,Largecap,Healthcare
+2025-11-27,BANKBARODA,Largecap,Bank
+2025-11-27,INDUSINDBK,Largecap,Bank
+2025-11-27,GLENMARK,Largecap,Healthcare
+2025-11-27,CANBK,Largecap,Bank
+2025-11-27,COFORGE,Largecap,I.T
+2025-11-27,GMRAIRPORT,Largecap,Miscellaneous
+2025-11-27,ADANIPORTS,Largecap,Transportation
+2025-11-27,LTF,Largecap,Financials
+2025-11-27,VBL,Largecap,FMCG
+2025-11-27,LAURUSLABS,Largecap,Healthcare
+2025-11-27,AUBANK,Largecap,Bank
+2025-11-27,ABCAPITAL,Largecap,Financials
+2025-11-27,360ONE,Largecap,Financials
+2025-11-30,HEROMOTOCO,Largecap,Auto
+2025-11-30,HINDZINC,Largecap,Metals & Mining
+2025-11-30,KOTAKBANK,Largecap,Bank
+2025-11-30,VEDL,Largecap,Metals & Mining
+2025-11-30,FEDERALBNK,Largecap,Bank
+2025-11-30,ASHOKLEY,Largecap,Auto
+2025-11-30,BANKBARODA,Largecap,Bank
+2025-11-30,BANKINDIA,Largecap,Bank
+2025-11-30,NATIONALUM,Largecap,Metals & Mining
+2025-11-30,HCLTECH,Largecap,I.T
+2025-11-30,TVSMOTOR,Largecap,Auto
+2025-11-30,PNB,Largecap,Bank
+2025-11-30,TECHM,Largecap,I.T
+2025-11-30,INDIANB,Largecap,Bank
+2025-11-30,ADANIPORTS,Largecap,Transportation
+2025-11-30,VBL,Largecap,FMCG
+2025-11-30,LAURUSLABS,Largecap,Healthcare
+2025-11-30,IEX,Midcap,Financials
+2025-11-30,KPITTECH,Midcap,I.T
+2025-11-30,360ONE,Largecap,Financials
+2025-11-30,ANGELONE,Largecap,Financials
+2025-11-30,POLICYBZR,Largecap,I.T
+2025-11-30,PAYTM,Largecap,I.T
+2025-12-01,DRREDDY,Largecap,Healthcare
+2025-12-01,VEDL,Largecap,Metals & Mining
+2025-12-01,FEDERALBNK,Largecap,Bank
+2025-12-01,ASHOKLEY,Largecap,Auto
+2025-12-01,SIEMENS,Largecap,Industrials
+2025-12-01,ASIANPAINT,Largecap,Building Materials
+2025-12-01,MOTHERSON,Largecap,Auto
+2025-12-01,BANKBARODA,Largecap,Bank
+2025-12-01,GLENMARK,Largecap,Healthcare
+2025-12-01,TVSMOTOR,Largecap,Auto
+2025-12-01,UNIONBANK,Largecap,Bank
+2025-12-01,TECHM,Largecap,I.T
+2025-12-01,IDFCFIRSTB,Largecap,Bank
+2025-12-01,IEX,Midcap,Financials
+2025-12-01,ANGELONE,Largecap,Financials
+2025-12-01,POLICYBZR,Largecap,I.T
+2025-12-01,PAYTM,Largecap,I.T
+2025-12-02,DRREDDY,Largecap,Healthcare
+2025-12-02,HINDZINC,Largecap,Metals & Mining
+2025-12-02,INFY,Largecap,I.T
+2025-12-02,ASHOKLEY,Largecap,Auto
+2025-12-02,ASIANPAINT,Largecap,Building Materials
+2025-12-02,WIPRO,Largecap,I.T
+2025-12-02,SUNPHARMA,Largecap,Healthcare
+2025-12-02,BIOCON,Largecap,Healthcare
+2025-12-02,TCS,Largecap,I.T
+2025-12-02,TECHM,Largecap,I.T
+2025-12-02,INDUSTOWER,Largecap,Telecom
+2025-12-02,IEX,Midcap,Financials
+2025-12-02,KPITTECH,Midcap,I.T
+2025-12-03,HEROMOTOCO,Largecap,Auto
+2025-12-03,INFY,Largecap,I.T
+2025-12-03,LUPIN,Largecap,Healthcare
+2025-12-03,TORNTPHARM,Largecap,Healthcare
+2025-12-03,FEDERALBNK,Largecap,Bank
+2025-12-03,ASIANPAINT,Largecap,Building Materials
+2025-12-03,WIPRO,Largecap,I.T
+2025-12-03,SUNPHARMA,Largecap,Healthcare
+2025-12-03,AUROPHARMA,Largecap,Healthcare
+2025-12-03,MPHASIS,Largecap,I.T
+2025-12-03,INDUSINDBK,Largecap,Bank
+2025-12-03,AXISBANK,Largecap,Bank
+2025-12-03,NATIONALUM,Largecap,Metals & Mining
+2025-12-03,HCLTECH,Largecap,I.T
+2025-12-03,TCS,Largecap,I.T
+2025-12-03,COFORGE,Largecap,I.T
+2025-12-03,TECHM,Largecap,I.T
+2025-12-03,PERSISTENT,Largecap,I.T
+2025-12-03,LTM,Largecap,I.T
+2025-12-03,AUBANK,Largecap,Bank
+2025-12-03,KPITTECH,Midcap,I.T
+2025-12-04,HEROMOTOCO,Largecap,Auto
+2025-12-04,INFY,Largecap,I.T
+2025-12-04,KOTAKBANK,Largecap,Bank
+2025-12-04,LUPIN,Largecap,Healthcare
+2025-12-04,ASIANPAINT,Largecap,Building Materials
+2025-12-04,EICHERMOT,Largecap,Auto
+2025-12-04,WIPRO,Largecap,I.T
+2025-12-04,SHRIRAMFIN,Largecap,Financials
+2025-12-04,UPL,Largecap,Chemicals
+2025-12-04,MPHASIS,Largecap,I.T
+2025-12-04,INDUSINDBK,Largecap,Bank
+2025-12-04,AXISBANK,Largecap,Bank
+2025-12-04,NATIONALUM,Largecap,Metals & Mining
+2025-12-04,HCLTECH,Largecap,I.T
+2025-12-04,UNITDSPR,Largecap,FMCG
+2025-12-04,CANBK,Largecap,Bank
+2025-12-04,TCS,Largecap,I.T
+2025-12-04,COFORGE,Largecap,I.T
+2025-12-04,TECHM,Largecap,I.T
+2025-12-04,LTF,Largecap,Financials
+2025-12-04,MCX,Largecap,Financials
+2025-12-04,INDUSTOWER,Largecap,Telecom
+2025-12-04,LAURUSLABS,Largecap,Healthcare
+2025-12-04,AUBANK,Largecap,Bank
+2025-12-04,ABCAPITAL,Largecap,Financials
+2025-12-04,SBILIFE,Largecap,Financials
+2025-12-04,POLICYBZR,Largecap,I.T
+2025-12-07,WIPRO,Largecap,I.T
+2025-12-07,HCLTECH,Largecap,I.T
+2025-12-07,TECHM,Largecap,I.T
+2025-12-07,ABCAPITAL,Largecap,Financials
+2025-12-07,POLICYBZR,Largecap,I.T
+2025-12-08,FEDERALBNK,Largecap,Bank
+2025-12-08,MOTHERSON,Largecap,Auto
+2025-12-08,LAURUSLABS,Largecap,Healthcare
+2025-12-08,AUBANK,Largecap,Bank
+2025-12-08,ABCAPITAL,Largecap,Financials
+2025-12-08,POLICYBZR,Largecap,I.T
+2025-12-09,HINDZINC,Largecap,Metals & Mining
+2025-12-09,CUMMINSIND,Largecap,Industrials
+2025-12-09,EICHERMOT,Largecap,Auto
+2025-12-09,MOTHERSON,Largecap,Auto
+2025-12-09,ICICIPRULI,Largecap,Financials
+2025-12-09,AUBANK,Largecap,Bank
+2025-12-10,HINDZINC,Largecap,Metals & Mining
+2025-12-10,KOTAKBANK,Largecap,Bank
+2025-12-10,FEDERALBNK,Largecap,Bank
+2025-12-10,ASHOKLEY,Largecap,Auto
+2025-12-10,EICHERMOT,Largecap,Auto
+2025-12-10,WIPRO,Largecap,I.T
+2025-12-10,MOTHERSON,Largecap,Auto
+2025-12-10,SUNPHARMA,Largecap,Healthcare
+2025-12-10,HCLTECH,Largecap,I.T
+2025-12-10,TECHM,Largecap,I.T
+2025-12-10,POLICYBZR,Largecap,I.T
+2025-12-11,HINDZINC,Largecap,Metals & Mining
+2025-12-11,INFY,Largecap,I.T
+2025-12-11,KOTAKBANK,Largecap,Bank
+2025-12-11,LUPIN,Largecap,Healthcare
+2025-12-11,MFSL,Largecap,Miscellaneous
+2025-12-11,VEDL,Largecap,Metals & Mining
+2025-12-11,GRASIM,Largecap,Textiles
+2025-12-11,RELIANCE,Largecap,Energy
+2025-12-11,HINDALCO,Largecap,Metals & Mining
+2025-12-11,FEDERALBNK,Largecap,Bank
+2025-12-11,ASHOKLEY,Largecap,Auto
+2025-12-11,BHARATFORG,Largecap,Industrials
+2025-12-11,LT,Largecap,Realty
+2025-12-11,SRF,Largecap,Chemicals
+2025-12-11,WIPRO,Largecap,I.T
+2025-12-11,SHRIRAMFIN,Largecap,Financials
+2025-12-11,MOTHERSON,Largecap,Auto
+2025-12-11,NMDC,Largecap,Metals & Mining
+2025-12-11,AXISBANK,Largecap,Bank
+2025-12-11,NATIONALUM,Largecap,Metals & Mining
+2025-12-11,HCLTECH,Largecap,I.T
+2025-12-11,TCS,Largecap,I.T
+2025-12-11,TECHM,Largecap,I.T
+2025-12-11,ADANIPORTS,Largecap,Transportation
+2025-12-11,INDUSTOWER,Largecap,Telecom
+2025-12-11,ADANIENSOL,Largecap,Power & Utilities
+2025-12-11,ICICIPRULI,Largecap,Financials
+2025-12-11,PNBHOUSING,Largecap,Financials
+2025-12-11,ABCAPITAL,Largecap,Financials
+2025-12-11,SBILIFE,Largecap,Financials
+2025-12-14,DRREDDY,Largecap,Healthcare
+2025-12-14,HINDZINC,Largecap,Metals & Mining
+2025-12-14,INFY,Largecap,I.T
+2025-12-14,VEDL,Largecap,Metals & Mining
+2025-12-14,RELIANCE,Largecap,Energy
+2025-12-14,HINDALCO,Largecap,Metals & Mining
+2025-12-14,FEDERALBNK,Largecap,Bank
+2025-12-14,ASHOKLEY,Largecap,Auto
+2025-12-14,LT,Largecap,Realty
+2025-12-14,PHOENIXLTD,Largecap,Realty
+2025-12-14,WIPRO,Largecap,I.T
+2025-12-14,SHRIRAMFIN,Largecap,Financials
+2025-12-14,UPL,Largecap,Chemicals
+2025-12-14,NMDC,Largecap,Metals & Mining
+2025-12-14,IOC,Largecap,Energy
+2025-12-14,NATIONALUM,Largecap,Metals & Mining
+2025-12-14,HCLTECH,Largecap,I.T
+2025-12-14,GODREJCP,Largecap,FMCG
+2025-12-14,TCS,Largecap,I.T
+2025-12-14,TECHM,Largecap,I.T
+2025-12-14,ADANIENSOL,Largecap,Power & Utilities
+2025-12-14,IDFCFIRSTB,Largecap,Bank
+2025-12-14,ICICIPRULI,Largecap,Financials
+2025-12-14,AUBANK,Largecap,Bank
+2025-12-14,SBILIFE,Largecap,Financials
+2025-12-15,TITAN,Largecap,Consumer Discretionary
+2025-12-15,HINDZINC,Largecap,Metals & Mining
+2025-12-15,KOTAKBANK,Largecap,Bank
+2025-12-15,VEDL,Largecap,Metals & Mining
+2025-12-15,ASHOKLEY,Largecap,Auto
+2025-12-15,SRF,Largecap,Chemicals
+2025-12-15,GODREJCP,Largecap,FMCG
+2025-12-15,IDFCFIRSTB,Largecap,Bank
+2025-12-15,AUBANK,Largecap,Bank
+2025-12-15,SBILIFE,Largecap,Financials
+2025-12-16,HINDZINC,Largecap,Metals & Mining
+2025-12-16,INFY,Largecap,I.T
+2025-12-16,LUPIN,Largecap,Healthcare
+2025-12-16,VEDL,Largecap,Metals & Mining
+2025-12-16,HINDALCO,Largecap,Metals & Mining
+2025-12-16,WIPRO,Largecap,I.T
+2025-12-16,SHRIRAMFIN,Largecap,Financials
+2025-12-16,NATIONALUM,Largecap,Metals & Mining
+2025-12-16,CANBK,Largecap,Bank
+2025-12-16,TCS,Largecap,I.T
+2025-12-16,TECHM,Largecap,I.T
+2025-12-16,IDFCFIRSTB,Largecap,Bank
+2025-12-16,AUBANK,Largecap,Bank
+2025-12-17,TITAN,Largecap,Consumer Discretionary
+2025-12-17,HINDZINC,Largecap,Metals & Mining
+2025-12-17,INFY,Largecap,I.T
+2025-12-17,LUPIN,Largecap,Healthcare
+2025-12-17,VEDL,Largecap,Metals & Mining
+2025-12-17,HINDALCO,Largecap,Metals & Mining
+2025-12-17,FEDERALBNK,Largecap,Bank
+2025-12-17,ASHOKLEY,Largecap,Auto
+2025-12-17,SRF,Largecap,Chemicals
+2025-12-17,WIPRO,Largecap,I.T
+2025-12-17,SHRIRAMFIN,Largecap,Financials
+2025-12-17,GODREJCP,Largecap,FMCG
+2025-12-17,TCS,Largecap,I.T
+2025-12-17,TECHM,Largecap,I.T
+2025-12-17,APLAPOLLO,Largecap,Industrials
+2025-12-17,NAM-INDIA,Largecap,Financials
+2025-12-18,SBIN,Largecap,Bank
+2025-12-18,TITAN,Largecap,Consumer Discretionary
+2025-12-18,HINDZINC,Largecap,Metals & Mining
+2025-12-18,INFY,Largecap,I.T
+2025-12-18,LUPIN,Largecap,Healthcare
+2025-12-18,VEDL,Largecap,Metals & Mining
+2025-12-18,RELIANCE,Largecap,Energy
+2025-12-18,TATAELXSI,Largecap,I.T
+2025-12-18,FEDERALBNK,Largecap,Bank
+2025-12-18,ASHOKLEY,Largecap,Auto
+2025-12-18,BHARATFORG,Largecap,Industrials
+2025-12-18,WIPRO,Largecap,I.T
+2025-12-18,SHRIRAMFIN,Largecap,Financials
+2025-12-18,MOTHERSON,Largecap,Auto
+2025-12-18,AUROPHARMA,Largecap,Healthcare
+2025-12-18,MANAPPURAM,Largecap,Financials
+2025-12-18,GLENMARK,Largecap,Healthcare
+2025-12-18,GODREJCP,Largecap,FMCG
+2025-12-18,TCS,Largecap,I.T
+2025-12-18,TECHM,Largecap,I.T
+2025-12-18,APLAPOLLO,Largecap,Industrials
+2025-12-18,INDUSTOWER,Largecap,Telecom
+2025-12-18,IDFCFIRSTB,Largecap,Bank
+2025-12-18,ICICIPRULI,Largecap,Financials
+2025-12-18,LAURUSLABS,Largecap,Healthcare
+2025-12-21,HINDPETRO,Largecap,Energy
+2025-12-21,HINDZINC,Largecap,Metals & Mining
+2025-12-21,INFY,Largecap,I.T
+2025-12-21,VEDL,Largecap,Metals & Mining
+2025-12-21,RELIANCE,Largecap,Energy
+2025-12-21,HINDALCO,Largecap,Metals & Mining
+2025-12-21,FEDERALBNK,Largecap,Bank
+2025-12-21,ASHOKLEY,Largecap,Auto
+2025-12-21,BHARATFORG,Largecap,Industrials
+2025-12-21,WIPRO,Largecap,I.T
+2025-12-21,SHRIRAMFIN,Largecap,Financials
+2025-12-21,UPL,Largecap,Chemicals
+2025-12-21,MOTHERSON,Largecap,Auto
+2025-12-21,KEI,Largecap,Industrials
+2025-12-21,NMDC,Largecap,Metals & Mining
+2025-12-21,MANAPPURAM,Largecap,Financials
+2025-12-21,NATIONALUM,Largecap,Metals & Mining
+2025-12-21,GLENMARK,Largecap,Healthcare
+2025-12-21,TVSMOTOR,Largecap,Auto
+2025-12-21,BHARTIARTL,Largecap,Telecom-Service
+2025-12-21,TCS,Largecap,I.T
+2025-12-21,TECHM,Largecap,I.T
+2025-12-21,MCX,Largecap,Financials
+2025-12-21,IDFCFIRSTB,Largecap,Bank
+2025-12-21,VBL,Largecap,FMCG
+2025-12-21,LAURUSLABS,Largecap,Healthcare
+2025-12-21,AUBANK,Largecap,Bank
+2025-12-21,RVNL,Largecap,Realty
+2025-12-22,HINDPETRO,Largecap,Energy
+2025-12-22,HINDZINC,Largecap,Metals & Mining
+2025-12-22,ASHOKLEY,Largecap,Auto
+2025-12-22,WIPRO,Largecap,I.T
+2025-12-22,SHRIRAMFIN,Largecap,Financials
+2025-12-22,UPL,Largecap,Chemicals
+2025-12-22,NMDC,Largecap,Metals & Mining
+2025-12-22,MANAPPURAM,Largecap,Financials
+2025-12-22,NATIONALUM,Largecap,Metals & Mining
+2025-12-22,HCLTECH,Largecap,I.T
+2025-12-22,GLENMARK,Largecap,Healthcare
+2025-12-22,GODREJCP,Largecap,FMCG
+2025-12-22,COALINDIA,Largecap,Metals & Mining
+2025-12-22,MCX,Largecap,Financials
+2025-12-22,ICICIPRULI,Largecap,Financials
+2025-12-22,LAURUSLABS,Largecap,Healthcare
+2025-12-22,RVNL,Largecap,Realty
+2025-12-22,IRFC,Largecap,Financials
+2025-12-23,HINDZINC,Largecap,Metals & Mining
+2025-12-23,VEDL,Largecap,Metals & Mining
+2025-12-23,SHRIRAMFIN,Largecap,Financials
+2025-12-23,NMDC,Largecap,Metals & Mining
+2025-12-23,MANAPPURAM,Largecap,Financials
+2025-12-23,NATIONALUM,Largecap,Metals & Mining
+2025-12-23,PETRONET,Largecap,Energy
+2025-12-23,TCS,Largecap,I.T
+2025-12-23,COALINDIA,Largecap,Metals & Mining
+2025-12-23,MUTHOOTFIN,Largecap,Financials
+2025-12-23,INDUSTOWER,Largecap,Telecom
+2025-12-23,PNBHOUSING,Largecap,Financials
+2025-12-23,LAURUSLABS,Largecap,Healthcare
+2025-12-23,RVNL,Largecap,Realty
+2025-12-23,360ONE,Largecap,Financials
+2025-12-23,NUVAMA,Largecap,Financials
+2025-12-25,TITAN,Largecap,Consumer Discretionary
+2025-12-25,HINDZINC,Largecap,Metals & Mining
+2025-12-25,VEDL,Largecap,Metals & Mining
+2025-12-25,NESTLEIND,Largecap,FMCG
+2025-12-25,NMDC,Largecap,Metals & Mining
+2025-12-25,MANAPPURAM,Largecap,Financials
+2025-12-25,NATIONALUM,Largecap,Metals & Mining
+2025-12-25,GODREJCP,Largecap,FMCG
+2025-12-25,DALBHARAT,Largecap,Building Materials
+2025-12-25,MCX,Largecap,Financials
+2025-12-25,NBCC,Largecap,Miscellaneous
+2025-12-25,IDFCFIRSTB,Largecap,Bank
+2025-12-25,LAURUSLABS,Largecap,Healthcare
+2025-12-25,RVNL,Largecap,Realty
+2025-12-25,IRFC,Largecap,Financials
+2025-12-28,TITAN,Largecap,Consumer Discretionary
+2025-12-28,GRASIM,Largecap,Textiles
+2025-12-28,FEDERALBNK,Largecap,Bank
+2025-12-28,NESTLEIND,Largecap,FMCG
+2025-12-28,TATACONSUM,Largecap,FMCG
+2025-12-28,MARICO,Largecap,FMCG
+2025-12-28,GODREJCP,Largecap,FMCG
+2025-12-28,CANBK,Largecap,Bank
+2025-12-28,NBCC,Largecap,Miscellaneous
+2025-12-28,AUBANK,Largecap,Bank
+2025-12-29,SAIL,Largecap,Metals & Mining
+2025-12-29,GRASIM,Largecap,Textiles
+2025-12-29,HINDALCO,Largecap,Metals & Mining
+2025-12-29,FEDERALBNK,Largecap,Bank
+2025-12-29,TATASTEEL,Largecap,Metals & Mining
+2025-12-29,ASHOKLEY,Largecap,Auto
+2025-12-29,BHARATFORG,Largecap,Industrials
+2025-12-29,SHRIRAMFIN,Largecap,Financials
+2025-12-29,UPL,Largecap,Chemicals
+2025-12-29,NMDC,Largecap,Metals & Mining
+2025-12-29,NATIONALUM,Largecap,Metals & Mining
+2025-12-29,GLENMARK,Largecap,Healthcare
+2025-12-29,GODREJCP,Largecap,FMCG
+2025-12-29,CANBK,Largecap,Bank
+2025-12-29,MARUTI,Largecap,Auto
+2025-12-29,ICICIPRULI,Largecap,Financials
+2025-12-29,LAURUSLABS,Largecap,Healthcare
+2025-12-29,AUBANK,Largecap,Bank
+2025-12-29,360ONE,Largecap,Financials
+2025-12-29,NYKAA,Largecap,I.T
+2025-12-30,HINDPETRO,Largecap,Energy
+2025-12-30,SBIN,Largecap,Bank
+2025-12-30,SAIL,Largecap,Metals & Mining
+2025-12-30,TITAN,Largecap,Consumer Discretionary
+2025-12-30,JSWSTEEL,Largecap,Metals & Mining
+2025-12-30,KOTAKBANK,Largecap,Bank
+2025-12-30,VEDL,Largecap,Metals & Mining
+2025-12-30,RELIANCE,Largecap,Energy
+2025-12-30,HINDALCO,Largecap,Metals & Mining
+2025-12-30,FEDERALBNK,Largecap,Bank
+2025-12-30,TATASTEEL,Largecap,Metals & Mining
+2025-12-30,ASHOKLEY,Largecap,Auto
+2025-12-30,BHARATFORG,Largecap,Industrials
+2025-12-30,BPCL,Largecap,Energy
+2025-12-30,NESTLEIND,Largecap,FMCG
+2025-12-30,SHRIRAMFIN,Largecap,Financials
+2025-12-30,UPL,Largecap,Chemicals
+2025-12-30,NMDC,Largecap,Metals & Mining
+2025-12-30,CONCOR,Largecap,Transportation
+2025-12-30,BANKBARODA,Largecap,Bank
+2025-12-30,NATIONALUM,Largecap,Metals & Mining
+2025-12-30,JINDALSTEL,Largecap,Metals & Mining
+2025-12-30,TVSMOTOR,Largecap,Auto
+2025-12-30,GODREJCP,Largecap,FMCG
+2025-12-30,PNB,Largecap,Bank
+2025-12-30,CANBK,Largecap,Bank
+2025-12-30,PETRONET,Largecap,Energy
+2025-12-30,NTPC,Largecap,Power & Utilities
+2025-12-30,INDIANB,Largecap,Bank
+2025-12-30,OIL,Largecap,Energy
+2025-12-30,COALINDIA,Largecap,Metals & Mining
+2025-12-30,LTF,Largecap,Financials
+2025-12-30,MCX,Largecap,Financials
+2025-12-30,ADANIENSOL,Largecap,Power & Utilities
+2025-12-30,IDFCFIRSTB,Largecap,Bank
+2025-12-30,RBLBANK,Largecap,Bank
+2025-12-30,ICICIPRULI,Largecap,Financials
+2025-12-30,VBL,Largecap,FMCG
+2025-12-30,LAURUSLABS,Largecap,Healthcare
+2025-12-30,AUBANK,Largecap,Bank
+2025-12-30,ABCAPITAL,Largecap,Financials
+2025-12-30,NYKAA,Largecap,I.T
+2025-12-31,BHEL,Largecap,Industrials
+2025-12-31,HINDPETRO,Largecap,Energy
+2025-12-31,SBIN,Largecap,Bank
+2025-12-31,SAIL,Largecap,Metals & Mining
+2025-12-31,JSWSTEEL,Largecap,Metals & Mining
+2025-12-31,KOTAKBANK,Largecap,Bank
+2025-12-31,RELIANCE,Largecap,Energy
+2025-12-31,AMBUJACEM,Largecap,Building Materials
+2025-12-31,HINDALCO,Largecap,Metals & Mining
+2025-12-31,TATASTEEL,Largecap,Metals & Mining
+2025-12-31,ASHOKLEY,Largecap,Auto
+2025-12-31,LT,Largecap,Realty
+2025-12-31,M&M,Largecap,Auto
+2025-12-31,BPCL,Largecap,Energy
+2025-12-31,NESTLEIND,Largecap,FMCG
+2025-12-31,WIPRO,Largecap,I.T
+2025-12-31,SHRIRAMFIN,Largecap,Financials
+2025-12-31,UPL,Largecap,Chemicals
+2025-12-31,MOTHERSON,Largecap,Auto
+2025-12-31,MANAPPURAM,Largecap,Financials
+2025-12-31,CONCOR,Largecap,Transportation
+2025-12-31,MARICO,Largecap,FMCG
+2025-12-31,BANKBARODA,Largecap,Bank
+2025-12-31,BANKINDIA,Largecap,Bank
+2025-12-31,INDUSINDBK,Largecap,Bank
+2025-12-31,AXISBANK,Largecap,Bank
+2025-12-31,JINDALSTEL,Largecap,Metals & Mining
+2025-12-31,TVSMOTOR,Largecap,Auto
+2025-12-31,GODREJCP,Largecap,FMCG
+2025-12-31,PNB,Largecap,Bank
+2025-12-31,PETRONET,Largecap,Energy
+2025-12-31,NTPC,Largecap,Power & Utilities
+2025-12-31,TECHM,Largecap,I.T
+2025-12-31,RECLTD,Largecap,Financials
+2025-12-31,OIL,Largecap,Energy
+2025-12-31,JSWENERGY,Largecap,Power & Utilities
+2025-12-31,LTF,Largecap,Financials
+2025-12-31,APLAPOLLO,Largecap,Industrials
+2025-12-31,INDUSTOWER,Largecap,Telecom
+2025-12-31,ADANIENSOL,Largecap,Power & Utilities
+2025-12-31,IDFCFIRSTB,Largecap,Bank
+2025-12-31,PNBHOUSING,Largecap,Financials
+2025-12-31,VBL,Largecap,FMCG
+2025-12-31,LAURUSLABS,Largecap,Healthcare
+2025-12-31,ABCAPITAL,Largecap,Financials
+2025-12-31,NYKAA,Largecap,I.T
+2026-01-01,DABUR,Largecap,FMCG
+2026-01-01,BHEL,Largecap,Industrials
+2026-01-01,SBIN,Largecap,Bank
+2026-01-01,HINDZINC,Largecap,Metals & Mining
+2026-01-01,JSWSTEEL,Largecap,Metals & Mining
+2026-01-01,TRENT,Largecap,Consumer Discretionary
+2026-01-01,VEDL,Largecap,Metals & Mining
+2026-01-01,GRASIM,Largecap,Textiles
+2026-01-01,RELIANCE,Largecap,Energy
+2026-01-01,TATAPOWER,Largecap,Power & Utilities
+2026-01-01,AMBUJACEM,Largecap,Building Materials
+2026-01-01,HINDALCO,Largecap,Metals & Mining
+2026-01-01,FEDERALBNK,Largecap,Bank
+2026-01-01,TATASTEEL,Largecap,Metals & Mining
+2026-01-01,ASHOKLEY,Largecap,Auto
+2026-01-01,BHARATFORG,Largecap,Industrials
+2026-01-01,LT,Largecap,Realty
+2026-01-01,M&M,Largecap,Auto
+2026-01-01,TMPV,Largecap,Auto
+2026-01-01,VOLTAS,Largecap,Consumer Discretionary
+2026-01-01,WIPRO,Largecap,I.T
+2026-01-01,CHOLAFIN,Largecap,Financials
+2026-01-01,UPL,Largecap,Chemicals
+2026-01-01,MOTHERSON,Largecap,Auto
+2026-01-01,NMDC,Largecap,Metals & Mining
+2026-01-01,CONCOR,Largecap,Transportation
+2026-01-01,MARICO,Largecap,FMCG
+2026-01-01,BANKBARODA,Largecap,Bank
+2026-01-01,BANKINDIA,Largecap,Bank
+2026-01-01,INDUSINDBK,Largecap,Bank
+2026-01-01,NATIONALUM,Largecap,Metals & Mining
+2026-01-01,JINDALSTEL,Largecap,Metals & Mining
+2026-01-01,TVSMOTOR,Largecap,Auto
+2026-01-01,GODREJCP,Largecap,FMCG
+2026-01-01,PNB,Largecap,Bank
+2026-01-01,UNIONBANK,Largecap,Bank
+2026-01-01,PETRONET,Largecap,Energy
+2026-01-01,UNOMINDA,Largecap,Auto
+2026-01-01,NTPC,Largecap,Power & Utilities
+2026-01-01,TECHM,Largecap,I.T
+2026-01-01,PFC,Largecap,Financials
+2026-01-01,INDIANB,Largecap,Bank
+2026-01-01,RECLTD,Largecap,Financials
+2026-01-01,BAJAJ-AUTO,Largecap,Auto
+2026-01-01,NHPC,Largecap,Power & Utilities
+2026-01-01,OIL,Largecap,Energy
+2026-01-01,JSWENERGY,Largecap,Power & Utilities
+2026-01-01,COALINDIA,Largecap,Metals & Mining
+2026-01-01,LTF,Largecap,Financials
+2026-01-01,PGEL,Midcap,Consumer Discretionary
+2026-01-01,INDUSTOWER,Largecap,Telecom
+2026-01-01,ADANIENSOL,Largecap,Power & Utilities
+2026-01-01,IDFCFIRSTB,Largecap,Bank
+2026-01-01,RBLBANK,Largecap,Bank
+2026-01-01,PNBHOUSING,Largecap,Financials
+2026-01-01,VBL,Largecap,FMCG
+2026-01-01,AUBANK,Largecap,Bank
+2026-01-01,ABCAPITAL,Largecap,Financials
+2026-01-01,RVNL,Largecap,Realty
+2026-01-01,IRFC,Largecap,Financials
+2026-01-01,IREDA,Largecap,Financials
+2026-01-04,BEL,Largecap,Aerospace & Defence
+2026-01-04,BLUESTARCO,Largecap,Consumer Discretionary
+2026-01-04,DABUR,Largecap,FMCG
+2026-01-04,BHEL,Largecap,Industrials
+2026-01-04,SBIN,Largecap,Bank
+2026-01-04,SAIL,Largecap,Metals & Mining
+2026-01-04,TITAN,Largecap,Consumer Discretionary
+2026-01-04,HINDZINC,Largecap,Metals & Mining
+2026-01-04,JSWSTEEL,Largecap,Metals & Mining
+2026-01-04,TRENT,Largecap,Consumer Discretionary
+2026-01-04,VEDL,Largecap,Metals & Mining
+2026-01-04,PATANJALI,Largecap,FMCG
+2026-01-04,AMBUJACEM,Largecap,Building Materials
+2026-01-04,HINDALCO,Largecap,Metals & Mining
+2026-01-04,TATASTEEL,Largecap,Metals & Mining
+2026-01-04,ASHOKLEY,Largecap,Auto
+2026-01-04,BHARATFORG,Largecap,Industrials
+2026-01-04,M&M,Largecap,Auto
+2026-01-04,TMPV,Largecap,Auto
+2026-01-04,VOLTAS,Largecap,Consumer Discretionary
+2026-01-04,NESTLEIND,Largecap,FMCG
+2026-01-04,CHOLAFIN,Largecap,Financials
+2026-01-04,MARICO,Largecap,FMCG
+2026-01-04,BANKBARODA,Largecap,Bank
+2026-01-04,BANKINDIA,Largecap,Bank
+2026-01-04,AXISBANK,Largecap,Bank
+2026-01-04,NATIONALUM,Largecap,Metals & Mining
+2026-01-04,JINDALSTEL,Largecap,Metals & Mining
+2026-01-04,GODREJCP,Largecap,FMCG
+2026-01-04,PNB,Largecap,Bank
+2026-01-04,UNIONBANK,Largecap,Bank
+2026-01-04,UNOMINDA,Largecap,Auto
+2026-01-04,NTPC,Largecap,Power & Utilities
+2026-01-04,PFC,Largecap,Financials
+2026-01-04,INDIANB,Largecap,Bank
+2026-01-04,ASTRAL,Largecap,Plastic products
+2026-01-04,RECLTD,Largecap,Financials
+2026-01-04,NHPC,Largecap,Power & Utilities
+2026-01-04,JSWENERGY,Largecap,Power & Utilities
+2026-01-04,GODREJPROP,Largecap,Realty
+2026-01-04,COALINDIA,Largecap,Metals & Mining
+2026-01-04,MUTHOOTFIN,Largecap,Financials
+2026-01-04,LTF,Largecap,Financials
+2026-01-04,PGEL,Midcap,Consumer Discretionary
+2026-01-04,APLAPOLLO,Largecap,Industrials
+2026-01-04,ICICIPRULI,Largecap,Financials
+2026-01-04,PNBHOUSING,Largecap,Financials
+2026-01-04,AUBANK,Largecap,Bank
+2026-01-04,SBILIFE,Largecap,Financials
+2026-01-04,BDL,Largecap,Aerospace & Defence
+2026-01-04,POLYCAB,Largecap,Industrials
+2026-01-04,KALYANKJIL,Largecap,Consumer Discretionary
+2026-01-04,NYKAA,Largecap,I.T
+2026-01-05,BEL,Largecap,Aerospace & Defence
+2026-01-05,SBIN,Largecap,Bank
+2026-01-05,TITAN,Largecap,Consumer Discretionary
+2026-01-05,HINDZINC,Largecap,Metals & Mining
+2026-01-05,LUPIN,Largecap,Healthcare
+2026-01-05,MFSL,Largecap,Miscellaneous
+2026-01-05,VEDL,Largecap,Metals & Mining
+2026-01-05,PATANJALI,Largecap,FMCG
+2026-01-05,HINDALCO,Largecap,Metals & Mining
+2026-01-05,TATASTEEL,Largecap,Metals & Mining
+2026-01-05,VOLTAS,Largecap,Consumer Discretionary
+2026-01-05,HINDUNILVR,Largecap,FMCG
+2026-01-05,NESTLEIND,Largecap,FMCG
+2026-01-05,TATACONSUM,Largecap,FMCG
+2026-01-05,PHOENIXLTD,Largecap,Realty
+2026-01-05,APOLLOHOSP,Largecap,Healthcare
+2026-01-05,CHOLAFIN,Largecap,Financials
+2026-01-05,HAVELLS,Largecap,Consumer Discretionary
+2026-01-05,AUROPHARMA,Largecap,Healthcare
+2026-01-05,CONCOR,Largecap,Transportation
+2026-01-05,MARICO,Largecap,FMCG
+2026-01-05,ICICIBANK,Largecap,Bank
+2026-01-05,INDUSINDBK,Largecap,Bank
+2026-01-05,AXISBANK,Largecap,Bank
+2026-01-05,NATIONALUM,Largecap,Metals & Mining
+2026-01-05,GODREJCP,Largecap,FMCG
+2026-01-05,UNIONBANK,Largecap,Bank
+2026-01-05,DIVISLAB,Largecap,Healthcare
+2026-01-05,PETRONET,Largecap,Energy
+2026-01-05,PFC,Largecap,Financials
+2026-01-05,INDIANB,Largecap,Bank
+2026-01-05,FORTIS,Largecap,Healthcare
+2026-01-05,BAJAJ-AUTO,Largecap,Auto
+2026-01-05,MUTHOOTFIN,Largecap,Financials
+2026-01-05,APLAPOLLO,Largecap,Industrials
+2026-01-05,MCX,Largecap,Financials
+2026-01-05,RBLBANK,Largecap,Bank
+2026-01-05,ICICIPRULI,Largecap,Financials
+2026-01-05,VBL,Largecap,FMCG
+2026-01-05,LAURUSLABS,Largecap,Healthcare
+2026-01-05,SBILIFE,Largecap,Financials
+2026-01-05,IEX,Midcap,Financials
+2026-01-05,HDFCLIFE,Largecap,Financials
+2026-01-05,BDL,Largecap,Aerospace & Defence
+2026-01-05,SBICARD,Largecap,Financials
+2026-01-06,BEL,Largecap,Aerospace & Defence
+2026-01-06,DABUR,Largecap,FMCG
+2026-01-06,BHEL,Largecap,Industrials
+2026-01-06,SAIL,Largecap,Metals & Mining
+2026-01-06,TITAN,Largecap,Consumer Discretionary
+2026-01-06,JSWSTEEL,Largecap,Metals & Mining
+2026-01-06,LUPIN,Largecap,Healthcare
+2026-01-06,MFSL,Largecap,Miscellaneous
+2026-01-06,PIDILITIND,Largecap,Chemicals
+2026-01-06,PATANJALI,Largecap,FMCG
+2026-01-06,TATAELXSI,Largecap,I.T
+2026-01-06,TORNTPHARM,Largecap,Healthcare
+2026-01-06,VOLTAS,Largecap,Consumer Discretionary
+2026-01-06,NESTLEIND,Largecap,FMCG
+2026-01-06,TATACONSUM,Largecap,FMCG
+2026-01-06,PHOENIXLTD,Largecap,Realty
+2026-01-06,WIPRO,Largecap,I.T
+2026-01-06,APOLLOHOSP,Largecap,Healthcare
+2026-01-06,AUROPHARMA,Largecap,Healthcare
+2026-01-06,NMDC,Largecap,Metals & Mining
+2026-01-06,MANAPPURAM,Largecap,Financials
+2026-01-06,CONCOR,Largecap,Transportation
+2026-01-06,BANKBARODA,Largecap,Bank
+2026-01-06,ICICIBANK,Largecap,Bank
+2026-01-06,NATIONALUM,Largecap,Metals & Mining
+2026-01-06,GLENMARK,Largecap,Healthcare
+2026-01-06,GODREJCP,Largecap,FMCG
+2026-01-06,PNB,Largecap,Bank
+2026-01-06,UNIONBANK,Largecap,Bank
+2026-01-06,PETRONET,Largecap,Energy
+2026-01-06,TCS,Largecap,I.T
+2026-01-06,TECHM,Largecap,I.T
+2026-01-06,ASTRAL,Largecap,Plastic products
+2026-01-06,FORTIS,Largecap,Healthcare
+2026-01-06,RECLTD,Largecap,Financials
+2026-01-06,NHPC,Largecap,Power & Utilities
+2026-01-06,GODREJPROP,Largecap,Realty
+2026-01-06,PERSISTENT,Largecap,I.T
+2026-01-06,COALINDIA,Largecap,Metals & Mining
+2026-01-06,MCX,Largecap,Financials
+2026-01-06,VBL,Largecap,FMCG
+2026-01-06,LAURUSLABS,Largecap,Healthcare
+2026-01-06,IEX,Midcap,Financials
+2026-01-06,KALYANKJIL,Largecap,Consumer Discretionary
+2026-01-06,MANKIND,Largecap,Healthcare
+2026-01-06,IREDA,Largecap,Financials
+2026-01-07,BEL,Largecap,Aerospace & Defence
+2026-01-07,TATAELXSI,Largecap,I.T
+2026-01-07,ICICIBANK,Largecap,Bank
+2026-01-07,BAJAJ-AUTO,Largecap,Auto
+2026-01-07,IDFCFIRSTB,Largecap,Bank
+2026-01-08,DABUR,Largecap,FMCG
+2026-01-08,ASHOKLEY,Largecap,Auto
+2026-01-08,NATIONALUM,Largecap,Metals & Mining
+2026-01-08,INDUSTOWER,Largecap,Telecom
+2026-01-08,IDFCFIRSTB,Largecap,Bank
+2026-01-08,ICICIPRULI,Largecap,Financials
+2026-01-11,DABUR,Largecap,FMCG
+2026-01-11,SBIN,Largecap,Bank
+2026-01-11,SAIL,Largecap,Metals & Mining
+2026-01-11,HINDZINC,Largecap,Metals & Mining
+2026-01-11,JSWSTEEL,Largecap,Metals & Mining
+2026-01-11,LUPIN,Largecap,Healthcare
+2026-01-11,VEDL,Largecap,Metals & Mining
+2026-01-11,HINDALCO,Largecap,Metals & Mining
+2026-01-11,TATASTEEL,Largecap,Metals & Mining
+2026-01-11,NESTLEIND,Largecap,FMCG
+2026-01-11,ASIANPAINT,Largecap,Building Materials
+2026-01-11,INDUSINDBK,Largecap,Bank
+2026-01-11,NATIONALUM,Largecap,Metals & Mining
+2026-01-11,UNIONBANK,Largecap,Bank
+2026-01-11,COALINDIA,Largecap,Metals & Mining
+2026-01-11,MCX,Largecap,Financials
+2026-01-11,AUBANK,Largecap,Bank
+2026-01-11,SBILIFE,Largecap,Financials
+2026-01-12,SBIN,Largecap,Bank
+2026-01-12,SAIL,Largecap,Metals & Mining
+2026-01-12,TITAN,Largecap,Consumer Discretionary
+2026-01-12,HINDZINC,Largecap,Metals & Mining
+2026-01-12,LUPIN,Largecap,Healthcare
+2026-01-12,VEDL,Largecap,Metals & Mining
+2026-01-12,HINDALCO,Largecap,Metals & Mining
+2026-01-12,TATASTEEL,Largecap,Metals & Mining
+2026-01-12,NESTLEIND,Largecap,FMCG
+2026-01-12,ASIANPAINT,Largecap,Building Materials
+2026-01-12,SHRIRAMFIN,Largecap,Financials
+2026-01-12,ICICIBANK,Largecap,Bank
+2026-01-12,INDUSINDBK,Largecap,Bank
+2026-01-12,NATIONALUM,Largecap,Metals & Mining
+2026-01-12,UNIONBANK,Largecap,Bank
+2026-01-12,OIL,Largecap,Energy
+2026-01-12,COALINDIA,Largecap,Metals & Mining
+2026-01-12,MCX,Largecap,Financials
+2026-01-12,BSE,Largecap,Financials
+2026-01-13,BEL,Largecap,Aerospace & Defence
+2026-01-13,SBIN,Largecap,Bank
+2026-01-13,SAIL,Largecap,Metals & Mining
+2026-01-13,HINDZINC,Largecap,Metals & Mining
+2026-01-13,LUPIN,Largecap,Healthcare
+2026-01-13,VEDL,Largecap,Metals & Mining
+2026-01-13,ONGC,Largecap,Energy
+2026-01-13,HINDALCO,Largecap,Metals & Mining
+2026-01-13,TATASTEEL,Largecap,Metals & Mining
+2026-01-13,ASHOKLEY,Largecap,Auto
+2026-01-13,SHRIRAMFIN,Largecap,Financials
+2026-01-13,BANKBARODA,Largecap,Bank
+2026-01-13,BANKINDIA,Largecap,Bank
+2026-01-13,INDUSINDBK,Largecap,Bank
+2026-01-13,AXISBANK,Largecap,Bank
+2026-01-13,NATIONALUM,Largecap,Metals & Mining
+2026-01-13,PNB,Largecap,Bank
+2026-01-13,UNIONBANK,Largecap,Bank
+2026-01-13,CANBK,Largecap,Bank
+2026-01-13,NTPC,Largecap,Power & Utilities
+2026-01-13,OIL,Largecap,Energy
+2026-01-13,COALINDIA,Largecap,Metals & Mining
+2026-01-13,APLAPOLLO,Largecap,Industrials
+2026-01-13,MCX,Largecap,Financials
+2026-01-13,INDUSTOWER,Largecap,Telecom
+2026-01-13,VBL,Largecap,FMCG
+2026-01-13,ETERNAL,Largecap,I.T
+2026-01-15,SBIN,Largecap,Bank
+2026-01-15,INFY,Largecap,I.T
+2026-01-15,VEDL,Largecap,Metals & Mining
+2026-01-15,FEDERALBNK,Largecap,Bank
+2026-01-15,TATASTEEL,Largecap,Metals & Mining
+2026-01-15,SHRIRAMFIN,Largecap,Financials
+2026-01-15,BANKBARODA,Largecap,Bank
+2026-01-15,BANKINDIA,Largecap,Bank
+2026-01-15,INDUSINDBK,Largecap,Bank
+2026-01-15,HCLTECH,Largecap,I.T
+2026-01-15,GODREJCP,Largecap,FMCG
+2026-01-15,PNB,Largecap,Bank
+2026-01-15,UNIONBANK,Largecap,Bank
+2026-01-15,CANBK,Largecap,Bank
+2026-01-15,NTPC,Largecap,Power & Utilities
+2026-01-15,TECHM,Largecap,I.T
+2026-01-15,PFC,Largecap,Financials
+2026-01-15,MCX,Largecap,Financials
+2026-01-15,LTM,Largecap,I.T
+2026-01-15,RBLBANK,Largecap,Bank
+2026-01-15,AUBANK,Largecap,Bank
+2026-01-15,ANGELONE,Largecap,Financials
+2026-01-18,HINDZINC,Largecap,Metals & Mining
+2026-01-18,INFY,Largecap,I.T
+2026-01-18,FEDERALBNK,Largecap,Bank
+2026-01-18,ASHOKLEY,Largecap,Auto
+2026-01-18,NESTLEIND,Largecap,FMCG
+2026-01-18,COLPAL,Largecap,FMCG
+2026-01-18,SHRIRAMFIN,Largecap,Financials
+2026-01-18,BANKINDIA,Largecap,Bank
+2026-01-18,AXISBANK,Largecap,Bank
+2026-01-18,NATIONALUM,Largecap,Metals & Mining
+2026-01-18,HCLTECH,Largecap,I.T
+2026-01-18,CANBK,Largecap,Bank
+2026-01-18,TECHM,Largecap,I.T
+2026-01-18,INDIANB,Largecap,Bank
+2026-01-18,LTM,Largecap,I.T
+2026-01-18,AUBANK,Largecap,Bank
+2026-01-19,HINDZINC,Largecap,Metals & Mining
+2026-01-19,DALBHARAT,Largecap,Building Materials
+2026-01-20,HINDZINC,Largecap,Metals & Mining
+2026-01-20,FEDERALBNK,Largecap,Bank
+2026-01-20,DALBHARAT,Largecap,Building Materials
+2026-01-21,DABUR,Largecap,FMCG
+2026-01-21,SBIN,Largecap,Bank
+2026-01-21,SAIL,Largecap,Metals & Mining
+2026-01-21,VEDL,Largecap,Metals & Mining
+2026-01-21,HINDALCO,Largecap,Metals & Mining
+2026-01-21,FEDERALBNK,Largecap,Bank
+2026-01-21,TATASTEEL,Largecap,Metals & Mining
+2026-01-21,ASHOKLEY,Largecap,Auto
+2026-01-21,COLPAL,Largecap,FMCG
+2026-01-21,SHRIRAMFIN,Largecap,Financials
+2026-01-21,BANKINDIA,Largecap,Bank
+2026-01-21,NATIONALUM,Largecap,Metals & Mining
+2026-01-21,HCLTECH,Largecap,I.T
+2026-01-21,JINDALSTEL,Largecap,Metals & Mining
+2026-01-21,GODREJCP,Largecap,FMCG
+2026-01-21,TECHM,Largecap,I.T
+2026-01-21,INDIANB,Largecap,Bank
+2026-01-21,APLAPOLLO,Largecap,Industrials
+2026-01-22,HINDZINC,Largecap,Metals & Mining
+2026-01-22,VEDL,Largecap,Metals & Mining
+2026-01-22,HINDALCO,Largecap,Metals & Mining
+2026-01-22,ASHOKLEY,Largecap,Auto
+2026-01-22,SHRIRAMFIN,Largecap,Financials
+2026-01-22,NATIONALUM,Largecap,Metals & Mining
+2026-01-22,HCLTECH,Largecap,I.T
+2026-01-22,APLAPOLLO,Largecap,Industrials
+2026-01-26,SBIN,Largecap,Bank
+2026-01-26,SAIL,Largecap,Metals & Mining
+2026-01-26,HINDZINC,Largecap,Metals & Mining
+2026-01-26,INFY,Largecap,I.T
+2026-01-26,JSWSTEEL,Largecap,Metals & Mining
+2026-01-26,VEDL,Largecap,Metals & Mining
+2026-01-26,HINDALCO,Largecap,Metals & Mining
+2026-01-26,FEDERALBNK,Largecap,Bank
+2026-01-26,TATASTEEL,Largecap,Metals & Mining
+2026-01-26,NATIONALUM,Largecap,Metals & Mining
+2026-01-26,HCLTECH,Largecap,I.T
+2026-01-26,ULTRACEMCO,Largecap,Building Materials
+2026-01-26,TECHM,Largecap,I.T
+2026-01-26,OIL,Largecap,Energy
+2026-01-26,APLAPOLLO,Largecap,Industrials
+2026-01-26,MCX,Largecap,Financials
+2026-01-27,BEL,Largecap,Aerospace & Defence
+2026-01-27,SBIN,Largecap,Bank
+2026-01-27,SAIL,Largecap,Metals & Mining
+2026-01-27,JSWSTEEL,Largecap,Metals & Mining
+2026-01-27,VEDL,Largecap,Metals & Mining
+2026-01-27,ONGC,Largecap,Energy
+2026-01-27,HINDALCO,Largecap,Metals & Mining
+2026-01-27,FEDERALBNK,Largecap,Bank
+2026-01-27,TATASTEEL,Largecap,Metals & Mining
+2026-01-27,ASHOKLEY,Largecap,Auto
+2026-01-27,SHRIRAMFIN,Largecap,Financials
+2026-01-27,BANKINDIA,Largecap,Bank
+2026-01-27,AXISBANK,Largecap,Bank
+2026-01-27,NATIONALUM,Largecap,Metals & Mining
+2026-01-27,HCLTECH,Largecap,I.T
+2026-01-27,JINDALSTEL,Largecap,Metals & Mining
+2026-01-27,UNIONBANK,Largecap,Bank
+2026-01-27,CANBK,Largecap,Bank
+2026-01-27,PETRONET,Largecap,Energy
+2026-01-27,NTPC,Largecap,Power & Utilities
+2026-01-27,TECHM,Largecap,I.T
+2026-01-27,PFC,Largecap,Financials
+2026-01-27,INDIANB,Largecap,Bank
+2026-01-27,OIL,Largecap,Energy
+2026-01-27,COALINDIA,Largecap,Metals & Mining
+2026-01-27,APLAPOLLO,Largecap,Industrials
+2026-01-27,MCX,Largecap,Financials
+2026-01-27,BDL,Largecap,Aerospace & Defence
+2026-01-27,BANDHANBNK,Largecap,Bank
+2026-01-27,HAL,Largecap,Aerospace & Defence
+2026-01-27,SONACOMS,Largecap,Auto
+2026-01-28,ABB,Largecap,Industrials
+2026-01-28,BEL,Largecap,Aerospace & Defence
+2026-01-28,SBIN,Largecap,Bank
+2026-01-28,SAIL,Largecap,Metals & Mining
+2026-01-28,JSWSTEEL,Largecap,Metals & Mining
+2026-01-28,VEDL,Largecap,Metals & Mining
+2026-01-28,ONGC,Largecap,Energy
+2026-01-28,HINDALCO,Largecap,Metals & Mining
+2026-01-28,FEDERALBNK,Largecap,Bank
+2026-01-28,TATASTEEL,Largecap,Metals & Mining
+2026-01-28,ASHOKLEY,Largecap,Auto
+2026-01-28,SHRIRAMFIN,Largecap,Financials
+2026-01-28,NMDC,Largecap,Metals & Mining
+2026-01-28,AXISBANK,Largecap,Bank
+2026-01-28,NATIONALUM,Largecap,Metals & Mining
+2026-01-28,HCLTECH,Largecap,I.T
+2026-01-28,JINDALSTEL,Largecap,Metals & Mining
+2026-01-28,PETRONET,Largecap,Energy
+2026-01-28,NTPC,Largecap,Power & Utilities
+2026-01-28,TECHM,Largecap,I.T
+2026-01-28,PFC,Largecap,Financials
+2026-01-28,INDIANB,Largecap,Bank
+2026-01-28,OIL,Largecap,Energy
+2026-01-28,COALINDIA,Largecap,Metals & Mining
+2026-01-28,MUTHOOTFIN,Largecap,Financials
+2026-01-28,MCX,Largecap,Financials
+2026-01-28,INDUSTOWER,Largecap,Telecom
+2026-01-28,BSE,Largecap,Financials
+2026-01-28,SONACOMS,Largecap,Auto
+2026-01-29,ABB,Largecap,Industrials
+2026-01-29,SBIN,Largecap,Bank
+2026-01-29,FEDERALBNK,Largecap,Bank
+2026-01-29,ASHOKLEY,Largecap,Auto
+2026-01-29,NESTLEIND,Largecap,FMCG
+2026-01-29,SHRIRAMFIN,Largecap,Financials
+2026-01-29,AXISBANK,Largecap,Bank
+2026-01-29,NTPC,Largecap,Power & Utilities
+2026-01-29,INDIANB,Largecap,Bank
+2026-01-29,OIL,Largecap,Energy
+2026-01-29,INDUSTOWER,Largecap,Telecom
+2026-01-29,SAMMAANCAP,Midcap,Financials
+2026-01-29,COCHINSHIP,Largecap,Aerospace & Defence
+2026-01-29,BANDHANBNK,Largecap,Bank
+2026-01-29,SONACOMS,Largecap,Auto
+2026-01-29,DELHIVERY,Largecap,Transportation
+2026-01-31,DELHIVERY,Largecap,Transportation
+2026-02-01,ASHOKLEY,Largecap,Auto
+2026-02-01,JINDALSTEL,Largecap,Metals & Mining
+2026-02-01,APLAPOLLO,Largecap,Industrials
+2026-02-01,SONACOMS,Largecap,Auto
+2026-02-01,DELHIVERY,Largecap,Transportation
+2026-02-02,ABB,Largecap,Industrials
+2026-02-02,CGPOWER,Largecap,Industrials
+2026-02-02,SBIN,Largecap,Bank
+2026-02-02,JSWSTEEL,Largecap,Metals & Mining
+2026-02-02,FEDERALBNK,Largecap,Bank
+2026-02-02,ASHOKLEY,Largecap,Auto
+2026-02-02,BHARATFORG,Largecap,Industrials
+2026-02-02,SIEMENS,Largecap,Industrials
+2026-02-02,TMPV,Largecap,Auto
+2026-02-02,SUPREMEIND,Largecap,Plastic products
+2026-02-02,MOTHERSON,Largecap,Auto
+2026-02-02,KEI,Largecap,Industrials
+2026-02-02,IOC,Largecap,Energy
+2026-02-02,CONCOR,Largecap,Transportation
+2026-02-02,INDUSINDBK,Largecap,Bank
+2026-02-02,AXISBANK,Largecap,Bank
+2026-02-02,JINDALSTEL,Largecap,Metals & Mining
+2026-02-02,PETRONET,Largecap,Energy
+2026-02-02,NTPC,Largecap,Power & Utilities
+2026-02-02,PFC,Largecap,Financials
+2026-02-02,POWERGRID,Largecap,Power & Utilities
+2026-02-02,ADANIPORTS,Largecap,Transportation
+2026-02-02,OIL,Largecap,Energy
+2026-02-02,APLAPOLLO,Largecap,Industrials
+2026-02-02,NAM-INDIA,Largecap,Financials
+2026-02-02,BANDHANBNK,Largecap,Bank
+2026-02-02,SONACOMS,Largecap,Auto
+2026-02-02,WAAREEENER,Largecap,Industrials
+2026-02-03,ABB,Largecap,Industrials
+2026-02-03,BLUESTARCO,Largecap,Consumer Discretionary
+2026-02-03,CGPOWER,Largecap,Industrials
+2026-02-03,SAIL,Largecap,Metals & Mining
+2026-02-03,TITAN,Largecap,Consumer Discretionary
+2026-02-03,MFSL,Largecap,Miscellaneous
+2026-02-03,ONGC,Largecap,Energy
+2026-02-03,ASHOKLEY,Largecap,Auto
+2026-02-03,BHARATFORG,Largecap,Industrials
+2026-02-03,LT,Largecap,Realty
+2026-02-03,BPCL,Largecap,Energy
+2026-02-03,NMDC,Largecap,Metals & Mining
+2026-02-03,IOC,Largecap,Energy
+2026-02-03,JINDALSTEL,Largecap,Metals & Mining
+2026-02-03,PETRONET,Largecap,Energy
+2026-02-03,NTPC,Largecap,Power & Utilities
+2026-02-03,PFC,Largecap,Financials
+2026-02-03,POWERGRID,Largecap,Power & Utilities
+2026-02-03,ADANIPORTS,Largecap,Transportation
+2026-02-03,ADANIPOWER,Largecap,Power & Utilities
+2026-02-03,OIL,Largecap,Energy
+2026-02-03,APLAPOLLO,Largecap,Industrials
+2026-02-03,TIINDIA,Largecap,Industrials
+2026-02-03,BANDHANBNK,Largecap,Bank
+2026-02-04,SBIN,Largecap,Bank
+2026-02-04,SAIL,Largecap,Metals & Mining
+2026-02-04,JSWSTEEL,Largecap,Metals & Mining
+2026-02-04,LUPIN,Largecap,Healthcare
+2026-02-04,ONGC,Largecap,Energy
+2026-02-04,FEDERALBNK,Largecap,Bank
+2026-02-04,TATASTEEL,Largecap,Metals & Mining
+2026-02-04,CUMMINSIND,Largecap,Industrials
+2026-02-04,BHARATFORG,Largecap,Industrials
+2026-02-04,BPCL,Largecap,Energy
+2026-02-04,TMPV,Largecap,Auto
+2026-02-04,IOC,Largecap,Energy
+2026-02-04,JINDALSTEL,Largecap,Metals & Mining
+2026-02-04,NTPC,Largecap,Power & Utilities
+2026-02-04,PFC,Largecap,Financials
+2026-02-04,POWERGRID,Largecap,Power & Utilities
+2026-02-04,ADANIPORTS,Largecap,Transportation
+2026-02-04,RECLTD,Largecap,Financials
+2026-02-04,ADANIPOWER,Largecap,Power & Utilities
+2026-02-04,JUBLFOOD,Largecap,Consumer Discretionary
+2026-02-04,APLAPOLLO,Largecap,Industrials
+2026-02-04,DMART,Largecap,Consumer Discretionary
+2026-02-04,BANDHANBNK,Largecap,Bank
+2026-02-04,HDFCAMC,Largecap,Financials
+2026-02-04,NYKAA,Largecap,I.T
+2026-02-05,CGPOWER,Largecap,Industrials
+2026-02-05,SAIL,Largecap,Metals & Mining
+2026-02-05,JSWSTEEL,Largecap,Metals & Mining
+2026-02-05,ONGC,Largecap,Energy
+2026-02-05,TATASTEEL,Largecap,Metals & Mining
+2026-02-05,ASHOKLEY,Largecap,Auto
+2026-02-05,CUMMINSIND,Largecap,Industrials
+2026-02-05,JINDALSTEL,Largecap,Metals & Mining
+2026-02-05,UNIONBANK,Largecap,Bank
+2026-02-05,PFC,Largecap,Financials
+2026-02-05,POWERGRID,Largecap,Power & Utilities
+2026-02-05,JUBLFOOD,Largecap,Consumer Discretionary
+2026-02-05,APLAPOLLO,Largecap,Industrials
+2026-02-05,BANDHANBNK,Largecap,Bank
+2026-02-05,POWERINDIA,Largecap,Industrials
+2026-02-05,NYKAA,Largecap,I.T
+2026-02-05,LICI,Largecap,Financials
+2026-02-08,BLUESTARCO,Largecap,Consumer Discretionary
+2026-02-08,CGPOWER,Largecap,Industrials
+2026-02-08,SBIN,Largecap,Bank
+2026-02-08,TITAN,Largecap,Consumer Discretionary
+2026-02-08,DRREDDY,Largecap,Healthcare
+2026-02-08,JSWSTEEL,Largecap,Metals & Mining
+2026-02-08,TRENT,Largecap,Consumer Discretionary
+2026-02-08,MFSL,Largecap,Miscellaneous
+2026-02-08,GRASIM,Largecap,Textiles
+2026-02-08,TATASTEEL,Largecap,Metals & Mining
+2026-02-08,ASHOKLEY,Largecap,Auto
+2026-02-08,CUMMINSIND,Largecap,Industrials
+2026-02-08,BHARATFORG,Largecap,Industrials
+2026-02-08,LT,Largecap,Realty
+2026-02-08,BPCL,Largecap,Energy
+2026-02-08,TMPV,Largecap,Auto
+2026-02-08,VOLTAS,Largecap,Consumer Discretionary
+2026-02-08,HINDUNILVR,Largecap,FMCG
+2026-02-08,SHRIRAMFIN,Largecap,Financials
+2026-02-08,CHOLAFIN,Largecap,Financials
+2026-02-08,MOTHERSON,Largecap,Auto
+2026-02-08,BANKINDIA,Largecap,Bank
+2026-02-08,INDUSINDBK,Largecap,Bank
+2026-02-08,JINDALSTEL,Largecap,Metals & Mining
+2026-02-08,UNITDSPR,Largecap,FMCG
+2026-02-08,UNIONBANK,Largecap,Bank
+2026-02-08,PETRONET,Largecap,Energy
+2026-02-08,PFC,Largecap,Financials
+2026-02-08,ADANIPORTS,Largecap,Transportation
+2026-02-08,JUBLFOOD,Largecap,Consumer Discretionary
+2026-02-08,APLAPOLLO,Largecap,Industrials
+2026-02-08,INDUSTOWER,Largecap,Telecom
+2026-02-08,ADANIENSOL,Largecap,Power & Utilities
+2026-02-08,CROMPTON,Midcap,Consumer Discretionary
+2026-02-08,BSE,Largecap,Financials
+2026-02-08,AMBER,Largecap,Consumer Discretionary
+2026-02-08,BANDHANBNK,Largecap,Bank
+2026-02-08,HDFCAMC,Largecap,Financials
+2026-02-08,LODHA,Largecap,Realty
+2026-02-08,SONACOMS,Largecap,Auto
+2026-02-08,NYKAA,Largecap,I.T
+2026-02-08,LICI,Largecap,Financials
+2026-02-08,WAAREEENER,Largecap,Industrials
+2026-02-09,BLUESTARCO,Largecap,Consumer Discretionary
+2026-02-09,SBIN,Largecap,Bank
+2026-02-09,SAIL,Largecap,Metals & Mining
+2026-02-09,TITAN,Largecap,Consumer Discretionary
+2026-02-09,MFSL,Largecap,Miscellaneous
+2026-02-09,GRASIM,Largecap,Textiles
+2026-02-09,ONGC,Largecap,Energy
+2026-02-09,TATASTEEL,Largecap,Metals & Mining
+2026-02-09,ASHOKLEY,Largecap,Auto
+2026-02-09,CUMMINSIND,Largecap,Industrials
+2026-02-09,BHARATFORG,Largecap,Industrials
+2026-02-09,LT,Largecap,Realty
+2026-02-09,TMPV,Largecap,Auto
+2026-02-09,HINDUNILVR,Largecap,FMCG
+2026-02-09,SHRIRAMFIN,Largecap,Financials
+2026-02-09,MOTHERSON,Largecap,Auto
+2026-02-09,IOC,Largecap,Energy
+2026-02-09,MARICO,Largecap,FMCG
+2026-02-09,PETRONET,Largecap,Energy
+2026-02-09,NTPC,Largecap,Power & Utilities
+2026-02-09,INDIANB,Largecap,Bank
+2026-02-09,ASTRAL,Largecap,Plastic products
+2026-02-09,POWERGRID,Largecap,Power & Utilities
+2026-02-09,JUBLFOOD,Largecap,Consumer Discretionary
+2026-02-09,PGEL,Midcap,Consumer Discretionary
+2026-02-09,APLAPOLLO,Largecap,Industrials
+2026-02-09,INDUSTOWER,Largecap,Telecom
+2026-02-09,CROMPTON,Midcap,Consumer Discretionary
+2026-02-09,BSE,Largecap,Financials
+2026-02-09,AMBER,Largecap,Consumer Discretionary
+2026-02-09,BANDHANBNK,Largecap,Bank
+2026-02-09,HDFCAMC,Largecap,Financials
+2026-02-09,ANGELONE,Largecap,Financials
+2026-02-09,LODHA,Largecap,Realty
+2026-02-09,SONACOMS,Largecap,Auto
+2026-02-09,ETERNAL,Largecap,I.T
+2026-02-09,NYKAA,Largecap,I.T
+2026-02-09,WAAREEENER,Largecap,Industrials
+2026-02-10,CGPOWER,Largecap,Industrials
+2026-02-10,DABUR,Largecap,FMCG
+2026-02-10,SBIN,Largecap,Bank
+2026-02-10,SAIL,Largecap,Metals & Mining
+2026-02-10,TRENT,Largecap,Consumer Discretionary
+2026-02-10,ONGC,Largecap,Energy
+2026-02-10,FEDERALBNK,Largecap,Bank
+2026-02-10,TATASTEEL,Largecap,Metals & Mining
+2026-02-10,BHARATFORG,Largecap,Industrials
+2026-02-10,LT,Largecap,Realty
+2026-02-10,BPCL,Largecap,Energy
+2026-02-10,TMPV,Largecap,Auto
+2026-02-10,VOLTAS,Largecap,Consumer Discretionary
+2026-02-10,HINDUNILVR,Largecap,FMCG
+2026-02-10,EICHERMOT,Largecap,Auto
+2026-02-10,APOLLOHOSP,Largecap,Healthcare
+2026-02-10,SUPREMEIND,Largecap,Plastic products
+2026-02-10,SHRIRAMFIN,Largecap,Financials
+2026-02-10,MOTHERSON,Largecap,Auto
+2026-02-10,IOC,Largecap,Energy
+2026-02-10,MARICO,Largecap,FMCG
+2026-02-10,TVSMOTOR,Largecap,Auto
+2026-02-10,UNIONBANK,Largecap,Bank
+2026-02-10,PETRONET,Largecap,Energy
+2026-02-10,NTPC,Largecap,Power & Utilities
+2026-02-10,PFC,Largecap,Financials
+2026-02-10,ASTRAL,Largecap,Plastic products
+2026-02-10,FORTIS,Largecap,Healthcare
+2026-02-10,POWERGRID,Largecap,Power & Utilities
+2026-02-10,ADANIPORTS,Largecap,Transportation
+2026-02-10,PGEL,Midcap,Consumer Discretionary
+2026-02-10,APLAPOLLO,Largecap,Industrials
+2026-02-10,INDUSTOWER,Largecap,Telecom
+2026-02-10,ADANIENSOL,Largecap,Power & Utilities
+2026-02-10,CROMPTON,Midcap,Consumer Discretionary
+2026-02-10,BSE,Largecap,Financials
+2026-02-10,ICICIGI,Largecap,Financials
+2026-02-10,NAM-INDIA,Largecap,Financials
+2026-02-10,AMBER,Largecap,Consumer Discretionary
+2026-02-10,BANDHANBNK,Largecap,Bank
+2026-02-10,HDFCAMC,Largecap,Financials
+2026-02-10,ANGELONE,Largecap,Financials
+2026-02-10,LODHA,Largecap,Realty
+2026-02-10,SONACOMS,Largecap,Auto
+2026-02-10,KAYNES,Largecap,Consumer Discretionary
+2026-02-10,WAAREEENER,Largecap,Industrials
+2026-02-11,BAJFINANCE,Largecap,Financials
+2026-02-11,BEL,Largecap,Aerospace & Defence
+2026-02-11,BLUESTARCO,Largecap,Consumer Discretionary
+2026-02-11,CGPOWER,Largecap,Industrials
+2026-02-11,SBIN,Largecap,Bank
+2026-02-11,DRREDDY,Largecap,Healthcare
+2026-02-11,TRENT,Largecap,Consumer Discretionary
+2026-02-11,MFSL,Largecap,Miscellaneous
+2026-02-11,ONGC,Largecap,Energy
+2026-02-11,TATAPOWER,Largecap,Power & Utilities
+2026-02-11,ASHOKLEY,Largecap,Auto
+2026-02-11,BHARATFORG,Largecap,Industrials
+2026-02-11,LT,Largecap,Realty
+2026-02-11,VOLTAS,Largecap,Consumer Discretionary
+2026-02-11,INDHOTEL,Largecap,Services
+2026-02-11,EICHERMOT,Largecap,Auto
+2026-02-11,SHRIRAMFIN,Largecap,Financials
+2026-02-11,MARICO,Largecap,FMCG
+2026-02-11,ICICIBANK,Largecap,Bank
+2026-02-11,JINDALSTEL,Largecap,Metals & Mining
+2026-02-11,UNIONBANK,Largecap,Bank
+2026-02-11,NTPC,Largecap,Power & Utilities
+2026-02-11,ASTRAL,Largecap,Plastic products
+2026-02-11,FORTIS,Largecap,Healthcare
+2026-02-11,MUTHOOTFIN,Largecap,Financials
+2026-02-11,PGEL,Midcap,Consumer Discretionary
+2026-02-11,APLAPOLLO,Largecap,Industrials
+2026-02-11,INDUSTOWER,Largecap,Telecom
+2026-02-11,RBLBANK,Largecap,Bank
+2026-02-11,NAM-INDIA,Largecap,Financials
+2026-02-11,AMBER,Largecap,Consumer Discretionary
+2026-02-11,BANDHANBNK,Largecap,Bank
+2026-02-11,ADANIGREEN,Largecap,Power & Utilities
+2026-02-11,HDFCAMC,Largecap,Financials
+2026-02-11,MAXHEALTH,Largecap,Healthcare
+2026-02-11,LICI,Largecap,Financials
+2026-02-12,BAJFINANCE,Largecap,Financials
+2026-02-12,BLUESTARCO,Largecap,Consumer Discretionary
+2026-02-12,SBIN,Largecap,Bank
+2026-02-12,MFSL,Largecap,Miscellaneous
+2026-02-12,CUMMINSIND,Largecap,Industrials
+2026-02-12,BHARATFORG,Largecap,Industrials
+2026-02-12,VOLTAS,Largecap,Consumer Discretionary
+2026-02-12,EICHERMOT,Largecap,Auto
+2026-02-12,HAVELLS,Largecap,Consumer Discretionary
+2026-02-12,CROMPTON,Midcap,Consumer Discretionary
+2026-02-15,CGPOWER,Largecap,Industrials
+2026-02-15,SBIN,Largecap,Bank
+2026-02-15,SAIL,Largecap,Metals & Mining
+2026-02-15,JSWSTEEL,Largecap,Metals & Mining
+2026-02-15,LUPIN,Largecap,Healthcare
+2026-02-15,MFSL,Largecap,Miscellaneous
+2026-02-15,ONGC,Largecap,Energy
+2026-02-15,TORNTPHARM,Largecap,Healthcare
+2026-02-15,FEDERALBNK,Largecap,Bank
+2026-02-15,TATASTEEL,Largecap,Metals & Mining
+2026-02-15,LT,Largecap,Realty
+2026-02-15,SHRIRAMFIN,Largecap,Financials
+2026-02-15,MARICO,Largecap,FMCG
+2026-02-15,INDUSINDBK,Largecap,Bank
+2026-02-15,JINDALSTEL,Largecap,Metals & Mining
+2026-02-15,UNIONBANK,Largecap,Bank
+2026-02-15,NTPC,Largecap,Power & Utilities
+2026-02-15,PFC,Largecap,Financials
+2026-02-15,ASTRAL,Largecap,Plastic products
+2026-02-15,POWERGRID,Largecap,Power & Utilities
+2026-02-15,PGEL,Midcap,Consumer Discretionary
+2026-02-15,INDUSTOWER,Largecap,Telecom
+2026-02-15,CROMPTON,Midcap,Consumer Discretionary
+2026-02-15,BANDHANBNK,Largecap,Bank
+2026-02-15,MAXHEALTH,Largecap,Healthcare
+2026-02-16,BEL,Largecap,Aerospace & Defence
+2026-02-16,CGPOWER,Largecap,Industrials
+2026-02-16,SBIN,Largecap,Bank
+2026-02-16,DRREDDY,Largecap,Healthcare
+2026-02-16,JSWSTEEL,Largecap,Metals & Mining
+2026-02-16,LUPIN,Largecap,Healthcare
+2026-02-16,MFSL,Largecap,Miscellaneous
+2026-02-16,ONGC,Largecap,Energy
+2026-02-16,FEDERALBNK,Largecap,Bank
+2026-02-16,ASHOKLEY,Largecap,Auto
+2026-02-16,LT,Largecap,Realty
+2026-02-16,TMPV,Largecap,Auto
+2026-02-16,APOLLOHOSP,Largecap,Healthcare
+2026-02-16,SHRIRAMFIN,Largecap,Financials
+2026-02-16,MOTHERSON,Largecap,Auto
+2026-02-16,IOC,Largecap,Energy
+2026-02-16,MARICO,Largecap,FMCG
+2026-02-16,BANKINDIA,Largecap,Bank
+2026-02-16,INDUSINDBK,Largecap,Bank
+2026-02-16,JINDALSTEL,Largecap,Metals & Mining
+2026-02-16,UNITDSPR,Largecap,FMCG
+2026-02-16,UNIONBANK,Largecap,Bank
+2026-02-16,NTPC,Largecap,Power & Utilities
+2026-02-16,PFC,Largecap,Financials
+2026-02-16,INDIANB,Largecap,Bank
+2026-02-16,POWERGRID,Largecap,Power & Utilities
+2026-02-16,ADANIPORTS,Largecap,Transportation
+2026-02-16,PGEL,Midcap,Consumer Discretionary
+2026-02-16,INDUSTOWER,Largecap,Telecom
+2026-02-16,RBLBANK,Largecap,Bank
+2026-02-16,BANDHANBNK,Largecap,Bank
+2026-02-16,ADANIGREEN,Largecap,Power & Utilities
+2026-02-16,MAXHEALTH,Largecap,Healthcare
+2026-02-16,SONACOMS,Largecap,Auto
+2026-02-17,BAJFINANCE,Largecap,Financials
+2026-02-17,BEL,Largecap,Aerospace & Defence
+2026-02-17,CGPOWER,Largecap,Industrials
+2026-02-17,SBIN,Largecap,Bank
+2026-02-17,DRREDDY,Largecap,Healthcare
+2026-02-17,GODFRYPHLP,Largecap,FMCG
+2026-02-17,JSWSTEEL,Largecap,Metals & Mining
+2026-02-17,FEDERALBNK,Largecap,Bank
+2026-02-17,TATASTEEL,Largecap,Metals & Mining
+2026-02-17,ASHOKLEY,Largecap,Auto
+2026-02-17,CUMMINSIND,Largecap,Industrials
+2026-02-17,BHARATFORG,Largecap,Industrials
+2026-02-17,LT,Largecap,Realty
+2026-02-17,TMPV,Largecap,Auto
+2026-02-17,VOLTAS,Largecap,Consumer Discretionary
+2026-02-17,SHRIRAMFIN,Largecap,Financials
+2026-02-17,MOTHERSON,Largecap,Auto
+2026-02-17,IOC,Largecap,Energy
+2026-02-17,MARICO,Largecap,FMCG
+2026-02-17,BANKBARODA,Largecap,Bank
+2026-02-17,BANKINDIA,Largecap,Bank
+2026-02-17,INDUSINDBK,Largecap,Bank
+2026-02-17,AXISBANK,Largecap,Bank
+2026-02-17,JINDALSTEL,Largecap,Metals & Mining
+2026-02-17,PNB,Largecap,Bank
+2026-02-17,UNIONBANK,Largecap,Bank
+2026-02-17,PETRONET,Largecap,Energy
+2026-02-17,NTPC,Largecap,Power & Utilities
+2026-02-17,PFC,Largecap,Financials
+2026-02-17,INDIANB,Largecap,Bank
+2026-02-17,POWERGRID,Largecap,Power & Utilities
+2026-02-17,BAJAJFINSV,Largecap,Financials
+2026-02-17,PGEL,Midcap,Consumer Discretionary
+2026-02-17,INDUSTOWER,Largecap,Telecom
+2026-02-17,CROMPTON,Midcap,Consumer Discretionary
+2026-02-17,RBLBANK,Largecap,Bank
+2026-02-17,AUBANK,Largecap,Bank
+2026-02-17,ICICIGI,Largecap,Financials
+2026-02-17,NAM-INDIA,Largecap,Financials
+2026-02-17,BANDHANBNK,Largecap,Bank
+2026-02-17,MAXHEALTH,Largecap,Healthcare
+2026-02-17,LODHA,Largecap,Realty
+2026-02-17,SONACOMS,Largecap,Auto
+2026-02-18,GODFRYPHLP,Largecap,FMCG
+2026-02-18,ONGC,Largecap,Energy
+2026-02-18,RBLBANK,Largecap,Bank
+2026-02-19,ABB,Largecap,Industrials
+2026-02-19,BAJFINANCE,Largecap,Financials
+2026-02-19,CGPOWER,Largecap,Industrials
+2026-02-19,SBIN,Largecap,Bank
+2026-02-19,MFSL,Largecap,Miscellaneous
+2026-02-19,ONGC,Largecap,Energy
+2026-02-19,FEDERALBNK,Largecap,Bank
+2026-02-19,ASHOKLEY,Largecap,Auto
+2026-02-19,CUMMINSIND,Largecap,Industrials
+2026-02-19,LT,Largecap,Realty
+2026-02-19,VOLTAS,Largecap,Consumer Discretionary
+2026-02-19,BANKBARODA,Largecap,Bank
+2026-02-19,BANKINDIA,Largecap,Bank
+2026-02-19,PNB,Largecap,Bank
+2026-02-19,UNIONBANK,Largecap,Bank
+2026-02-19,PETRONET,Largecap,Energy
+2026-02-19,NTPC,Largecap,Power & Utilities
+2026-02-19,INDIANB,Largecap,Bank
+2026-02-19,ASTRAL,Largecap,Plastic products
+2026-02-19,FORTIS,Largecap,Healthcare
+2026-02-19,POWERGRID,Largecap,Power & Utilities
+2026-02-19,SAMMAANCAP,Midcap,Financials
+2026-02-19,AUBANK,Largecap,Bank
+2026-02-19,MAXHEALTH,Largecap,Healthcare
+2026-02-22,BAJFINANCE,Largecap,Financials
+2026-02-22,CGPOWER,Largecap,Industrials
+2026-02-22,SBIN,Largecap,Bank
+2026-02-22,TITAN,Largecap,Consumer Discretionary
+2026-02-22,DRREDDY,Largecap,Healthcare
+2026-02-22,LUPIN,Largecap,Healthcare
+2026-02-22,MFSL,Largecap,Miscellaneous
+2026-02-22,FEDERALBNK,Largecap,Bank
+2026-02-22,TATASTEEL,Largecap,Metals & Mining
+2026-02-22,ASHOKLEY,Largecap,Auto
+2026-02-22,CUMMINSIND,Largecap,Industrials
+2026-02-22,BHARATFORG,Largecap,Industrials
+2026-02-22,LT,Largecap,Realty
+2026-02-22,SIEMENS,Largecap,Industrials
+2026-02-22,VOLTAS,Largecap,Consumer Discretionary
+2026-02-22,SUNPHARMA,Largecap,Healthcare
+2026-02-22,MARICO,Largecap,FMCG
+2026-02-22,BANKBARODA,Largecap,Bank
+2026-02-22,BANKINDIA,Largecap,Bank
+2026-02-22,AXISBANK,Largecap,Bank
+2026-02-22,PNB,Largecap,Bank
+2026-02-22,UNIONBANK,Largecap,Bank
+2026-02-22,CANBK,Largecap,Bank
+2026-02-22,PETRONET,Largecap,Energy
+2026-02-22,BIOCON,Largecap,Healthcare
+2026-02-22,NTPC,Largecap,Power & Utilities
+2026-02-22,INDIANB,Largecap,Bank
+2026-02-22,POWERGRID,Largecap,Power & Utilities
+2026-02-22,SAMMAANCAP,Midcap,Financials
+2026-02-22,SBILIFE,Largecap,Financials
+2026-02-22,ICICIGI,Largecap,Financials
+2026-02-22,NAM-INDIA,Largecap,Financials
+2026-02-22,HDFCLIFE,Largecap,Financials
+2026-02-22,BANDHANBNK,Largecap,Bank
+2026-02-22,SONACOMS,Largecap,Auto
+2026-02-23,ABB,Largecap,Industrials
+2026-02-23,CGPOWER,Largecap,Industrials
+2026-02-23,JSWSTEEL,Largecap,Metals & Mining
+2026-02-23,LUPIN,Largecap,Healthcare
+2026-02-23,TORNTPHARM,Largecap,Healthcare
+2026-02-23,FEDERALBNK,Largecap,Bank
+2026-02-23,TATASTEEL,Largecap,Metals & Mining
+2026-02-23,CUMMINSIND,Largecap,Industrials
+2026-02-23,BHARATFORG,Largecap,Industrials
+2026-02-23,SIEMENS,Largecap,Industrials
+2026-02-23,MOTHERSON,Largecap,Auto
+2026-02-23,IOC,Largecap,Energy
+2026-02-23,MARICO,Largecap,FMCG
+2026-02-23,BANKINDIA,Largecap,Bank
+2026-02-23,JINDALSTEL,Largecap,Metals & Mining
+2026-02-23,GODREJCP,Largecap,FMCG
+2026-02-23,UNIONBANK,Largecap,Bank
+2026-02-23,CANBK,Largecap,Bank
+2026-02-23,PETRONET,Largecap,Energy
+2026-02-23,BIOCON,Largecap,Healthcare
+2026-02-23,NTPC,Largecap,Power & Utilities
+2026-02-23,PFC,Largecap,Financials
+2026-02-23,INDIANB,Largecap,Bank
+2026-02-23,ASTRAL,Largecap,Plastic products
+2026-02-23,POWERGRID,Largecap,Power & Utilities
+2026-02-23,NAM-INDIA,Largecap,Financials
+2026-02-23,BANDHANBNK,Largecap,Bank
+2026-02-23,POLYCAB,Largecap,Industrials
+2026-02-24,SAIL,Largecap,Metals & Mining
+2026-02-24,TITAN,Largecap,Consumer Discretionary
+2026-02-24,JSWSTEEL,Largecap,Metals & Mining
+2026-02-24,LICHSGFIN,Largecap,Financials
+2026-02-24,LUPIN,Largecap,Healthcare
+2026-02-24,VEDL,Largecap,Metals & Mining
+2026-02-24,ONGC,Largecap,Energy
+2026-02-24,FEDERALBNK,Largecap,Bank
+2026-02-24,TATASTEEL,Largecap,Metals & Mining
+2026-02-24,ASHOKLEY,Largecap,Auto
+2026-02-24,CUMMINSIND,Largecap,Industrials
+2026-02-24,BHARATFORG,Largecap,Industrials
+2026-02-24,COLPAL,Largecap,FMCG
+2026-02-24,EICHERMOT,Largecap,Auto
+2026-02-24,SHRIRAMFIN,Largecap,Financials
+2026-02-24,MOTHERSON,Largecap,Auto
+2026-02-24,SUNPHARMA,Largecap,Healthcare
+2026-02-24,IOC,Largecap,Energy
+2026-02-24,BANKBARODA,Largecap,Bank
+2026-02-24,AXISBANK,Largecap,Bank
+2026-02-24,JINDALSTEL,Largecap,Metals & Mining
+2026-02-24,TVSMOTOR,Largecap,Auto
+2026-02-24,GODREJCP,Largecap,FMCG
+2026-02-24,CANBK,Largecap,Bank
+2026-02-24,PETRONET,Largecap,Energy
+2026-02-24,BIOCON,Largecap,Healthcare
+2026-02-24,NTPC,Largecap,Power & Utilities
+2026-02-24,GMRAIRPORT,Largecap,Miscellaneous
+2026-02-24,PFC,Largecap,Financials
+2026-02-24,ASTRAL,Largecap,Plastic products
+2026-02-24,FORTIS,Largecap,Healthcare
+2026-02-24,POWERGRID,Largecap,Power & Utilities
+2026-02-24,PGEL,Midcap,Consumer Discretionary
+2026-02-24,APLAPOLLO,Largecap,Industrials
+2026-02-24,SAMMAANCAP,Midcap,Financials
+2026-02-24,RBLBANK,Largecap,Bank
+2026-02-24,ICICIPRULI,Largecap,Financials
+2026-02-24,LAURUSLABS,Largecap,Healthcare
+2026-02-24,BANDHANBNK,Largecap,Bank
+2026-02-24,POLYCAB,Largecap,Industrials
+2026-02-24,MAXHEALTH,Largecap,Healthcare
+2026-02-24,SONACOMS,Largecap,Auto
+2026-02-25,CGPOWER,Largecap,Industrials
+2026-02-25,SAIL,Largecap,Metals & Mining
+2026-02-25,TITAN,Largecap,Consumer Discretionary
+2026-02-25,DRREDDY,Largecap,Healthcare
+2026-02-25,JSWSTEEL,Largecap,Metals & Mining
+2026-02-25,LICHSGFIN,Largecap,Financials
+2026-02-25,LUPIN,Largecap,Healthcare
+2026-02-25,MFSL,Largecap,Miscellaneous
+2026-02-25,VEDL,Largecap,Metals & Mining
+2026-02-25,ONGC,Largecap,Energy
+2026-02-25,PIDILITIND,Largecap,Chemicals
+2026-02-25,FEDERALBNK,Largecap,Bank
+2026-02-25,TATASTEEL,Largecap,Metals & Mining
+2026-02-25,BHARATFORG,Largecap,Industrials
+2026-02-25,BPCL,Largecap,Energy
+2026-02-25,TMPV,Largecap,Auto
+2026-02-25,SHRIRAMFIN,Largecap,Financials
+2026-02-25,MOTHERSON,Largecap,Auto
+2026-02-25,SUNPHARMA,Largecap,Healthcare
+2026-02-25,IOC,Largecap,Energy
+2026-02-25,BANKBARODA,Largecap,Bank
+2026-02-25,BANKINDIA,Largecap,Bank
+2026-02-25,INDUSINDBK,Largecap,Bank
+2026-02-25,JINDALSTEL,Largecap,Metals & Mining
+2026-02-25,GLENMARK,Largecap,Healthcare
+2026-02-25,ZYDUSLIFE,Largecap,Healthcare
+2026-02-25,TVSMOTOR,Largecap,Auto
+2026-02-25,UNIONBANK,Largecap,Bank
+2026-02-25,CANBK,Largecap,Bank
+2026-02-25,PETRONET,Largecap,Energy
+2026-02-25,BIOCON,Largecap,Healthcare
+2026-02-25,INDIANB,Largecap,Bank
+2026-02-25,ASTRAL,Largecap,Plastic products
+2026-02-25,FORTIS,Largecap,Healthcare
+2026-02-25,PGEL,Midcap,Consumer Discretionary
+2026-02-25,ICICIPRULI,Largecap,Financials
+2026-02-25,LAURUSLABS,Largecap,Healthcare
+2026-02-25,TIINDIA,Largecap,Industrials
+2026-02-25,BANDHANBNK,Largecap,Bank
+2026-02-25,POLYCAB,Largecap,Industrials
+2026-02-25,MAXHEALTH,Largecap,Healthcare
+2026-02-25,SONACOMS,Largecap,Auto
+2026-02-25,DELHIVERY,Largecap,Transportation
+2026-02-25,MANKIND,Largecap,Healthcare
+2026-02-26,CGPOWER,Largecap,Industrials
+2026-02-26,SAIL,Largecap,Metals & Mining
+2026-02-26,ONGC,Largecap,Energy
+2026-02-26,BHARATFORG,Largecap,Industrials
+2026-02-26,SIEMENS,Largecap,Industrials
+2026-02-26,VOLTAS,Largecap,Consumer Discretionary
+2026-02-26,APOLLOHOSP,Largecap,Healthcare
+2026-02-26,IOC,Largecap,Energy
+2026-02-26,BANKBARODA,Largecap,Bank
+2026-02-26,INDUSINDBK,Largecap,Bank
+2026-02-26,GLENMARK,Largecap,Healthcare
+2026-02-26,UNIONBANK,Largecap,Bank
+2026-02-26,PETRONET,Largecap,Energy
+2026-02-26,INDIANB,Largecap,Bank
+2026-02-26,PGEL,Midcap,Consumer Discretionary
+2026-02-26,APLAPOLLO,Largecap,Industrials
+2026-02-26,TIINDIA,Largecap,Industrials
+2026-02-26,POLYCAB,Largecap,Industrials
+2026-02-26,MANKIND,Largecap,Healthcare
+2026-03-01,BEL,Largecap,Aerospace & Defence
+2026-03-01,ONGC,Largecap,Energy
+2026-03-01,KEI,Largecap,Industrials
+2026-03-01,TIINDIA,Largecap,Industrials
+2026-03-03,LUPIN,Largecap,Healthcare
+2026-03-03,SOLARINDS,Largecap,Aerospace & Defence
+2026-03-03,TIINDIA,Largecap,Industrials
+2026-03-04,BEL,Largecap,Aerospace & Defence
+2026-03-04,DRREDDY,Largecap,Healthcare
+2026-03-04,LUPIN,Largecap,Healthcare
+2026-03-04,BHARATFORG,Largecap,Industrials
+2026-03-04,SUNPHARMA,Largecap,Healthcare
+2026-03-04,NATIONALUM,Largecap,Metals & Mining
+2026-03-04,COALINDIA,Largecap,Metals & Mining
+2026-03-04,MCX,Largecap,Financials
+2026-03-04,BANDHANBNK,Largecap,Bank
+2026-03-04,POLYCAB,Largecap,Industrials
+2026-03-05,BEL,Largecap,Aerospace & Defence
+2026-03-05,LUPIN,Largecap,Healthcare
+2026-03-05,BHARATFORG,Largecap,Industrials
+2026-03-05,SUNPHARMA,Largecap,Healthcare
+2026-03-05,NATIONALUM,Largecap,Metals & Mining
+2026-03-05,NTPC,Largecap,Power & Utilities
+2026-03-05,ASTRAL,Largecap,Plastic products
+2026-03-05,BANDHANBNK,Largecap,Bank
+2026-03-08,SUNPHARMA,Largecap,Healthcare
+2026-03-08,AUROPHARMA,Largecap,Healthcare
+2026-03-08,MCX,Largecap,Financials
+2026-03-09,BEL,Largecap,Aerospace & Defence
+2026-03-09,CGPOWER,Largecap,Industrials
+2026-03-09,LUPIN,Largecap,Healthcare
+2026-03-09,SUNPHARMA,Largecap,Healthcare
+2026-03-09,AUROPHARMA,Largecap,Healthcare
+2026-03-09,GLENMARK,Largecap,Healthcare
+2026-03-09,BIOCON,Largecap,Healthcare
+2026-03-09,MCX,Largecap,Financials
+2026-03-09,BANDHANBNK,Largecap,Bank
+2026-03-10,ABB,Largecap,Industrials
+2026-03-10,CGPOWER,Largecap,Industrials
+2026-03-10,DRREDDY,Largecap,Healthcare
+2026-03-10,LUPIN,Largecap,Healthcare
+2026-03-10,SUPREMEIND,Largecap,Plastic products
+2026-03-10,SUNPHARMA,Largecap,Healthcare
+2026-03-10,AUROPHARMA,Largecap,Healthcare
+2026-03-10,NATIONALUM,Largecap,Metals & Mining
+2026-03-10,GLENMARK,Largecap,Healthcare
+2026-03-10,ASTRAL,Largecap,Plastic products
+2026-03-10,BANDHANBNK,Largecap,Bank
+2026-03-11,ABB,Largecap,Industrials
+2026-03-11,CGPOWER,Largecap,Industrials
+2026-03-11,TATAPOWER,Largecap,Power & Utilities
+2026-03-11,AUROPHARMA,Largecap,Healthcare
+2026-03-11,NATIONALUM,Largecap,Metals & Mining
+2026-03-11,NTPC,Largecap,Power & Utilities
+2026-03-11,POWERGRID,Largecap,Power & Utilities
+2026-03-11,ADANIPOWER,Largecap,Power & Utilities
+2026-03-11,JSWENERGY,Largecap,Power & Utilities
+2026-03-11,COALINDIA,Largecap,Metals & Mining
+2026-03-12,ABB,Largecap,Industrials
+2026-03-12,JSWENERGY,Largecap,Power & Utilities
+2026-03-12,COALINDIA,Largecap,Metals & Mining
+2026-03-15,ADANIPOWER,Largecap,Power & Utilities
+2026-03-16,TATAPOWER,Largecap,Power & Utilities
+2026-03-16,ADANIPOWER,Largecap,Power & Utilities
+2026-03-16,MCX,Largecap,Financials
+2026-03-16,BSE,Largecap,Financials
+2026-03-16,PREMIERENE,Largecap,Services
+2026-03-17,TATAPOWER,Largecap,Power & Utilities
+2026-03-17,PFC,Largecap,Financials
+2026-03-17,BSE,Largecap,Financials
+2026-03-17,PREMIERENE,Largecap,Services
+2026-03-17,WAAREEENER,Largecap,Industrials
+2026-03-18,PREMIERENE,Largecap,Services
+2026-03-18,WAAREEENER,Largecap,Industrials
+2026-03-19,TATAPOWER,Largecap,Power & Utilities
+2026-03-19,AUROPHARMA,Largecap,Healthcare
+2026-03-19,COALINDIA,Largecap,Metals & Mining
+2026-03-19,PREMIERENE,Largecap,Services
+2026-03-23,PREMIERENE,Largecap,Services
+2026-03-23,WAAREEENER,Largecap,Industrials
+2026-03-24,AUROPHARMA,Largecap,Healthcare
+2026-03-24,ADANIPOWER,Largecap,Power & Utilities
+2026-03-24,PREMIERENE,Largecap,Services
+2026-03-24,WAAREEENER,Largecap,Industrials
+2026-03-26,ONGC,Largecap,Energy
+2026-03-26,AUROPHARMA,Largecap,Healthcare
+2026-03-29,ONGC,Largecap,Energy
+2026-03-31,ONGC,Largecap,Energy
+2026-03-31,AUROPHARMA,Largecap,Healthcare
+2026-03-31,ADANIPOWER,Largecap,Power & Utilities
+2026-03-31,DMART,Largecap,Consumer Discretionary
+2026-03-31,PREMIERENE,Largecap,Services
+2026-04-01,NATIONALUM,Largecap,Metals & Mining
+2026-04-01,ADANIPOWER,Largecap,Power & Utilities
+2026-04-01,PERSISTENT,Largecap,I.T
+2026-04-01,DMART,Largecap,Consumer Discretionary
+2026-04-05,AUROPHARMA,Largecap,Healthcare
+2026-04-05,NATIONALUM,Largecap,Metals & Mining
+2026-04-05,ADANIPOWER,Largecap,Power & Utilities
+2026-04-05,PERSISTENT,Largecap,I.T
+2026-04-05,DMART,Largecap,Consumer Discretionary
+2026-04-05,KALYANKJIL,Largecap,Consumer Discretionary
+2026-04-05,PREMIERENE,Largecap,Services
+2026-04-06,ONGC,Largecap,Energy
+2026-04-06,NATIONALUM,Largecap,Metals & Mining
+2026-04-06,TECHM,Largecap,I.T
+2026-04-06,PERSISTENT,Largecap,I.T
+2026-04-06,PREMIERENE,Largecap,Services
+2026-04-07,ABB,Largecap,Industrials
+2026-04-07,SAIL,Largecap,Metals & Mining
+2026-04-07,TITAN,Largecap,Consumer Discretionary
+2026-04-07,VEDL,Largecap,Metals & Mining
+2026-04-07,ONGC,Largecap,Energy
+2026-04-07,LT,Largecap,Realty
+2026-04-07,PHOENIXLTD,Largecap,Realty
+2026-04-07,MPHASIS,Largecap,I.T
+2026-04-07,AXISBANK,Largecap,Bank
+2026-04-07,HCLTECH,Largecap,I.T
+2026-04-07,ADANIPOWER,Largecap,Power & Utilities
+2026-04-07,PERSISTENT,Largecap,I.T
+2026-04-07,OBEROIRLTY,Largecap,Realty
+2026-04-07,ADANIENSOL,Largecap,Power & Utilities
+2026-04-07,PNBHOUSING,Largecap,Financials
+2026-04-07,LAURUSLABS,Largecap,Healthcare
+2026-04-07,BSE,Largecap,Financials
+2026-04-07,ADANIGREEN,Largecap,Power & Utilities
+2026-04-07,CAMS,Midcap,Financials
+2026-04-07,ANGELONE,Largecap,Financials
+2026-04-07,KALYANKJIL,Largecap,Consumer Discretionary
+2026-04-07,DELHIVERY,Largecap,Transportation
+2026-04-07,NUVAMA,Largecap,Financials
+2026-04-07,PREMIERENE,Largecap,Services
+2026-04-07,WAAREEENER,Largecap,Industrials
+2026-04-08,ABB,Largecap,Industrials
+2026-04-08,BHEL,Largecap,Industrials
+2026-04-08,TITAN,Largecap,Consumer Discretionary
+2026-04-08,VEDL,Largecap,Metals & Mining
+2026-04-08,ONGC,Largecap,Energy
+2026-04-08,HINDALCO,Largecap,Metals & Mining
+2026-04-08,CUMMINSIND,Largecap,Industrials
+2026-04-08,PHOENIXLTD,Largecap,Realty
+2026-04-08,MPHASIS,Largecap,I.T
+2026-04-08,NMDC,Largecap,Metals & Mining
+2026-04-08,NATIONALUM,Largecap,Metals & Mining
+2026-04-08,HCLTECH,Largecap,I.T
+2026-04-08,MOTILALOFS,Largecap,Financials
+2026-04-08,ADANIPOWER,Largecap,Power & Utilities
+2026-04-08,PERSISTENT,Largecap,I.T
+2026-04-08,OBEROIRLTY,Largecap,Realty
+2026-04-08,MCX,Largecap,Financials
+2026-04-08,SAMMAANCAP,Midcap,Financials
+2026-04-08,ADANIENSOL,Largecap,Power & Utilities
+2026-04-08,BSE,Largecap,Financials
+2026-04-08,IEX,Midcap,Financials
+2026-04-08,ADANIGREEN,Largecap,Power & Utilities
+2026-04-08,ANGELONE,Largecap,Financials
+2026-04-08,KALYANKJIL,Largecap,Consumer Discretionary
+2026-04-08,DELHIVERY,Largecap,Transportation
+2026-04-08,WAAREEENER,Largecap,Industrials
+2026-04-09,ABB,Largecap,Industrials
+2026-04-09,CGPOWER,Largecap,Industrials
+2026-04-09,BHEL,Largecap,Industrials
+2026-04-09,TITAN,Largecap,Consumer Discretionary
+2026-04-09,VEDL,Largecap,Metals & Mining
+2026-04-09,HINDALCO,Largecap,Metals & Mining
+2026-04-09,FEDERALBNK,Largecap,Bank
+2026-04-09,CUMMINSIND,Largecap,Industrials
+2026-04-09,SIEMENS,Largecap,Industrials
+2026-04-09,PHOENIXLTD,Largecap,Realty
+2026-04-09,AUROPHARMA,Largecap,Healthcare
+2026-04-09,NMDC,Largecap,Metals & Mining
+2026-04-09,AXISBANK,Largecap,Bank
+2026-04-09,NATIONALUM,Largecap,Metals & Mining
+2026-04-09,TVSMOTOR,Largecap,Auto
+2026-04-09,PFC,Largecap,Financials
+2026-04-09,MOTILALOFS,Largecap,Financials
+2026-04-09,BAJAJ-AUTO,Largecap,Auto
+2026-04-09,ADANIPOWER,Largecap,Power & Utilities
+2026-04-09,PERSISTENT,Largecap,I.T
+2026-04-09,OBEROIRLTY,Largecap,Realty
+2026-04-09,MCX,Largecap,Financials
+2026-04-09,SAMMAANCAP,Midcap,Financials
+2026-04-09,ADANIENSOL,Largecap,Power & Utilities
+2026-04-09,LAURUSLABS,Largecap,Healthcare
+2026-04-09,BSE,Largecap,Financials
+2026-04-09,AUBANK,Largecap,Bank
+2026-04-09,IEX,Midcap,Financials
+2026-04-09,NAM-INDIA,Largecap,Financials
+2026-04-09,HAL,Largecap,Aerospace & Defence
+2026-04-09,ADANIGREEN,Largecap,Power & Utilities
+2026-04-09,CAMS,Midcap,Financials
+2026-04-09,ANGELONE,Largecap,Financials
+2026-04-09,KALYANKJIL,Largecap,Consumer Discretionary
+2026-04-09,SONACOMS,Largecap,Auto
+2026-04-09,DELHIVERY,Largecap,Transportation
+2026-04-09,PREMIERENE,Largecap,Services
+2026-04-09,WAAREEENER,Largecap,Industrials
+2026-04-12,BHEL,Largecap,Industrials
+2026-04-12,SAIL,Largecap,Metals & Mining
+2026-04-12,VEDL,Largecap,Metals & Mining
+2026-04-12,TATAPOWER,Largecap,Power & Utilities
+2026-04-12,ADANIENT,Largecap,Services
+2026-04-12,NMDC,Largecap,Metals & Mining
+2026-04-12,ICICIBANK,Largecap,Bank
+2026-04-12,AXISBANK,Largecap,Bank
+2026-04-12,NATIONALUM,Largecap,Metals & Mining
+2026-04-12,NTPC,Largecap,Power & Utilities
+2026-04-12,ADANIPOWER,Largecap,Power & Utilities
+2026-04-12,MCX,Largecap,Financials
+2026-04-12,ADANIENSOL,Largecap,Power & Utilities
+2026-04-12,BSE,Largecap,Financials
+2026-04-12,DMART,Largecap,Consumer Discretionary
+2026-04-12,ADANIGREEN,Largecap,Power & Utilities
+2026-04-12,SONACOMS,Largecap,Auto
+2026-04-12,PREMIERENE,Largecap,Services
+2026-04-12,WAAREEENER,Largecap,Industrials
+2026-04-14,EXIDEIND,Largecap,Auto
+2026-04-14,CGPOWER,Largecap,Industrials
+2026-04-14,BHEL,Largecap,Industrials
+2026-04-14,TITAN,Largecap,Consumer Discretionary
+2026-04-14,TRENT,Largecap,Consumer Discretionary
+2026-04-14,VEDL,Largecap,Metals & Mining
+2026-04-14,ONGC,Largecap,Energy
+2026-04-14,TATAPOWER,Largecap,Power & Utilities
+2026-04-14,HINDALCO,Largecap,Metals & Mining
+2026-04-14,TATASTEEL,Largecap,Metals & Mining
+2026-04-14,LT,Largecap,Realty
+2026-04-14,SIEMENS,Largecap,Industrials
+2026-04-14,TMPV,Largecap,Auto
+2026-04-14,ASIANPAINT,Largecap,Building Materials
+2026-04-14,WIPRO,Largecap,I.T
+2026-04-14,ADANIENT,Largecap,Services
+2026-04-14,AUROPHARMA,Largecap,Healthcare
+2026-04-14,MPHASIS,Largecap,I.T
+2026-04-14,NMDC,Largecap,Metals & Mining
+2026-04-14,CONCOR,Largecap,Transportation
+2026-04-14,ICICIBANK,Largecap,Bank
+2026-04-14,AXISBANK,Largecap,Bank
+2026-04-14,NATIONALUM,Largecap,Metals & Mining
+2026-04-14,GLENMARK,Largecap,Healthcare
+2026-04-14,ZYDUSLIFE,Largecap,Healthcare
+2026-04-14,NTPC,Largecap,Power & Utilities
+2026-04-14,GMRAIRPORT,Largecap,Miscellaneous
+2026-04-14,TECHM,Largecap,I.T
+2026-04-14,PFC,Largecap,Financials
+2026-04-14,MOTILALOFS,Largecap,Financials
+2026-04-14,POWERGRID,Largecap,Power & Utilities
+2026-04-14,ADANIPORTS,Largecap,Transportation
+2026-04-14,BAJAJ-AUTO,Largecap,Auto
+2026-04-14,ADANIPOWER,Largecap,Power & Utilities
+2026-04-14,NHPC,Largecap,Power & Utilities
+2026-04-14,JSWENERGY,Largecap,Power & Utilities
+2026-04-14,GODREJPROP,Largecap,Realty
+2026-04-14,PERSISTENT,Largecap,I.T
+2026-04-14,OBEROIRLTY,Largecap,Realty
+2026-04-14,MCX,Largecap,Financials
+2026-04-14,SAMMAANCAP,Midcap,Financials
+2026-04-14,INOXWIND,Midcap,Industrials
+2026-04-14,ADANIENSOL,Largecap,Power & Utilities
+2026-04-14,VBL,Largecap,FMCG
+2026-04-14,LAURUSLABS,Largecap,Healthcare
+2026-04-14,BSE,Largecap,Financials
+2026-04-14,DMART,Largecap,Consumer Discretionary
+2026-04-14,CDSL,Largecap,Financials
+2026-04-14,ICICIGI,Largecap,Financials
+2026-04-14,IEX,Midcap,Financials
+2026-04-14,HAL,Largecap,Aerospace & Defence
+2026-04-14,ADANIGREEN,Largecap,Power & Utilities
+2026-04-14,HDFCAMC,Largecap,Financials
+2026-04-14,CAMS,Midcap,Financials
+2026-04-14,ANGELONE,Largecap,Financials
+2026-04-14,MAZDOCK,Largecap,Aerospace & Defence
+2026-04-14,KALYANKJIL,Largecap,Consumer Discretionary
+2026-04-14,SONACOMS,Largecap,Auto
+2026-04-14,LICI,Largecap,Financials
+2026-04-14,KAYNES,Largecap,Consumer Discretionary
+2026-04-14,IREDA,Largecap,Financials
+2026-04-14,PREMIERENE,Largecap,Services
+2026-04-14,WAAREEENER,Largecap,Industrials
+2026-04-15,BEL,Largecap,Aerospace & Defence
+2026-04-15,EXIDEIND,Largecap,Auto
+2026-04-15,CGPOWER,Largecap,Industrials
+2026-04-15,BHEL,Largecap,Industrials
+2026-04-15,SAIL,Largecap,Metals & Mining
+2026-04-15,HINDZINC,Largecap,Metals & Mining
+2026-04-15,TRENT,Largecap,Consumer Discretionary
+2026-04-15,VEDL,Largecap,Metals & Mining
+2026-04-15,TATAPOWER,Largecap,Power & Utilities
+2026-04-15,HINDALCO,Largecap,Metals & Mining
+2026-04-15,TATASTEEL,Largecap,Metals & Mining
+2026-04-15,BHARATFORG,Largecap,Industrials
+2026-04-15,LT,Largecap,Realty
+2026-04-15,SIEMENS,Largecap,Industrials
+2026-04-15,ASIANPAINT,Largecap,Building Materials
+2026-04-15,WIPRO,Largecap,I.T
+2026-04-15,ADANIENT,Largecap,Services
+2026-04-15,AUROPHARMA,Largecap,Healthcare
+2026-04-15,MPHASIS,Largecap,I.T
+2026-04-15,CONCOR,Largecap,Transportation
+2026-04-15,GAIL,Largecap,Energy
+2026-04-15,NATIONALUM,Largecap,Metals & Mining
+2026-04-15,ZYDUSLIFE,Largecap,Healthcare
+2026-04-15,COFORGE,Largecap,I.T
+2026-04-15,SUZLON,Largecap,Industrials
+2026-04-15,TECHM,Largecap,I.T
+2026-04-15,PFC,Largecap,Financials
+2026-04-15,POWERGRID,Largecap,Power & Utilities
+2026-04-15,ADANIPORTS,Largecap,Transportation
+2026-04-15,RECLTD,Largecap,Financials
+2026-04-15,ADANIPOWER,Largecap,Power & Utilities
+2026-04-15,NHPC,Largecap,Power & Utilities
+2026-04-15,JSWENERGY,Largecap,Power & Utilities
+2026-04-15,GODREJPROP,Largecap,Realty
+2026-04-15,OBEROIRLTY,Largecap,Realty
+2026-04-15,MCX,Largecap,Financials
+2026-04-15,NBCC,Largecap,Miscellaneous
+2026-04-15,INOXWIND,Midcap,Industrials
+2026-04-15,ADANIENSOL,Largecap,Power & Utilities
+2026-04-15,CROMPTON,Midcap,Consumer Discretionary
+2026-04-15,LTM,Largecap,I.T
+2026-04-15,PNBHOUSING,Largecap,Financials
+2026-04-15,VBL,Largecap,FMCG
+2026-04-15,LAURUSLABS,Largecap,Healthcare
+2026-04-15,BSE,Largecap,Financials
+2026-04-15,CDSL,Largecap,Financials
+2026-04-15,DIXON,Largecap,Consumer Discretionary
+2026-04-15,ICICIGI,Largecap,Financials
+2026-04-15,IEX,Midcap,Financials
+2026-04-15,NAM-INDIA,Largecap,Financials
+2026-04-15,BANDHANBNK,Largecap,Bank
+2026-04-15,HAL,Largecap,Aerospace & Defence
+2026-04-15,ADANIGREEN,Largecap,Power & Utilities
+2026-04-15,360ONE,Largecap,Financials
+2026-04-15,CAMS,Midcap,Financials
+2026-04-15,MAZDOCK,Largecap,Aerospace & Defence
+2026-04-15,NYKAA,Largecap,I.T
+2026-04-15,PAYTM,Largecap,I.T
+2026-04-15,LICI,Largecap,Financials
+2026-04-15,KAYNES,Largecap,Consumer Discretionary
+2026-04-15,IREDA,Largecap,Financials
+2026-04-15,PREMIERENE,Largecap,Services
+2026-04-15,WAAREEENER,Largecap,Industrials
+2026-04-16,ABB,Largecap,Industrials
+2026-04-16,BEL,Largecap,Aerospace & Defence
+2026-04-16,CGPOWER,Largecap,Industrials
+2026-04-16,BHEL,Largecap,Industrials
+2026-04-16,SAIL,Largecap,Metals & Mining
+2026-04-16,TITAN,Largecap,Consumer Discretionary
+2026-04-16,GODFRYPHLP,Largecap,FMCG
+2026-04-16,JSWSTEEL,Largecap,Metals & Mining
+2026-04-16,TRENT,Largecap,Consumer Discretionary
+2026-04-16,LICHSGFIN,Largecap,Financials
+2026-04-16,VEDL,Largecap,Metals & Mining
+2026-04-16,TATAPOWER,Largecap,Power & Utilities
+2026-04-16,HINDALCO,Largecap,Metals & Mining
+2026-04-16,FEDERALBNK,Largecap,Bank
+2026-04-16,TATASTEEL,Largecap,Metals & Mining
+2026-04-16,CUMMINSIND,Largecap,Industrials
+2026-04-16,BHARATFORG,Largecap,Industrials
+2026-04-16,SIEMENS,Largecap,Industrials
+2026-04-16,TMPV,Largecap,Auto
+2026-04-16,HINDUNILVR,Largecap,FMCG
+2026-04-16,NESTLEIND,Largecap,FMCG
+2026-04-16,ASIANPAINT,Largecap,Building Materials
+2026-04-16,COLPAL,Largecap,FMCG
+2026-04-16,ADANIENT,Largecap,Services
+2026-04-16,AUROPHARMA,Largecap,Healthcare
+2026-04-16,NMDC,Largecap,Metals & Mining
+2026-04-16,CONCOR,Largecap,Transportation
+2026-04-16,AXISBANK,Largecap,Bank
+2026-04-16,NATIONALUM,Largecap,Metals & Mining
+2026-04-16,JINDALSTEL,Largecap,Metals & Mining
+2026-04-16,ZYDUSLIFE,Largecap,Healthcare
+2026-04-16,SUZLON,Largecap,Industrials
+2026-04-16,TECHM,Largecap,I.T
+2026-04-16,PFC,Largecap,Financials
+2026-04-16,FORTIS,Largecap,Healthcare
+2026-04-16,DLF,Largecap,Realty
+2026-04-16,MOTILALOFS,Largecap,Financials
+2026-04-16,POWERGRID,Largecap,Power & Utilities
+2026-04-16,ADANIPORTS,Largecap,Transportation
+2026-04-16,RECLTD,Largecap,Financials
+2026-04-16,ADANIPOWER,Largecap,Power & Utilities
+2026-04-16,NHPC,Largecap,Power & Utilities
+2026-04-16,JSWENERGY,Largecap,Power & Utilities
+2026-04-16,GODREJPROP,Largecap,Realty
+2026-04-16,LTF,Largecap,Financials
+2026-04-16,PGEL,Midcap,Consumer Discretionary
+2026-04-16,NBCC,Largecap,Miscellaneous
+2026-04-16,INOXWIND,Midcap,Industrials
+2026-04-16,ADANIENSOL,Largecap,Power & Utilities
+2026-04-16,CROMPTON,Midcap,Consumer Discretionary
+2026-04-16,PNBHOUSING,Largecap,Financials
+2026-04-16,VBL,Largecap,FMCG
+2026-04-16,LAURUSLABS,Largecap,Healthcare
+2026-04-16,BSE,Largecap,Financials
+2026-04-16,DMART,Largecap,Consumer Discretionary
+2026-04-16,AUBANK,Largecap,Bank
+2026-04-16,CDSL,Largecap,Financials
+2026-04-16,COCHINSHIP,Largecap,Aerospace & Defence
+2026-04-16,DIXON,Largecap,Consumer Discretionary
+2026-04-16,IEX,Midcap,Financials
+2026-04-16,NAM-INDIA,Largecap,Financials
+2026-04-16,BDL,Largecap,Aerospace & Defence
+2026-04-16,HAL,Largecap,Aerospace & Defence
+2026-04-16,ADANIGREEN,Largecap,Power & Utilities
+2026-04-16,HDFCAMC,Largecap,Financials
+2026-04-16,RVNL,Largecap,Realty
+2026-04-16,POLYCAB,Largecap,Industrials
+2026-04-16,360ONE,Largecap,Financials
+2026-04-16,CAMS,Midcap,Financials
+2026-04-16,ANGELONE,Largecap,Financials
+2026-04-16,MAZDOCK,Largecap,Aerospace & Defence
+2026-04-16,IRFC,Largecap,Financials
+2026-04-16,SONACOMS,Largecap,Auto
+2026-04-16,NYKAA,Largecap,I.T
+2026-04-16,POLICYBZR,Largecap,I.T
+2026-04-16,PAYTM,Largecap,I.T
+2026-04-16,DELHIVERY,Largecap,Transportation
+2026-04-16,KAYNES,Largecap,Consumer Discretionary
+2026-04-16,IREDA,Largecap,Financials
+2026-04-16,PREMIERENE,Largecap,Services
+2026-04-16,WAAREEENER,Largecap,Industrials
+2026-04-19,ABB,Largecap,Industrials
+2026-04-19,BLUESTARCO,Largecap,Consumer Discretionary
+2026-04-19,CGPOWER,Largecap,Industrials
+2026-04-19,BHEL,Largecap,Industrials
+2026-04-19,TITAN,Largecap,Consumer Discretionary
+2026-04-19,HINDZINC,Largecap,Metals & Mining
+2026-04-19,JSWSTEEL,Largecap,Metals & Mining
+2026-04-19,TRENT,Largecap,Consumer Discretionary
+2026-04-19,TATAPOWER,Largecap,Power & Utilities
+2026-04-19,FEDERALBNK,Largecap,Bank
+2026-04-19,TATASTEEL,Largecap,Metals & Mining
+2026-04-19,CUMMINSIND,Largecap,Industrials
+2026-04-19,BHARATFORG,Largecap,Industrials
+2026-04-19,SIEMENS,Largecap,Industrials
+2026-04-19,NESTLEIND,Largecap,FMCG
+2026-04-19,TATACONSUM,Largecap,FMCG
+2026-04-19,ASIANPAINT,Largecap,Building Materials
+2026-04-19,COLPAL,Largecap,FMCG
+2026-04-19,ADANIENT,Largecap,Services
+2026-04-19,ICICIBANK,Largecap,Bank
+2026-04-19,JINDALSTEL,Largecap,Metals & Mining
+2026-04-19,NTPC,Largecap,Power & Utilities
+2026-04-19,TECHM,Largecap,I.T
+2026-04-19,NAUKRI,Largecap,I.T
+2026-04-19,PFC,Largecap,Financials
+2026-04-19,FORTIS,Largecap,Healthcare
+2026-04-19,MOTILALOFS,Largecap,Financials
+2026-04-19,POWERGRID,Largecap,Power & Utilities
+2026-04-19,ADANIPORTS,Largecap,Transportation
+2026-04-19,RECLTD,Largecap,Financials
+2026-04-19,ADANIPOWER,Largecap,Power & Utilities
+2026-04-19,JSWENERGY,Largecap,Power & Utilities
+2026-04-19,GODREJPROP,Largecap,Realty
+2026-04-19,PRESTIGE,Largecap,Realty
+2026-04-19,LTF,Largecap,Financials
+2026-04-19,APLAPOLLO,Largecap,Industrials
+2026-04-19,MCX,Largecap,Financials
+2026-04-19,ADANIENSOL,Largecap,Power & Utilities
+2026-04-19,DMART,Largecap,Consumer Discretionary
+2026-04-19,AUBANK,Largecap,Bank
+2026-04-19,COCHINSHIP,Largecap,Aerospace & Defence
+2026-04-19,SBILIFE,Largecap,Financials
+2026-04-19,TIINDIA,Largecap,Industrials
+2026-04-19,NAM-INDIA,Largecap,Financials
+2026-04-19,BANDHANBNK,Largecap,Bank
+2026-04-19,ADANIGREEN,Largecap,Power & Utilities
+2026-04-19,HDFCAMC,Largecap,Financials
+2026-04-19,360ONE,Largecap,Financials
+2026-04-19,CAMS,Midcap,Financials
+2026-04-19,ANGELONE,Largecap,Financials
+2026-04-19,MAZDOCK,Largecap,Aerospace & Defence
+2026-04-19,POLICYBZR,Largecap,I.T
+2026-04-19,PAYTM,Largecap,I.T
+2026-04-19,WAAREEENER,Largecap,Industrials
+2026-04-20,EXIDEIND,Largecap,Auto
+2026-04-20,CGPOWER,Largecap,Industrials
+2026-04-20,BHEL,Largecap,Industrials
+2026-04-20,SAIL,Largecap,Metals & Mining
+2026-04-20,JSWSTEEL,Largecap,Metals & Mining
+2026-04-20,TRENT,Largecap,Consumer Discretionary
+2026-04-20,LICHSGFIN,Largecap,Financials
+2026-04-20,TATAPOWER,Largecap,Power & Utilities
+2026-04-20,BHARATFORG,Largecap,Industrials
+2026-04-20,HINDUNILVR,Largecap,FMCG
+2026-04-20,NESTLEIND,Largecap,FMCG
+2026-04-20,TATACONSUM,Largecap,FMCG
+2026-04-20,ASIANPAINT,Largecap,Building Materials
+2026-04-20,INDHOTEL,Largecap,Services
+2026-04-20,PHOENIXLTD,Largecap,Realty
+2026-04-20,AUROPHARMA,Largecap,Healthcare
+2026-04-20,MANAPPURAM,Largecap,Financials
+2026-04-20,GAIL,Largecap,Energy
+2026-04-20,ICICIBANK,Largecap,Bank
+2026-04-20,AXISBANK,Largecap,Bank
+2026-04-20,JINDALSTEL,Largecap,Metals & Mining
+2026-04-20,GODREJCP,Largecap,FMCG
+2026-04-20,UNITDSPR,Largecap,FMCG
+2026-04-20,SUZLON,Largecap,Industrials
+2026-04-20,NAUKRI,Largecap,I.T
+2026-04-20,PFC,Largecap,Financials
+2026-04-20,FORTIS,Largecap,Healthcare
+2026-04-20,DLF,Largecap,Realty
+2026-04-20,MOTILALOFS,Largecap,Financials
+2026-04-20,ADANIPORTS,Largecap,Transportation
+2026-04-20,RECLTD,Largecap,Financials
+2026-04-20,JSWENERGY,Largecap,Power & Utilities
+2026-04-20,GODREJPROP,Largecap,Realty
+2026-04-20,OBEROIRLTY,Largecap,Realty
+2026-04-20,PRESTIGE,Largecap,Realty
+2026-04-20,LTF,Largecap,Financials
+2026-04-20,PGEL,Midcap,Consumer Discretionary
+2026-04-20,INOXWIND,Midcap,Industrials
+2026-04-20,PNBHOUSING,Largecap,Financials
+2026-04-20,VBL,Largecap,FMCG
+2026-04-20,AUBANK,Largecap,Bank
+2026-04-20,TIINDIA,Largecap,Industrials
+2026-04-20,NAM-INDIA,Largecap,Financials
+2026-04-20,BANDHANBNK,Largecap,Bank
+2026-04-20,HDFCAMC,Largecap,Financials
+2026-04-20,MAXHEALTH,Largecap,Healthcare
+2026-04-20,CAMS,Midcap,Financials
+2026-04-20,ANGELONE,Largecap,Financials
+2026-04-20,MAZDOCK,Largecap,Aerospace & Defence
+2026-04-20,ETERNAL,Largecap,I.T
+2026-04-20,POLICYBZR,Largecap,I.T
+2026-04-20,DELHIVERY,Largecap,Transportation
+2026-04-20,KAYNES,Largecap,Consumer Discretionary
+2026-04-20,KFINTECH,Midcap,Financials
+2026-04-20,VMM,Largecap,Consumer Discretionary
+2026-04-21,ABB,Largecap,Industrials
+2026-04-21,EXIDEIND,Largecap,Auto
+2026-04-21,CGPOWER,Largecap,Industrials
+2026-04-21,BHEL,Largecap,Industrials
+2026-04-21,HINDZINC,Largecap,Metals & Mining
+2026-04-21,TRENT,Largecap,Consumer Discretionary
+2026-04-21,LICHSGFIN,Largecap,Financials
+2026-04-21,HINDALCO,Largecap,Metals & Mining
+2026-04-21,CUMMINSIND,Largecap,Industrials
+2026-04-21,BHARATFORG,Largecap,Industrials
+2026-04-21,SIEMENS,Largecap,Industrials
+2026-04-21,TMPV,Largecap,Auto
+2026-04-21,VOLTAS,Largecap,Consumer Discretionary
+2026-04-21,HINDUNILVR,Largecap,FMCG
+2026-04-21,NESTLEIND,Largecap,FMCG
+2026-04-21,TATACONSUM,Largecap,FMCG
+2026-04-21,ASIANPAINT,Largecap,Building Materials
+2026-04-21,ADANIENT,Largecap,Services
+2026-04-21,MOTHERSON,Largecap,Auto
+2026-04-21,HAVELLS,Largecap,Consumer Discretionary
+2026-04-21,AUROPHARMA,Largecap,Healthcare
+2026-04-21,MANAPPURAM,Largecap,Financials
+2026-04-21,CONCOR,Largecap,Transportation
+2026-04-21,GAIL,Largecap,Energy
+2026-04-21,AXISBANK,Largecap,Bank
+2026-04-21,NATIONALUM,Largecap,Metals & Mining
+2026-04-21,GODREJCP,Largecap,FMCG
+2026-04-21,UNITDSPR,Largecap,FMCG
+2026-04-21,UNIONBANK,Largecap,Bank
+2026-04-21,NTPC,Largecap,Power & Utilities
+2026-04-21,SUZLON,Largecap,Industrials
+2026-04-21,FORTIS,Largecap,Healthcare
+2026-04-21,DLF,Largecap,Realty
+2026-04-21,ADANIPOWER,Largecap,Power & Utilities
+2026-04-21,JSWENERGY,Largecap,Power & Utilities
+2026-04-21,GODREJPROP,Largecap,Realty
+2026-04-21,LTF,Largecap,Financials
+2026-04-21,PGEL,Midcap,Consumer Discretionary
+2026-04-21,NBCC,Largecap,Miscellaneous
+2026-04-21,INOXWIND,Midcap,Industrials
+2026-04-21,ADANIENSOL,Largecap,Power & Utilities
+2026-04-21,PNBHOUSING,Largecap,Financials
+2026-04-21,VBL,Largecap,FMCG
+2026-04-21,AUBANK,Largecap,Bank
+2026-04-21,COCHINSHIP,Largecap,Aerospace & Defence
+2026-04-21,ABCAPITAL,Largecap,Financials
+2026-04-21,NAM-INDIA,Largecap,Financials
+2026-04-21,HAL,Largecap,Aerospace & Defence
+2026-04-21,ADANIGREEN,Largecap,Power & Utilities
+2026-04-21,RVNL,Largecap,Realty
+2026-04-21,CAMS,Midcap,Financials
+2026-04-21,ANGELONE,Largecap,Financials
+2026-04-21,MAZDOCK,Largecap,Aerospace & Defence
+2026-04-21,IRFC,Largecap,Financials
+2026-04-21,LODHA,Largecap,Realty
+2026-04-21,SONACOMS,Largecap,Auto
+2026-04-21,ETERNAL,Largecap,I.T
+2026-04-21,POLICYBZR,Largecap,I.T
+2026-04-21,KAYNES,Largecap,Consumer Discretionary
+2026-04-21,IREDA,Largecap,Financials
+2026-04-21,VMM,Largecap,Consumer Discretionary
+2026-04-22,CIPLA,Largecap,Healthcare
+2026-04-22,CGPOWER,Largecap,Industrials
+2026-04-22,BHEL,Largecap,Industrials
+2026-04-22,DRREDDY,Largecap,Healthcare
+2026-04-22,HINDALCO,Largecap,Metals & Mining
+2026-04-22,CUMMINSIND,Largecap,Industrials
+2026-04-22,SIEMENS,Largecap,Industrials
+2026-04-22,NESTLEIND,Largecap,FMCG
+2026-04-22,TATACONSUM,Largecap,FMCG
+2026-04-22,COLPAL,Largecap,FMCG
+2026-04-22,ADANIENT,Largecap,Services
+2026-04-22,AUROPHARMA,Largecap,Healthcare
+2026-04-22,GAIL,Largecap,Energy
+2026-04-22,NATIONALUM,Largecap,Metals & Mining
+2026-04-22,GLENMARK,Largecap,Healthcare
+2026-04-22,ZYDUSLIFE,Largecap,Healthcare
+2026-04-22,GODREJCP,Largecap,FMCG
+2026-04-22,OFSS,Largecap,I.T
+2026-04-22,NTPC,Largecap,Power & Utilities
+2026-04-22,FORTIS,Largecap,Healthcare
+2026-04-22,ADANIPORTS,Largecap,Transportation
+2026-04-22,ADANIPOWER,Largecap,Power & Utilities
+2026-04-22,JSWENERGY,Largecap,Power & Utilities
+2026-04-22,ADANIENSOL,Largecap,Power & Utilities
+2026-04-22,PNBHOUSING,Largecap,Financials
+2026-04-22,LAURUSLABS,Largecap,Healthcare
+2026-04-22,AUBANK,Largecap,Bank
+2026-04-22,COCHINSHIP,Largecap,Aerospace & Defence
+2026-04-22,TIINDIA,Largecap,Industrials
+2026-04-22,BDL,Largecap,Aerospace & Defence
+2026-04-22,ADANIGREEN,Largecap,Power & Utilities
+2026-04-22,RVNL,Largecap,Realty
+2026-04-22,CAMS,Midcap,Financials
+2026-04-22,MAZDOCK,Largecap,Aerospace & Defence
+2026-04-22,POLICYBZR,Largecap,I.T
+2026-04-22,KAYNES,Largecap,Consumer Discretionary
+2026-04-22,MANKIND,Largecap,Healthcare
+2026-04-22,IREDA,Largecap,Financials
+2026-04-22,PREMIERENE,Largecap,Services
+2026-04-22,VMM,Largecap,Consumer Discretionary
+2026-04-23,CIPLA,Largecap,Healthcare
+2026-04-23,BHEL,Largecap,Industrials
+2026-04-23,SAIL,Largecap,Metals & Mining
+2026-04-23,DRREDDY,Largecap,Healthcare
+2026-04-23,TATAPOWER,Largecap,Power & Utilities
+2026-04-23,HINDALCO,Largecap,Metals & Mining
+2026-04-23,VOLTAS,Largecap,Consumer Discretionary
+2026-04-23,NESTLEIND,Largecap,FMCG
+2026-04-23,COLPAL,Largecap,FMCG
+2026-04-23,NMDC,Largecap,Metals & Mining
+2026-04-23,MARICO,Largecap,FMCG
+2026-04-23,UNITDSPR,Largecap,FMCG
+2026-04-23,OFSS,Largecap,I.T
+2026-04-23,FORTIS,Largecap,Healthcare
+2026-04-23,ADANIENSOL,Largecap,Power & Utilities
+2026-04-23,PNBHOUSING,Largecap,Financials
+2026-04-23,VBL,Largecap,FMCG
+2026-04-23,AUBANK,Largecap,Bank
+2026-04-23,COCHINSHIP,Largecap,Aerospace & Defence
+2026-04-23,ADANIGREEN,Largecap,Power & Utilities
+2026-04-23,POLICYBZR,Largecap,I.T
+2026-04-23,PREMIERENE,Largecap,Services
+2026-04-26,BLUESTARCO,Largecap,Consumer Discretionary
+2026-04-26,EXIDEIND,Largecap,Auto
+2026-04-26,CIPLA,Largecap,Healthcare
+2026-04-26,BHEL,Largecap,Industrials
+2026-04-26,SAIL,Largecap,Metals & Mining
+2026-04-26,DRREDDY,Largecap,Healthcare
+2026-04-26,HINDZINC,Largecap,Metals & Mining
+2026-04-26,JSWSTEEL,Largecap,Metals & Mining
+2026-04-26,TATAPOWER,Largecap,Power & Utilities
+2026-04-26,HINDALCO,Largecap,Metals & Mining
+2026-04-26,TATASTEEL,Largecap,Metals & Mining
+2026-04-26,CUMMINSIND,Largecap,Industrials
+2026-04-26,BHARATFORG,Largecap,Industrials
+2026-04-26,VOLTAS,Largecap,Consumer Discretionary
+2026-04-26,ADANIENT,Largecap,Services
+2026-04-26,NMDC,Largecap,Metals & Mining
+2026-04-26,CONCOR,Largecap,Transportation
+2026-04-26,MARICO,Largecap,FMCG
+2026-04-26,GAIL,Largecap,Energy
+2026-04-26,INDUSINDBK,Largecap,Bank
+2026-04-26,NATIONALUM,Largecap,Metals & Mining
+2026-04-26,JINDALSTEL,Largecap,Metals & Mining
+2026-04-26,UNITDSPR,Largecap,FMCG
+2026-04-26,OFSS,Largecap,I.T
+2026-04-26,NTPC,Largecap,Power & Utilities
+2026-04-26,SUZLON,Largecap,Industrials
+2026-04-26,PFC,Largecap,Financials
+2026-04-26,FORTIS,Largecap,Healthcare
+2026-04-26,POWERGRID,Largecap,Power & Utilities
+2026-04-26,ADANIPORTS,Largecap,Transportation
+2026-04-26,RECLTD,Largecap,Financials
+2026-04-26,ADANIPOWER,Largecap,Power & Utilities
+2026-04-26,NHPC,Largecap,Power & Utilities
+2026-04-26,JSWENERGY,Largecap,Power & Utilities
+2026-04-26,GODREJPROP,Largecap,Realty
+2026-04-26,OBEROIRLTY,Largecap,Realty
+2026-04-26,MCX,Largecap,Financials
+2026-04-26,NBCC,Largecap,Miscellaneous
+2026-04-26,INOXWIND,Midcap,Industrials
+2026-04-26,ADANIENSOL,Largecap,Power & Utilities
+2026-04-26,PNBHOUSING,Largecap,Financials
+2026-04-26,VBL,Largecap,FMCG
+2026-04-26,BSE,Largecap,Financials
+2026-04-26,COCHINSHIP,Largecap,Aerospace & Defence
+2026-04-26,BANDHANBNK,Largecap,Bank
+2026-04-26,ADANIGREEN,Largecap,Power & Utilities
+2026-04-26,ANGELONE,Largecap,Financials
+2026-04-26,SONACOMS,Largecap,Auto
+2026-04-26,NYKAA,Largecap,I.T
+2026-04-26,IREDA,Largecap,Financials
+2026-04-26,PREMIERENE,Largecap,Services
+2026-04-26,WAAREEENER,Largecap,Industrials
+2026-04-26,VMM,Largecap,Consumer Discretionary
+2026-04-27,EXIDEIND,Largecap,Auto
+2026-04-27,CGPOWER,Largecap,Industrials
+2026-04-27,BHEL,Largecap,Industrials
+2026-04-27,SAIL,Largecap,Metals & Mining
+2026-04-27,DRREDDY,Largecap,Healthcare
+2026-04-27,ONGC,Largecap,Energy
+2026-04-27,TATAPOWER,Largecap,Power & Utilities
+2026-04-27,HINDALCO,Largecap,Metals & Mining
+2026-04-27,TATASTEEL,Largecap,Metals & Mining
+2026-04-27,VOLTAS,Largecap,Consumer Discretionary
+2026-04-27,NESTLEIND,Largecap,FMCG
+2026-04-27,ADANIENT,Largecap,Services
+2026-04-27,AUROPHARMA,Largecap,Healthcare
+2026-04-27,NMDC,Largecap,Metals & Mining
+2026-04-27,MANAPPURAM,Largecap,Financials
+2026-04-27,GLENMARK,Largecap,Healthcare
+2026-04-27,OFSS,Largecap,I.T
+2026-04-27,SUZLON,Largecap,Industrials
+2026-04-27,PFC,Largecap,Financials
+2026-04-27,FORTIS,Largecap,Healthcare
+2026-04-27,ADANIPORTS,Largecap,Transportation
+2026-04-27,ADANIPOWER,Largecap,Power & Utilities
+2026-04-27,NHPC,Largecap,Power & Utilities
+2026-04-27,OIL,Largecap,Energy
+2026-04-27,JSWENERGY,Largecap,Power & Utilities
+2026-04-27,GODREJPROP,Largecap,Realty
+2026-04-27,COALINDIA,Largecap,Metals & Mining
+2026-04-27,MCX,Largecap,Financials
+2026-04-27,ADANIENSOL,Largecap,Power & Utilities
+2026-04-27,CROMPTON,Midcap,Consumer Discretionary
+2026-04-27,VBL,Largecap,FMCG
+2026-04-27,BSE,Largecap,Financials
+2026-04-27,COCHINSHIP,Largecap,Aerospace & Defence
+2026-04-27,NAM-INDIA,Largecap,Financials
+2026-04-27,HAL,Largecap,Aerospace & Defence
+2026-04-27,ADANIGREEN,Largecap,Power & Utilities
+2026-04-27,HDFCAMC,Largecap,Financials
+2026-04-27,RVNL,Largecap,Realty
+2026-04-27,SONACOMS,Largecap,Auto
+2026-04-27,NYKAA,Largecap,I.T
+2026-04-27,PREMIERENE,Largecap,Services
+2026-04-27,WAAREEENER,Largecap,Industrials
+2026-04-27,VMM,Largecap,Consumer Discretionary
+2026-04-28,EXIDEIND,Largecap,Auto
+2026-04-28,CIPLA,Largecap,Healthcare
+2026-04-28,GODFRYPHLP,Largecap,FMCG
+2026-04-28,LICHSGFIN,Largecap,Financials
+2026-04-28,VEDL,Largecap,Metals & Mining
+2026-04-28,ONGC,Largecap,Energy
+2026-04-28,RELIANCE,Largecap,Energy
+2026-04-28,BHARATFORG,Largecap,Industrials
+2026-04-28,HINDUNILVR,Largecap,FMCG
+2026-04-28,NESTLEIND,Largecap,FMCG
+2026-04-28,TATACONSUM,Largecap,FMCG
+2026-04-28,ITC,Largecap,FMCG
+2026-04-28,ADANIENT,Largecap,Services
+2026-04-28,NMDC,Largecap,Metals & Mining
+2026-04-28,INDUSINDBK,Largecap,Bank
+2026-04-28,GLENMARK,Largecap,Healthcare
+2026-04-28,ADANIPORTS,Largecap,Transportation
+2026-04-28,GODREJPROP,Largecap,Realty
+2026-04-28,COALINDIA,Largecap,Metals & Mining
+2026-04-28,MCX,Largecap,Financials
+2026-04-28,CROMPTON,Midcap,Consumer Discretionary
+2026-04-28,RBLBANK,Largecap,Bank
+2026-04-28,PNBHOUSING,Largecap,Financials
+2026-04-28,BSE,Largecap,Financials
+2026-04-28,COCHINSHIP,Largecap,Aerospace & Defence
+2026-04-28,BANDHANBNK,Largecap,Bank
+2026-04-28,HAL,Largecap,Aerospace & Defence
+2026-04-28,HDFCAMC,Largecap,Financials
+2026-04-28,MAZDOCK,Largecap,Aerospace & Defence
+2026-04-28,LODHA,Largecap,Realty
+2026-04-28,SONACOMS,Largecap,Auto
+2026-04-28,POLICYBZR,Largecap,I.T
+2026-04-28,PREMIERENE,Largecap,Services
+2026-04-28,WAAREEENER,Largecap,Industrials
+2026-04-29,BHEL,Largecap,Industrials
+2026-04-29,GODFRYPHLP,Largecap,FMCG
+2026-04-29,RELIANCE,Largecap,Energy
+2026-04-29,NESTLEIND,Largecap,FMCG
+2026-04-29,ITC,Largecap,FMCG
+2026-04-29,SUNPHARMA,Largecap,Healthcare
+2026-04-29,INDUSINDBK,Largecap,Bank
+2026-04-29,BAJAJ-AUTO,Largecap,Auto
+2026-04-29,COALINDIA,Largecap,Metals & Mining
+2026-04-29,MCX,Largecap,Financials
+2026-04-29,RBLBANK,Largecap,Bank
+2026-04-29,BANDHANBNK,Largecap,Bank
+2026-04-29,SONACOMS,Largecap,Auto
+2026-05-03,CIPLA,Largecap,Healthcare
+2026-05-03,BHEL,Largecap,Industrials
+2026-05-03,SAIL,Largecap,Metals & Mining
+2026-05-03,VEDL,Largecap,Metals & Mining
+2026-05-03,GRASIM,Largecap,Textiles
+2026-05-03,RELIANCE,Largecap,Energy
+2026-05-03,SIEMENS,Largecap,Industrials
+2026-05-03,NESTLEIND,Largecap,FMCG
+2026-05-03,COLPAL,Largecap,FMCG
+2026-05-03,CHOLAFIN,Largecap,Financials
+2026-05-03,ADANIENT,Largecap,Services
+2026-05-03,KEI,Largecap,Industrials
+2026-05-03,SUNPHARMA,Largecap,Healthcare
+2026-05-03,MANAPPURAM,Largecap,Financials
+2026-05-03,CONCOR,Largecap,Transportation
+2026-05-03,GAIL,Largecap,Energy
+2026-05-03,INDUSINDBK,Largecap,Bank
+2026-05-03,FORTIS,Largecap,Healthcare
+2026-05-03,MOTILALOFS,Largecap,Financials
+2026-05-03,ADANIPORTS,Largecap,Transportation
+2026-05-03,BAJAJ-AUTO,Largecap,Auto
+2026-05-03,ADANIPOWER,Largecap,Power & Utilities
+2026-05-03,NHPC,Largecap,Power & Utilities
+2026-05-03,JSWENERGY,Largecap,Power & Utilities
+2026-05-03,GODREJPROP,Largecap,Realty
+2026-05-03,INOXWIND,Midcap,Industrials
+2026-05-03,ADANIENSOL,Largecap,Power & Utilities
+2026-05-03,CROMPTON,Midcap,Consumer Discretionary
+2026-05-03,LAURUSLABS,Largecap,Healthcare
+2026-05-03,BSE,Largecap,Financials
+2026-05-03,BANDHANBNK,Largecap,Bank
+2026-05-03,HAL,Largecap,Aerospace & Defence
+2026-05-03,ADANIGREEN,Largecap,Power & Utilities
+2026-05-03,KPITTECH,Midcap,I.T
+2026-05-03,LODHA,Largecap,Realty
+2026-05-03,POLICYBZR,Largecap,I.T
+2026-05-03,DELHIVERY,Largecap,Transportation
+2026-05-03,PREMIERENE,Largecap,Services
+2026-05-03,VMM,Largecap,Consumer Discretionary
+2026-05-04,BAJFINANCE,Largecap,Financials
+2026-05-04,CIPLA,Largecap,Healthcare
+2026-05-04,CGPOWER,Largecap,Industrials
+2026-05-04,SAIL,Largecap,Metals & Mining
+2026-05-04,LICHSGFIN,Largecap,Financials
+2026-05-04,VEDL,Largecap,Metals & Mining
+2026-05-04,GRASIM,Largecap,Textiles
+2026-05-04,RELIANCE,Largecap,Energy
+2026-05-04,HINDALCO,Largecap,Metals & Mining
+2026-05-04,NESTLEIND,Largecap,FMCG
+2026-05-04,CHOLAFIN,Largecap,Financials
+2026-05-04,ADANIENT,Largecap,Services
+2026-05-04,KEI,Largecap,Industrials
+2026-05-04,AUROPHARMA,Largecap,Healthcare
+2026-05-04,MANAPPURAM,Largecap,Financials
+2026-05-04,CONCOR,Largecap,Transportation
+2026-05-04,MARICO,Largecap,FMCG
+2026-05-04,GLENMARK,Largecap,Healthcare
+2026-05-04,FORTIS,Largecap,Healthcare
+2026-05-04,MOTILALOFS,Largecap,Financials
+2026-05-04,ADANIPOWER,Largecap,Power & Utilities
+2026-05-04,JSWENERGY,Largecap,Power & Utilities
+2026-05-04,INOXWIND,Midcap,Industrials
+2026-05-04,ADANIENSOL,Largecap,Power & Utilities
+2026-05-04,LAURUSLABS,Largecap,Healthcare
+2026-05-04,BSE,Largecap,Financials
+2026-05-04,ABCAPITAL,Largecap,Financials
+2026-05-04,NAM-INDIA,Largecap,Financials
+2026-05-04,HAL,Largecap,Aerospace & Defence
+2026-05-04,ADANIGREEN,Largecap,Power & Utilities
+2026-05-04,HDFCAMC,Largecap,Financials
+2026-05-04,KPITTECH,Midcap,I.T
+2026-05-04,CAMS,Midcap,Financials
+2026-05-04,ANGELONE,Largecap,Financials
+2026-05-04,NYKAA,Largecap,I.T
+2026-05-04,POLICYBZR,Largecap,I.T
+2026-05-04,PREMIERENE,Largecap,Services
+2026-05-04,VMM,Largecap,Consumer Discretionary
+2026-05-05,BAJFINANCE,Largecap,Financials
+2026-05-05,CIPLA,Largecap,Healthcare
+2026-05-05,CGPOWER,Largecap,Industrials
+2026-05-05,BHEL,Largecap,Industrials
+2026-05-05,HINDPETRO,Largecap,Energy
+2026-05-05,GODFRYPHLP,Largecap,FMCG
+2026-05-05,HINDZINC,Largecap,Metals & Mining
+2026-05-05,TRENT,Largecap,Consumer Discretionary
+2026-05-05,LICHSGFIN,Largecap,Financials
+2026-05-05,LUPIN,Largecap,Healthcare
+2026-05-05,VEDL,Largecap,Metals & Mining
+2026-05-05,TATAPOWER,Largecap,Power & Utilities
+2026-05-05,TATASTEEL,Largecap,Metals & Mining
+2026-05-05,NESTLEIND,Largecap,FMCG
+2026-05-05,ASIANPAINT,Largecap,Building Materials
+2026-05-05,SRF,Largecap,Chemicals
+2026-05-05,CHOLAFIN,Largecap,Financials
+2026-05-05,ADANIENT,Largecap,Services
+2026-05-05,KEI,Largecap,Industrials
+2026-05-05,SUNPHARMA,Largecap,Healthcare
+2026-05-05,AUROPHARMA,Largecap,Healthcare
+2026-05-05,NMDC,Largecap,Metals & Mining
+2026-05-05,MANAPPURAM,Largecap,Financials
+2026-05-05,CONCOR,Largecap,Transportation
+2026-05-05,MARICO,Largecap,FMCG
+2026-05-05,GAIL,Largecap,Energy
+2026-05-05,INDUSINDBK,Largecap,Bank
+2026-05-05,BIOCON,Largecap,Healthcare
+2026-05-05,FORTIS,Largecap,Healthcare
+2026-05-05,MOTILALOFS,Largecap,Financials
+2026-05-05,ADANIPORTS,Largecap,Transportation
+2026-05-05,NHPC,Largecap,Power & Utilities
+2026-05-05,JSWENERGY,Largecap,Power & Utilities
+2026-05-05,PRESTIGE,Largecap,Realty
+2026-05-05,LTF,Largecap,Financials
+2026-05-05,MCX,Largecap,Financials
+2026-05-05,INOXWIND,Midcap,Industrials
+2026-05-05,CROMPTON,Midcap,Consumer Discretionary
+2026-05-05,RBLBANK,Largecap,Bank
+2026-05-05,PNBHOUSING,Largecap,Financials
+2026-05-05,VBL,Largecap,FMCG
+2026-05-05,LAURUSLABS,Largecap,Healthcare
+2026-05-05,BSE,Largecap,Financials
+2026-05-05,COCHINSHIP,Largecap,Aerospace & Defence
+2026-05-05,ABCAPITAL,Largecap,Financials
+2026-05-05,NAM-INDIA,Largecap,Financials
+2026-05-05,AMBER,Largecap,Consumer Discretionary
+2026-05-05,BDL,Largecap,Aerospace & Defence
+2026-05-05,BANDHANBNK,Largecap,Bank
+2026-05-05,HAL,Largecap,Aerospace & Defence
+2026-05-05,ADANIGREEN,Largecap,Power & Utilities
+2026-05-05,HDFCAMC,Largecap,Financials
+2026-05-05,POLYCAB,Largecap,Industrials
+2026-05-05,CAMS,Midcap,Financials
+2026-05-05,ANGELONE,Largecap,Financials
+2026-05-05,IRFC,Largecap,Financials
+2026-05-05,LODHA,Largecap,Realty
+2026-05-05,NYKAA,Largecap,I.T
+2026-05-05,POLICYBZR,Largecap,I.T
+2026-05-05,DELHIVERY,Largecap,Transportation
+2026-05-05,KAYNES,Largecap,Consumer Discretionary
+2026-05-05,MANKIND,Largecap,Healthcare
+2026-05-05,NUVAMA,Largecap,Financials
+2026-05-05,IREDA,Largecap,Financials
+2026-05-06,EXIDEIND,Largecap,Auto
+2026-05-06,CIPLA,Largecap,Healthcare
+2026-05-06,CGPOWER,Largecap,Industrials
+2026-05-06,DABUR,Largecap,FMCG
+2026-05-06,BHEL,Largecap,Industrials
+2026-05-06,HINDPETRO,Largecap,Energy
+2026-05-06,GODFRYPHLP,Largecap,FMCG
+2026-05-06,HINDZINC,Largecap,Metals & Mining
+2026-05-06,JSWSTEEL,Largecap,Metals & Mining
+2026-05-06,TRENT,Largecap,Consumer Discretionary
+2026-05-06,LICHSGFIN,Largecap,Financials
+2026-05-06,LUPIN,Largecap,Healthcare
+2026-05-06,MFSL,Largecap,Miscellaneous
+2026-05-06,GRASIM,Largecap,Textiles
+2026-05-06,PIDILITIND,Largecap,Chemicals
+2026-05-06,FEDERALBNK,Largecap,Bank
+2026-05-06,TATASTEEL,Largecap,Metals & Mining
+2026-05-06,BHARATFORG,Largecap,Industrials
+2026-05-06,M&M,Largecap,Auto
+2026-05-06,ASIANPAINT,Largecap,Building Materials
+2026-05-06,INDHOTEL,Largecap,Services
+2026-05-06,SRF,Largecap,Chemicals
+2026-05-06,MOTHERSON,Largecap,Auto
+2026-05-06,AUROPHARMA,Largecap,Healthcare
+2026-05-06,NMDC,Largecap,Metals & Mining
+2026-05-06,MANAPPURAM,Largecap,Financials
+2026-05-06,CONCOR,Largecap,Transportation
+2026-05-06,MARICO,Largecap,FMCG
+2026-05-06,GAIL,Largecap,Energy
+2026-05-06,INDUSINDBK,Largecap,Bank
+2026-05-06,BIOCON,Largecap,Healthcare
+2026-05-06,SUZLON,Largecap,Industrials
+2026-05-06,GMRAIRPORT,Largecap,Miscellaneous
+2026-05-06,DLF,Largecap,Realty
+2026-05-06,MOTILALOFS,Largecap,Financials
+2026-05-06,BAJAJ-AUTO,Largecap,Auto
+2026-05-06,ADANIPOWER,Largecap,Power & Utilities
+2026-05-06,JSWENERGY,Largecap,Power & Utilities
+2026-05-06,GODREJPROP,Largecap,Realty
+2026-05-06,PRESTIGE,Largecap,Realty
+2026-05-06,LTF,Largecap,Financials
+2026-05-06,MCX,Largecap,Financials
+2026-05-06,NBCC,Largecap,Miscellaneous
+2026-05-06,INOXWIND,Midcap,Industrials
+2026-05-06,CROMPTON,Midcap,Consumer Discretionary
+2026-05-06,RBLBANK,Largecap,Bank
+2026-05-06,LAURUSLABS,Largecap,Healthcare
+2026-05-06,BSE,Largecap,Financials
+2026-05-06,AUBANK,Largecap,Bank
+2026-05-06,COCHINSHIP,Largecap,Aerospace & Defence
+2026-05-06,IEX,Midcap,Financials
+2026-05-06,NAM-INDIA,Largecap,Financials
+2026-05-06,BDL,Largecap,Aerospace & Defence
+2026-05-06,HAL,Largecap,Aerospace & Defence
+2026-05-06,ADANIGREEN,Largecap,Power & Utilities
+2026-05-06,RVNL,Largecap,Realty
+2026-05-06,POLYCAB,Largecap,Industrials
+2026-05-06,360ONE,Largecap,Financials
+2026-05-06,CAMS,Midcap,Financials
+2026-05-06,ANGELONE,Largecap,Financials
+2026-05-06,MAZDOCK,Largecap,Aerospace & Defence
+2026-05-06,IRFC,Largecap,Financials
+2026-05-06,LODHA,Largecap,Realty
+2026-05-06,PAYTM,Largecap,I.T
+2026-05-06,DELHIVERY,Largecap,Transportation
+2026-05-06,KAYNES,Largecap,Consumer Discretionary
+2026-05-06,MANKIND,Largecap,Healthcare
+2026-05-06,NUVAMA,Largecap,Financials
+2026-05-06,VMM,Largecap,Consumer Discretionary
+2026-05-07,EXIDEIND,Largecap,Auto
+2026-05-07,CGPOWER,Largecap,Industrials
+2026-05-07,DABUR,Largecap,FMCG
+2026-05-07,BHEL,Largecap,Industrials
+2026-05-07,TITAN,Largecap,Consumer Discretionary
+2026-05-07,GODFRYPHLP,Largecap,FMCG
+2026-05-07,MFSL,Largecap,Miscellaneous
+2026-05-07,GRASIM,Largecap,Textiles
+2026-05-07,PIDILITIND,Largecap,Chemicals
+2026-05-07,FEDERALBNK,Largecap,Bank
+2026-05-07,CUMMINSIND,Largecap,Industrials
+2026-05-07,BHARATFORG,Largecap,Industrials
+2026-05-07,TATACONSUM,Largecap,FMCG
+2026-05-07,ASIANPAINT,Largecap,Building Materials
+2026-05-07,INDHOTEL,Largecap,Services
+2026-05-07,SRF,Largecap,Chemicals
+2026-05-07,APOLLOHOSP,Largecap,Healthcare
+2026-05-07,MOTHERSON,Largecap,Auto
+2026-05-07,SUNPHARMA,Largecap,Healthcare
+2026-05-07,MANAPPURAM,Largecap,Financials
+2026-05-07,CONCOR,Largecap,Transportation
+2026-05-07,MARICO,Largecap,FMCG
+2026-05-07,INDUSINDBK,Largecap,Bank
+2026-05-07,UNOMINDA,Largecap,Auto
+2026-05-07,COFORGE,Largecap,I.T
+2026-05-07,GMRAIRPORT,Largecap,Miscellaneous
+2026-05-07,ADANIPORTS,Largecap,Transportation
+2026-05-07,GODREJPROP,Largecap,Realty
+2026-05-07,PRESTIGE,Largecap,Realty
+2026-05-07,LTF,Largecap,Financials
+2026-05-07,MCX,Largecap,Financials
+2026-05-07,NBCC,Largecap,Miscellaneous
+2026-05-07,IDFCFIRSTB,Largecap,Bank
+2026-05-07,CROMPTON,Midcap,Consumer Discretionary
+2026-05-07,RBLBANK,Largecap,Bank
+2026-05-07,PNBHOUSING,Largecap,Financials
+2026-05-07,LAURUSLABS,Largecap,Healthcare
+2026-05-07,AUBANK,Largecap,Bank
+2026-05-07,IEX,Midcap,Financials
+2026-05-07,NAM-INDIA,Largecap,Financials
+2026-05-07,BDL,Largecap,Aerospace & Defence
+2026-05-07,HAL,Largecap,Aerospace & Defence
+2026-05-07,HDFCAMC,Largecap,Financials
+2026-05-07,POLYCAB,Largecap,Industrials
+2026-05-07,360ONE,Largecap,Financials
+2026-05-07,CAMS,Midcap,Financials
+2026-05-07,ANGELONE,Largecap,Financials
+2026-05-07,LODHA,Largecap,Realty
+2026-05-07,PAYTM,Largecap,I.T
+2026-05-07,KAYNES,Largecap,Consumer Discretionary
+2026-05-07,MANKIND,Largecap,Healthcare
+2026-05-07,NUVAMA,Largecap,Financials
+2026-05-10,LICHSGFIN,Largecap,Financials
+2026-05-10,GRASIM,Largecap,Textiles
+2026-05-10,TORNTPHARM,Largecap,Healthcare
+2026-05-10,TATACONSUM,Largecap,FMCG
+2026-05-10,UPL,Largecap,Chemicals
+2026-05-10,SUNPHARMA,Largecap,Healthcare
+2026-05-10,MARICO,Largecap,FMCG
+2026-05-10,ZYDUSLIFE,Largecap,Healthcare
+2026-05-10,BIOCON,Largecap,Healthcare
+2026-05-10,UNOMINDA,Largecap,Auto
+2026-05-10,COFORGE,Largecap,I.T
+2026-05-10,FORTIS,Largecap,Healthcare
+2026-05-10,MCX,Largecap,Financials
+2026-05-10,LAURUSLABS,Largecap,Healthcare
+2026-05-10,ADANIGREEN,Largecap,Power & Utilities
+2026-05-10,MAXHEALTH,Largecap,Healthcare
+2026-05-10,MANKIND,Largecap,Healthcare
+2026-05-10,NUVAMA,Largecap,Financials
+2026-05-11,HINDZINC,Largecap,Metals & Mining
+2026-05-11,VEDL,Largecap,Metals & Mining
+2026-05-11,TATACONSUM,Largecap,FMCG
+2026-05-11,BIOCON,Largecap,Healthcare
+2026-05-11,MCX,Largecap,Financials
+2026-05-11,LAURUSLABS,Largecap,Healthcare
+2026-05-12,BHEL,Largecap,Industrials
+2026-05-12,SAIL,Largecap,Metals & Mining
+2026-05-12,GODFRYPHLP,Largecap,FMCG
+2026-05-12,HINDZINC,Largecap,Metals & Mining
+2026-05-12,LICHSGFIN,Largecap,Financials
+2026-05-12,VEDL,Largecap,Metals & Mining
+2026-05-12,ONGC,Largecap,Energy
+2026-05-12,HINDALCO,Largecap,Metals & Mining
+2026-05-12,TATASTEEL,Largecap,Metals & Mining
+2026-05-12,ASIANPAINT,Largecap,Building Materials
+2026-05-12,ADANIENT,Largecap,Services
+2026-05-12,AUROPHARMA,Largecap,Healthcare
+2026-05-12,NMDC,Largecap,Metals & Mining
+2026-05-12,MANAPPURAM,Largecap,Financials
+2026-05-12,DIVISLAB,Largecap,Healthcare
+2026-05-12,BIOCON,Largecap,Healthcare
+2026-05-12,ADANIPORTS,Largecap,Transportation
+2026-05-12,OIL,Largecap,Energy
+2026-05-12,LAURUSLABS,Largecap,Healthcare
+2026-05-12,ADANIGREEN,Largecap,Power & Utilities
+2026-05-13,CIPLA,Largecap,Healthcare
+2026-05-13,CGPOWER,Largecap,Industrials
+2026-05-13,BHEL,Largecap,Industrials
+2026-05-13,SAIL,Largecap,Metals & Mining
+2026-05-13,GODFRYPHLP,Largecap,FMCG
+2026-05-13,JSWSTEEL,Largecap,Metals & Mining
+2026-05-13,VEDL,Largecap,Metals & Mining
+2026-05-13,ONGC,Largecap,Energy
+2026-05-13,PIDILITIND,Largecap,Chemicals
+2026-05-13,HINDALCO,Largecap,Metals & Mining
+2026-05-13,TATASTEEL,Largecap,Metals & Mining
+2026-05-13,ASIANPAINT,Largecap,Building Materials
+2026-05-13,ADANIENT,Largecap,Services
+2026-05-13,SUNPHARMA,Largecap,Healthcare
+2026-05-13,AUROPHARMA,Largecap,Healthcare
+2026-05-13,NMDC,Largecap,Metals & Mining
+2026-05-13,MANAPPURAM,Largecap,Financials
+2026-05-13,CONCOR,Largecap,Transportation
+2026-05-13,MARICO,Largecap,FMCG
+2026-05-13,ZYDUSLIFE,Largecap,Healthcare
+2026-05-13,BIOCON,Largecap,Healthcare
+2026-05-13,FORTIS,Largecap,Healthcare
+2026-05-13,MOTILALOFS,Largecap,Financials
+2026-05-13,ADANIPORTS,Largecap,Transportation
+2026-05-13,ADANIPOWER,Largecap,Power & Utilities
+2026-05-13,OIL,Largecap,Energy
+2026-05-13,MCX,Largecap,Financials
+2026-05-13,CROMPTON,Midcap,Consumer Discretionary
+2026-05-13,PNBHOUSING,Largecap,Financials
+2026-05-13,VBL,Largecap,FMCG
+2026-05-13,LAURUSLABS,Largecap,Healthcare
+2026-05-13,BSE,Largecap,Financials
+2026-05-13,NAM-INDIA,Largecap,Financials
+2026-05-13,BANDHANBNK,Largecap,Bank
+2026-05-13,ADANIGREEN,Largecap,Power & Utilities
+2026-05-13,MAXHEALTH,Largecap,Healthcare
+2026-05-13,POLICYBZR,Largecap,I.T
+2026-05-14,CIPLA,Largecap,Healthcare
+2026-05-14,ADANIENT,Largecap,Services
+2026-05-14,SUNPHARMA,Largecap,Healthcare
+2026-05-14,MARICO,Largecap,FMCG
+2026-05-14,ZYDUSLIFE,Largecap,Healthcare
+2026-05-14,BIOCON,Largecap,Healthcare
+2026-05-14,SOLARINDS,Largecap,Aerospace & Defence
+2026-05-14,ADANIPORTS,Largecap,Transportation
+2026-05-14,MCX,Largecap,Financials
+2026-05-14,CROMPTON,Midcap,Consumer Discretionary
+2026-05-14,PNBHOUSING,Largecap,Financials
+2026-05-14,LAURUSLABS,Largecap,Healthcare
+2026-05-14,NAM-INDIA,Largecap,Financials
+2026-05-14,MAXHEALTH,Largecap,Healthcare
+2026-05-14,POLICYBZR,Largecap,I.T
+2026-05-14,MANKIND,Largecap,Healthcare

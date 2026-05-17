@@ -1,0 +1,25 @@
+{
+  "totalStocks": 16,
+  "gainers": 14,
+  "losers": 2,
+  "avgPercentChange": 1.29,
+  "avgVolume": 3621837,
+  "topGainer": {
+    "sr": 16,
+    "nsecode": "CROMPTON",
+    "name": "Crompton Greaves Consumer Electricals Limited",
+    "bsecode": "539876",
+    "close": 301.95,
+    "per_chg": 4.5,
+    "volume": 18051421
+  },
+  "topLoser": {
+    "sr": 8,
+    "nsecode": "CIPLA",
+    "name": "Cipla Limited",
+    "bsecode": "500087",
+    "close": 1432.1,
+    "per_chg": -0.32,
+    "volume": 1138894
+  }
+}

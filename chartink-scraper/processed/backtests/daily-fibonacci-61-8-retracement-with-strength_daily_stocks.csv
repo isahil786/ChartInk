@@ -1,0 +1,3210 @@
+Date,Symbol,Cap Type,Sector
+2025-09-18,HEIDELBERG,Smallcap,Building Materials
+2025-09-18,ONGC,Largecap,Energy
+2025-09-18,CHEVIOT,Smallcap,Textiles
+2025-09-18,CUB,Midcap,Bank
+2025-09-18,SOUTHBANK,Midcap,Bank
+2025-09-18,VIPCLOTHNG,Smallcap,Textiles
+2025-09-18,SYNGENE,Midcap,Healthcare
+2025-09-18,SBILIFE,Largecap,Financials
+2025-09-18,SUPRIYA,Midcap,Healthcare
+2025-09-18,CONCORDBIO,Midcap,Healthcare
+2025-09-21,CEMPRO,Midcap,Realty
+2025-09-21,RAMAPHO,Smallcap,Chemicals
+2025-09-21,IMPEXFERRO,Smallcap,Metals & Mining
+2025-09-21,BORORENEW,Midcap,Building Materials
+2025-09-22,MUKANDLTD,Smallcap,Metals & Mining
+2025-09-22,IFBAGRO,Smallcap,FMCG
+2025-09-22,SOMATEX,Smallcap,Textiles
+2025-09-22,CONTROLPR,Smallcap,I.T
+2025-09-22,LINDEINDIA,Largecap,Chemicals
+2025-09-22,MENONBE,Smallcap,Auto
+2025-09-22,TINNARUBR,Smallcap,FMCG
+2025-09-22,ALICON,Smallcap,Industrials
+2025-09-22,EQUIPPP,Smallcap,I.T
+2025-09-22,CREATIVE,Smallcap,I.T
+2025-09-22,MEDICO,Smallcap,Healthcare
+2025-09-22,DIL,Smallcap,Services
+2025-09-22,OSWALSEEDS,Smallcap,FMCG
+2025-09-22,WEWIN,Smallcap,
+2025-09-23,AGI,Smallcap,Industrials
+2025-09-23,DEEPAKFERT,Midcap,Chemicals
+2025-09-23,ZUARIIND,Smallcap,FMCG
+2025-09-23,IFGLEXPOR,Smallcap,Building Materials
+2025-09-23,MUFIN,Smallcap,Financials
+2025-09-23,EQUITASBNK,Midcap,Bank
+2025-09-23,ETHOSLTD,Midcap,Consumer Discretionary
+2025-09-24,PGHH,Largecap,FMCG
+2025-09-24,GRMOVER,Smallcap,FMCG
+2025-09-24,MAXIND,Smallcap,Financials
+2025-09-24,HPAL,Smallcap,Chemicals
+2025-09-25,BLBLIMITED,Smallcap,Financials
+2025-09-25,MCL,Smallcap,Metals & Mining
+2025-09-28,TATAPOWER,Largecap,Power & Utilities
+2025-09-28,PGHH,Largecap,FMCG
+2025-09-28,JBCHEPHARM,Largecap,Healthcare
+2025-09-28,PFC,Largecap,Financials
+2025-09-28,NIBE,Smallcap,Aerospace & Defence
+2025-09-28,MANAKALUCO,Smallcap,Metals & Mining
+2025-09-28,LCCINFOTEC,Smallcap,Services
+2025-09-28,NIFTYOILANDGAS,Smallcap,Indices
+2025-09-28,LOWVOL1,Smallcap,Indices
+2025-09-29,SHALPAINTS,Smallcap,Building Materials
+2025-09-29,CANFINHOME,Midcap,Financials
+2025-09-29,UCOBANK,Largecap,Bank
+2025-09-29,BAGFILMS,Smallcap,Media
+2025-09-29,KEC,Midcap,Realty
+2025-09-29,MOVALUE,Smallcap,Indices
+2025-09-30,BEML,Midcap,Aerospace & Defence
+2025-09-30,EXIDEIND,Largecap,Auto
+2025-09-30,DRREDDY,Largecap,Healthcare
+2025-09-30,LUPIN,Largecap,Healthcare
+2025-09-30,ELECON,Midcap,Industrials
+2025-09-30,UGROCAP,Smallcap,Financials
+2025-09-30,ADOR,Smallcap,Industrials
+2025-09-30,IOLCP,Smallcap,Healthcare
+2025-09-30,SUNPHARMA,Largecap,Healthcare
+2025-09-30,UYFINCORP,Smallcap,Financials
+2025-09-30,CIFL,Smallcap,Financials
+2025-09-30,GRMOVER,Smallcap,FMCG
+2025-09-30,ORCHASP,Smallcap,I.T
+2025-09-30,GVPIL,Smallcap,Realty
+2025-09-30,UNITDSPR,Largecap,FMCG
+2025-09-30,GSPL,Midcap,Energy
+2025-09-30,CIEINDIA,Midcap,Industrials
+2025-09-30,RGL,Smallcap,Consumer Discretionary
+2025-09-30,GOKUL,Smallcap,FMCG
+2025-09-30,THOMASCOTT,Smallcap,Consumer Discretionary
+2025-09-30,VIJIFIN,Smallcap,Financials
+2025-09-30,GULFOILLUB,Smallcap,Chemicals
+2025-09-30,MALLCOM,Smallcap,Textiles
+2025-09-30,XELPMOC,Smallcap,I.T
+2025-09-30,NPBET,Smallcap,Indices
+2025-09-30,STARHEALTH,Largecap,Financials
+2025-09-30,NIFTY500MULTICAP,Smallcap,Indices
+2025-09-30,EBANKNIFTY,Smallcap,Indices
+2025-10-02,CESC,Largecap,Power & Utilities
+2025-10-02,NDLVENTURE,Smallcap,Financials
+2025-10-02,JINDALPOLY,Smallcap,Textiles
+2025-10-02,KOTAKBANK,Largecap,Bank
+2025-10-02,PIDILITIND,Largecap,Chemicals
+2025-10-02,SPLPETRO,Midcap,Energy
+2025-10-02,VHL,Smallcap,Financials
+2025-10-02,MUKANDLTD,Smallcap,Metals & Mining
+2025-10-02,CEATLTD,Midcap,Auto
+2025-10-02,FINPIPE,Midcap,Plastic products
+2025-10-02,ANDHRAPAP,Smallcap,Building Materials
+2025-10-02,NELCO,Smallcap,Telecom
+2025-10-02,GRINDWELL,Largecap,Industrials
+2025-10-02,MASTERTR,Smallcap,Financials
+2025-10-02,MMTC,Midcap,Services
+2025-10-02,HERITGFOOD,Smallcap,FMCG
+2025-10-02,RIIL,Smallcap,Transportation
+2025-10-02,CARYSIL,Smallcap,Consumer Discretionary
+2025-10-02,NRBBEARING,Smallcap,Industrials
+2025-10-02,REMSONSIND,Smallcap,Auto
+2025-10-02,GAIL,Largecap,Energy
+2025-10-02,MCLEODRUSS,Smallcap,FMCG
+2025-10-02,KERNEX,Smallcap,Consumer Discretionary
+2025-10-02,INDOTECH,Smallcap,Industrials
+2025-10-02,TANLA,Midcap,I.T
+2025-10-02,SMSPHARMA,Smallcap,Healthcare
+2025-10-02,POWERGRID,Largecap,Power & Utilities
+2025-10-02,KIRIINDUS,Smallcap,Chemicals
+2025-10-02,ROML,Smallcap,FMCG
+2025-10-02,ESSARSHPNG,Smallcap,Transportation
+2025-10-02,STEELXIND,Smallcap,Metals & Mining
+2025-10-02,VMART,Midcap,Consumer Discretionary
+2025-10-02,SATIN,Smallcap,Financials
+2025-10-02,NINSYS,Smallcap,I.T
+2025-10-02,LTTS,Largecap,I.T
+2025-10-02,NIFTYPVTBANK,Smallcap,Indices
+2025-10-02,CNXMIDCAP,Smallcap,Indices
+2025-10-02,TEJASNET,Midcap,Telecom
+2025-10-02,BRNL,Smallcap,Realty
+2025-10-02,LIBAS,Smallcap,FMCG
+2025-10-02,ONEPOINT,Smallcap,I.T
+2025-10-02,NIFTY50PR2XLEV,Smallcap,Indices
+2025-10-02,NIFTYMIDCAP50,Smallcap,Indices
+2025-10-02,NIFTY50TR2XLEV,Smallcap,Indices
+2025-10-02,SETFNIFBK,Smallcap,Indices
+2025-10-02,BANKIETF,Smallcap,Indices
+2025-10-02,LTGILTBEES,Smallcap,Indices
+2025-10-02,NIFTYMIDCAP150,Smallcap,Indices
+2025-10-02,NIFTYMIDSMALLCAP400,Smallcap,Indices
+2025-10-02,BORORENEW,Midcap,Building Materials
+2025-10-02,MAZDOCK,Largecap,Aerospace & Defence
+2025-10-02,AAATECH,Smallcap,I.T
+2025-10-02,SBIETFPB,Smallcap,Indices
+2025-10-02,PARAS,Midcap,Aerospace & Defence
+2025-10-02,DATAPATTNS,Largecap,Aerospace & Defence
+2025-10-02,NIFTY200MOMENTM30,Smallcap,Indices
+2025-10-02,NIFTYALPHALOWVOL,Smallcap,Indices
+2025-10-02,NIFTYMIDSELECT,Smallcap,Indices
+2025-10-02,CAMPUS,Midcap,Consumer Discretionary
+2025-10-02,BANKADD,Smallcap,Indices
+2025-10-02,HDFCBSE500,Smallcap,Indices
+2025-10-02,LOWVOL,Smallcap,Indices
+2025-10-02,IKIO,Smallcap,Consumer Discretionary
+2025-10-02,TATATECH,Largecap,I.T
+2025-10-02,INFRAIETF,Smallcap,
+2025-10-02,NIFTYTATA25CAP,Smallcap,Indices
+2025-10-02,GROWWDEFNC,Smallcap,Indices
+2025-10-02,NIFTY500MOMENTM50,Smallcap,Indices
+2025-10-02,SETL,Smallcap,Industrials
+2025-10-02,GROWWRAIL,Smallcap,Indices
+2025-10-02,ARIS,Smallcap,Services
+2025-10-05,MRPL,Largecap,Energy
+2025-10-05,PRIMESECU,Smallcap,Financials
+2025-10-05,STEELCAS,Smallcap,Industrials
+2025-10-05,SUNPHARMA,Largecap,Healthcare
+2025-10-05,STYLAMIND,Smallcap,Building Materials
+2025-10-05,ITDC,Smallcap,Services
+2025-10-05,BHARTIARTL,Largecap,Telecom-Service
+2025-10-05,OFSS,Largecap,I.T
+2025-10-05,HUBTOWN,Smallcap,Realty
+2025-10-05,OIL,Largecap,Energy
+2025-10-05,VASWANI,Smallcap,Metals & Mining
+2025-10-05,AUBANK,Largecap,Bank
+2025-10-05,DIXON,Largecap,Consumer Discretionary
+2025-10-05,TARACHAND,Smallcap,Miscellaneous
+2025-10-05,AKG,Smallcap,Services
+2025-10-05,NIFTYSERVSECTOR,Smallcap,Indices
+2025-10-05,MOM100,Smallcap,Indices
+2025-10-05,NIFTYMIDLIQ15,Smallcap,Indices
+2025-10-05,GREENPANEL,Smallcap,Building Materials
+2025-10-05,NDRAUTO,Smallcap,Auto
+2025-10-05,NIFTYINDDIGITAL,Smallcap,Indices
+2025-10-05,DELHIVERY,Largecap,Transportation
+2025-10-05,NUVAMA,Largecap,Financials
+2025-10-05,NIFTY200ALPHA30,Smallcap,Indices
+2025-10-05,NIFTYM150MOMNTM50,Smallcap,Indices
+2025-10-05,EMCURE,Largecap,Healthcare
+2025-10-05,MOMENTUM50,Smallcap,Indices
+2025-10-05,EMULTIMQ,Smallcap,Indices
+2025-10-05,NIFTYMS400MQ100,Smallcap,Indices
+2025-10-05,NIFTYTOP10EW,Smallcap,Indices
+2025-10-05,IKS,Largecap,I.T
+2025-10-06,CENTEXT,Smallcap,Metals & Mining
+2025-10-06,VIPIND,Smallcap,Plastic products
+2025-10-06,INDBANK,Smallcap,Financials
+2025-10-06,AARTIDRUGS,Smallcap,Healthcare
+2025-10-06,NUCLEUS,Smallcap,I.T
+2025-10-06,PETRONET,Largecap,Energy
+2025-10-06,REPRO,Smallcap,Miscellaneous
+2025-10-06,AMDIND,Smallcap,Industrials
+2025-10-06,PERSISTENT,Largecap,I.T
+2025-10-06,CIGNITITEC,Smallcap,I.T
+2025-10-06,IDFCFIRSTB,Largecap,Bank
+2025-10-06,MASKINVEST,Smallcap,Financials
+2025-10-06,SILVERTUC,Smallcap,I.T
+2025-10-06,SGIL,Smallcap,Industrials
+2025-10-06,MOLOWVOL,Smallcap,Indices
+2025-10-06,TMB,Midcap,Bank
+2025-10-06,HEALTHADD,Smallcap,Indices
+2025-10-07,TITAN,Largecap,Consumer Discretionary
+2025-10-07,FEDERALBNK,Largecap,Bank
+2025-10-07,EIHOTEL,Midcap,Services
+2025-10-07,TCIFINANCE,Smallcap,Financials
+2025-10-07,STEELCAS,Smallcap,Industrials
+2025-10-07,EIMCOELECO,Smallcap,Industrials
+2025-10-07,BCG,Smallcap,I.T
+2025-10-07,UMIYA-MRO,Smallcap,Telecom
+2025-10-07,TCS,Largecap,I.T
+2025-10-07,KARMAENG,Smallcap,Power & Utilities
+2025-10-07,ABMINTLLTD,Smallcap,Services
+2025-10-07,CNXIT,Smallcap,Indices
+2025-10-07,TIRUPATIFL,Smallcap,Industrials
+2025-10-07,SKYGOLD,Midcap,Consumer Discretionary
+2025-10-07,ITBEES,Smallcap,Indices
+2025-10-07,AXISTECETF,Smallcap,Indices
+2025-10-07,ITBETA,Smallcap,Indices
+2025-10-08,ACC,Largecap,Building Materials
+2025-10-08,ARCHIES,Smallcap,Consumer Discretionary
+2025-10-08,HCLTECH,Largecap,I.T
+2025-10-08,WAAREERTL,Midcap,Power & Utilities
+2025-10-08,FELDVR,Smallcap,Consumer Discretionary
+2025-10-08,SHARIABEES,Smallcap,Indices
+2025-10-08,SKMEGGPROD,Smallcap,FMCG
+2025-10-08,KRISHANA,Smallcap,Chemicals
+2025-10-08,SHANTI,Smallcap,FMCG
+2025-10-08,LATTEYS,Smallcap,Industrials
+2025-10-08,TEMBO,Smallcap,Consumer Discretionary
+2025-10-08,AFFLE,Largecap,I.T
+2025-10-08,MUFIN,Smallcap,Financials
+2025-10-08,SBIETFIT,Smallcap,Indices
+2025-10-08,TOP100CASE,Smallcap,Indices
+2025-10-08,THELEELA,Midcap,Services
+2025-10-09,BOMDYEING,Smallcap,Textiles
+2025-10-09,PGHL,Midcap,Healthcare
+2025-10-09,KAJARIACER,Midcap,Building Materials
+2025-10-09,KSL,Smallcap,Metals & Mining
+2025-10-09,MANALIPETC,Smallcap,Energy
+2025-10-09,BBTC,Midcap,Auto
+2025-10-09,VIPIND,Smallcap,Plastic products
+2025-10-09,PENIND,Smallcap,Metals & Mining
+2025-10-09,NAHARINDUS,Smallcap,Textiles
+2025-10-09,J&KBANK,Midcap,Bank
+2025-10-09,GVPIL,Smallcap,Realty
+2025-10-09,GILLANDERS,Smallcap,FMCG
+2025-10-09,KAMDHENU,Smallcap,Metals & Mining
+2025-10-09,SRGHFL,Smallcap,Financials
+2025-10-09,REPCOHOME,Smallcap,Financials
+2025-10-09,KAYA,Smallcap,Healthcare
+2025-10-09,BELLACASA,Smallcap,Consumer Discretionary
+2025-10-09,COFFEEDAY,Smallcap,Consumer Discretionary
+2025-10-09,HEADSUP,Smallcap,Consumer Discretionary
+2025-10-09,CDSL,Largecap,Financials
+2025-10-09,AVADHSUGAR,Smallcap,FMCG
+2025-10-09,XELPMOC,Smallcap,I.T
+2025-10-09,NIFTYSMALLCAP50,Smallcap,Indices
+2025-10-09,IRFC,Largecap,Financials
+2025-10-09,NIFTYMICROCAP250,Smallcap,Indices
+2025-10-09,UMAEXPORTS,Smallcap,Services
+2025-10-09,IREDA,Largecap,Financials
+2025-10-09,SMALLCAP,Smallcap,Indices
+2025-10-09,NIFTYSML250MQ100,Smallcap,Indices
+2025-10-09,ODIGMA,Smallcap,I.T
+2025-10-09,MOCAPITAL,Smallcap,Indices
+2025-10-12,HERITGFOOD,Smallcap,FMCG
+2025-10-12,SOMATEX,Smallcap,Textiles
+2025-10-12,CTE,Smallcap,I.T
+2025-10-12,ECLERX,Midcap,I.T
+2025-10-12,WORTHPERI,Smallcap,Industrials
+2025-10-12,FSC,Smallcap,Transportation
+2025-10-12,SILLYMONKS,Smallcap,Media
+2025-10-12,HDFCAMC,Largecap,Financials
+2025-10-12,UNIVPHOTO,Smallcap,Consumer Discretionary
+2025-10-12,ABSLAMC,Largecap,Financials
+2025-10-13,THOMASCOOK,Smallcap,Miscellaneous
+2025-10-13,INFOMEDIA,Smallcap,Miscellaneous
+2025-10-13,MAXHEALTH,Largecap,Healthcare
+2025-10-13,SONACOMS,Largecap,Auto
+2025-10-13,TECH,Smallcap,Indices
+2025-10-13,PREMIERENE,Largecap,Services
+2025-10-14,CHOLAHLDNG,Largecap,Financials
+2025-10-14,LLOYDSME,Largecap,Metals & Mining
+2025-10-14,FILATEX,Smallcap,Textiles
+2025-10-14,JINDALSTEL,Largecap,Metals & Mining
+2025-10-14,CREATIVEYE,Smallcap,Media
+2025-10-14,UNITDSPR,Largecap,FMCG
+2025-10-14,RECLTD,Largecap,Financials
+2025-10-14,GODREJPROP,Largecap,Realty
+2025-10-14,BHARATWIRE,Smallcap,Metals & Mining
+2025-10-14,LCCINFOTEC,Smallcap,Services
+2025-10-14,CNXREALTY,Smallcap,Indices
+2025-10-14,DIXON,Largecap,Consumer Discretionary
+2025-10-14,ICICIGI,Largecap,Financials
+2025-10-14,ONEPOINT,Smallcap,I.T
+2025-10-14,MANORAMA,Midcap,FMCG
+2025-10-14,AETHER,Midcap,Chemicals
+2025-10-14,HDFCSML250,Smallcap,Indices
+2025-10-14,MIDCAPBETA,Smallcap,Indices
+2025-10-14,HEXT,Smallcap,
+2025-10-14,MOPSE,Smallcap,Indices
+2025-10-14,IGCL,Smallcap,Chemicals
+2025-10-14,INTERNET,Smallcap,Indices
+2025-10-15,BATAINDIA,Midcap,Consumer Discretionary
+2025-10-15,EXIDEIND,Largecap,Auto
+2025-10-15,GRWRHITECH,Midcap,Industrials
+2025-10-15,EIHOTEL,Midcap,Services
+2025-10-15,GENESYS,Smallcap,I.T
+2025-10-15,HERITGFOOD,Smallcap,FMCG
+2025-10-15,ICICIBANK,Largecap,Bank
+2025-10-15,ENERGYDEV,Smallcap,Power & Utilities
+2025-10-15,GOKEX,Midcap,Consumer Discretionary
+2025-10-15,GLOBALVECT,Smallcap,Transportation
+2025-10-15,SOBHA,Midcap,Realty
+2025-10-15,DLF,Largecap,Realty
+2025-10-15,KIRIINDUS,Smallcap,Chemicals
+2025-10-15,KICL,Smallcap,Financials
+2025-10-15,TREEHOUSE,Smallcap,Services
+2025-10-15,VSSL,Smallcap,Metals & Mining
+2025-10-15,SPECIALITY,Smallcap,Services
+2025-10-15,ARVSMART,Smallcap,Realty
+2025-10-15,SHAREINDIA,Smallcap,Financials
+2025-10-15,BANKA,Smallcap,Miscellaneous
+2025-10-15,ORIENTELEC,Smallcap,Consumer Discretionary
+2025-10-15,SETFNIFBK,Smallcap,Indices
+2025-10-15,CHALET,Midcap,Services
+2025-10-15,WEL,Smallcap,Consumer Discretionary
+2025-10-15,LODHA,Largecap,Realty
+2025-10-15,NIFTYCONSURDURBL,Smallcap,Indices
+2025-10-15,IEL,Smallcap,Miscellaneous
+2025-10-15,HAPPYFORGE,Midcap,Industrials
+2025-10-15,MOREALTY,Smallcap,Indices
+2025-10-15,NIFTYTATA25CAP,Smallcap,Indices
+2025-10-15,OLAELEC,Midcap,Auto
+2025-10-16,WHIRLPOOL,Midcap,Consumer Discretionary
+2025-10-16,HINDUNILVR,Largecap,FMCG
+2025-10-16,ASIANPAINT,Largecap,Building Materials
+2025-10-16,ITC,Largecap,FMCG
+2025-10-16,BERGEPAINT,Largecap,Building Materials
+2025-10-16,TCPLPACK,Smallcap,Industrials
+2025-10-16,GAEL,Midcap,FMCG
+2025-10-16,MARICO,Largecap,FMCG
+2025-10-16,SELMC,Smallcap,Textiles
+2025-10-16,SALONA,Smallcap,Textiles
+2025-10-16,NIFTYFMCG,Smallcap,Indices
+2025-10-16,BDL,Largecap,Aerospace & Defence
+2025-10-16,TEMBO,Smallcap,Consumer Discretionary
+2025-10-16,NURECA,Smallcap,I.T
+2025-10-16,FMCGIETF,Smallcap,Indices
+2025-10-16,TMB,Midcap,Bank
+2025-10-16,DIVGIITTS,Smallcap,Auto
+2025-10-19,IFCI,Midcap,Financials
+2025-10-19,MARATHON,Smallcap,Realty
+2025-10-19,CYIENT,Midcap,I.T
+2025-10-19,BIOCON,Largecap,Healthcare
+2025-10-19,TCS,Largecap,I.T
+2025-10-19,PNBHOUSING,Largecap,Financials
+2025-10-19,BANDHANBNK,Largecap,Bank
+2025-10-19,KPIGREEN,Midcap,Power & Utilities
+2025-10-19,CYIENTDLM,Smallcap,Consumer Discretionary
+2025-10-19,NIFTY1,Smallcap,
+2025-10-19,AWFIS,Smallcap,Co-Working
+2025-10-19,VENTIVE,Midcap,Services
+2025-10-20,KSL,Smallcap,Metals & Mining
+2025-10-20,HEG,Midcap,Industrials
+2025-10-20,PENIND,Smallcap,Metals & Mining
+2025-10-20,CARBORUNIV,Largecap,Industrials
+2025-10-20,RAJRATAN,Smallcap,Metals & Mining
+2025-10-20,ASAL,Smallcap,Auto
+2025-10-20,SEAMECLTD,Smallcap,Miscellaneous
+2025-10-20,TVTODAY,Smallcap,Media
+2025-10-20,KTKBANK,Midcap,Bank
+2025-10-20,JAGRAN,Smallcap,Media
+2025-10-20,INDOTECH,Smallcap,Industrials
+2025-10-20,KKCL,Smallcap,Consumer Discretionary
+2025-10-20,LTFOODS,Midcap,FMCG
+2025-10-20,PURVA,Midcap,Realty
+2025-10-20,THOMASCOTT,Smallcap,Consumer Discretionary
+2025-10-20,PDSL,Smallcap,Textiles
+2025-10-20,MGL,Midcap,Energy
+2025-10-20,BHARATRAS,Smallcap,Chemicals
+2025-10-20,JMA,Smallcap,Auto
+2025-10-20,CREATIVE,Smallcap,I.T
+2025-10-20,LEXUS,Smallcap,Building Materials
+2025-10-20,RMDRIP,Smallcap,Plastic products
+2025-10-20,ONEPOINT,Smallcap,I.T
+2025-10-20,UNIVPHOTO,Smallcap,Consumer Discretionary
+2025-10-20,SHRIRAMPPS,Smallcap,Realty
+2025-10-20,ASKAUTOLTD,Midcap,Auto
+2025-10-20,EMCURE,Largecap,Healthcare
+2025-10-20,GLOBALE,Smallcap,Textiles
+2025-10-20,GARUDA,Smallcap,Realty
+2025-10-20,DBEIL,Smallcap,Realty
+2025-10-20,GODAVARIB,Smallcap,FMCG
+2025-10-20,SURAKSHA,Smallcap,Healthcare
+2025-10-20,IGCL,Smallcap,Chemicals
+2025-10-22,BANARISUG,Smallcap,FMCG
+2025-10-22,OAL,Smallcap,Chemicals
+2025-10-22,HLVLTD,Smallcap,Services
+2025-10-22,ORBTEXP,Smallcap,Textiles
+2025-10-22,VISHNU,Smallcap,Chemicals
+2025-10-22,IGL,Largecap,Energy
+2025-10-22,AMDIND,Smallcap,Industrials
+2025-10-22,FMNL,Smallcap,Miscellaneous
+2025-10-22,SAMPANN,Smallcap,FMCG
+2025-10-22,SYNGENE,Midcap,Healthcare
+2025-10-22,BEARDSELL,Smallcap,Plastic products
+2025-10-22,TIRUPATIFL,Smallcap,Industrials
+2025-10-22,KAPSTON,Smallcap,Miscellaneous
+2025-10-22,ESAFSFB,Smallcap,Bank
+2025-10-22,TOLINS,Smallcap,Auto
+2025-10-22,RAYMONDREL,Smallcap,Realty
+2025-10-23,UNIDT,Smallcap,Industrials
+2025-10-23,CLSEL,Smallcap,FMCG
+2025-10-23,PFS,Smallcap,Financials
+2025-10-23,VETO,Smallcap,Industrials
+2025-10-23,SUNDARMFIN,Largecap,Financials
+2025-10-23,ARTNIRMAN,Smallcap,Realty
+2025-10-23,BCONCEPTS,Smallcap,Consumer Discretionary
+2025-10-23,HARDWYN,Smallcap,Services
+2025-10-23,GLAND,Largecap,Healthcare
+2025-10-26,PATANJALI,Largecap,FMCG
+2025-10-26,MUKANDLTD,Smallcap,Metals & Mining
+2025-10-26,SALZERELEC,Smallcap,Industrials
+2025-10-26,SAFARI,Midcap,Plastic products
+2025-10-26,3MINDIA,Largecap,Miscellaneous
+2025-10-26,KILITCH,Smallcap,Healthcare
+2025-10-26,INDUSINDBK,Largecap,Bank
+2025-10-26,INTELLECT,Midcap,I.T
+2025-10-26,JMA,Smallcap,Auto
+2025-10-26,UNIVPHOTO,Smallcap,Consumer Discretionary
+2025-10-26,BECTORFOOD,Midcap,FMCG
+2025-10-26,RRKABEL,Largecap,Industrials
+2025-10-27,DEEPAKFERT,Midcap,Chemicals
+2025-10-27,GREAVESCOT,Smallcap,Industrials
+2025-10-27,SWANCORP,Midcap,Textiles
+2025-10-27,MUTHOOTCAP,Smallcap,Financials
+2025-10-27,UPL,Largecap,Chemicals
+2025-10-27,BUTTERFLY,Smallcap,Consumer Discretionary
+2025-10-27,ADFFOODS,Smallcap,FMCG
+2025-10-27,ELGIEQUIP,Midcap,Industrials
+2025-10-27,DCMSHRIRAM,Midcap,Miscellaneous
+2025-10-27,INDOBORAX,Smallcap,Chemicals
+2025-10-27,ANTELOPUS,Smallcap,Energy
+2025-10-27,BALUFORGE,Midcap,Industrials
+2025-10-27,SAKUMA,Smallcap,Services
+2025-10-27,THANGAMAYL,Midcap,Consumer Discretionary
+2025-10-27,KIRLOSENG,Largecap,Industrials
+2025-10-27,NH,Largecap,Healthcare
+2025-10-27,VEEDOL,Smallcap,Chemicals
+2025-10-27,GLOBAL,Smallcap,Services
+2025-10-27,AARON,Smallcap,Industrials
+2025-10-27,GODIGIT,Largecap,Financials
+2025-10-28,EIDPARRY,Midcap,FMCG
+2025-10-28,UCAL,Smallcap,Auto
+2025-10-28,EVERESTIND,Smallcap,Building Materials
+2025-10-28,DIGISPICE,Smallcap,I.T
+2025-10-28,GIPCL,Smallcap,Power & Utilities
+2025-10-28,GVT&D,Largecap,Industrials
+2025-10-28,AARTIIND,Midcap,Chemicals
+2025-10-28,OLECTRA,Midcap,Auto
+2025-10-28,DATAMATICS,Smallcap,I.T
+2025-10-28,JBMA,Midcap,Auto
+2025-10-28,ICRA,Midcap,Financials
+2025-10-28,KECL,Smallcap,Industrials
+2025-10-28,TREEHOUSE,Smallcap,Services
+2025-10-28,TRITURBINE,Midcap,Industrials
+2025-10-28,MIDHANI,Midcap,Aerospace & Defence
+2025-10-28,ATAM,Smallcap,Industrials
+2025-10-28,SILVERIETF,Smallcap,Indices
+2025-10-28,SILVERBEES,Smallcap,Indices
+2025-10-28,AXISILVER,Smallcap,Indices
+2025-10-28,SILVERAG,Smallcap,Indices
+2025-10-28,ESILVER,Smallcap,Indices
+2025-10-28,SILVERADD,Smallcap,
+2025-10-28,SILVERCASE,Smallcap,Indices
+2025-10-29,ABREL,Midcap,Realty
+2025-10-29,RSWM,Smallcap,Textiles
+2025-10-29,HIRECT,Smallcap,Consumer Discretionary
+2025-10-29,EUROTEXIND,Smallcap,Textiles
+2025-10-29,BIL,Smallcap,Consumer Discretionary
+2025-10-29,ENGINERSIN,Midcap,Realty
+2025-10-29,BLBLIMITED,Smallcap,Financials
+2025-10-29,BAJAJHCARE,Smallcap,Healthcare
+2025-10-29,CHALET,Midcap,Services
+2025-10-29,CAMS,Midcap,Financials
+2025-10-29,POLICYBZR,Largecap,I.T
+2025-10-29,FIVESTAR,Midcap,Financials
+2025-10-29,GSLSU,Smallcap,Consumer Discretionary
+2025-10-30,OSWALAGRO,Smallcap,Services
+2025-10-30,LANCORHOL,Smallcap,Realty
+2025-10-30,GENUSPOWER,Midcap,Consumer Discretionary
+2025-10-30,ATLANTAA,Smallcap,Realty
+2025-10-30,DPWIRES,Smallcap,Metals & Mining
+2025-10-30,BRIGHOTEL,Smallcap,Services
+2025-11-02,FORCEMOT,Largecap,Auto
+2025-11-02,AMBUJACEM,Largecap,Building Materials
+2025-11-02,BHARATGEAR,Smallcap,Auto
+2025-11-02,SDBL,Smallcap,FMCG
+2025-11-02,VLSFINANCE,Smallcap,Financials
+2025-11-02,WEBELSOLAR,Smallcap,Industrials
+2025-11-02,HNDFDS,Midcap,FMCG
+2025-11-02,DOLPHIN,Smallcap,Energy
+2025-11-02,GAEL,Midcap,FMCG
+2025-11-02,AJANTPHARM,Largecap,Healthcare
+2025-11-02,STLTECH,Largecap,Industrials
+2025-11-02,ONELIFECAP,Smallcap,Financials
+2025-11-02,PANSARI,Smallcap,Realty
+2025-11-02,REDTAPE,Midcap,Consumer Discretionary
+2025-11-02,RATNAVEER,Smallcap,Metals & Mining
+2025-11-02,JSFB,Midcap,Bank
+2025-11-03,MFSL,Largecap,Miscellaneous
+2025-11-03,WSI,Smallcap,Realty
+2025-11-03,IVP,Smallcap,Chemicals
+2025-11-03,ORICONENT,Smallcap,Industrials
+2025-11-03,3MINDIA,Largecap,Miscellaneous
+2025-11-03,MPSLTD,Smallcap,I.T
+2025-11-03,THANGAMAYL,Midcap,Consumer Discretionary
+2025-11-03,SUNDRMBRAK,Smallcap,Auto
+2025-11-03,INDOSTAR,Smallcap,Financials
+2025-11-03,POWERINDIA,Largecap,Industrials
+2025-11-03,MVGJL,Smallcap,Consumer Discretionary
+2025-11-05,WEBELSOLAR,Smallcap,Industrials
+2025-11-05,REDINGTON,Midcap,Services
+2025-11-05,SHARDAMOTR,Midcap,Auto
+2025-11-05,ARTNIRMAN,Smallcap,Realty
+2025-11-05,ZODIAC,Smallcap,Realty
+2025-11-05,EXXARO,Smallcap,Building Materials
+2025-11-05,FLAIR,Smallcap,Miscellaneous
+2025-11-05,BELRISE,Midcap,Auto
+2025-11-06,INFOMEDIA,Smallcap,Miscellaneous
+2025-11-06,UNIDT,Smallcap,Industrials
+2025-11-06,INCREDIBLE,Smallcap,Metals & Mining
+2025-11-06,ICICIPRULI,Largecap,Financials
+2025-11-06,FUSION,Smallcap,Financials
+2025-11-06,NIITMTS,Smallcap,I.T
+2025-11-06,DENTA,Smallcap,Realty
+2025-11-09,INFY,Largecap,I.T
+2025-11-09,BBTC,Midcap,Auto
+2025-11-09,VGL,Smallcap,Textiles
+2025-11-09,DVL,Smallcap,Services
+2025-11-09,ANTELOPUS,Smallcap,Energy
+2025-11-09,THEMISMED,Smallcap,Healthcare
+2025-11-09,ZYDUSWELL,Midcap,FMCG
+2025-11-09,MARICO,Largecap,FMCG
+2025-11-09,J&KBANK,Midcap,Bank
+2025-11-09,TVSMOTOR,Largecap,Auto
+2025-11-09,UMIYA-MRO,Smallcap,Telecom
+2025-11-09,TCS,Largecap,I.T
+2025-11-09,LUMAXTECH,Midcap,Auto
+2025-11-09,NHPC,Largecap,Power & Utilities
+2025-11-09,RAMKY,Smallcap,Realty
+2025-11-09,TBZ,Smallcap,Consumer Discretionary
+2025-11-09,NIF100IETF,Smallcap,Indices
+2025-11-09,KAVDEFENCE,Smallcap,Aerospace & Defence
+2025-11-09,HYBRIDFIN,Smallcap,Financials
+2025-11-09,NAM-INDIA,Largecap,Financials
+2025-11-09,CREDITACC,Largecap,Financials
+2025-11-09,SMCGLOBAL,Smallcap,Financials
+2025-11-09,NIFTYM150QLTY50,Smallcap,Indices
+2025-11-09,DREAMFOLKS,Smallcap,Miscellaneous
+2025-11-09,HDFCVALUE,Smallcap,Indices
+2025-11-09,MIDCAPBETA,Smallcap,Indices
+2025-11-09,MUTHOOTMF,Smallcap,Financials
+2025-11-09,ITBETA,Smallcap,Indices
+2025-11-09,EMCURE,Largecap,Healthcare
+2025-11-09,SCODATUBES,Smallcap,Metals & Mining
+2025-11-09,GROWWPOWER,Smallcap,Indices
+2025-11-10,BALKRISIND,Largecap,Auto
+2025-11-10,CLSEL,Smallcap,FMCG
+2025-11-10,SHILPAMED,Midcap,Healthcare
+2025-11-10,AXISCADES,Midcap,Aerospace & Defence
+2025-11-10,NITINSPIN,Smallcap,Textiles
+2025-11-10,GALLANTT,Midcap,Metals & Mining
+2025-11-10,VOLTAMP,Midcap,Industrials
+2025-11-10,BDL,Largecap,Aerospace & Defence
+2025-11-10,KPITTECH,Midcap,I.T
+2025-11-10,IRCTC,Largecap,Transportation
+2025-11-10,INDIGOPNTS,Smallcap,Building Materials
+2025-11-10,CRAFTSMAN,Largecap,Auto
+2025-11-10,JYOTICNC,Midcap,Industrials
+2025-11-11,MIRCELECTR,Smallcap,Consumer Discretionary
+2025-11-11,GRINDWELL,Largecap,Industrials
+2025-11-11,WIPRO,Largecap,I.T
+2025-11-11,MANORG,Smallcap,Chemicals
+2025-11-11,TRIDENT,Midcap,Textiles
+2025-11-11,ELGIEQUIP,Midcap,Industrials
+2025-11-11,AARTIIND,Midcap,Chemicals
+2025-11-11,GREENPLY,Smallcap,Building Materials
+2025-11-11,SANGHVIMOV,Smallcap,Miscellaneous
+2025-11-11,APARINDS,Largecap,Industrials
+2025-11-11,PFOCUS,Midcap,Realty
+2025-11-11,ATLANTAA,Smallcap,Realty
+2025-11-11,NAUKRI,Largecap,I.T
+2025-11-11,TIIL,Midcap,Metals & Mining
+2025-11-11,GREENPOWER,Smallcap,Power & Utilities
+2025-11-11,RHIM,Midcap,Building Materials
+2025-11-11,VMART,Midcap,Consumer Discretionary
+2025-11-11,ENDURANCE,Largecap,Auto
+2025-11-11,WIPL,Smallcap,Building Materials
+2025-11-11,MASFIN,Midcap,Financials
+2025-11-11,HDFCLIFE,Largecap,Financials
+2025-11-11,CAMS,Midcap,Financials
+2025-11-11,EUREKAFORB,Midcap,Consumer Discretionary
+2025-11-11,JIOFIN,Largecap,Financials
+2025-11-11,YATRA,Smallcap,I.T
+2025-11-11,NIFTYIETF,Smallcap,
+2025-11-11,AZAD,Midcap,Aerospace & Defence
+2025-11-11,NIFTY1,Smallcap,
+2025-11-12,DCW,Smallcap,Energy
+2025-11-12,FMGOETZE,Smallcap,Auto
+2025-11-12,DSSL,Smallcap,I.T
+2025-11-12,ALLCARGO,Smallcap,Transportation
+2025-11-12,MANAKSTEEL,Smallcap,Metals & Mining
+2025-11-12,JUBLINGREA,Midcap,Chemicals
+2025-11-12,SIGNATURE,Midcap,Realty
+2025-11-12,JSFB,Midcap,Bank
+2025-11-12,VENTIVE,Midcap,Services
+2025-11-13,INDHOTEL,Largecap,Services
+2025-11-13,KITEX,Smallcap,Consumer Discretionary
+2025-11-13,CSLFINANCE,Smallcap,Financials
+2025-11-13,KRBL,Midcap,FMCG
+2025-11-13,STLTECH,Largecap,Industrials
+2025-11-13,CINELINE,Smallcap,Media
+2025-11-13,PGEL,Midcap,Consumer Discretionary
+2025-11-13,PILANIINVS,Smallcap,Financials
+2025-11-13,AARVI,Smallcap,Miscellaneous
+2025-11-13,SPANDANA,Smallcap,Financials
+2025-11-13,BTML,Smallcap,Media
+2025-11-13,AETHER,Midcap,Chemicals
+2025-11-13,SANSTAR,Smallcap,FMCG
+2025-11-16,VOLTAS,Largecap,Consumer Discretionary
+2025-11-16,NCLIND,Smallcap,Building Materials
+2025-11-16,GRINDWELL,Largecap,Industrials
+2025-11-16,VLSFINANCE,Smallcap,Financials
+2025-11-16,MARALOVER,Smallcap,Textiles
+2025-11-16,GVPIL,Smallcap,Realty
+2025-11-16,JSWHL,Midcap,Financials
+2025-11-16,AHLUCONT,Midcap,Realty
+2025-11-16,BAJAJ-AUTO,Largecap,Auto
+2025-11-16,ABMINTLLTD,Smallcap,Services
+2025-11-16,CAPACITE,Smallcap,Realty
+2025-11-16,DPABHUSHAN,Smallcap,Consumer Discretionary
+2025-11-16,FINEORG,Midcap,Chemicals
+2025-11-16,SGIL,Smallcap,Industrials
+2025-11-16,HOMEFIRST,Midcap,Financials
+2025-11-16,SHRIRAMPPS,Smallcap,Realty
+2025-11-16,FEDFINA,Midcap,Financials
+2025-11-16,ENTERO,Midcap,Healthcare
+2025-11-16,ENRIN,Largecap,Power & Utilities
+2025-11-16,GROWWNET,Smallcap,Indices
+2025-11-17,MUKANDLTD,Smallcap,Metals & Mining
+2025-11-17,UGROCAP,Smallcap,Financials
+2025-11-17,CONTROLPR,Smallcap,I.T
+2025-11-17,GOODLUCK,Smallcap,Metals & Mining
+2025-11-17,ENERGYDEV,Smallcap,Power & Utilities
+2025-11-17,CORDSCABLE,Smallcap,Industrials
+2025-11-17,HEALTHX,Smallcap,Financials
+2025-11-17,5PAISA,Smallcap,Financials
+2025-11-17,BECTORFOOD,Midcap,FMCG
+2025-11-17,INDIASHLTR,Midcap,Financials
+2025-11-18,NAHARSPING,Smallcap,Textiles
+2025-11-18,SECURKLOUD,Smallcap,I.T
+2025-11-18,TRIDENT,Midcap,Textiles
+2025-11-18,GAEL,Midcap,FMCG
+2025-11-18,ARENTERP,Smallcap,Metals & Mining
+2025-11-18,JSL,Largecap,Metals & Mining
+2025-11-18,HGS,Smallcap,I.T
+2025-11-18,ARVEE,Smallcap,Chemicals
+2025-11-18,NARMADA,Smallcap,FMCG
+2025-11-18,360ONE,Largecap,Financials
+2025-11-18,ATALREAL,Smallcap,Realty
+2025-11-18,NIFTYIETF,Smallcap,
+2025-11-18,KRN,Midcap,Industrials
+2025-11-18,HEXT,Smallcap,
+2025-11-19,ABB,Largecap,Industrials
+2025-11-19,NDLVENTURE,Smallcap,Financials
+2025-11-19,NATCOPHARM,Largecap,Healthcare
+2025-11-19,GOLDIAM,Smallcap,Consumer Discretionary
+2025-11-19,AGIIL,Midcap,Realty
+2025-11-20,ITC,Largecap,FMCG
+2025-11-20,TEXINFRA,Smallcap,Realty
+2025-11-20,PREMIERPOL,Smallcap,Plastic products
+2025-11-20,ENERGYDEV,Smallcap,Power & Utilities
+2025-11-20,ASTEC,Smallcap,Chemicals
+2025-11-20,PKTEA,Smallcap,FMCG
+2025-11-23,AUSOMENT,Smallcap,Consumer Discretionary
+2025-11-23,SABEVENTS,Smallcap,Media
+2025-11-23,MOKSH,Smallcap,Consumer Discretionary
+2025-11-23,CREDITACC,Largecap,Financials
+2025-11-24,PIXTRANS,Smallcap,FMCG
+2025-11-24,TEAMGTY,Smallcap,Financials
+2025-11-24,ALPSINDUS,Smallcap,Textiles
+2025-11-24,SOBHA,Midcap,Realty
+2025-11-24,FSL,Midcap,I.T
+2025-11-24,GTECJAINX,Smallcap,I.T
+2025-11-24,SONAMLTD,Smallcap,Consumer Discretionary
+2025-11-24,CAMPUS,Midcap,Consumer Discretionary
+2025-11-25,SAIL,Largecap,Metals & Mining
+2025-11-25,HINDZINC,Largecap,Metals & Mining
+2025-11-25,HINDALCO,Largecap,Metals & Mining
+2025-11-25,HIMATSEIDE,Smallcap,Textiles
+2025-11-25,TFCILTD,Smallcap,Financials
+2025-11-25,JUBLPHARMA,Midcap,Healthcare
+2025-11-25,JINDALSTEL,Largecap,Metals & Mining
+2025-11-25,CENTURYPLY,Midcap,Building Materials
+2025-11-25,INSPIRISYS,Smallcap,I.T
+2025-11-25,GODREJPROP,Largecap,Realty
+2025-11-25,KRIDHANINF,Smallcap,Services
+2025-11-25,RHIM,Midcap,Building Materials
+2025-11-25,BIGBLOC,Smallcap,Building Materials
+2025-11-25,BHARATRAS,Smallcap,Chemicals
+2025-11-25,CNXREALTY,Smallcap,Indices
+2025-11-25,CNXSMALLCAP,Smallcap,Indices
+2025-11-25,INFOBEAN,Smallcap,I.T
+2025-11-25,VERTOZ,Smallcap,I.T
+2025-11-25,SANDHAR,Smallcap,Auto
+2025-11-25,ACCURACY,Smallcap,Transportation
+2025-11-25,CRAFTSMAN,Largecap,Auto
+2025-11-25,MAFANG,Smallcap,Indices
+2025-11-25,JIOFIN,Largecap,Financials
+2025-11-25,MAXESTATES,Midcap,Realty
+2025-11-25,NIFTYMIDSMLHLTH,Smallcap,Indices
+2025-11-25,NIFTYINDTOURISM,Smallcap,Indices
+2025-11-25,ROSSTECH,Smallcap,Aerospace & Defence
+2025-11-25,VENTIVE,Midcap,Services
+2025-11-25,MOTOUR,Smallcap,Indices
+2025-11-26,BAJFINANCE,Largecap,Financials
+2025-11-26,GLENMARK,Largecap,Healthcare
+2025-11-26,MSPL,Smallcap,Metals & Mining
+2025-11-26,ZFCVINDIA,Largecap,Auto
+2025-11-26,GKWLIMITED,Smallcap,
+2025-11-26,SIS,Midcap,Miscellaneous
+2025-11-26,DIAMONDYD,Smallcap,FMCG
+2025-11-26,SNXT50BETA,Smallcap,Indices
+2025-11-26,HPIL,Smallcap,Chemicals
+2025-11-26,FAIRCHEMOR,Smallcap,Chemicals
+2025-11-26,AZAD,Midcap,Aerospace & Defence
+2025-11-27,WANBURY,Smallcap,Healthcare
+2025-11-27,NOIDATOLL,Smallcap,Realty
+2025-11-27,NECLIFE,Smallcap,Healthcare
+2025-11-27,SATIN,Smallcap,Financials
+2025-11-27,UNIINFO,Smallcap,Telecom-Service
+2025-11-27,NURECA,Smallcap,I.T
+2025-11-30,GNFC,Midcap,Chemicals
+2025-11-30,AUTOAXLES,Smallcap,Auto
+2025-11-30,SMLMAH,Midcap,Auto
+2025-11-30,GUJAPOLLO,Smallcap,Industrials
+2025-11-30,GAEL,Midcap,FMCG
+2025-11-30,SUPREME,Smallcap,Realty
+2025-11-30,JUBLFOOD,Largecap,Consumer Discretionary
+2025-11-30,SHAH,Smallcap,Metals & Mining
+2025-11-30,IEX,Midcap,Financials
+2025-11-30,LEMONTREE,Midcap,Services
+2025-11-30,ZIMLAB,Smallcap,Healthcare
+2025-12-01,BALKRISIND,Largecap,Auto
+2025-12-01,SECURKLOUD,Smallcap,I.T
+2025-12-01,SHRIPISTON,Midcap,Auto
+2025-12-01,5PAISA,Smallcap,Financials
+2025-12-01,INDOSTAR,Smallcap,Financials
+2025-12-02,CARBORUNIV,Largecap,Industrials
+2025-12-02,KIRIINDUS,Smallcap,Chemicals
+2025-12-02,IIFLCAPS,Midcap,Financials
+2025-12-03,HSCL,Largecap,Chemicals
+2025-12-03,ELDEHSG,Smallcap,Realty
+2025-12-03,GPTINFRA,Smallcap,Realty
+2025-12-03,AGRITECH,Smallcap,FMCG
+2025-12-03,CAMS,Midcap,Financials
+2025-12-03,MANBA,Smallcap,Financials
+2025-12-03,HDBFS,Largecap,Financials
+2025-12-04,CHOLAHLDNG,Largecap,Financials
+2025-12-04,MARICO,Largecap,FMCG
+2025-12-04,CREATIVEYE,Smallcap,Media
+2025-12-04,PFOCUS,Midcap,Realty
+2025-12-04,ASTRAL,Largecap,Plastic products
+2025-12-04,RGL,Smallcap,Consumer Discretionary
+2025-12-04,CARERATING,Midcap,Financials
+2025-12-04,RADAAN,Smallcap,Media
+2025-12-04,HDFCLIFE,Largecap,Financials
+2025-12-04,ARVEE,Smallcap,Chemicals
+2025-12-04,ONESOURCE,Largecap,Healthcare
+2025-12-07,AURIGROW,Smallcap,Industrials
+2025-12-08,DOLATALGO,Smallcap,Financials
+2025-12-08,NEULANDLAB,Largecap,Healthcare
+2025-12-08,SAKAR,Smallcap,Healthcare
+2025-12-08,JUBLINGREA,Midcap,Chemicals
+2025-12-08,AJAXENGG,Midcap,Industrials
+2025-12-09,RAMCOCEM,Largecap,Building Materials
+2025-12-09,GLAXO,Largecap,Healthcare
+2025-12-09,BERGEPAINT,Largecap,Building Materials
+2025-12-09,HEG,Midcap,Industrials
+2025-12-09,ORICONENT,Smallcap,Industrials
+2025-12-09,VGL,Smallcap,Textiles
+2025-12-09,RAJESHEXPO,Smallcap,Consumer Discretionary
+2025-12-09,GLENMARK,Largecap,Healthcare
+2025-12-09,JSL,Largecap,Metals & Mining
+2025-12-09,SEJALLTD,Smallcap,Building Materials
+2025-12-09,COALINDIA,Largecap,Metals & Mining
+2025-12-09,RADAAN,Smallcap,Media
+2025-12-09,GICRE,Largecap,Financials
+2025-12-09,SCPL,Smallcap,FMCG
+2025-12-09,ZIMLAB,Smallcap,Healthcare
+2025-12-09,CARTRADE,Midcap,Consumer Discretionary
+2025-12-09,RAINBOW,Midcap,Healthcare
+2025-12-09,RPTECH,Smallcap,Services
+2025-12-09,RAYMONDLSL,Smallcap,Textiles
+2025-12-09,SAILIFE,Largecap,Healthcare
+2025-12-09,HDBFS,Largecap,Financials
+2025-12-10,BAIDFIN,Smallcap,Financials
+2025-12-10,UTTAMSUGAR,Smallcap,FMCG
+2025-12-10,AURUM,Smallcap,I.T
+2025-12-10,RAMASTEEL,Smallcap,Metals & Mining
+2025-12-10,NIFTYMETAL,Smallcap,Indices
+2025-12-10,GEEKAYWIRE,Smallcap,Metals & Mining
+2025-12-10,ICEMAKE,Smallcap,Industrials
+2025-12-10,VINEETLAB,Smallcap,Healthcare
+2025-12-10,MIDQ50ADD,Smallcap,Indices
+2025-12-11,ATUL,Largecap,Chemicals
+2025-12-11,IDBI,Largecap,Bank
+2025-12-11,DHAMPURSUG,Smallcap,FMCG
+2025-12-11,IGPL,Smallcap,Chemicals
+2025-12-11,VOLTAS,Largecap,Consumer Discretionary
+2025-12-11,WSI,Smallcap,Realty
+2025-12-11,RELTD,Smallcap,Industrials
+2025-12-11,ALEMBICLTD,Smallcap,Realty
+2025-12-11,ASTRAZEN,Largecap,Healthcare
+2025-12-11,VIPULLTD,Smallcap,Realty
+2025-12-11,SIGIND,Smallcap,Services
+2025-12-11,GVT&D,Largecap,Industrials
+2025-12-11,SOTL,Smallcap,Energy
+2025-12-11,EMAMILTD,Midcap,FMCG
+2025-12-11,JINDALSTEL,Largecap,Metals & Mining
+2025-12-11,POKARNA,Smallcap,Consumer Discretionary
+2025-12-11,NAUKRI,Largecap,I.T
+2025-12-11,RPGLIFE,Smallcap,Healthcare
+2025-12-11,LOTUSEYE,Smallcap,Healthcare
+2025-12-11,TRITURBINE,Midcap,Industrials
+2025-12-11,CNXENERGY,Smallcap,Indices
+2025-12-11,BRNL,Smallcap,Realty
+2025-12-11,SHAREINDIA,Smallcap,Financials
+2025-12-11,NIFTYCOMMODITIES,Smallcap,Indices
+2025-12-11,IDFNIFTYET,Smallcap,Indices
+2025-12-11,NIFTYGS15YRPLUS,Smallcap,Indices
+2025-12-11,NIFTYMIDSMALLCAP400,Smallcap,Indices
+2025-12-11,NIFTYALPHA50,Smallcap,Indices
+2025-12-11,NIFTYSMALLCAP50,Smallcap,Indices
+2025-12-11,POWERINDIA,Largecap,Industrials
+2025-12-11,TARC,Smallcap,Realty
+2025-12-11,ALPHA,Smallcap,Indices
+2025-12-11,NIFTYM150QLTY50,Smallcap,Indices
+2025-12-11,BIKAJI,Midcap,FMCG
+2025-12-11,COMMOIETF,Smallcap,
+2025-12-11,CONS,Smallcap,
+2025-12-11,SRM,Smallcap,Realty
+2025-12-11,MIDSMALL,Smallcap,Indices
+2025-12-11,GALAPREC,Smallcap,Industrials
+2025-12-11,NIFTYMS400MQ100,Smallcap,Indices
+2025-12-11,NIFTYSML250MQ100,Smallcap,Indices
+2025-12-11,MOMGF,Smallcap,Indices
+2025-12-11,CHEMBONDCH,Smallcap,Chemicals
+2025-12-11,MANUFGBEES,Smallcap,Indices
+2025-12-14,BALRAMCHIN,Midcap,FMCG
+2025-12-14,DCW,Smallcap,Energy
+2025-12-14,TATASTEEL,Largecap,Metals & Mining
+2025-12-14,KANANIIND,Smallcap,Consumer Discretionary
+2025-12-14,SANGAMIND,Smallcap,Textiles
+2025-12-14,MANORG,Smallcap,Chemicals
+2025-12-14,USHAMART,Midcap,Metals & Mining
+2025-12-14,KEI,Largecap,Industrials
+2025-12-14,ADFFOODS,Smallcap,FMCG
+2025-12-14,SANGHIIND,Smallcap,Building Materials
+2025-12-14,VIDHIING,Smallcap,Chemicals
+2025-12-14,CINELINE,Smallcap,Media
+2025-12-14,EXPLEOSOL,Smallcap,I.T
+2025-12-14,IL&FSTRANS,Smallcap,Realty
+2025-12-14,DALBHARAT,Largecap,Building Materials
+2025-12-14,VASWANI,Smallcap,Metals & Mining
+2025-12-14,PKTEA,Smallcap,FMCG
+2025-12-14,AVADHSUGAR,Smallcap,FMCG
+2025-12-14,EIFFL,Smallcap,FMCG
+2025-12-14,MAHESHWARI,Smallcap,Services
+2025-12-14,SECMARK,Smallcap,I.T
+2025-12-14,TIPSFILMS,Smallcap,Media
+2025-12-14,TREL,Smallcap,Transportation
+2025-12-14,CEWATER,Smallcap,Industrials
+2025-12-14,ANTHEM,Largecap,Healthcare
+2025-12-15,FINCABLES,Midcap,Industrials
+2025-12-15,HINDOILEXP,Smallcap,Energy
+2025-12-15,PRAJIND,Midcap,Industrials
+2025-12-15,GEOJITFSL,Smallcap,Financials
+2025-12-15,MORARJEE,Smallcap,Textiles
+2025-12-15,THYROCARE,Midcap,Healthcare
+2025-12-15,FACT,Largecap,Chemicals
+2025-12-15,NIFTY50PR1XINV,Smallcap,Indices
+2025-12-15,NIFTY50TR1XINV,Smallcap,Indices
+2025-12-15,NIFTYCONSURDURBL,Smallcap,Indices
+2025-12-15,RATNAVEER,Smallcap,Metals & Mining
+2025-12-15,GANDHAR,Smallcap,Energy
+2025-12-15,VSTL,Smallcap,Metals & Mining
+2025-12-15,JSWCEMENT,Midcap,Building Materials
+2025-12-16,PNC,Smallcap,Media
+2025-12-16,SUPRAJIT,Midcap,Auto
+2025-12-16,MAGNUM,Smallcap,Building Materials
+2025-12-16,SAKSOFT,Smallcap,I.T
+2025-12-16,GOLDETF,Smallcap,Indices
+2025-12-16,SHRINGARMS,Smallcap,Consumer Discretionary
+2025-12-17,BLUESTARCO,Largecap,Consumer Discretionary
+2025-12-17,WALCHANNAG,Smallcap,Industrials
+2025-12-17,ROTO,Smallcap,Industrials
+2025-12-17,SAHYADRI,Smallcap,Building Materials
+2025-12-17,ALIVUS,Midcap,Healthcare
+2025-12-18,HEROMOTOCO,Largecap,Auto
+2025-12-18,ZENSARTECH,Midcap,I.T
+2025-12-18,KEI,Largecap,Industrials
+2025-12-18,JAYNECOIND,Midcap,Metals & Mining
+2025-12-18,POCL,Smallcap,Metals & Mining
+2025-12-18,NITINSPIN,Smallcap,Textiles
+2025-12-18,SADBHAV,Smallcap,Realty
+2025-12-18,AHLUCONT,Midcap,Realty
+2025-12-18,SELMC,Smallcap,Textiles
+2025-12-18,SEPC,Smallcap,Realty
+2025-12-18,PTCIL,Largecap,Industrials
+2025-12-18,MANAKSTEEL,Smallcap,Metals & Mining
+2025-12-18,SIS,Midcap,Miscellaneous
+2025-12-18,ORIENTELEC,Smallcap,Consumer Discretionary
+2025-12-18,SRD,Smallcap,Chemicals
+2025-12-18,NEXT50IETF,Smallcap,Indices
+2025-12-18,NIFTYMIDSMALLCAP400,Smallcap,Indices
+2025-12-18,NIFTYALPHA50,Smallcap,Indices
+2025-12-18,NIFTYSMALLCAP50,Smallcap,Indices
+2025-12-18,ALPHA,Smallcap,Indices
+2025-12-18,NIFTYM150QLTY50,Smallcap,Indices
+2025-12-18,DOMS,Midcap,Miscellaneous
+2025-12-18,JYOTICNC,Midcap,Industrials
+2025-12-18,NIFTYMIDSMLHLTH,Smallcap,Indices
+2025-12-18,BHARTIHEXA,Largecap,Telecom-Service
+2025-12-18,EVINDIA,Smallcap,Indices
+2025-12-18,MOMENTUM50,Smallcap,Indices
+2025-12-18,SAILIFE,Largecap,Healthcare
+2025-12-21,SUNFLAG,Midcap,Metals & Mining
+2025-12-21,TAINWALCHM,Smallcap,Services
+2025-12-21,CEMPRO,Midcap,Realty
+2025-12-21,CONTROLPR,Smallcap,I.T
+2025-12-21,ICICIBANK,Largecap,Bank
+2025-12-21,PETRONET,Largecap,Energy
+2025-12-21,MAHABANK,Largecap,Bank
+2025-12-21,UNOMINDA,Largecap,Auto
+2025-12-21,AURIONPRO,Smallcap,I.T
+2025-12-21,EDELWEISS,Midcap,Financials
+2025-12-21,NBCC,Largecap,Miscellaneous
+2025-12-21,VETO,Smallcap,Industrials
+2025-12-21,LLOYDSENGG,Midcap,Industrials
+2025-12-21,CNXENERGY,Smallcap,Indices
+2025-12-21,CNXSMALLCAP,Smallcap,Indices
+2025-12-21,NIFTYCONSUMPTION,Smallcap,Indices
+2025-12-21,POLYCAB,Largecap,Industrials
+2025-12-21,NIFTYSMALLCAP250,Smallcap,Indices
+2025-12-21,EQUITASBNK,Midcap,Bank
+2025-12-21,PHARMABEES,Smallcap,Indices
+2025-12-21,CARTRADE,Midcap,Consumer Discretionary
+2025-12-21,NYKAA,Largecap,I.T
+2025-12-21,SUPRIYA,Midcap,Healthcare
+2025-12-21,NIFTYMICROCAP250,Smallcap,Indices
+2025-12-21,MIDCAPETF,Smallcap,Indices
+2025-12-21,GATEWAY,Smallcap,Transportation
+2025-12-21,RAINBOW,Midcap,Healthcare
+2025-12-21,MIDCAPBETA,Smallcap,Indices
+2025-12-21,FLAIR,Smallcap,Miscellaneous
+2025-12-21,SRM,Smallcap,Realty
+2025-12-21,MANBA,Smallcap,Financials
+2025-12-21,DIFFNKG,Smallcap,Industrials
+2025-12-21,NIFTYMS400MQ100,Smallcap,Indices
+2025-12-21,NIFTYSML250MQ100,Smallcap,Indices
+2025-12-21,NIFTYINDTOURISM,Smallcap,Indices
+2025-12-21,GROWWNXT50,Smallcap,Indices
+2025-12-21,ARSSBL,Smallcap,Financials
+2025-12-22,EIDPARRY,Midcap,FMCG
+2025-12-22,ESCORTS,Largecap,Auto
+2025-12-22,STEELCAS,Smallcap,Industrials
+2025-12-22,VENKEYS,Smallcap,FMCG
+2025-12-22,SOTL,Smallcap,Energy
+2025-12-22,TAJGVK,Smallcap,Services
+2025-12-22,SUNTV,Largecap,Media
+2025-12-22,GENCON,Smallcap,Realty
+2025-12-22,AMRUTANJAN,Smallcap,Healthcare
+2025-12-22,DEVIT,Smallcap,I.T
+2025-12-22,HDFCAMC,Largecap,Financials
+2025-12-22,CNXPSE,Smallcap,Indices
+2025-12-22,JSWINFRA,Largecap,Transportation
+2025-12-22,NIVABUPA,Midcap,Financials
+2025-12-22,GROWWRAIL,Smallcap,Indices
+2025-12-22,CRIZAC,Smallcap,Services
+2025-12-23,MODIRUBBER,Smallcap,Miscellaneous
+2025-12-23,OMAXAUTO,Smallcap,Auto
+2025-12-23,BALAJITELE,Smallcap,Media
+2025-12-23,SASKEN,Smallcap,I.T
+2025-12-23,KNRCON,Smallcap,Realty
+2025-12-23,DHUNINV,Smallcap,Financials
+2025-12-23,NATHBIOGEN,Smallcap,FMCG
+2025-12-23,THEJO,Smallcap,Industrials
+2025-12-23,MCL,Smallcap,Metals & Mining
+2025-12-23,BDL,Largecap,Aerospace & Defence
+2025-12-23,MOGSEC,Smallcap,Indices
+2025-12-23,DEVYANI,Midcap,Consumer Discretionary
+2025-12-23,VIJAYA,Midcap,Healthcare
+2025-12-23,HDFCLIQUID,Smallcap,Indices
+2025-12-23,HONASA,Midcap,Services
+2025-12-23,FLAIR,Smallcap,Miscellaneous
+2025-12-25,ABBOTINDIA,Largecap,Healthcare
+2025-12-25,GMDCLTD,Largecap,Metals & Mining
+2025-12-25,A2ZINFRA,Smallcap,Realty
+2025-12-25,DALBHARAT,Largecap,Building Materials
+2025-12-25,SRGHFL,Smallcap,Financials
+2025-12-25,NIFTY50PR1XINV,Smallcap,Indices
+2025-12-25,NIFTY50TR1XINV,Smallcap,Indices
+2025-12-25,IGIL,Midcap,Miscellaneous
+2025-12-28,TATASTEEL,Largecap,Metals & Mining
+2025-12-28,MMTC,Midcap,Services
+2025-12-28,NLCINDIA,Largecap,Power & Utilities
+2025-12-28,MANORG,Smallcap,Chemicals
+2025-12-28,DCMSRIND,Smallcap,FMCG
+2025-12-28,UGARSUGAR,Smallcap,FMCG
+2025-12-28,PRAKASHSTL,Smallcap,Metals & Mining
+2025-12-28,MANAKALUCO,Smallcap,Metals & Mining
+2025-12-28,LCCINFOTEC,Smallcap,Services
+2025-12-28,HUDCO,Largecap,Financials
+2025-12-29,SURANAT&P,Smallcap,Industrials
+2025-12-29,PNB,Largecap,Bank
+2025-12-29,NITCO,Smallcap,Building Materials
+2025-12-29,CLEDUCATE,Smallcap,Services
+2025-12-29,NPBET,Smallcap,Indices
+2025-12-29,IIFLCAPS,Midcap,Financials
+2025-12-29,NAZARA,Midcap,I.T
+2025-12-29,ABSLAMC,Largecap,Financials
+2025-12-29,METROBRAND,Largecap,Consumer Discretionary
+2025-12-29,MSUMI,Largecap,Auto
+2025-12-29,JSWINFRA,Largecap,Transportation
+2025-12-30,BALRAMCHIN,Midcap,FMCG
+2025-12-30,ARVIND,Midcap,Textiles
+2025-12-30,HEROMOTOCO,Largecap,Auto
+2025-12-30,SURYAROSNI,Midcap,Industrials
+2025-12-30,BHARATGEAR,Smallcap,Auto
+2025-12-30,JINDALSTEL,Largecap,Metals & Mining
+2025-12-30,ASTRAMICRO,Midcap,Aerospace & Defence
+2025-12-30,JAGRAN,Smallcap,Media
+2025-12-30,VOLTAMP,Midcap,Industrials
+2025-12-30,INDIANB,Largecap,Bank
+2025-12-30,MANAKSIA,Smallcap,Services
+2025-12-30,SHARDACROP,Midcap,Chemicals
+2025-12-30,VETO,Smallcap,Industrials
+2025-12-30,DBL,Midcap,Realty
+2025-12-30,SAKSOFT,Smallcap,I.T
+2025-12-30,S&SPOWER,Smallcap,Industrials
+2025-12-30,ZOTA,Smallcap,Healthcare
+2025-12-30,GEEKAYWIRE,Smallcap,Metals & Mining
+2025-12-30,APOLLO,Midcap,Aerospace & Defence
+2025-12-30,RAJMET,Smallcap,Metals & Mining
+2025-12-30,NIFTYCONSUMPTION,Smallcap,Indices
+2025-12-30,NIFTYCPSE,Smallcap,Indices
+2025-12-30,KPIGREEN,Midcap,Power & Utilities
+2025-12-30,NIFTYALPHA50,Smallcap,Indices
+2025-12-30,SURYODAY,Smallcap,Bank
+2025-12-30,ASKAUTOLTD,Midcap,Auto
+2025-12-30,HEALTHADD,Smallcap,Indices
+2025-12-30,NIFTYM150MOMNTM50,Smallcap,Indices
+2025-12-30,EVINDIA,Smallcap,Indices
+2025-12-30,OILIETF,Smallcap,Indices
+2025-12-30,GLOBALE,Smallcap,Textiles
+2025-12-30,ORIENTTECH,Smallcap,I.T
+2025-12-30,NIFTYINDDEFENCE,Smallcap,Indices
+2025-12-30,NIFTYINDTOURISM,Smallcap,Indices
+2025-12-30,NIVABUPA,Midcap,Financials
+2025-12-30,VENTIVE,Midcap,Services
+2025-12-30,MID150,Smallcap,Indices
+2025-12-30,MANUFGBEES,Smallcap,Indices
+2025-12-31,FINCABLES,Midcap,Industrials
+2025-12-31,KANSAINER,Midcap,Building Materials
+2025-12-31,NCLIND,Smallcap,Building Materials
+2025-12-31,SUDARCOLOR,Smallcap,Chemicals
+2025-12-31,TVSSRICHAK,Smallcap,Auto
+2025-12-31,MONARCH,Smallcap,Financials
+2025-12-31,LLOYDSENT,Midcap,Services
+2025-12-31,SYMPHONY,Midcap,Consumer Discretionary
+2025-12-31,POKARNA,Smallcap,Consumer Discretionary
+2025-12-31,NTPC,Largecap,Power & Utilities
+2025-12-31,CIEINDIA,Midcap,Industrials
+2025-12-31,REDINGTON,Midcap,Services
+2025-12-31,JSWENERGY,Largecap,Power & Utilities
+2025-12-31,GUJGASLTD,Largecap,Energy
+2025-12-31,LALPATHLAB,Largecap,Healthcare
+2025-12-31,NH,Largecap,Healthcare
+2025-12-31,IMPAL,Smallcap,Auto
+2025-12-31,DCAL,Smallcap,Healthcare
+2025-12-31,MOM100,Smallcap,Indices
+2025-12-31,ARVINDFASN,Midcap,Consumer Discretionary
+2025-12-31,CARTRADE,Midcap,Consumer Discretionary
+2025-12-31,NIFTY200MOMENTM30,Smallcap,Indices
+2025-12-31,GATEWAY,Smallcap,Transportation
+2025-12-31,MOM30IETF,Smallcap,Indices
+2025-12-31,MOINFRA,Smallcap,Indices
+2025-12-31,WEWORK,Midcap,Co-Working
+2026-01-01,BEL,Largecap,Aerospace & Defence
+2026-01-01,NDLVENTURE,Smallcap,Financials
+2026-01-01,ONGC,Largecap,Energy
+2026-01-01,ONWARDTEC,Smallcap,I.T
+2026-01-01,GAIL,Largecap,Energy
+2026-01-01,NAUKRI,Largecap,I.T
+2026-01-01,PFC,Largecap,Financials
+2026-01-01,ICRA,Midcap,Financials
+2026-01-01,HEALTHX,Smallcap,Financials
+2026-01-01,PSB,Midcap,Bank
+2026-01-01,MINDACORP,Midcap,Auto
+2026-01-01,VETO,Smallcap,Industrials
+2026-01-01,WHEELS,Smallcap,Auto
+2026-01-01,INDOSTAR,Smallcap,Financials
+2026-01-01,SGIL,Smallcap,Industrials
+2026-01-01,AKG,Smallcap,Services
+2026-01-01,IRCTC,Largecap,Transportation
+2026-01-01,LGHL,Smallcap,Consumer Discretionary
+2026-01-01,HEALTHIETF,Smallcap,Indices
+2026-01-01,NIFTYHEALTHCARE,Smallcap,Indices
+2026-01-01,IREDA,Largecap,Financials
+2026-01-01,CONS,Smallcap,
+2026-01-01,MIDSMALL,Smallcap,Indices
+2026-01-01,VAL30IETF,Smallcap,Indices
+2026-01-01,NIFTYMS400MQ100,Smallcap,Indices
+2026-01-01,NIFTY500MOMENTM50,Smallcap,Indices
+2026-01-01,CONSUMER,Smallcap,Indices
+2026-01-01,MOALPHA50,Smallcap,Indices
+2026-01-04,PATANJALI,Largecap,FMCG
+2026-01-04,SHREECEM,Largecap,Building Materials
+2026-01-04,CHOLAHLDNG,Largecap,Financials
+2026-01-04,RANEHOLDIN,Smallcap,Financials
+2026-01-04,NAVNETEDUL,Smallcap,Miscellaneous
+2026-01-04,VINATIORGA,Midcap,Chemicals
+2026-01-04,LINC,Smallcap,Miscellaneous
+2026-01-04,NAVKARURB,Smallcap,Realty
+2026-01-04,ICICIBANK,Largecap,Bank
+2026-01-04,MUKTAARTS,Smallcap,Media
+2026-01-04,AXISCADES,Midcap,Aerospace & Defence
+2026-01-04,YESBANK,Largecap,Bank
+2026-01-04,DEN,Smallcap,Media
+2026-01-04,SJVN,Largecap,Power & Utilities
+2026-01-04,GNA,Smallcap,Auto
+2026-01-04,GULPOLY,Smallcap,
+2026-01-04,CNXREALTY,Smallcap,Indices
+2026-01-04,TIRUPATIFL,Smallcap,Industrials
+2026-01-04,NARMADA,Smallcap,FMCG
+2026-01-04,METROPOLIS,Midcap,Healthcare
+2026-01-04,SUMICHEM,Largecap,Chemicals
+2026-01-04,DJML,Smallcap,Transportation
+2026-01-04,NIFTYCONSURDURBL,Smallcap,Indices
+2026-01-04,PRUDENT,Midcap,Financials
+2026-01-04,HARSHA,Smallcap,Industrials
+2026-01-04,FUSION,Smallcap,Financials
+2026-01-04,MUTHOOTMF,Smallcap,Financials
+2026-01-04,CHEMBONDCH,Smallcap,Chemicals
+2026-01-05,ONGC,Largecap,Energy
+2026-01-05,APOLLOTYRE,Largecap,Auto
+2026-01-05,CUPID,Midcap,FMCG
+2026-01-05,TPHQ,Smallcap,Services
+2026-01-05,SATIN,Smallcap,Financials
+2026-01-05,SBICARD,Largecap,Financials
+2026-01-05,RBA,Smallcap,Consumer Discretionary
+2026-01-05,NORTHARC,Smallcap,Financials
+2026-01-05,GROWWMOM50,Smallcap,Indices
+2026-01-06,GODREJIND,Largecap,Chemicals
+2026-01-06,ROLLT,Smallcap,Industrials
+2026-01-06,APOLLOHOSP,Largecap,Healthcare
+2026-01-06,JINDRILL,Smallcap,Energy
+2026-01-06,MUTHOOTCAP,Smallcap,Financials
+2026-01-06,REGENCERAM,Smallcap,Building Materials
+2026-01-06,BHAGCHEM,Smallcap,Chemicals
+2026-01-06,BEDMUTHA,Smallcap,Metals & Mining
+2026-01-06,POWERMECH,Midcap,Realty
+2026-01-06,IEX,Midcap,Financials
+2026-01-06,SKYGOLD,Midcap,Consumer Discretionary
+2026-01-06,ALPHA,Smallcap,Indices
+2026-01-06,VERANDA,Smallcap,Services
+2026-01-06,MANKIND,Largecap,Healthcare
+2026-01-06,JIOFIN,Largecap,Financials
+2026-01-06,RBZJEWEL,Smallcap,Consumer Discretionary
+2026-01-06,MANBA,Smallcap,Financials
+2026-01-06,WEWORK,Midcap,Co-Working
+2026-01-07,ORIENTHOT,Smallcap,Services
+2026-01-07,PANACEABIO,Smallcap,Healthcare
+2026-01-08,GALLANTT,Midcap,Metals & Mining
+2026-01-08,DAVANGERE,Smallcap,FMCG
+2026-01-11,HINDUNILVR,Largecap,FMCG
+2026-01-11,MAITHANALL,Smallcap,Metals & Mining
+2026-01-11,EBBETF0433,Smallcap,Indices
+2026-01-12,NCLIND,Smallcap,Building Materials
+2026-01-12,PREMIERPOL,Smallcap,Plastic products
+2026-01-12,TIMKEN,Largecap,Industrials
+2026-01-12,INDOBORAX,Smallcap,Chemicals
+2026-01-12,PANAMAPET,Smallcap,Energy
+2026-01-12,MANGALAM,Smallcap,Healthcare
+2026-01-12,OMAXE,Smallcap,Realty
+2026-01-12,CENTRALBK,Largecap,Bank
+2026-01-12,JTLIND,Smallcap,Metals & Mining
+2026-01-12,STEELXIND,Smallcap,Metals & Mining
+2026-01-12,NIF100IETF,Smallcap,Indices
+2026-01-12,MANOMAY,Smallcap,Textiles
+2026-01-12,ICEMAKE,Smallcap,Industrials
+2026-01-12,HNGSNGBEES,Smallcap,Indices
+2026-01-12,NEOGEN,Smallcap,Chemicals
+2026-01-12,RBA,Smallcap,Consumer Discretionary
+2026-01-12,JSWCEMENT,Midcap,Building Materials
+2026-01-12,ARSSBL,Smallcap,Financials
+2026-01-12,JAINREC,Midcap,Metals & Mining
+2026-01-13,ONGC,Largecap,Energy
+2026-01-13,APOLLOTYRE,Largecap,Auto
+2026-01-13,FINPIPE,Midcap,Plastic products
+2026-01-13,CANFINHOME,Midcap,Financials
+2026-01-13,ASHIANA,Smallcap,Realty
+2026-01-13,POONAWALLA,Largecap,Financials
+2026-01-13,NACLIND,Smallcap,Chemicals
+2026-01-13,SIGMAADV,Midcap,Aerospace & Defence
+2026-01-13,NITINSPIN,Smallcap,Textiles
+2026-01-13,CNXMIDCAP,Smallcap,Indices
+2026-01-13,DNAMEDIA,Smallcap,Media
+2026-01-13,AVROIND,Smallcap,Plastic products
+2026-01-13,NIFTYMIDSMALLCAP400,Smallcap,Indices
+2026-01-13,NIFTYSMALLCAP50,Smallcap,Indices
+2026-01-13,NURECA,Smallcap,I.T
+2026-01-13,PAYTM,Largecap,I.T
+2026-01-13,HARSHA,Smallcap,Industrials
+2026-01-13,BLAL,Smallcap,Realty
+2026-01-13,NUVAMA,Largecap,Financials
+2026-01-13,NIFTYMIDSMLHLTH,Smallcap,Indices
+2026-01-15,BPCL,Largecap,Energy
+2026-01-15,HEG,Midcap,Industrials
+2026-01-15,HINDCOMPOS,Smallcap,Auto
+2026-01-15,DHANBANK,Smallcap,Bank
+2026-01-15,JSL,Largecap,Metals & Mining
+2026-01-15,IMPEXFERRO,Smallcap,Metals & Mining
+2026-01-15,PSB,Midcap,Bank
+2026-01-15,RBLBANK,Largecap,Bank
+2026-01-15,XPROINDIA,Smallcap,Industrials
+2026-01-15,ANGELONE,Largecap,Financials
+2026-01-15,AWHCL,Smallcap,Miscellaneous
+2026-01-15,NIFTYM150MOMNTM50,Smallcap,Indices
+2026-01-15,HYUNDAI,Largecap,Auto
+2026-01-15,SAGILITY,Midcap,I.T
+2026-01-15,HEXT,Smallcap,
+2026-01-15,OMFREIGHT,Smallcap,Transportation
+2026-01-18,RAMANEWS,Smallcap,Miscellaneous
+2026-01-18,FEDERALBNK,Largecap,Bank
+2026-01-18,WELINV,Smallcap,Financials
+2026-01-18,MOMOMENTUM,Smallcap,Indices
+2026-01-18,MOMENTUM,Smallcap,Indices
+2026-01-18,STYLEBAAZA,Smallcap,Consumer Discretionary
+2026-01-19,JINDALSAW,Midcap,Industrials
+2026-01-19,HMVL,Smallcap,Media
+2026-01-21,CENTENKA,Smallcap,Textiles
+2026-01-21,GRASIM,Largecap,Textiles
+2026-01-21,GESHIP,Largecap,Transportation
+2026-01-21,ZENSARTECH,Midcap,I.T
+2026-01-21,CANFINHOME,Midcap,Financials
+2026-01-21,VHLTD,Smallcap,Services
+2026-01-21,ARMANFIN,Smallcap,Financials
+2026-01-21,GRMOVER,Smallcap,FMCG
+2026-01-21,J&KBANK,Midcap,Bank
+2026-01-21,GLENMARK,Largecap,Healthcare
+2026-01-21,NAVINFLUOR,Largecap,Chemicals
+2026-01-21,SOLARINDS,Largecap,Aerospace & Defence
+2026-01-21,GPIL,Midcap,Metals & Mining
+2026-01-21,JHS,Smallcap,FMCG
+2026-01-21,PFC,Largecap,Financials
+2026-01-21,EDELWEISS,Midcap,Financials
+2026-01-21,JSWENERGY,Largecap,Power & Utilities
+2026-01-21,IDFCFIRSTB,Largecap,Bank
+2026-01-21,KARURVYSYA,Largecap,Bank
+2026-01-21,PRICOLLTD,Midcap,Auto
+2026-01-21,SCHAND,Smallcap,Miscellaneous
+2026-01-21,JETFREIGHT,Smallcap,Transportation
+2026-01-21,BDL,Largecap,Aerospace & Defence
+2026-01-21,CREDITACC,Largecap,Financials
+2026-01-21,CNXPSE,Smallcap,Indices
+2026-01-21,NIFTY50VALUE30,Smallcap,Indices
+2026-01-21,CNXMNC,Smallcap,Indices
+2026-01-21,NIFTY200QUALITY30,Smallcap,Indices
+2026-01-21,GILT5YBEES,Smallcap,Indices
+2026-01-21,MOQUALITY,Smallcap,Indices
+2026-01-21,FUSION,Smallcap,Financials
+2026-01-21,HEXT,Smallcap,
+2026-01-21,ADVANCE,Smallcap,Chemicals
+2026-01-22,ANTELOPUS,Smallcap,Energy
+2026-01-22,CREATIVEYE,Smallcap,Media
+2026-01-22,JINDALPHOT,Smallcap,Financials
+2026-01-22,SGIL,Smallcap,Industrials
+2026-01-26,OMAXE,Smallcap,Realty
+2026-01-26,SBILIFE,Largecap,Financials
+2026-01-26,HOMEFIRST,Midcap,Financials
+2026-01-26,ACI,Midcap,Chemicals
+2026-01-27,ATUL,Largecap,Chemicals
+2026-01-27,DICIND,Smallcap,Chemicals
+2026-01-27,HINDOILEXP,Smallcap,Energy
+2026-01-27,GESHIP,Largecap,Transportation
+2026-01-27,PTL,Smallcap,Miscellaneous
+2026-01-27,SUPREMEIND,Largecap,Plastic products
+2026-01-27,MINDTECK,Smallcap,I.T
+2026-01-27,WINDMACHIN,Smallcap,Industrials
+2026-01-27,NMDC,Largecap,Metals & Mining
+2026-01-27,SANGHIIND,Smallcap,Building Materials
+2026-01-27,MIRZAINT,Smallcap,Consumer Discretionary
+2026-01-27,TFCILTD,Smallcap,Financials
+2026-01-27,GMDCLTD,Largecap,Metals & Mining
+2026-01-27,TIPSMUSIC,Midcap,Media
+2026-01-27,PETRONET,Largecap,Energy
+2026-01-27,KKCL,Smallcap,Consumer Discretionary
+2026-01-27,SUNTV,Largecap,Media
+2026-01-27,GPIL,Midcap,Metals & Mining
+2026-01-27,MANAKSIA,Smallcap,Services
+2026-01-27,THANGAMAYL,Midcap,Consumer Discretionary
+2026-01-27,MOIL,Midcap,Metals & Mining
+2026-01-27,SHARDACROP,Midcap,Chemicals
+2026-01-27,GUJGASLTD,Largecap,Energy
+2026-01-27,MAITHANALL,Smallcap,Metals & Mining
+2026-01-27,NIFTYFINSERVICE,Smallcap,Indices
+2026-01-27,BDL,Largecap,Aerospace & Defence
+2026-01-27,INDOUS,Smallcap,FMCG
+2026-01-27,SETFNN50,Smallcap,Indices
+2026-01-27,IIFLCAPS,Midcap,Financials
+2026-01-27,NIFTY50EQLWGT,Smallcap,Indices
+2026-01-27,NIFTY200QUALITY30,Smallcap,Indices
+2026-01-27,NURECA,Smallcap,I.T
+2026-01-27,MTARTECH,Largecap,Aerospace & Defence
+2026-01-27,SHYAMMETL,Largecap,Metals & Mining
+2026-01-27,ACUTAAS,Largecap,Healthcare
+2026-01-27,NIFTYFINSRV2550,Smallcap,Indices
+2026-01-27,DELHIVERY,Largecap,Transportation
+2026-01-27,NSLNISP,Midcap,Metals & Mining
+2026-01-27,GHCLTEXTIL,Smallcap,Textiles
+2026-01-27,BANKBETF,Smallcap,Indices
+2026-01-27,ABSLPSE,Smallcap,Indices
+2026-01-27,MODEFENCE,Smallcap,Indices
+2026-01-27,GROWWDEFNC,Smallcap,Indices
+2026-01-27,VAL30IETF,Smallcap,Indices
+2026-01-27,NIFTYINDDEFENCE,Smallcap,Indices
+2026-01-27,QUADFUTURE,Smallcap,Industrials
+2026-01-27,NEXT30ADD,Smallcap,Indices
+2026-01-27,AXISVALUE,Smallcap,Indices
+2026-01-27,MOPSE,Smallcap,Indices
+2026-01-27,GROWWPOWER,Smallcap,Indices
+2026-01-28,ABB,Largecap,Industrials
+2026-01-28,SANDUMA,Midcap,Metals & Mining
+2026-01-28,PREMIERPOL,Smallcap,Plastic products
+2026-01-28,VISHNU,Smallcap,Chemicals
+2026-01-28,KINGFA,Midcap,Plastic products
+2026-01-28,POLYPLEX,Smallcap,Industrials
+2026-01-28,CUBEXTUB,Smallcap,Metals & Mining
+2026-01-28,SARLAPOLY,Smallcap,Textiles
+2026-01-28,ASTRAL,Largecap,Plastic products
+2026-01-28,ICRA,Midcap,Financials
+2026-01-28,MICEL,Smallcap,Consumer Discretionary
+2026-01-28,PTCIL,Largecap,Industrials
+2026-01-28,JUNIORBEES,Smallcap,Indices
+2026-01-28,KIOCL,Largecap,Metals & Mining
+2026-01-28,CNXENERGY,Smallcap,Indices
+2026-01-28,SCHAND,Smallcap,Miscellaneous
+2026-01-28,DIAMONDYD,Smallcap,FMCG
+2026-01-28,SGIL,Smallcap,Industrials
+2026-01-28,NEOGEN,Smallcap,Chemicals
+2026-01-28,NPBET,Smallcap,Indices
+2026-01-28,GENSOL,Smallcap,Realty
+2026-01-28,HDFCPVTBAN,Smallcap,Indices
+2026-01-28,OILIETF,Smallcap,Indices
+2026-01-29,DRREDDY,Largecap,Healthcare
+2026-01-29,GOLDENTOBC,Smallcap,Realty
+2026-01-29,LT,Largecap,Realty
+2026-01-29,HINDUNILVR,Largecap,FMCG
+2026-01-29,GILLETTE,Largecap,FMCG
+2026-01-29,FIBERWEB,Smallcap,Textiles
+2026-01-29,PITTIENG,Smallcap,Industrials
+2026-01-29,CIEINDIA,Midcap,Industrials
+2026-01-29,VGUARD,Midcap,Industrials
+2026-01-29,ESSENTIA,Smallcap,Services
+2026-01-29,SHARDACROP,Midcap,Chemicals
+2026-01-29,MAZDOCK,Largecap,Aerospace & Defence
+2026-01-29,SANSERA,Midcap,Auto
+2026-01-29,CARRARO,Smallcap,
+2026-01-31,ARVIND,Midcap,Textiles
+2026-01-31,TIMKEN,Largecap,Industrials
+2026-01-31,BHAGERIA,Smallcap,Chemicals
+2026-01-31,ACCELYA,Smallcap,I.T
+2026-01-31,TCI,Midcap,Transportation
+2026-01-31,MBAPL,Smallcap,Chemicals
+2026-01-31,MEDPLUS,Midcap,Consumer Discretionary
+2026-01-31,THELEELA,Midcap,Services
+2026-02-01,HINDZINC,Largecap,Metals & Mining
+2026-02-01,BHARATFORG,Largecap,Industrials
+2026-02-01,GESHIP,Largecap,Transportation
+2026-02-01,SMLMAH,Midcap,Auto
+2026-02-01,SUPREMEIND,Largecap,Plastic products
+2026-02-01,ANANTRAJ,Midcap,Realty
+2026-02-01,SANWARIA,Smallcap,FMCG
+2026-02-01,BIOFILCHEM,Smallcap,Healthcare
+2026-02-01,INDUSINDBK,Largecap,Bank
+2026-02-01,TORNTPOWER,Largecap,Power & Utilities
+2026-02-01,FINEORG,Midcap,Chemicals
+2026-02-01,SGIL,Smallcap,Industrials
+2026-02-01,UFBL,Smallcap,Consumer Discretionary
+2026-02-01,CAMPUS,Midcap,Consumer Discretionary
+2026-02-01,ABSLPSE,Smallcap,Indices
+2026-02-01,ENERGY,Smallcap,Indices
+2026-02-02,INGERRAND,Midcap,Industrials
+2026-02-02,VHL,Smallcap,Financials
+2026-02-02,SIEMENS,Largecap,Industrials
+2026-02-02,DYNAMATECH,Midcap,Industrials
+2026-02-02,RANEHOLDIN,Smallcap,Financials
+2026-02-02,GRINDWELL,Largecap,Industrials
+2026-02-02,NAVNETEDUL,Smallcap,Miscellaneous
+2026-02-02,GRPLTD,Smallcap,FMCG
+2026-02-02,CAPTRUST,Smallcap,Financials
+2026-02-02,SUNTECK,Smallcap,Realty
+2026-02-02,ADANIENT,Largecap,Services
+2026-02-02,PITTIENG,Smallcap,Industrials
+2026-02-02,ADFFOODS,Smallcap,FMCG
+2026-02-02,VESUVIUS,Midcap,Building Materials
+2026-02-02,LINDEINDIA,Largecap,Chemicals
+2026-02-02,KABRAEXTRU,Smallcap,Industrials
+2026-02-02,PARACABLES,Smallcap,Industrials
+2026-02-02,GOODLUCK,Smallcap,Metals & Mining
+2026-02-02,VSTTILLERS,Smallcap,Auto
+2026-02-02,SOBHA,Midcap,Realty
+2026-02-02,LUMAXTECH,Midcap,Auto
+2026-02-02,IDEA,Largecap,Telecom-Service
+2026-02-02,NELCAST,Smallcap,Industrials
+2026-02-02,POWERGRID,Largecap,Power & Utilities
+2026-02-02,ADANIPORTS,Largecap,Transportation
+2026-02-02,ADANIENSOL,Largecap,Power & Utilities
+2026-02-02,AURUM,Smallcap,I.T
+2026-02-02,HDFCSENSEX,Smallcap,Indices
+2026-02-02,BSLSENETFG,Smallcap,Indices
+2026-02-02,GOLDBEES,Smallcap,Indices
+2026-02-02,SERVOTECH,Smallcap,Industrials
+2026-02-02,WORTHPERI,Smallcap,Industrials
+2026-02-02,MASFIN,Midcap,Financials
+2026-02-02,SETFGOLD,Smallcap,Indices
+2026-02-02,GOLD1,Smallcap,Indices
+2026-02-02,AXISGOLD,Smallcap,Indices
+2026-02-02,MOM100,Smallcap,Indices
+2026-02-02,IVZINGOLD,Smallcap,Indices
+2026-02-02,BANKBETA,Smallcap,Indices
+2026-02-02,ANGELONE,Largecap,Financials
+2026-02-02,UTIAMC,Midcap,Financials
+2026-02-02,ESG,Smallcap,Indices
+2026-02-02,SJS,Midcap,Auto
+2026-02-02,SILVERIETF,Smallcap,Indices
+2026-02-02,SILVER,Smallcap,Indices
+2026-02-02,UNIPARTS,Smallcap,Industrials
+2026-02-02,GOLDETF,Smallcap,Indices
+2026-02-02,LICNMID100,Smallcap,Indices
+2026-02-02,SBINEQWETF,Smallcap,Indices
+2026-02-02,OILIETF,Smallcap,Indices
+2026-02-02,EBANKNIFTY,Smallcap,Indices
+2026-02-02,EMULTIMQ,Smallcap,Indices
+2026-02-02,SAILIFE,Largecap,Healthcare
+2026-02-02,MAMATA,Smallcap,Industrials
+2026-02-02,MOINFRA,Smallcap,Indices
+2026-02-02,MOSILVER,Smallcap,Indices
+2026-02-02,SHREEJISPG,Midcap,Transportation
+2026-02-02,TATACAP,Largecap,Financials
+2026-02-03,DALMIASUG,Smallcap,FMCG
+2026-02-03,IDBI,Largecap,Bank
+2026-02-03,ELECTCAST,Midcap,Industrials
+2026-02-03,EPL,Midcap,Industrials
+2026-02-03,KSL,Smallcap,Metals & Mining
+2026-02-03,VOLTAS,Largecap,Consumer Discretionary
+2026-02-03,GSFC,Midcap,Chemicals
+2026-02-03,INDIANHUME,Smallcap,Realty
+2026-02-03,SANDUMA,Midcap,Metals & Mining
+2026-02-03,MUNJALSHOW,Smallcap,Auto
+2026-02-03,JTEKTINDIA,Smallcap,Auto
+2026-02-03,BALMLAWRIE,Smallcap,Miscellaneous
+2026-02-03,NAHARPOLY,Smallcap,Industrials
+2026-02-03,SCI,Midcap,Transportation
+2026-02-03,MENONBE,Smallcap,Auto
+2026-02-03,SUVEN,Midcap,Healthcare
+2026-02-03,NRBBEARING,Smallcap,Industrials
+2026-02-03,ADROITINFO,Smallcap,I.T
+2026-02-03,WOCKPHARMA,Largecap,Healthcare
+2026-02-03,RAMCOSYS,Smallcap,I.T
+2026-02-03,NDL,Smallcap,Textiles
+2026-02-03,JKCEMENT,Largecap,Building Materials
+2026-02-03,KTKBANK,Midcap,Bank
+2026-02-03,CELEBRITY,Smallcap,Textiles
+2026-02-03,ATLANTAA,Smallcap,Realty
+2026-02-03,FIEMIND,Midcap,Auto
+2026-02-03,PAISALO,Smallcap,Financials
+2026-02-03,EDELWEISS,Midcap,Financials
+2026-02-03,JKIL,Smallcap,Realty
+2026-02-03,JAIBALAJI,Midcap,Metals & Mining
+2026-02-03,LOTUSEYE,Smallcap,Healthcare
+2026-02-03,KRITINUT,Smallcap,FMCG
+2026-02-03,PGEL,Midcap,Consumer Discretionary
+2026-02-03,CARERATING,Midcap,Financials
+2026-02-03,REPCOHOME,Smallcap,Financials
+2026-02-03,SHARDAMOTR,Midcap,Auto
+2026-02-03,NATHBIOGEN,Smallcap,FMCG
+2026-02-03,ARVSMART,Smallcap,Realty
+2026-02-03,TCIEXP,Smallcap,Transportation
+2026-02-03,SILGO,Smallcap,Consumer Discretionary
+2026-02-03,FLUOROCHEM,Largecap,Chemicals
+2026-02-03,LODHA,Largecap,Realty
+2026-02-03,SBIETFCON,Smallcap,Indices
+2026-02-03,BFSI,Smallcap,Indices
+2026-02-03,BBETF0432,Smallcap,Indices
+2026-02-03,AUTOIETF,Smallcap,Indices
+2026-02-03,AUTOBEES,Smallcap,Indices
+2026-02-03,SILVERBEES,Smallcap,Indices
+2026-02-03,VERANDA,Smallcap,Services
+2026-02-03,DDEVPLSTIK,Smallcap,Chemicals
+2026-02-03,HDFCSILVER,Smallcap,Indices
+2026-02-03,AXISILVER,Smallcap,Indices
+2026-02-03,SILVER1,Smallcap,Indices
+2026-02-03,SILVERBETA,Smallcap,Indices
+2026-02-03,SILVERAG,Smallcap,Indices
+2026-02-03,JIOFIN,Largecap,Financials
+2026-02-03,TATSILV,Smallcap,Indices
+2026-02-03,PARKHOTELS,Smallcap,Services
+2026-02-03,SILVERADD,Smallcap,
+2026-02-03,RKSWAMY,Smallcap,Miscellaneous
+2026-02-03,CONS,Smallcap,
+2026-02-03,SBISILVER,Smallcap,Indices
+2026-02-03,ACMESOLAR,Midcap,Realty
+2026-02-03,BLACKBUCK,Midcap,Transportation
+2026-02-03,SURAKSHA,Smallcap,Healthcare
+2026-02-03,TRANSRAILL,Midcap,Realty
+2026-02-03,SILVERCASE,Smallcap,Indices
+2026-02-03,ATHERENERG,Largecap,Auto
+2026-02-04,IONEXCHANG,Midcap,Realty
+2026-02-04,EXCELINDUS,Smallcap,Chemicals
+2026-02-04,FOODSIN,Smallcap,FMCG
+2026-02-04,VIPIND,Smallcap,Plastic products
+2026-02-04,SANGHVIMOV,Smallcap,Miscellaneous
+2026-02-04,MARICO,Largecap,FMCG
+2026-02-04,FCSSOFT,Smallcap,I.T
+2026-02-04,ASMS,Smallcap,I.T
+2026-02-04,GALLANTT,Midcap,Metals & Mining
+2026-02-04,SAMPANN,Smallcap,FMCG
+2026-02-04,ABFRL,Midcap,Consumer Discretionary
+2026-02-04,SNOWMAN,Smallcap,Transportation
+2026-02-04,BLS,Midcap,I.T
+2026-02-04,GICRE,Largecap,Financials
+2026-02-04,NILASPACES,Smallcap,Realty
+2026-02-04,ABINFRA,Smallcap,Realty
+2026-02-04,RBA,Smallcap,Consumer Discretionary
+2026-02-04,IPL,Smallcap,Chemicals
+2026-02-04,MARKOLINES,Smallcap,Realty
+2026-02-04,JUNIPER,Smallcap,Services
+2026-02-04,VRAJ,Smallcap,Metals & Mining
+2026-02-05,CHENNPETRO,Midcap,Energy
+2026-02-05,IDBI,Largecap,Bank
+2026-02-05,REGENCERAM,Smallcap,Building Materials
+2026-02-05,RAJRATAN,Smallcap,Metals & Mining
+2026-02-05,NUCLEUS,Smallcap,I.T
+2026-02-05,BHARTIARTL,Largecap,Telecom-Service
+2026-02-05,SADBHIN,Smallcap,Realty
+2026-02-05,ANDHRSUGAR,Smallcap,Chemicals
+2026-02-05,ENRIN,Largecap,Power & Utilities
+2026-02-05,ANTHEM,Largecap,Healthcare
+2026-02-08,AEGISLOG,Largecap,Services
+2026-02-08,ARE&M,Midcap,Auto
+2026-02-08,EXIDEIND,Largecap,Auto
+2026-02-08,KIRLOSIND,Smallcap,Financials
+2026-02-08,LICHSGFIN,Largecap,Financials
+2026-02-08,MAHSCOOTER,Midcap,Financials
+2026-02-08,BBOX,Midcap,I.T
+2026-02-08,GNFC,Midcap,Chemicals
+2026-02-08,NOCIL,Smallcap,Chemicals
+2026-02-08,BBTC,Midcap,Auto
+2026-02-08,ANDHRAPAP,Smallcap,Building Materials
+2026-02-08,TIL,Smallcap,Industrials
+2026-02-08,DYNAMATECH,Midcap,Industrials
+2026-02-08,ZEEL,Midcap,Media
+2026-02-08,BAYERCROP,Midcap,Chemicals
+2026-02-08,DEEPAKNTR,Largecap,Chemicals
+2026-02-08,PUNJABCHEM,Smallcap,Chemicals
+2026-02-08,UNITECH,Smallcap,Realty
+2026-02-08,VISAKAIND,Smallcap,Building Materials
+2026-02-08,SHALPAINTS,Smallcap,Building Materials
+2026-02-08,DONEAR,Smallcap,Textiles
+2026-02-08,STCINDIA,Smallcap,Services
+2026-02-08,MURUDCERA,Smallcap,Building Materials
+2026-02-08,SUBROS,Smallcap,Auto
+2026-02-08,JAYBARMARU,Smallcap,Auto
+2026-02-08,RACLGEAR,Smallcap,Auto
+2026-02-08,ASAL,Smallcap,Auto
+2026-02-08,ZODIACLOTH,Smallcap,Consumer Discretionary
+2026-02-08,MENONBE,Smallcap,Auto
+2026-02-08,POONAWALLA,Largecap,Financials
+2026-02-08,BODALCHEM,Smallcap,Chemicals
+2026-02-08,BIOFILCHEM,Smallcap,Healthcare
+2026-02-08,SYNCOMF,Smallcap,Healthcare
+2026-02-08,KRITI,Smallcap,Plastic products
+2026-02-08,REMSONSIND,Smallcap,Auto
+2026-02-08,VAIBHAVGBL,Smallcap,Consumer Discretionary
+2026-02-08,INDNIPPON,Smallcap,Auto
+2026-02-08,NSIL,Smallcap,Financials
+2026-02-08,CREATIVEYE,Smallcap,Media
+2026-02-08,CERA,Midcap,Building Materials
+2026-02-08,STAR,Midcap,Healthcare
+2026-02-08,JBMA,Midcap,Auto
+2026-02-08,PVRINOX,Midcap,Media
+2026-02-08,SGL,Smallcap,Textiles
+2026-02-08,GLOBALVECT,Smallcap,Transportation
+2026-02-08,ZEEMEDIA,Smallcap,Media
+2026-02-08,IL&FSENGG,Smallcap,Realty
+2026-02-08,JKIL,Smallcap,Realty
+2026-02-08,NAHARCAP,Smallcap,Financials
+2026-02-08,RTNPOWER,Smallcap,Power & Utilities
+2026-02-08,HATHWAY,Smallcap,Telecom-Service
+2026-02-08,GPPL,Midcap,Transportation
+2026-02-08,MUTHOOTFIN,Largecap,Financials
+2026-02-08,SHARDAMOTR,Midcap,Auto
+2026-02-08,ORIENTCEM,Smallcap,Building Materials
+2026-02-08,ABFRL,Midcap,Consumer Discretionary
+2026-02-08,SAMMAANCAP,Midcap,Financials
+2026-02-08,SKIPPER,Midcap,Industrials
+2026-02-08,PTCIL,Largecap,Industrials
+2026-02-08,SGFIN,Smallcap,Financials
+2026-02-08,SHYAMCENT,Smallcap,Metals & Mining
+2026-02-08,POWERMECH,Midcap,Realty
+2026-02-08,PRECAM,Smallcap,Auto
+2026-02-08,MGL,Midcap,Energy
+2026-02-08,RBLBANK,Largecap,Bank
+2026-02-08,VARDHACRLC,Smallcap,Textiles
+2026-02-08,CNXSMALLCAP,Smallcap,Indices
+2026-02-08,PSPPROJECT,Smallcap,Realty
+2026-02-08,THEJO,Smallcap,Industrials
+2026-02-08,SANGINITA,Smallcap,Chemicals
+2026-02-08,LEXUS,Smallcap,Building Materials
+2026-02-08,SBILIFE,Largecap,Financials
+2026-02-08,WORTHPERI,Smallcap,Industrials
+2026-02-08,5PAISA,Smallcap,Financials
+2026-02-08,AFFORDABLE,Smallcap,Industrials
+2026-02-08,SKYGOLD,Midcap,Consumer Discretionary
+2026-02-08,TECHNOE,Midcap,Realty
+2026-02-08,SNXT50BETA,Smallcap,Indices
+2026-02-08,SPANDANA,Smallcap,Financials
+2026-02-08,MIDCAPIETF,Smallcap,Indices
+2026-02-08,HEMIPROP,Smallcap,Realty
+2026-02-08,DAVANGERE,Smallcap,FMCG
+2026-02-08,HEALTHIETF,Smallcap,Indices
+2026-02-08,SBIETFCON,Smallcap,Indices
+2026-02-08,SILVER,Smallcap,Indices
+2026-02-08,MEDANTA,Largecap,Healthcare
+2026-02-08,SILVER1,Smallcap,Indices
+2026-02-08,SILVERBETA,Smallcap,Indices
+2026-02-08,SENCO,Midcap,Consumer Discretionary
+2026-02-08,SBFC,Midcap,Financials
+2026-02-08,TVSSCS,Smallcap,Transportation
+2026-02-08,PYRAMID,Smallcap,Industrials
+2026-02-08,MVGJL,Smallcap,Consumer Discretionary
+2026-02-08,MOTISONS,Smallcap,Consumer Discretionary
+2026-02-08,RBZJEWEL,Smallcap,Consumer Discretionary
+2026-02-08,SILVERADD,Smallcap,
+2026-02-08,SMALLCAP,Smallcap,Indices
+2026-02-08,SCILAL,Smallcap,Services
+2026-02-08,MOREALTY,Smallcap,Indices
+2026-02-08,JNKINDIA,Smallcap,Realty
+2026-02-08,RAYMONDLSL,Smallcap,Textiles
+2026-02-08,KRN,Midcap,Industrials
+2026-02-08,NIFTYSML250MQ100,Smallcap,Indices
+2026-02-08,NIFTYINDTOURISM,Smallcap,Indices
+2026-02-08,SAILIFE,Largecap,Healthcare
+2026-02-08,CEWATER,Smallcap,Industrials
+2026-02-08,SELECTIPO,Smallcap,Indices
+2026-02-08,SILVERCASE,Smallcap,Indices
+2026-02-08,SILVER360,Smallcap,Indices
+2026-02-08,SAMBHV,Smallcap,Metals & Mining
+2026-02-08,SHANTIGOLD,Smallcap,Consumer Discretionary
+2026-02-08,DEVX,Smallcap,Co-Working
+2026-02-08,ATLANTAELE,Midcap,Industrials
+2026-02-08,BMWVENTLTD,Smallcap,Services
+2026-02-09,DHAMPURSUG,Smallcap,FMCG
+2026-02-09,ELECTCAST,Midcap,Industrials
+2026-02-09,HCL-INSYS,Smallcap,I.T
+2026-02-09,HLVLTD,Smallcap,Services
+2026-02-09,INDIAGLYCO,Midcap,FMCG
+2026-02-09,OSWALAGRO,Smallcap,Services
+2026-02-09,SWARAJENG,Smallcap,Industrials
+2026-02-09,TATAELXSI,Largecap,I.T
+2026-02-09,THERMAX,Largecap,Industrials
+2026-02-09,VHL,Smallcap,Financials
+2026-02-09,MANUGRAPH,Smallcap,Industrials
+2026-02-09,GABRIEL,Midcap,Auto
+2026-02-09,JAGSNPHARM,Smallcap,Healthcare
+2026-02-09,KOHINOOR,Smallcap,FMCG
+2026-02-09,NRAIL,Smallcap,Building Materials
+2026-02-09,SALZERELEC,Smallcap,Industrials
+2026-02-09,LUMAXIND,Smallcap,Auto
+2026-02-09,NKIND,Smallcap,FMCG
+2026-02-09,JMFINANCIL,Midcap,Financials
+2026-02-09,MAHEPC,Smallcap,Plastic products
+2026-02-09,SOTL,Smallcap,Energy
+2026-02-09,TPLPLASTEH,Smallcap,Industrials
+2026-02-09,GENUSPOWER,Midcap,Consumer Discretionary
+2026-02-09,FDC,Midcap,Healthcare
+2026-02-09,LINCOLN,Smallcap,Healthcare
+2026-02-09,UBL,Largecap,FMCG
+2026-02-09,UNOMINDA,Largecap,Auto
+2026-02-09,GULFPETRO,Smallcap,Chemicals
+2026-02-09,DWARKESH,Smallcap,FMCG
+2026-02-09,3IINFOLTD,Smallcap,I.T
+2026-02-09,RENUKA,Midcap,FMCG
+2026-02-09,GVKPIL,Smallcap,Realty
+2026-02-09,DISHTV,Smallcap,Media
+2026-02-09,SRHHYPOLTD,Smallcap,Chemicals
+2026-02-09,DELTACORP,Smallcap,Miscellaneous
+2026-02-09,PURVA,Midcap,Realty
+2026-02-09,PPAP,Smallcap,Auto
+2026-02-09,ISGEC,Midcap,Realty
+2026-02-09,KICL,Smallcap,Financials
+2026-02-09,BFINVEST,Smallcap,Financials
+2026-02-09,RHIM,Midcap,Building Materials
+2026-02-09,RTNINDIA,Smallcap,Financials
+2026-02-09,WONDERLA,Smallcap,Media
+2026-02-09,SHEMAROO,Smallcap,Media
+2026-02-09,NAVKARCORP,Smallcap,Transportation
+2026-02-09,BHARATWIRE,Smallcap,Metals & Mining
+2026-02-09,AVL,Midcap,Consumer Discretionary
+2026-02-09,KOTARISUG,Smallcap,
+2026-02-09,HITECH,Smallcap,Metals & Mining
+2026-02-09,GLOBAL,Smallcap,Services
+2026-02-09,IFGLEXPOR,Smallcap,Building Materials
+2026-02-09,MEGASTAR,Smallcap,FMCG
+2026-02-09,ZIMLAB,Smallcap,Healthcare
+2026-02-09,IVZINNIFTY,Smallcap,Indices
+2026-02-09,MSTCLTD,Smallcap,I.T
+2026-02-09,VCL,Smallcap,Textiles
+2026-02-09,NDRAUTO,Smallcap,Auto
+2026-02-09,NURECA,Smallcap,I.T
+2026-02-09,CHEMPLASTS,Smallcap,Chemicals
+2026-02-09,VIJAYA,Midcap,Healthcare
+2026-02-09,LANDMARK,Smallcap,Consumer Discretionary
+2026-02-09,SIGNATURE,Midcap,Realty
+2026-02-09,CAPITALSFB,Smallcap,Bank
+2026-02-09,PVSL,Smallcap,Consumer Discretionary
+2026-02-09,TBOTEK,Midcap,I.T
+2026-02-09,GARUDA,Smallcap,Realty
+2026-02-09,SETL,Smallcap,Industrials
+2026-02-09,MOENERGY,Smallcap,Indices
+2026-02-09,STUDDS,Smallcap,Plastic products
+2026-02-10,RUBFILA,Smallcap,FMCG
+2026-02-10,CHOLAHLDNG,Largecap,Financials
+2026-02-10,VADILALIND,Smallcap,FMCG
+2026-02-10,PLASTIBLEN,Smallcap,Chemicals
+2026-02-10,MARUTI,Largecap,Auto
+2026-02-10,GTLINFRA,Smallcap,Telecom
+2026-02-10,RAJTV,Smallcap,Media
+2026-02-10,IL&FSTRANS,Smallcap,Realty
+2026-02-10,GPTINFRA,Smallcap,Realty
+2026-02-10,KAVDEFENCE,Smallcap,Aerospace & Defence
+2026-02-10,JOCIL,Smallcap,Chemicals
+2026-02-10,DPSCLTD,Smallcap,Power & Utilities
+2026-02-10,LAXMICOT,Smallcap,Textiles
+2026-02-10,SMLT,Smallcap,Metals & Mining
+2026-02-10,MAXHEALTH,Largecap,Healthcare
+2026-02-10,AAATECH,Smallcap,I.T
+2026-02-10,HMAAGRO,Smallcap,FMCG
+2026-02-10,SMARTWORKS,Smallcap,Co-Working
+2026-02-10,VIKRAMSOLR,Midcap,Industrials
+2026-02-10,STYL,Smallcap,I.T
+2026-02-11,VIYASH,Midcap,Healthcare
+2026-02-11,APCOTEXIND,Smallcap,Chemicals
+2026-02-11,ZYDUSLIFE,Largecap,Healthcare
+2026-02-11,JPASSOCIAT,Smallcap,Realty
+2026-02-11,TIGERLOGS,Smallcap,Transportation
+2026-02-11,ERIS,Midcap,Healthcare
+2026-02-11,MITCON,Smallcap,Miscellaneous
+2026-02-11,AIRAN,Smallcap,I.T
+2026-02-11,GAYAHWS,Smallcap,Realty
+2026-02-11,NIFTY50TR1XINV,Smallcap,Indices
+2026-02-11,MODTHREAD,Smallcap,Textiles
+2026-02-12,LINCOLN,Smallcap,Healthcare
+2026-02-12,VIDHIING,Smallcap,Chemicals
+2026-02-12,REPRO,Smallcap,Miscellaneous
+2026-02-12,DCI,Smallcap,I.T
+2026-02-12,LGEINDIA,Largecap,Consumer Discretionary
+2026-02-15,CRISIL,Largecap,Financials
+2026-02-15,PATANJALI,Largecap,FMCG
+2026-02-15,BAJAJHLDNG,Largecap,Financials
+2026-02-15,GUJALKALI,Midcap,Chemicals
+2026-02-15,OBEROIRLTY,Largecap,Realty
+2026-02-15,IDFCFIRSTB,Largecap,Bank
+2026-02-15,LICNETFN50,Smallcap,Indices
+2026-02-15,BHARATWIRE,Smallcap,Metals & Mining
+2026-02-15,LAMBODHARA,Smallcap,Textiles
+2026-02-15,GANGESSECU,Smallcap,Financials
+2026-02-15,INDOUS,Smallcap,FMCG
+2026-02-15,VIJAYA,Midcap,Healthcare
+2026-02-15,GODIGIT,Largecap,Financials
+2026-02-15,MBEL,Smallcap,Realty
+2026-02-15,ESENSEX,Smallcap,Indices
+2026-02-16,BEPL,Smallcap,Energy
+2026-02-16,BIRLACABLE,Smallcap,Industrials
+2026-02-16,LICHSGFIN,Largecap,Financials
+2026-02-16,THERMAX,Largecap,Industrials
+2026-02-16,TATACONSUM,Largecap,FMCG
+2026-02-16,SAGCEM,Smallcap,Building Materials
+2026-02-16,GABRIEL,Midcap,Auto
+2026-02-16,COROMANDEL,Largecap,Chemicals
+2026-02-16,DEEPAKNTR,Largecap,Chemicals
+2026-02-16,PRAJIND,Midcap,Industrials
+2026-02-16,BCLIND,Smallcap,FMCG
+2026-02-16,SUVEN,Midcap,Healthcare
+2026-02-16,KRBL,Midcap,FMCG
+2026-02-16,GAIL,Largecap,Energy
+2026-02-16,J&KBANK,Midcap,Bank
+2026-02-16,MOSCHIP,Smallcap,I.T
+2026-02-16,JBMA,Midcap,Auto
+2026-02-16,JKCEMENT,Largecap,Building Materials
+2026-02-16,M&MFIN,Largecap,Financials
+2026-02-16,RECLTD,Largecap,Financials
+2026-02-16,LOTUSEYE,Smallcap,Healthcare
+2026-02-16,RHIM,Midcap,Building Materials
+2026-02-16,NIF100IETF,Smallcap,Indices
+2026-02-16,GREENLAM,Midcap,Building Materials
+2026-02-16,LICNFNHGP,Smallcap,Indices
+2026-02-16,NORBTEAEXP,Smallcap,FMCG
+2026-02-16,ABCAPITAL,Largecap,Financials
+2026-02-16,JASH,Smallcap,Industrials
+2026-02-16,LATTEYS,Smallcap,Industrials
+2026-02-16,NIFTYDIVOPPS50,Smallcap,Indices
+2026-02-16,CHALET,Midcap,Services
+2026-02-16,SWSOLAR,Smallcap,Realty
+2026-02-16,360ONE,Largecap,Financials
+2026-02-16,IIFLCAPS,Midcap,Financials
+2026-02-16,ARTEMISMED,Smallcap,Healthcare
+2026-02-16,NDRAUTO,Smallcap,Auto
+2026-02-16,EASEMYTRIP,Smallcap,I.T
+2026-02-16,BBETF0432,Smallcap,Indices
+2026-02-16,MIDQ50ADD,Smallcap,Indices
+2026-02-16,ATL,Smallcap,Transportation
+2026-02-16,NIFTYETF,Smallcap,
+2026-02-16,RATNAVEER,Smallcap,Metals & Mining
+2026-02-16,PARKHOTELS,Smallcap,Services
+2026-02-16,NIFTY1,Smallcap,
+2026-02-16,DEEDEV,Smallcap,Metals & Mining
+2026-02-16,QUADFUTURE,Smallcap,Industrials
+2026-02-16,TRAVELFOOD,Midcap,Consumer Discretionary
+2026-02-16,UTLSOLAR,Midcap,Industrials
+2026-02-17,KAJARIACER,Midcap,Building Materials
+2026-02-17,KANANIIND,Smallcap,Consumer Discretionary
+2026-02-17,INTLCONV,Smallcap,FMCG
+2026-02-17,KEYFINSERV,Smallcap,Financials
+2026-02-17,SURYALAXMI,Smallcap,Textiles
+2026-02-17,MENONBE,Smallcap,Auto
+2026-02-17,KDDL,Smallcap,Consumer Discretionary
+2026-02-17,IOB,Largecap,Bank
+2026-02-17,PNB,Largecap,Bank
+2026-02-17,GRANULES,Midcap,Healthcare
+2026-02-17,CANBK,Largecap,Bank
+2026-02-17,UCOBANK,Largecap,Bank
+2026-02-17,CCCL,Smallcap,Realty
+2026-02-17,AMRUTANJAN,Smallcap,Healthcare
+2026-02-17,NIFTYFMCG,Smallcap,Indices
+2026-02-17,FMCGIETF,Smallcap,Indices
+2026-02-17,PAYTM,Largecap,I.T
+2026-02-17,USK,Smallcap,Realty
+2026-02-17,HMAAGRO,Smallcap,FMCG
+2026-02-17,MAXESTATES,Midcap,Realty
+2026-02-17,MOBIKWIK,Smallcap,I.T
+2026-02-17,ARIS,Smallcap,Services
+2026-02-17,MOIPO,Smallcap,Indices
+2026-02-18,BHAGYANGR,Smallcap,Power & Utilities
+2026-02-18,ROHLTD,Smallcap,Services
+2026-02-18,INDOTECH,Smallcap,Industrials
+2026-02-18,HDFCLIFE,Largecap,Financials
+2026-02-18,ANURAS,Midcap,Chemicals
+2026-02-18,MFML,Smallcap,Textiles
+2026-02-19,IGPL,Smallcap,Chemicals
+2026-02-19,TATACOMM,Largecap,Telecom-Service
+2026-02-19,MAHLIFE,Midcap,Realty
+2026-02-19,BALAJITELE,Smallcap,Media
+2026-02-19,WORTHPERI,Smallcap,Industrials
+2026-02-22,AEGISLOG,Largecap,Services
+2026-02-22,HINDUNILVR,Largecap,FMCG
+2026-02-22,SURYALAXMI,Smallcap,Textiles
+2026-02-22,KPIL,Largecap,Realty
+2026-02-22,LAOPALA,Smallcap,Building Materials
+2026-02-22,PRIVISCL,Midcap,Chemicals
+2026-02-22,CUB,Midcap,Bank
+2026-02-22,SGL,Smallcap,Textiles
+2026-02-22,ENDURANCE,Largecap,Auto
+2026-02-22,GALAXYSURF,Midcap,Chemicals
+2026-02-22,INDIAMART,Midcap,I.T
+2026-02-22,360ONE,Largecap,Financials
+2026-02-22,LANDMARK,Smallcap,Consumer Discretionary
+2026-02-22,AFIL,Smallcap,Financials
+2026-02-23,RAMANEWS,Smallcap,Miscellaneous
+2026-02-23,INDIGO,Largecap,Transportation
+2026-02-23,NORTHARC,Smallcap,Financials
+2026-02-24,ESTER,Smallcap,Industrials
+2026-02-24,FOSECOIND,Smallcap,Chemicals
+2026-02-24,MAHSEAMLES,Midcap,Industrials
+2026-02-24,BBOX,Midcap,I.T
+2026-02-24,GABRIEL,Midcap,Auto
+2026-02-24,HEG,Midcap,Industrials
+2026-02-24,LLOYDSME,Largecap,Metals & Mining
+2026-02-24,AUROPHARMA,Largecap,Healthcare
+2026-02-24,GRMOVER,Smallcap,FMCG
+2026-02-24,SOMANYCERA,Smallcap,Building Materials
+2026-02-24,INDRAMEDCO,Smallcap,Healthcare
+2026-02-24,ASTRAMICRO,Midcap,Aerospace & Defence
+2026-02-24,M&MFIN,Largecap,Financials
+2026-02-24,RGL,Smallcap,Consumer Discretionary
+2026-02-24,JYOTHYLAB,Midcap,FMCG
+2026-02-24,GPPL,Midcap,Transportation
+2026-02-24,LALPATHLAB,Largecap,Healthcare
+2026-02-24,BLS,Midcap,I.T
+2026-02-24,SETFNN50,Smallcap,Indices
+2026-02-24,HEALTHY,Smallcap,Indices
+2026-02-24,TEGA,Midcap,Industrials
+2026-02-24,MIDQ50ADD,Smallcap,Indices
+2026-02-24,SCODATUBES,Smallcap,Metals & Mining
+2026-02-24,CPPLUS,Largecap,Consumer Discretionary
+2026-02-25,DALMIASUG,Smallcap,FMCG
+2026-02-25,MAHSCOOTER,Midcap,Financials
+2026-02-25,WSTCSTPAPR,Smallcap,Building Materials
+2026-02-25,TATACOMM,Largecap,Telecom-Service
+2026-02-25,WALCHANNAG,Smallcap,Industrials
+2026-02-25,PREMEXPLN,Smallcap,Aerospace & Defence
+2026-02-25,IL&FSENGG,Smallcap,Realty
+2026-02-25,MOLDTKPAC,Smallcap,Industrials
+2026-02-25,ALKEM,Largecap,Healthcare
+2026-02-25,SALONA,Smallcap,Textiles
+2026-02-25,MEGASTAR,Smallcap,FMCG
+2026-02-25,XELPMOC,Smallcap,I.T
+2026-02-25,MOMOMENTUM,Smallcap,Indices
+2026-02-25,DCXINDIA,Smallcap,Aerospace & Defence
+2026-02-25,MANKIND,Largecap,Healthcare
+2026-02-25,CARRARO,Smallcap,
+2026-02-26,TEJASNET,Midcap,Telecom
+2026-02-26,MCL,Smallcap,Metals & Mining
+2026-02-26,AVROIND,Smallcap,Plastic products
+2026-02-26,EXXARO,Smallcap,Building Materials
+2026-02-26,SILVERBEES,Smallcap,Indices
+2026-02-26,AXISILVER,Smallcap,Indices
+2026-02-26,SILVERAG,Smallcap,Indices
+2026-02-26,ESILVER,Smallcap,Indices
+2026-03-01,AVADHSUGAR,Smallcap,FMCG
+2026-03-01,SILVER1,Smallcap,Indices
+2026-03-01,SILVERBETA,Smallcap,Indices
+2026-03-01,SILVERADD,Smallcap,
+2026-03-03,FINPIPE,Midcap,Plastic products
+2026-03-03,JINDRILL,Smallcap,Energy
+2026-03-03,ZENTEC,Midcap,Aerospace & Defence
+2026-03-03,MCL,Smallcap,Metals & Mining
+2026-03-03,GALAXYSURF,Midcap,Chemicals
+2026-03-03,AAKASH,Smallcap,Energy
+2026-03-03,ALIVUS,Midcap,Healthcare
+2026-03-04,HFCL,Largecap,Telecom
+2026-03-04,ANUHPHR,Smallcap,Healthcare
+2026-03-04,CARBORUNIV,Largecap,Industrials
+2026-03-04,TVSHLTD,Largecap,Financials
+2026-03-04,MARKSANS,Midcap,Healthcare
+2026-03-04,BALAJITELE,Smallcap,Media
+2026-03-04,NAVINFLUOR,Largecap,Chemicals
+2026-03-04,ULTRACEMCO,Largecap,Building Materials
+2026-03-04,GMRAIRPORT,Largecap,Miscellaneous
+2026-03-04,SATIN,Smallcap,Financials
+2026-03-04,ADVENZYMES,Smallcap,Healthcare
+2026-03-04,UNITEDTEA,Smallcap,FMCG
+2026-03-04,CNXNIFTYJUNIOR,Smallcap,Indices
+2026-03-04,CNXINFRA,Smallcap,Indices
+2026-03-04,AUBANK,Largecap,Bank
+2026-03-04,NIFTYAUTO,Smallcap,Indices
+2026-03-04,INFRABEES,Smallcap,Indices
+2026-03-04,NIFTY100EQLWGT,Smallcap,Indices
+2026-03-04,AUTOBEES,Smallcap,Indices
+2026-03-04,HDFCNEXT50,Smallcap,Indices
+2026-03-04,INOXINDIA,Midcap,Industrials
+2026-03-04,KRYSTAL,Smallcap,Miscellaneous
+2026-03-04,NIFTYM150MOMNTM50,Smallcap,Indices
+2026-03-04,STYLEBAAZA,Smallcap,Consumer Discretionary
+2026-03-04,MOMENTUM50,Smallcap,Indices
+2026-03-04,NIFTYCAPITALMKT,Smallcap,Indices
+2026-03-04,NIFTY500MOMENTM50,Smallcap,Indices
+2026-03-04,NEXT30ADD,Smallcap,Indices
+2026-03-04,GROWWMOM50,Smallcap,Indices
+2026-03-04,ARIS,Smallcap,Services
+2026-03-04,STUDDS,Smallcap,Plastic products
+2026-03-04,GROWWCAPM,Smallcap,Indices
+2026-03-05,KSL,Smallcap,Metals & Mining
+2026-03-05,ABAN,Smallcap,Energy
+2026-03-05,APCOTEXIND,Smallcap,Chemicals
+2026-03-05,TCIEXP,Smallcap,Transportation
+2026-03-05,FELDVR,Smallcap,Consumer Discretionary
+2026-03-05,SALONA,Smallcap,Textiles
+2026-03-05,SCHAND,Smallcap,Miscellaneous
+2026-03-05,GRSE,Largecap,Aerospace & Defence
+2026-03-05,MODTHREAD,Smallcap,Textiles
+2026-03-05,ABCOTS,Smallcap,Textiles
+2026-03-05,AETHER,Midcap,Chemicals
+2026-03-05,GODIGIT,Largecap,Financials
+2026-03-05,ONESOURCE,Largecap,Healthcare
+2026-03-08,DOLPHIN,Smallcap,Energy
+2026-03-08,CUPID,Midcap,FMCG
+2026-03-08,CURAA,Smallcap,I.T
+2026-03-09,FORCEMOT,Largecap,Auto
+2026-03-09,LGBBROSLTD,Midcap,Auto
+2026-03-09,PIXTRANS,Smallcap,FMCG
+2026-03-09,HARRMALAYA,Smallcap,FMCG
+2026-03-09,BRITANNIA,Largecap,FMCG
+2026-03-09,SHRIRAMFIN,Largecap,Financials
+2026-03-09,DONEAR,Smallcap,Textiles
+2026-03-09,ORICONENT,Smallcap,Industrials
+2026-03-09,MAHASTEEL,Smallcap,Metals & Mining
+2026-03-09,MOTHERSON,Largecap,Auto
+2026-03-09,APCOTEXIND,Smallcap,Chemicals
+2026-03-09,MARKSANS,Midcap,Healthcare
+2026-03-09,FAZE3Q,Smallcap,Textiles
+2026-03-09,NRBBEARING,Smallcap,Industrials
+2026-03-09,BANKBARODA,Largecap,Bank
+2026-03-09,INDRAMEDCO,Smallcap,Healthcare
+2026-03-09,AXISBANK,Largecap,Bank
+2026-03-09,INDNIPPON,Smallcap,Auto
+2026-03-09,TVSMOTOR,Largecap,Auto
+2026-03-09,PONNIERODE,Smallcap,FMCG
+2026-03-09,INDOTECH,Smallcap,Industrials
+2026-03-09,ARIES,Smallcap,Chemicals
+2026-03-09,IRB,Largecap,Realty
+2026-03-09,KICL,Smallcap,Financials
+2026-03-09,WONDERLA,Smallcap,Media
+2026-03-09,SGFIN,Smallcap,Financials
+2026-03-09,DBL,Midcap,Realty
+2026-03-09,SHRIPISTON,Midcap,Auto
+2026-03-09,BSE,Largecap,Financials
+2026-03-09,TIRUPATIFL,Smallcap,Industrials
+2026-03-09,SKYGOLD,Midcap,Consumer Discretionary
+2026-03-09,SURYODAY,Smallcap,Bank
+2026-03-09,ALIVUS,Midcap,Healthcare
+2026-03-09,MARKOLINES,Smallcap,Realty
+2026-03-09,NYKAA,Largecap,I.T
+2026-03-09,DELHIVERY,Largecap,Transportation
+2026-03-09,SYRMA,Midcap,Consumer Discretionary
+2026-03-09,AVALON,Midcap,Consumer Discretionary
+2026-03-09,MANKIND,Largecap,Healthcare
+2026-03-09,RISHABH,Smallcap,Industrials
+2026-03-09,FLAIR,Smallcap,Miscellaneous
+2026-03-09,INNOVACAP,Smallcap,Healthcare
+2026-03-09,RPTECH,Smallcap,Services
+2026-03-09,EMCURE,Largecap,Healthcare
+2026-03-09,BANKPSU,Smallcap,Indices
+2026-03-09,NIFTYCAPITALMKT,Smallcap,Indices
+2026-03-09,TRANSRAILL,Midcap,Realty
+2026-03-09,NEXT30ADD,Smallcap,Indices
+2026-03-09,MOCAPITAL,Smallcap,Indices
+2026-03-09,SILVER360,Smallcap,Indices
+2026-03-09,MOPSE,Smallcap,Indices
+2026-03-09,GROWWSC250,Smallcap,Indices
+2026-03-09,STUDDS,Smallcap,Plastic products
+2026-03-09,EMMVEE,Midcap,Industrials
+2026-03-10,JINDALSAW,Midcap,Industrials
+2026-03-10,STYRENIX,Smallcap,Energy
+2026-03-10,JAYSREETEA,Smallcap,FMCG
+2026-03-10,DCMFINSERV,Smallcap,Financials
+2026-03-10,MENONBE,Smallcap,Auto
+2026-03-10,WELENT,Midcap,Realty
+2026-03-10,SUTLEJTEX,Smallcap,Textiles
+2026-03-10,EPACK,Smallcap,Consumer Discretionary
+2026-03-11,ATUL,Largecap,Chemicals
+2026-03-11,BAIDFIN,Smallcap,Financials
+2026-03-11,WINSOME,Smallcap,Textiles
+2026-03-11,TAKE,Smallcap,Healthcare
+2026-03-11,KCPSUGIND,Smallcap,FMCG
+2026-03-11,WELINV,Smallcap,Financials
+2026-03-11,REGAAL,Smallcap,Miscellaneous
+2026-03-12,GANESHBE,Smallcap,Miscellaneous
+2026-03-12,ICDSLTD,Smallcap,Miscellaneous
+2026-03-12,UNITEDTEA,Smallcap,FMCG
+2026-03-12,ACI,Midcap,Chemicals
+2026-03-12,THELEELA,Midcap,Services
+2026-03-15,GANDHITUBE,Smallcap,Metals & Mining
+2026-03-15,CGCL,Midcap,Financials
+2026-03-16,FOSECOIND,Smallcap,Chemicals
+2026-03-16,PIXTRANS,Smallcap,FMCG
+2026-03-16,SWARAJENG,Smallcap,Industrials
+2026-03-16,TATASTEEL,Largecap,Metals & Mining
+2026-03-16,GLAXO,Largecap,Healthcare
+2026-03-16,SESHAPAPER,Smallcap,Building Materials
+2026-03-16,STYLAMIND,Smallcap,Building Materials
+2026-03-16,PVRINOX,Midcap,Media
+2026-03-16,LUMAXTECH,Midcap,Auto
+2026-03-16,JMA,Smallcap,Auto
+2026-03-16,YASHO,Smallcap,Chemicals
+2026-03-16,KIMS,Largecap,Healthcare
+2026-03-16,ABCOTS,Smallcap,Textiles
+2026-03-16,SYRMA,Midcap,Consumer Discretionary
+2026-03-16,EMCURE,Largecap,Healthcare
+2026-03-16,METALIETF,Smallcap,Indices
+2026-03-16,GROWWDEFNC,Smallcap,Indices
+2026-03-16,WAAREEENER,Largecap,Industrials
+2026-03-16,NIFTYINDDEFENCE,Smallcap,Indices
+2026-03-16,NIFTYCAPITALMKT,Smallcap,Indices
+2026-03-16,IGIL,Midcap,Miscellaneous
+2026-03-16,SHREEJISPG,Midcap,Transportation
+2026-03-17,ELECTCAST,Midcap,Industrials
+2026-03-17,IGPL,Smallcap,Chemicals
+2026-03-17,JSWSTEEL,Largecap,Metals & Mining
+2026-03-17,KAJARIACER,Midcap,Building Materials
+2026-03-17,WHIRLPOOL,Midcap,Consumer Discretionary
+2026-03-17,FEDERALBNK,Largecap,Bank
+2026-03-17,SEMAC,Smallcap,Realty
+2026-03-17,SCHAEFFLER,Largecap,Industrials
+2026-03-17,ANUHPHR,Smallcap,Healthcare
+2026-03-17,HNDFDS,Midcap,FMCG
+2026-03-17,MUNJALSHOW,Smallcap,Auto
+2026-03-17,PRIVISCL,Midcap,Chemicals
+2026-03-17,BALUFORGE,Midcap,Industrials
+2026-03-17,SOMANYCERA,Smallcap,Building Materials
+2026-03-17,ENGINERSIN,Midcap,Realty
+2026-03-17,SHARDACROP,Midcap,Chemicals
+2026-03-17,BALKRISHNA,Smallcap,Services
+2026-03-17,WIPL,Smallcap,Building Materials
+2026-03-17,SOUTHWEST,Smallcap,Metals & Mining
+2026-03-17,ADANIGREEN,Largecap,Power & Utilities
+2026-03-17,MASPTOP50,Smallcap,Indices
+2026-03-17,NIFTYCONSURDURBL,Smallcap,Indices
+2026-03-17,DELHIVERY,Largecap,Transportation
+2026-03-17,KAYNES,Largecap,Consumer Discretionary
+2026-03-17,RRKABEL,Largecap,Industrials
+2026-03-17,BANKBETF,Smallcap,Indices
+2026-03-17,MOMENTUM50,Smallcap,Indices
+2026-03-17,GROWWGOLD,Smallcap,Indices
+2026-03-17,MANUFGBEES,Smallcap,Indices
+2026-03-17,GROWW,Largecap,Financials
+2026-03-17,NEPHROPLUS,Midcap,Healthcare
+2026-03-18,RVTH,Smallcap,Industrials
+2026-03-19,TATASTEEL,Largecap,Metals & Mining
+2026-03-19,MANCREDIT,Smallcap,Financials
+2026-03-19,PARASPETRO,Smallcap,Textiles
+2026-03-19,VHLTD,Smallcap,Services
+2026-03-19,BODALCHEM,Smallcap,Chemicals
+2026-03-19,PONNIERODE,Smallcap,FMCG
+2026-03-19,UTTAMSUGAR,Smallcap,FMCG
+2026-03-19,GPIL,Midcap,Metals & Mining
+2026-03-19,BAFNAPH,Smallcap,Healthcare
+2026-03-19,TREEHOUSE,Smallcap,Services
+2026-03-19,WEALTH,Smallcap,Financials
+2026-03-19,SOUTHWEST,Smallcap,Metals & Mining
+2026-03-19,UFBL,Smallcap,Consumer Discretionary
+2026-03-19,HEALTHIETF,Smallcap,Indices
+2026-03-19,SAMBHV,Smallcap,Metals & Mining
+2026-03-19,UTLSOLAR,Midcap,Industrials
+2026-03-22,GUJALKALI,Midcap,Chemicals
+2026-03-23,GANDHITUBE,Smallcap,Metals & Mining
+2026-03-23,ORICONENT,Smallcap,Industrials
+2026-03-23,ZYDUSWELL,Midcap,FMCG
+2026-03-23,INDOTHAI,Smallcap,Financials
+2026-03-23,SGFIN,Smallcap,Financials
+2026-03-23,MGEL,Smallcap,Services
+2026-03-23,AERONEU,Smallcap,Industrials
+2026-03-23,GSEC10ABSL,Smallcap,Indices
+2026-03-23,GALAPREC,Smallcap,Industrials
+2026-03-23,ORKLAINDIA,Midcap,FMCG
+2026-03-24,DICIND,Smallcap,Chemicals
+2026-03-24,EPL,Midcap,Industrials
+2026-03-24,VEDL,Largecap,Metals & Mining
+2026-03-24,FEDERALBNK,Largecap,Bank
+2026-03-24,TATASTEEL,Largecap,Metals & Mining
+2026-03-24,JSWDULUX,Midcap,Building Materials
+2026-03-24,TEXINFRA,Smallcap,Realty
+2026-03-24,HNDFDS,Midcap,FMCG
+2026-03-24,RATNAMANI,Midcap,Industrials
+2026-03-24,TIMKEN,Largecap,Industrials
+2026-03-24,MAYURUNIQ,Smallcap,Consumer Discretionary
+2026-03-24,DCMSHRIRAM,Midcap,Miscellaneous
+2026-03-24,HATSUN,Largecap,FMCG
+2026-03-24,SOMANYCERA,Smallcap,Building Materials
+2026-03-24,INDRAMEDCO,Smallcap,Healthcare
+2026-03-24,ENGINERSIN,Midcap,Realty
+2026-03-24,ZYDUSLIFE,Largecap,Healthcare
+2026-03-24,TRIVENI,Midcap,FMCG
+2026-03-24,RENUKA,Midcap,FMCG
+2026-03-24,INDIANB,Largecap,Bank
+2026-03-24,A2ZINFRA,Smallcap,Realty
+2026-03-24,MINDACORP,Midcap,Auto
+2026-03-24,CROMPTON,Midcap,Consumer Discretionary
+2026-03-24,ANDHRSUGAR,Smallcap,Chemicals
+2026-03-24,NDGL,Smallcap,Financials
+2026-03-24,DMART,Largecap,Consumer Discretionary
+2026-03-24,WEALTH,Smallcap,Financials
+2026-03-24,MANOMAY,Smallcap,Textiles
+2026-03-24,PANACHE,Smallcap,I.T
+2026-03-24,AMBER,Largecap,Consumer Discretionary
+2026-03-24,MON100,Smallcap,Indices
+2026-03-24,RPSGVENT,Smallcap,I.T
+2026-03-24,MONQ50,Smallcap,Indices
+2026-03-24,MOM30IETF,Smallcap,Indices
+2026-03-24,DHARMAJ,Smallcap,Chemicals
+2026-03-24,UNIPARTS,Smallcap,Industrials
+2026-03-24,ASKAUTOLTD,Midcap,Auto
+2026-03-24,DOMS,Midcap,Miscellaneous
+2026-03-24,INNOVACAP,Smallcap,Healthcare
+2026-03-24,HEALTHADD,Smallcap,Indices
+2026-03-24,UTLSOLAR,Midcap,Industrials
+2026-03-24,AONETMMQ50,Smallcap,Indices
+2026-03-24,GROWWCAPM,Smallcap,Indices
+2026-03-24,ICICIAMC,Largecap,Financials
+2026-03-26,VIJIFIN,Smallcap,Financials
+2026-03-26,SUMIT,Smallcap,Realty
+2026-03-26,LIKHITHA,Smallcap,Realty
+2026-03-26,ONESOURCE,Largecap,Healthcare
+2026-03-26,SAATVIKGL,Midcap,Industrials
+2026-03-29,GANECOS,Smallcap,Textiles
+2026-03-29,FISCHER,Smallcap,Services
+2026-03-29,HILTON,Smallcap,Industrials
+2026-03-29,NINSYS,Smallcap,I.T
+2026-03-29,MAGADSUGAR,Smallcap,FMCG
+2026-03-31,CHAMBLFERT,Midcap,Chemicals
+2026-03-31,TITAN,Largecap,Consumer Discretionary
+2026-03-31,DIAMINESQ,Smallcap,Chemicals
+2026-03-31,KAJARIACER,Midcap,Building Materials
+2026-03-31,VEDL,Largecap,Metals & Mining
+2026-03-31,WSTCSTPAPR,Smallcap,Building Materials
+2026-03-31,GRWRHITECH,Midcap,Industrials
+2026-03-31,PFIZER,Largecap,Healthcare
+2026-03-31,GMBREW,Smallcap,FMCG
+2026-03-31,CARBORUNIV,Largecap,Industrials
+2026-03-31,WEBELSOLAR,Smallcap,Industrials
+2026-03-31,IOLCP,Smallcap,Healthcare
+2026-03-31,CGCL,Midcap,Financials
+2026-03-31,SINDHUTRAD,Smallcap,Transportation
+2026-03-31,INDRAMEDCO,Smallcap,Healthcare
+2026-03-31,KCPSUGIND,Smallcap,FMCG
+2026-03-31,ONELIFECAP,Smallcap,Financials
+2026-03-31,WONDERLA,Smallcap,Media
+2026-03-31,LAURUSLABS,Largecap,Healthcare
+2026-03-31,FACT,Largecap,Chemicals
+2026-03-31,WIPL,Smallcap,Building Materials
+2026-03-31,SOLEX,Smallcap,Industrials
+2026-03-31,IVZINGOLD,Smallcap,Indices
+2026-03-31,INNOVACAP,Smallcap,Healthcare
+2026-03-31,SIGNPOST,Smallcap,Miscellaneous
+2026-03-31,SANOFICONR,Midcap,Healthcare
+2026-03-31,NTPCGREEN,Largecap,Power & Utilities
+2026-03-31,SAMBHV,Smallcap,Metals & Mining
+2026-03-31,AMANTA,Smallcap,Healthcare
+2026-03-31,CHOICEGOLD,Smallcap,Indices
+2026-04-01,PRIMO,Smallcap,Chemicals
+2026-04-01,VARDMNPOLY,Smallcap,Textiles
+2026-04-01,APCOTEXIND,Smallcap,Chemicals
+2026-04-01,ENGINERSIN,Midcap,Realty
+2026-04-01,WOCKPHARMA,Largecap,Healthcare
+2026-04-01,MPSLTD,Smallcap,I.T
+2026-04-01,HTMEDIA,Smallcap,Media
+2026-04-01,MASPTOP50,Smallcap,Indices
+2026-04-01,WEWIN,Smallcap,
+2026-04-01,SCODATUBES,Smallcap,Metals & Mining
+2026-04-01,IGCL,Smallcap,Chemicals
+2026-04-05,TITAN,Largecap,Consumer Discretionary
+2026-04-05,GANESHBE,Smallcap,Miscellaneous
+2026-04-05,TRENT,Largecap,Consumer Discretionary
+2026-04-05,PRIMESECU,Smallcap,Financials
+2026-04-05,SWARAJENG,Smallcap,Industrials
+2026-04-05,HINDALCO,Largecap,Metals & Mining
+2026-04-05,BOSCHLTD,Largecap,Auto
+2026-04-05,WSI,Smallcap,Realty
+2026-04-05,IVC,Smallcap,Financials
+2026-04-05,MONARCH,Smallcap,Financials
+2026-04-05,MODINATUR,Smallcap,FMCG
+2026-04-05,BCLIND,Smallcap,FMCG
+2026-04-05,INDOBORAX,Smallcap,Chemicals
+2026-04-05,NACLIND,Smallcap,Chemicals
+2026-04-05,SUVEN,Midcap,Healthcare
+2026-04-05,OMINFRAL,Smallcap,Realty
+2026-04-05,BHAGCHEM,Smallcap,Chemicals
+2026-04-05,DHANBANK,Smallcap,Bank
+2026-04-05,SMARTLINK,Smallcap,I.T
+2026-04-05,NTPC,Largecap,Power & Utilities
+2026-04-05,SALSTEEL,Smallcap,Metals & Mining
+2026-04-05,3IINFOLTD,Smallcap,I.T
+2026-04-05,MSPL,Smallcap,Metals & Mining
+2026-04-05,SASKEN,Smallcap,I.T
+2026-04-05,SAKUMA,Smallcap,Services
+2026-04-05,KSCL,Smallcap,FMCG
+2026-04-05,ROSSELLIND,Smallcap,FMCG
+2026-04-05,PERSISTENT,Largecap,I.T
+2026-04-05,WAAREEINDO,Smallcap,Industrials
+2026-04-05,A2ZINFRA,Smallcap,Realty
+2026-04-05,RKDL,Smallcap,FMCG
+2026-04-05,ZENTEC,Midcap,Aerospace & Defence
+2026-04-05,INVENTURE,Smallcap,Financials
+2026-04-05,BROOKS,Smallcap,Healthcare
+2026-04-05,DUCON,Smallcap,Realty
+2026-04-05,VMART,Midcap,Consumer Discretionary
+2026-04-05,RACE,Smallcap,Services
+2026-04-05,GENUSPAPER,Smallcap,Building Materials
+2026-04-05,LUXIND,Smallcap,Textiles
+2026-04-05,KPEL,Smallcap,Realty
+2026-04-05,KOTHARIPET,Smallcap,Energy
+2026-04-05,NIFTYMETAL,Smallcap,Indices
+2026-04-05,GOLDBEES,Smallcap,Indices
+2026-04-05,UNITEDPOLY,Smallcap,Textiles
+2026-04-05,BETA,Smallcap,Healthcare
+2026-04-05,AKSHAR,Smallcap,Textiles
+2026-04-05,ADANIGREEN,Largecap,Power & Utilities
+2026-04-05,ADL,Smallcap,Building Materials
+2026-04-05,SURYODAY,Smallcap,Bank
+2026-04-05,MKPL,Smallcap,
+2026-04-05,RBZJEWEL,Smallcap,Consumer Discretionary
+2026-04-05,JSFB,Midcap,Bank
+2026-04-05,JNKINDIA,Smallcap,Realty
+2026-04-05,BOROSCI,Smallcap,Building Materials
+2026-04-05,KRONOX,Smallcap,Chemicals
+2026-04-05,SANATHAN,Smallcap,Textiles
+2026-04-05,BLUSPRING,Smallcap,Miscellaneous
+2026-04-05,GANESHCP,Smallcap,FMCG
+2026-04-05,GROWW,Largecap,Financials
+2026-04-05,MEESHO,Largecap,I.T
+2026-04-06,SUNFLAG,Midcap,Metals & Mining
+2026-04-06,NCLIND,Smallcap,Building Materials
+2026-04-06,KESORAMIND,Smallcap,Miscellaneous
+2026-04-06,UNIVCABLES,Smallcap,Industrials
+2026-04-06,KIRLPNU,Midcap,Industrials
+2026-04-06,PRAKASH,Smallcap,Metals & Mining
+2026-04-06,KANANIIND,Smallcap,Consumer Discretionary
+2026-04-06,KANORICHEM,Smallcap,Chemicals
+2026-04-06,JAYSREETEA,Smallcap,FMCG
+2026-04-06,SUPREMEIND,Largecap,Plastic products
+2026-04-06,REGENCERAM,Smallcap,Building Materials
+2026-04-06,UNIDT,Smallcap,Industrials
+2026-04-06,WINDMACHIN,Smallcap,Industrials
+2026-04-06,CONTROLPR,Smallcap,I.T
+2026-04-06,EIMCOELECO,Smallcap,Industrials
+2026-04-06,SUNPHARMA,Largecap,Healthcare
+2026-04-06,BALPHARMA,Smallcap,Healthcare
+2026-04-06,NMDC,Largecap,Metals & Mining
+2026-04-06,ALPHAGEO,Smallcap,Miscellaneous
+2026-04-06,CHEVIOT,Smallcap,Textiles
+2026-04-06,ARMANFIN,Smallcap,Financials
+2026-04-06,BLBLIMITED,Smallcap,Financials
+2026-04-06,ASTRAMICRO,Midcap,Aerospace & Defence
+2026-04-06,GULFPETRO,Smallcap,Chemicals
+2026-04-06,JAGRAN,Smallcap,Media
+2026-04-06,ACE,Midcap,Industrials
+2026-04-06,CINELINE,Smallcap,Media
+2026-04-06,DISHTV,Smallcap,Media
+2026-04-06,CORDSCABLE,Smallcap,Industrials
+2026-04-06,LPDC,Smallcap,Realty
+2026-04-06,GLOBUSSPR,Smallcap,FMCG
+2026-04-06,HMVL,Smallcap,Media
+2026-04-06,OBEROIRLTY,Largecap,Realty
+2026-04-06,MTEDUCARE,Smallcap,Services
+2026-04-06,NECCLTD,Smallcap,Transportation
+2026-04-06,PROZONER,Smallcap,Miscellaneous
+2026-04-06,REPCOHOME,Smallcap,Financials
+2026-04-06,ORTINGLOBE,Smallcap,Healthcare
+2026-04-06,STEL,Smallcap,Financials
+2026-04-06,VARDHACRLC,Smallcap,Textiles
+2026-04-06,RADIOCITY,Smallcap,Media
+2026-04-06,BOHRAIND,Smallcap,Chemicals
+2026-04-06,ARTNIRMAN,Smallcap,Realty
+2026-04-06,AGROPHOS,Smallcap,Chemicals
+2026-04-06,BANKA,Smallcap,Miscellaneous
+2026-04-06,DHRUV,Smallcap,Miscellaneous
+2026-04-06,ZIMLAB,Smallcap,Healthcare
+2026-04-06,RAJMET,Smallcap,Metals & Mining
+2026-04-06,FLUOROCHEM,Largecap,Chemicals
+2026-04-06,NIFTYGS15YRPLUS,Smallcap,Indices
+2026-04-06,NIFTYGSCOMPSITE,Smallcap,Indices
+2026-04-06,NIFTYGS10YR,Smallcap,Indices
+2026-04-06,NIFTYGS10YRCLN,Smallcap,Indices
+2026-04-06,NIFTYGS1115YR,Smallcap,Indices
+2026-04-06,NIFTYGS813YR,Smallcap,Indices
+2026-04-06,UFBL,Smallcap,Consumer Discretionary
+2026-04-06,EUROBOND,Smallcap,Metals & Mining
+2026-04-06,GHCLTEXTIL,Smallcap,Textiles
+2026-04-06,GSEC10IETF,Smallcap,
+2026-04-06,GPTHEALTH,Smallcap,Healthcare
+2026-04-06,ARIS,Smallcap,Services
+2026-04-06,MOALPHA50,Smallcap,Indices
+2026-04-06,JSWCEMENT,Midcap,Building Materials
+2026-04-06,IVALUE,Smallcap,I.T
+2026-04-06,ICICIAMC,Largecap,Financials
+2026-04-06,GKSL,Smallcap,Healthcare
+2026-04-07,BAJFINANCE,Largecap,Financials
+2026-04-07,BHEL,Largecap,Industrials
+2026-04-07,JSWSTEEL,Largecap,Metals & Mining
+2026-04-07,KIRLOSBROS,Midcap,Industrials
+2026-04-07,MAHSCOOTER,Midcap,Financials
+2026-04-07,GRASIM,Largecap,Textiles
+2026-04-07,OSWALAGRO,Smallcap,Services
+2026-04-07,RUBFILA,Smallcap,FMCG
+2026-04-07,LT,Largecap,Realty
+2026-04-07,DEEPAKFERT,Midcap,Chemicals
+2026-04-07,ZUARIIND,Smallcap,FMCG
+2026-04-07,INDHOTEL,Largecap,Services
+2026-04-07,DECCANCE,Smallcap,Building Materials
+2026-04-07,PHOENIXLTD,Largecap,Realty
+2026-04-07,MARATHON,Smallcap,Realty
+2026-04-07,COROMANDEL,Largecap,Chemicals
+2026-04-07,IVP,Smallcap,Chemicals
+2026-04-07,TTKHLTCARE,Smallcap,Miscellaneous
+2026-04-07,SHRIRAMFIN,Largecap,Financials
+2026-04-07,CHOLAFIN,Largecap,Financials
+2026-04-07,BAIDFIN,Smallcap,Financials
+2026-04-07,SECURKLOUD,Smallcap,I.T
+2026-04-07,LLOYDSENT,Midcap,Services
+2026-04-07,DONEAR,Smallcap,Textiles
+2026-04-07,SSWL,Smallcap,Auto
+2026-04-07,MANINDS,Smallcap,Metals & Mining
+2026-04-07,PIONEEREMB,Smallcap,Textiles
+2026-04-07,MANORG,Smallcap,Chemicals
+2026-04-07,PVP,Smallcap,Realty
+2026-04-07,AVTNPL,Smallcap,FMCG
+2026-04-07,ASAL,Smallcap,Auto
+2026-04-07,MMFL,Smallcap,Industrials
+2026-04-07,BALMLAWRIE,Smallcap,Miscellaneous
+2026-04-07,BOSCH-HCIL,Smallcap,Consumer Discretionary
+2026-04-07,RCF,Midcap,Chemicals
+2026-04-07,GREENPLY,Smallcap,Building Materials
+2026-04-07,SARLAPOLY,Smallcap,Textiles
+2026-04-07,URJA,Smallcap,Auto
+2026-04-07,GENUSPOWER,Midcap,Consumer Discretionary
+2026-04-07,NRBBEARING,Smallcap,Industrials
+2026-04-07,PARACABLES,Smallcap,Industrials
+2026-04-07,CONCOR,Largecap,Transportation
+2026-04-07,GOLDTECH,Smallcap,I.T
+2026-04-07,MADHUCON,Smallcap,Realty
+2026-04-07,POLYMED,Midcap,Healthcare
+2026-04-07,KDDL,Smallcap,Consumer Discretionary
+2026-04-07,AXISBANK,Largecap,Bank
+2026-04-07,NSIL,Smallcap,Financials
+2026-04-07,SUBEXLTD,Smallcap,I.T
+2026-04-07,CERA,Midcap,Building Materials
+2026-04-07,UNIONBANK,Largecap,Bank
+2026-04-07,UCOBANK,Largecap,Bank
+2026-04-07,PTC,Midcap,Power & Utilities
+2026-04-07,MCLEODRUSS,Smallcap,FMCG
+2026-04-07,INDOTECH,Smallcap,Industrials
+2026-04-07,GMRAIRPORT,Largecap,Miscellaneous
+2026-04-07,DCBBANK,Midcap,Bank
+2026-04-07,GTLINFRA,Smallcap,Telecom
+2026-04-07,TIMETECHNO,Midcap,Plastic products
+2026-04-07,MOTILALOFS,Largecap,Financials
+2026-04-07,CCCL,Smallcap,Realty
+2026-04-07,SUPREMEINF,Smallcap,Realty
+2026-04-07,IL&FSENGG,Smallcap,Realty
+2026-04-07,EDELWEISS,Midcap,Financials
+2026-04-07,BIRLAMONEY,Smallcap,Financials
+2026-04-07,ARCHIDPLY,Smallcap,Building Materials
+2026-04-07,20MICRONS,Smallcap,Metals & Mining
+2026-04-07,GREENPOWER,Smallcap,Power & Utilities
+2026-04-07,RPPINFRA,Smallcap,Realty
+2026-04-07,PSB,Midcap,Bank
+2026-04-07,BFINVEST,Smallcap,Financials
+2026-04-07,SUMMITSEC,Smallcap,Financials
+2026-04-07,LOVABLE,Smallcap,Textiles
+2026-04-07,LTF,Largecap,Financials
+2026-04-07,SETUINFRA,Smallcap,Realty
+2026-04-07,SPECIALITY,Smallcap,Services
+2026-04-07,RTNINDIA,Smallcap,Financials
+2026-04-07,INDUSTOWER,Largecap,Telecom
+2026-04-07,NIBL,Smallcap,Industrials
+2026-04-07,SNOWMAN,Smallcap,Transportation
+2026-04-07,SHEMAROO,Smallcap,Media
+2026-04-07,OSWALGREEN,Smallcap,Miscellaneous
+2026-04-07,NAVKARCORP,Smallcap,Transportation
+2026-04-07,SHREEPUSHK,Smallcap,Chemicals
+2026-04-07,PRITIKAUTO,Smallcap,Auto
+2026-04-07,LICNETFN50,Smallcap,Indices
+2026-04-07,LICNFNHGP,Smallcap,Indices
+2026-04-07,NAGAFERT,Smallcap,Chemicals
+2026-04-07,MIDSELIETF,Smallcap,Indices
+2026-04-07,GNA,Smallcap,Auto
+2026-04-07,RADHIKAJWE,Smallcap,Consumer Discretionary
+2026-04-07,PNBHOUSING,Largecap,Financials
+2026-04-07,LAMBODHARA,Smallcap,Textiles
+2026-04-07,JUNIORBEES,Smallcap,Indices
+2026-04-07,NIFTY,Smallcap,Indices
+2026-04-07,NIFTYFINSERVICE,Smallcap,Indices
+2026-04-07,NIFTYPSUBANK,Smallcap,Indices
+2026-04-07,NIFTYPVTBANK,Smallcap,Indices
+2026-04-07,CNXNIFTYJUNIOR,Smallcap,Indices
+2026-04-07,CNXMIDCAP,Smallcap,Indices
+2026-04-07,CNXINFRA,Smallcap,Indices
+2026-04-07,CNXREALTY,Smallcap,Indices
+2026-04-07,BANKNIFTY,Smallcap,Indices
+2026-04-07,AUBANK,Largecap,Bank
+2026-04-07,ABCAPITAL,Largecap,Financials
+2026-04-07,HECPROJECT,Smallcap,Realty
+2026-04-07,CROWN,Smallcap,Miscellaneous
+2026-04-07,PANSARI,Smallcap,Realty
+2026-04-07,SBILIFE,Largecap,Financials
+2026-04-07,SHAREINDIA,Smallcap,Financials
+2026-04-07,JASH,Smallcap,Industrials
+2026-04-07,SHRADHA,Smallcap,Realty
+2026-04-07,ONEPOINT,Smallcap,I.T
+2026-04-07,AMBER,Largecap,Consumer Discretionary
+2026-04-07,ARVEE,Smallcap,Chemicals
+2026-04-07,HINDCON,Smallcap,Chemicals
+2026-04-07,MACPOWER,Midcap,Industrials
+2026-04-07,ACCURACY,Smallcap,Transportation
+2026-04-07,KSHITIJPOL,Smallcap,Miscellaneous
+2026-04-07,NIFTY200,Smallcap,Indices
+2026-04-07,NIFTY100,Smallcap,Indices
+2026-04-07,NIFTY50PR2XLEV,Smallcap,Indices
+2026-04-07,NIFTYMIDCAP50,Smallcap,Indices
+2026-04-07,NIFTY500,Smallcap,Indices
+2026-04-07,NIFTY50TR2XLEV,Smallcap,Indices
+2026-04-07,NIFTYSERVSECTOR,Smallcap,Indices
+2026-04-07,INFRABEES,Smallcap,Indices
+2026-04-07,AXISNIFTY,Smallcap,Indices
+2026-04-07,NEXT50IETF,Smallcap,Indices
+2026-04-07,ABSLNN50ET,Smallcap,Indices
+2026-04-07,POLYCAB,Largecap,Industrials
+2026-04-07,NEOGEN,Smallcap,Chemicals
+2026-04-07,BANKIETF,Smallcap,Indices
+2026-04-07,PVTBANIETF,Smallcap,Indices
+2026-04-07,NPBET,Smallcap,Indices
+2026-04-07,NIFTYMIDLIQ15,Smallcap,Indices
+2026-04-07,HINDWAREAP,Smallcap,Consumer Discretionary
+2026-04-07,HPIL,Smallcap,Chemicals
+2026-04-07,NEXT50,Smallcap,Indices
+2026-04-07,NIFTYMIDCAP150,Smallcap,Indices
+2026-04-07,NIFTYALPHA50,Smallcap,Indices
+2026-04-07,NIFTY50EQLWGT,Smallcap,Indices
+2026-04-07,NIFTY100EQLWGT,Smallcap,Indices
+2026-04-07,NIFTYSMALLCAP50,Smallcap,Indices
+2026-04-07,AXISBNKETF,Smallcap,Indices
+2026-04-07,ESG,Smallcap,Indices
+2026-04-07,AXISHCETF,Smallcap,Indices
+2026-04-07,VINEETLAB,Smallcap,Healthcare
+2026-04-07,SBIETFCON,Smallcap,Indices
+2026-04-07,BFSI,Smallcap,Indices
+2026-04-07,NPST,Smallcap,I.T
+2026-04-07,NIFTYCONSURDURBL,Smallcap,Indices
+2026-04-07,NIFTY500MULTICAP,Smallcap,Indices
+2026-04-07,NIFTYFINSRV2550,Smallcap,Indices
+2026-04-07,NIFTY200MOMENTM30,Smallcap,Indices
+2026-04-07,NIFTYLARGEMID250,Smallcap,Indices
+2026-04-07,NIFTY100ESGSECLDR,Smallcap,Indices
+2026-04-07,NIFTYTOTALMKT,Smallcap,Indices
+2026-04-07,NIFTY100ESG,Smallcap,Indices
+2026-04-07,NIFTYMIDSELECT,Smallcap,Indices
+2026-04-07,MAKEINDIA,Smallcap,Indices
+2026-04-07,MOMOMENTUM,Smallcap,Indices
+2026-04-07,GSEC5IETF,Smallcap,Indices
+2026-04-07,MIDCAPETF,Smallcap,Indices
+2026-04-07,MOM30IETF,Smallcap,Indices
+2026-04-07,HDFCNEXT50,Smallcap,Indices
+2026-04-07,MNC,Smallcap,Indices
+2026-04-07,MOMENTUM,Smallcap,Indices
+2026-04-07,HDFCQUAL,Smallcap,Indices
+2026-04-07,HDFCVALUE,Smallcap,Indices
+2026-04-07,FINIETF,Smallcap,Indices
+2026-04-07,BANKADD,Smallcap,Indices
+2026-04-07,BANKETF,Smallcap,Indices
+2026-04-07,PSUBANKADD,Smallcap,Indices
+2026-04-07,NIFTYETF,Smallcap,
+2026-04-07,SAMHI,Smallcap,Services
+2026-04-07,MVGJL,Smallcap,Consumer Discretionary
+2026-04-07,MONIFTY500,Smallcap,Indices
+2026-04-07,ALPHAETF,Smallcap,Indices
+2026-04-07,FLAIR,Smallcap,Miscellaneous
+2026-04-07,NIFTYIETF,Smallcap,
+2026-04-07,EPACK,Smallcap,Consumer Discretionary
+2026-04-07,NOVAAGRI,Smallcap,Chemicals
+2026-04-07,PARKHOTELS,Smallcap,Services
+2026-04-07,LICNMID100,Smallcap,Indices
+2026-04-07,SMALLCAP,Smallcap,Indices
+2026-04-07,GOLDCASE,Smallcap,Indices
+2026-04-07,EXICOM,Smallcap,Industrials
+2026-04-07,NIFTYTATA25CAP,Smallcap,Indices
+2026-04-07,NIFTY200ALPHA30,Smallcap,Indices
+2026-04-07,NIFTYMULTIINFRA,Smallcap,Indices
+2026-04-07,NIFTYMULTIMFG,Smallcap,Indices
+2026-04-07,NIFTYM150MOMNTM50,Smallcap,Indices
+2026-04-07,MIDSMALL,Smallcap,Indices
+2026-04-07,VRAJ,Smallcap,Metals & Mining
+2026-04-07,GROWWEV,Smallcap,Indices
+2026-04-07,MODEFENCE,Smallcap,Indices
+2026-04-07,MULTICAP,Smallcap,Indices
+2026-04-07,RVTH,Smallcap,Industrials
+2026-04-07,BALAJEE,Smallcap,Industrials
+2026-04-07,ARKADE,Smallcap,Realty
+2026-04-07,MOMENTUM50,Smallcap,Indices
+2026-04-07,BANKPSU,Smallcap,Indices
+2026-04-07,EMULTIMQ,Smallcap,Indices
+2026-04-07,NIFTYMS400MQ100,Smallcap,Indices
+2026-04-07,NIFTYTOP10EW,Smallcap,Indices
+2026-04-07,NIFTYINDTOURISM,Smallcap,Indices
+2026-04-07,NIFTY500MOMENTM50,Smallcap,Indices
+2026-04-07,CONSUMER,Smallcap,Indices
+2026-04-07,QUADFUTURE,Smallcap,Industrials
+2026-04-07,NEXT30ADD,Smallcap,Indices
+2026-04-07,GROWWN200,Smallcap,Indices
+2026-04-07,SELECTIPO,Smallcap,Indices
+2026-04-07,EQUAL200,Smallcap,Indices
+2026-04-07,GROWWMOM50,Smallcap,Indices
+2026-04-07,EQUAL50,Smallcap,Indices
+2026-04-07,MOTOUR,Smallcap,Indices
+2026-04-07,LOTUSDEV,Midcap,Realty
+2026-04-07,BMWVENTLTD,Smallcap,Services
+2026-04-07,FLEXIADD,Smallcap,Indices
+2026-04-07,MIDWESTLTD,Smallcap,Consumer Discretionary
+2026-04-07,GROWWSC250,Smallcap,Indices
+2026-04-07,GROWWMC150,Smallcap,Indices
+2026-04-07,MOIPO,Smallcap,Indices
+2026-04-07,ESENSEX,Smallcap,Indices
+2026-04-07,ENIFTY,Smallcap,Indices
+2026-04-07,NIFTYADD,Smallcap,
+2026-04-07,TOP20,Smallcap,Indices
+2026-04-07,NIFTYBETA,Smallcap,
+2026-04-07,NEXT50ETF,Smallcap,Indices
+2026-04-08,SUNDROP,Smallcap,FMCG
+2026-04-08,MANALIPETC,Smallcap,Energy
+2026-04-08,BIRLACORPN,Midcap,Building Materials
+2026-04-08,SHREDIGCEM,Smallcap,Building Materials
+2026-04-08,NIPPOBATRY,Smallcap,Industrials
+2026-04-08,DOLATALGO,Smallcap,Financials
+2026-04-08,CEMPRO,Midcap,Realty
+2026-04-08,NAGREEKEXP,Smallcap,Textiles
+2026-04-08,CCHHL,Smallcap,Services
+2026-04-08,COUNCODOS,Smallcap,Realty
+2026-04-08,PRAENG,Smallcap,Miscellaneous
+2026-04-08,ROHLTD,Smallcap,Services
+2026-04-08,HGM,Smallcap,I.T
+2026-04-08,TEXMOPIPES,Smallcap,Plastic products
+2026-04-08,EMAMIREAL,Smallcap,Realty
+2026-04-08,KICL,Smallcap,Financials
+2026-04-08,JTLIND,Smallcap,Metals & Mining
+2026-04-08,DBL,Midcap,Realty
+2026-04-08,JISLDVREQS,Smallcap,Plastic products
+2026-04-08,PRUDMOULI,Smallcap,FMCG
+2026-04-08,CNXPHARMA,Smallcap,Indices
+2026-04-08,SIS,Midcap,Miscellaneous
+2026-04-08,BDL,Largecap,Aerospace & Defence
+2026-04-08,PRITI,Smallcap,Consumer Discretionary
+2026-04-08,TEMBO,Smallcap,Consumer Discretionary
+2026-04-08,GREENPANEL,Smallcap,Building Materials
+2026-04-08,GLAND,Largecap,Healthcare
+2026-04-08,STOVEKRAFT,Smallcap,Consumer Discretionary
+2026-04-08,AXISBPSETF,Smallcap,Indices
+2026-04-08,NIFTYHEALTHCARE,Smallcap,Indices
+2026-04-08,RHL,Smallcap,Services
+2026-04-08,IKIO,Smallcap,Consumer Discretionary
+2026-04-08,GILT5BETA,Smallcap,Indices
+2026-04-08,HEALTHADD,Smallcap,Indices
+2026-04-08,ABDL,Midcap,FMCG
+2026-04-08,GSEC10ABSL,Smallcap,Indices
+2026-04-08,MID150,Smallcap,Indices
+2026-04-08,MOPSE,Smallcap,Indices
+2026-04-08,LAXMIINDIA,Smallcap,Financials
+2026-04-08,ARSSBL,Smallcap,Financials
+2026-04-08,OMFREIGHT,Smallcap,Transportation
+2026-04-09,BIRLACABLE,Smallcap,Industrials
+2026-04-09,EXIDEIND,Largecap,Auto
+2026-04-09,DRREDDY,Largecap,Healthcare
+2026-04-09,HEROMOTOCO,Largecap,Auto
+2026-04-09,HINDOILEXP,Smallcap,Energy
+2026-04-09,MFSL,Largecap,Miscellaneous
+2026-04-09,MRF,Largecap,Auto
+2026-04-09,ASHOKLEY,Largecap,Auto
+2026-04-09,NESTLEIND,Largecap,FMCG
+2026-04-09,CEATLTD,Midcap,Auto
+2026-04-09,BANSWRAS,Smallcap,Textiles
+2026-04-09,DELTAMAGNT,Smallcap,Textiles
+2026-04-09,EICHERMOT,Largecap,Auto
+2026-04-09,DMCC,Smallcap,Chemicals
+2026-04-09,PUNJABCHEM,Smallcap,Chemicals
+2026-04-09,SDBL,Smallcap,FMCG
+2026-04-09,KHAICHEM,Smallcap,Chemicals
+2026-04-09,SAMBHAAV,Smallcap,Media
+2026-04-09,NRAIL,Smallcap,Building Materials
+2026-04-09,HAVELLS,Largecap,Consumer Discretionary
+2026-04-09,TRIGYN,Smallcap,I.T
+2026-04-09,ADFFOODS,Smallcap,FMCG
+2026-04-09,TVSHLTD,Largecap,Financials
+2026-04-09,MUNJALAU,Smallcap,Auto
+2026-04-09,TRANSWORLD,Smallcap,Transportation
+2026-04-09,SIMPLEXINF,Smallcap,Realty
+2026-04-09,VIMTALABS,Smallcap,Healthcare
+2026-04-09,HIKAL,Smallcap,Healthcare
+2026-04-09,ELECTHERM,Smallcap,Metals & Mining
+2026-04-09,GOLDIAM,Smallcap,Consumer Discretionary
+2026-04-09,JUBLPHARMA,Midcap,Healthcare
+2026-04-09,SUPREME,Smallcap,Realty
+2026-04-09,VAIBHAVGBL,Smallcap,Consumer Discretionary
+2026-04-09,ITDC,Smallcap,Services
+2026-04-09,SOUTHBANK,Midcap,Bank
+2026-04-09,APTECHT,Smallcap,I.T
+2026-04-09,SUPRAJIT,Midcap,Auto
+2026-04-09,IGL,Largecap,Energy
+2026-04-09,TVTODAY,Smallcap,Media
+2026-04-09,GOKEX,Midcap,Consumer Discretionary
+2026-04-09,RML,Smallcap,Auto
+2026-04-09,CELEBRITY,Smallcap,Textiles
+2026-04-09,BLKASHYAP,Smallcap,Realty
+2026-04-09,ASIANTILES,Smallcap,Building Materials
+2026-04-09,RELIGARE,Midcap,Financials
+2026-04-09,BGRENERGY,Smallcap,Realty
+2026-04-09,KUANTUM,Smallcap,Building Materials
+2026-04-09,BAJAJFINSV,Largecap,Financials
+2026-04-09,PRAKASHSTL,Smallcap,Metals & Mining
+2026-04-09,TBZ,Smallcap,Consumer Discretionary
+2026-04-09,TIGERLOGS,Smallcap,Transportation
+2026-04-09,AGRITECH,Smallcap,FMCG
+2026-04-09,SNOWMAN,Smallcap,Transportation
+2026-04-09,VRLLOG,Smallcap,Transportation
+2026-04-09,PRITIKAUTO,Smallcap,Auto
+2026-04-09,LICNETFSEN,Smallcap,Indices
+2026-04-09,ALKEM,Largecap,Healthcare
+2026-04-09,BAJAJHCARE,Smallcap,Healthcare
+2026-04-09,MGL,Midcap,Energy
+2026-04-09,LTTS,Largecap,I.T
+2026-04-09,VBL,Largecap,FMCG
+2026-04-09,PSUBANK,Smallcap,Indices
+2026-04-09,UNITEDTEA,Smallcap,FMCG
+2026-04-09,GTPL,Smallcap,Media
+2026-04-09,AIRAN,Smallcap,I.T
+2026-04-09,HAL,Largecap,Aerospace & Defence
+2026-04-09,NIFTY50PR2XLEV,Smallcap,Indices
+2026-04-09,NIFTY50TR2XLEV,Smallcap,Indices
+2026-04-09,SETFNN50,Smallcap,Indices
+2026-04-09,SPENCERS,Smallcap,Consumer Discretionary
+2026-04-09,SWSOLAR,Smallcap,Realty
+2026-04-09,HINDWAREAP,Smallcap,Consumer Discretionary
+2026-04-09,SBGLP,Smallcap,Realty
+2026-04-09,HDFCNIFBAN,Smallcap,Indices
+2026-04-09,ATAM,Smallcap,Industrials
+2026-04-09,CHEMCON,Smallcap,Chemicals
+2026-04-09,EQUITASBNK,Midcap,Bank
+2026-04-09,NURECA,Smallcap,I.T
+2026-04-09,SIGACHI,Smallcap,Healthcare
+2026-04-09,METROBRAND,Largecap,Consumer Discretionary
+2026-04-09,VPRPL,Smallcap,Realty
+2026-04-09,HDFCPSUBK,Smallcap,Indices
+2026-04-09,VSTL,Smallcap,Metals & Mining
+2026-04-09,AWFIS,Smallcap,Co-Working
+2026-04-09,GLOBALE,Smallcap,Textiles
+2026-04-09,URAVIDEF,Smallcap,
+2026-04-09,SELECTIPO,Smallcap,Indices
+2026-04-09,SBIBPB,Smallcap,Indices
+2026-04-09,PROSTARM,Smallcap,Industrials
+2026-04-09,KALPATARU,Midcap,Realty
+2026-04-09,VIKRAMSOLR,Midcap,Industrials
+2026-04-09,MEIL,Smallcap,Industrials
+2026-04-09,CPEDU,Smallcap,Services
+2026-04-09,GKENERGY,Smallcap,Realty
+2026-04-09,TMCV,Largecap,Auto
+2026-04-09,CHEMICAL,Smallcap,Indices
+2026-04-12,SAKHTISUG,Smallcap,FMCG
+2026-04-12,BERGEPAINT,Largecap,Building Materials
+2026-04-12,IVC,Smallcap,Financials
+2026-04-12,ZENITHEXPO,Smallcap,Consumer Discretionary
+2026-04-12,YUKEN,Smallcap,Industrials
+2026-04-12,ZENITHSTL,Smallcap,Metals & Mining
+2026-04-12,ENIL,Smallcap,Media
+2026-04-12,PARSVNATH,Smallcap,Realty
+2026-04-12,THYROCARE,Midcap,Healthcare
+2026-04-12,BIGBLOC,Smallcap,Building Materials
+2026-04-12,GEEKAYWIRE,Smallcap,Metals & Mining
+2026-04-12,NIACL,Largecap,Financials
+2026-04-12,DJML,Smallcap,Transportation
+2026-04-12,MFML,Smallcap,Textiles
+2026-04-12,UNIMECH,Smallcap,Aerospace & Defence
+2026-04-12,AEQUS,Midcap,Aerospace & Defence
+2026-04-14,BOMDYEING,Smallcap,Textiles
+2026-04-14,KANSAINER,Midcap,Building Materials
+2026-04-14,INDORAMA,Smallcap,Textiles
+2026-04-14,JISLJALEQS,Smallcap,Plastic products
+2026-04-14,CENTENKA,Smallcap,Textiles
+2026-04-14,HEIDELBERG,Smallcap,Building Materials
+2026-04-14,SURYAROSNI,Midcap,Industrials
+2026-04-14,SKFINDIA,Midcap,Industrials
+2026-04-14,TATACOMM,Largecap,Telecom-Service
+2026-04-14,ASIANPAINT,Largecap,Building Materials
+2026-04-14,FINPIPE,Midcap,Plastic products
+2026-04-14,ANDHRAPAP,Smallcap,Building Materials
+2026-04-14,IFBIND,Smallcap,Consumer Discretionary
+2026-04-14,TRF,Smallcap,Industrials
+2026-04-14,PCBL,Midcap,Chemicals
+2026-04-14,KHAICHEM,Smallcap,Chemicals
+2026-04-14,EVERESTIND,Smallcap,Building Materials
+2026-04-14,GRAPHITE,Midcap,Industrials
+2026-04-14,GOACARBON,Smallcap,Energy
+2026-04-14,VLSFINANCE,Smallcap,Financials
+2026-04-14,DONEAR,Smallcap,Textiles
+2026-04-14,ASHIMASYN,Smallcap,Miscellaneous
+2026-04-14,ANANTRAJ,Midcap,Realty
+2026-04-14,SALZERELEC,Smallcap,Industrials
+2026-04-14,HONAUT,Largecap,Consumer Discretionary
+2026-04-14,SHYAMTEL,Smallcap,Services
+2026-04-14,ROTO,Smallcap,Industrials
+2026-04-14,RAJRATAN,Smallcap,Metals & Mining
+2026-04-14,HERITGFOOD,Smallcap,FMCG
+2026-04-14,OMAXAUTO,Smallcap,Auto
+2026-04-14,MUNJALSHOW,Smallcap,Auto
+2026-04-14,JAYBARMARU,Smallcap,Auto
+2026-04-14,TRIDENT,Midcap,Textiles
+2026-04-14,PEARLPOLY,Smallcap,Plastic products
+2026-04-14,TCPLPACK,Smallcap,Industrials
+2026-04-14,CARYSIL,Smallcap,Consumer Discretionary
+2026-04-14,AARTIDRUGS,Smallcap,Healthcare
+2026-04-14,HIKAL,Smallcap,Healthcare
+2026-04-14,CAPLIPOINT,Midcap,Healthcare
+2026-04-14,PREMEXPLN,Smallcap,Aerospace & Defence
+2026-04-14,MIRZAINT,Smallcap,Consumer Discretionary
+2026-04-14,SANDESH,Smallcap,Media
+2026-04-14,GOLDIAM,Smallcap,Consumer Discretionary
+2026-04-14,63MOONS,Smallcap,I.T
+2026-04-14,TINNARUBR,Smallcap,FMCG
+2026-04-14,BALAMINES,Midcap,Chemicals
+2026-04-14,PANACEABIO,Smallcap,Healthcare
+2026-04-14,HATSUN,Largecap,FMCG
+2026-04-14,VAIBHAVGBL,Smallcap,Consumer Discretionary
+2026-04-14,SAREGAMA,Midcap,Media
+2026-04-14,CYIENT,Midcap,I.T
+2026-04-14,INDNIPPON,Smallcap,Auto
+2026-04-14,SUBEXLTD,Smallcap,I.T
+2026-04-14,PNBGILTS,Smallcap,Financials
+2026-04-14,MOSCHIP,Smallcap,I.T
+2026-04-14,GODREJCP,Largecap,FMCG
+2026-04-14,DIVISLAB,Largecap,Healthcare
+2026-04-14,TVTODAY,Smallcap,Media
+2026-04-14,PALREDTEC,Smallcap,Services
+2026-04-14,PTC,Midcap,Power & Utilities
+2026-04-14,GOKEX,Midcap,Consumer Discretionary
+2026-04-14,YESBANK,Largecap,Bank
+2026-04-14,DYNPRO,Smallcap,Chemicals
+2026-04-14,INDOTECH,Smallcap,Industrials
+2026-04-14,INSPIRISYS,Smallcap,I.T
+2026-04-14,NETWORK18,Smallcap,Media
+2026-04-14,SAHYADRI,Smallcap,Building Materials
+2026-04-14,FORTIS,Largecap,Healthcare
+2026-04-14,DELTACORP,Smallcap,Miscellaneous
+2026-04-14,DLF,Largecap,Realty
+2026-04-14,ADSL,Smallcap,I.T
+2026-04-14,KPRMILL,Largecap,Consumer Discretionary
+2026-04-14,KOLTEPATIL,Smallcap,Realty
+2026-04-14,RPOWER,Midcap,Power & Utilities
+2026-04-14,ONMOBILE,Smallcap,Telecom-Service
+2026-04-14,BANG,Smallcap,Textiles
+2026-04-14,KIRIINDUS,Smallcap,Chemicals
+2026-04-14,JAIBALAJI,Midcap,Metals & Mining
+2026-04-14,MOLDTKPAC,Smallcap,Industrials
+2026-04-14,MHRIL,Smallcap,Services
+2026-04-14,EMAMIPAP,Smallcap,Building Materials
+2026-04-14,PRAKASHSTL,Smallcap,Metals & Mining
+2026-04-14,CPCAP,Smallcap,Financials
+2026-04-14,ASHOKA,Smallcap,Realty
+2026-04-14,TEXRAIL,Smallcap,Industrials
+2026-04-14,TBZ,Smallcap,Consumer Discretionary
+2026-04-14,ZUARI,Smallcap,Chemicals
+2026-04-14,ORIENTCEM,Smallcap,Building Materials
+2026-04-14,TIGERLOGS,Smallcap,Transportation
+2026-04-14,PNCINFRA,Midcap,Realty
+2026-04-14,RUDRA,Smallcap,Metals & Mining
+2026-04-14,SHYAMCENT,Smallcap,Metals & Mining
+2026-04-14,COFFEEDAY,Smallcap,Consumer Discretionary
+2026-04-14,BEARDSELL,Smallcap,Plastic products
+2026-04-14,SHK,Smallcap,Chemicals
+2026-04-14,ALKEM,Largecap,Healthcare
+2026-04-14,CROMPTON,Midcap,Consumer Discretionary
+2026-04-14,VBL,Largecap,FMCG
+2026-04-14,MAITHANALL,Smallcap,Metals & Mining
+2026-04-14,NBIFIN,Smallcap,Financials
+2026-04-14,NIFTYFMCG,Smallcap,Indices
+2026-04-14,ERIS,Midcap,Healthcare
+2026-04-14,DIXON,Largecap,Consumer Discretionary
+2026-04-14,MAHESHWARI,Smallcap,Services
+2026-04-14,ICICIGI,Largecap,Financials
+2026-04-14,MASFIN,Midcap,Financials
+2026-04-14,DOLLAR,Smallcap,Consumer Discretionary
+2026-04-14,HDFCLIFE,Largecap,Financials
+2026-04-14,SPCENET,Smallcap,Services
+2026-04-14,VERTOZ,Smallcap,I.T
+2026-04-14,PIGL,Smallcap,Industrials
+2026-04-14,ORIENTELEC,Smallcap,Consumer Discretionary
+2026-04-14,E2E,Midcap,I.T
+2026-04-14,VARROC,Midcap,Auto
+2026-04-14,SUPREMEENG,Smallcap,Metals & Mining
+2026-04-14,IRCON,Midcap,Realty
+2026-04-14,NIFTY50PR2XLEV,Smallcap,Indices
+2026-04-14,NIFTY50TR2XLEV,Smallcap,Indices
+2026-04-14,SETFNIF50,Smallcap,Indices
+2026-04-14,IDFNIFTYET,Smallcap,Indices
+2026-04-14,SPENCERS,Smallcap,Consumer Discretionary
+2026-04-14,AARTECH,Smallcap,Industrials
+2026-04-14,MSTCLTD,Smallcap,I.T
+2026-04-14,SWSOLAR,Smallcap,Realty
+2026-04-14,360ONE,Largecap,Financials
+2026-04-14,IIFLCAPS,Midcap,Financials
+2026-04-14,HINDWAREAP,Smallcap,Consumer Discretionary
+2026-04-14,PRINCEPIPE,Smallcap,Plastic products
+2026-04-14,UTIAMC,Midcap,Financials
+2026-04-14,CHEMCON,Smallcap,Chemicals
+2026-04-14,HEMIPROP,Smallcap,Realty
+2026-04-14,RAILTEL,Midcap,Transportation
+2026-04-14,PAVNAIND,Smallcap,Auto
+2026-04-14,LXCHEM,Smallcap,Chemicals
+2026-04-14,LODHA,Largecap,Realty
+2026-04-14,HEALTHIETF,Smallcap,Indices
+2026-04-14,IPL,Smallcap,Chemicals
+2026-04-14,METROBRAND,Largecap,Consumer Discretionary
+2026-04-14,NIFTYHEALTHCARE,Smallcap,Indices
+2026-04-14,CAMPUS,Midcap,Consumer Discretionary
+2026-04-14,LICI,Largecap,Financials
+2026-04-14,PRUDENT,Midcap,Financials
+2026-04-14,MOVALUE,Smallcap,Indices
+2026-04-14,DREAMFOLKS,Smallcap,Miscellaneous
+2026-04-14,HARSHA,Smallcap,Industrials
+2026-04-14,DCXINDIA,Smallcap,Aerospace & Defence
+2026-04-14,SULA,Smallcap,FMCG
+2026-04-14,DIVGIITTS,Smallcap,Auto
+2026-04-14,USK,Smallcap,Realty
+2026-04-14,BLAL,Smallcap,Realty
+2026-04-14,MANKIND,Largecap,Healthcare
+2026-04-14,NETWEB,Largecap,I.T
+2026-04-14,NIFTYETF,Smallcap,
+2026-04-14,IRMENERGY,Smallcap,Energy
+2026-04-14,PROTEAN,Smallcap,I.T
+2026-04-14,GANDHAR,Smallcap,Energy
+2026-04-14,NIFTYIETF,Smallcap,
+2026-04-14,MEDIASSIST,Smallcap,Miscellaneous
+2026-04-14,HEALTHADD,Smallcap,Indices
+2026-04-14,NIFTY1,Smallcap,
+2026-04-14,OILIETF,Smallcap,Indices
+2026-04-14,WCIL,Smallcap,Transportation
+2026-04-14,NIFTYINDTOURISM,Smallcap,Indices
+2026-04-14,DAMCAPITAL,Smallcap,Financials
+2026-04-14,CEWATER,Smallcap,Industrials
+2026-04-14,CARRARO,Smallcap,
+2026-04-14,GROWWRAIL,Smallcap,Indices
+2026-04-14,GOLD360,Smallcap,Indices
+2026-04-14,PROSTARM,Smallcap,Industrials
+2026-04-14,MOTOUR,Smallcap,Indices
+2026-04-14,ABLBL,Midcap,Consumer Discretionary
+2026-04-14,GLOBECIVIL,Smallcap,Realty
+2026-04-14,HDBFS,Largecap,Financials
+2026-04-14,MEIL,Smallcap,Industrials
+2026-04-14,MANUFGBEES,Smallcap,Indices
+2026-04-14,VIKRAN,Smallcap,Industrials
+2026-04-14,EPACKPEB,Smallcap,Metals & Mining
+2026-04-14,WEWORK,Midcap,Co-Working
+2026-04-14,PWL,Largecap,Services
+2026-04-14,TOP20,Smallcap,Indices
+2026-04-14,GROWWCHEM,Smallcap,Indices
+2026-04-15,TOKYOPLAST,Smallcap,Plastic products
+2026-04-15,AUSOMENT,Smallcap,Consumer Discretionary
+2026-04-15,HLEGLAS,Smallcap,Industrials
+2026-04-15,MOLDTECH,Smallcap,Realty
+2026-04-15,ORIENTLTD,Smallcap,Industrials
+2026-04-15,GANESHHOU,Midcap,Realty
+2026-04-15,INDIACEM,Midcap,Building Materials
+2026-04-15,FAZE3Q,Smallcap,Textiles
+2026-04-15,WELENT,Midcap,Realty
+2026-04-15,BEDMUTHA,Smallcap,Metals & Mining
+2026-04-15,PGEL,Midcap,Consumer Discretionary
+2026-04-15,RAMASTEEL,Smallcap,Metals & Mining
+2026-04-15,PARAGMILK,Smallcap,FMCG
+2026-04-15,EQUIPPP,Smallcap,I.T
+2026-04-15,APOLSINHOT,Smallcap,Services
+2026-04-15,ETERNAL,Largecap,I.T
+2026-04-15,APTUS,Midcap,Financials
+2026-04-15,JLHL,Midcap,Healthcare
+2026-04-15,RRKABEL,Largecap,Industrials
+2026-04-15,MOSMALL250,Smallcap,Indices
+2026-04-15,TBOTEK,Midcap,I.T
+2026-04-15,JUBLCPL,Smallcap,Chemicals
+2026-04-15,INTERNET,Smallcap,Indices
+2026-04-15,SMARTWORKS,Smallcap,Co-Working
+2026-04-15,STUDDS,Smallcap,Plastic products
+2026-04-15,MOMNC,Smallcap,Indices
+2026-04-16,CRISIL,Largecap,Financials
+2026-04-16,COLPAL,Largecap,FMCG
+2026-04-16,ZENSARTECH,Midcap,I.T
+2026-04-16,AUTOAXLES,Smallcap,Auto
+2026-04-16,FINKURVE,Smallcap,Financials
+2026-04-16,NAVNETEDUL,Smallcap,Miscellaneous
+2026-04-16,SHIVATEX,Smallcap,Textiles
+2026-04-16,ICIL,Midcap,Textiles
+2026-04-16,ADVANIHOTR,Smallcap,Services
+2026-04-16,MASTEK,Smallcap,I.T
+2026-04-16,XTGLOBAL,Smallcap,I.T
+2026-04-16,SHAKTIPUMP,Midcap,Industrials
+2026-04-16,MARICO,Largecap,FMCG
+2026-04-16,ACCELYA,Smallcap,I.T
+2026-04-16,RAMCOIND,Smallcap,Building Materials
+2026-04-16,JKIL,Smallcap,Realty
+2026-04-16,RPGLIFE,Smallcap,Healthcare
+2026-04-16,GPPL,Midcap,Transportation
+2026-04-16,TRITURBINE,Midcap,Industrials
+2026-04-16,KAVDEFENCE,Smallcap,Aerospace & Defence
+2026-04-16,ICDSLTD,Smallcap,Miscellaneous
+2026-04-16,SMLT,Smallcap,Metals & Mining
+2026-04-16,MEDICO,Smallcap,Healthcare
+2026-04-16,OSWALSEEDS,Smallcap,FMCG
+2026-04-16,CREDITACC,Largecap,Financials
+2026-04-16,DCMNVL,Smallcap,Textiles
+2026-04-16,POLICYBZR,Largecap,I.T
+2026-04-16,NIFTYINDDIGITAL,Smallcap,Indices
+2026-04-16,FUSION,Smallcap,Financials
+2026-04-19,SBIN,Largecap,Bank
+2026-04-19,CAPTRUST,Smallcap,Financials
+2026-04-20,HINDPETRO,Largecap,Energy
+2026-04-20,M&M,Largecap,Auto
+2026-04-20,WESTLIFE,Midcap,Consumer Discretionary
+2026-04-20,SUNTECK,Smallcap,Realty
+2026-04-20,ALICON,Smallcap,Industrials
+2026-04-20,MANAPPURAM,Largecap,Financials
+2026-04-20,KEC,Midcap,Realty
+2026-04-20,MANINFRA,Smallcap,Realty
+2026-04-20,CSBBANK,Midcap,Bank
+2026-04-20,MOSMALL250,Smallcap,Indices
+2026-04-20,AMAGI,Midcap,I.T
+2026-04-21,DABUR,Largecap,FMCG
+2026-04-21,PTL,Smallcap,Miscellaneous
+2026-04-21,V2RETAIL,Midcap,Consumer Discretionary
+2026-04-21,JUBLFOOD,Largecap,Consumer Discretionary
+2026-04-21,THYROCARE,Midcap,Healthcare
+2026-04-21,KARURVYSYA,Largecap,Bank
+2026-04-21,LCCINFOTEC,Smallcap,Services
+2026-04-21,INDIGOPNTS,Smallcap,Building Materials
+2026-04-21,MSUMI,Largecap,Auto
+2026-04-21,NIFTY100EW,Smallcap,Indices
+2026-04-22,PASUPTAC,Smallcap,Textiles
+2026-04-22,GENESYS,Smallcap,I.T
+2026-04-22,RAJESHEXPO,Smallcap,Consumer Discretionary
+2026-04-22,COMPUSOFT,Smallcap,I.T
+2026-04-22,PVRINOX,Midcap,Media
+2026-04-22,ESSENTIA,Smallcap,Services
+2026-04-22,PIRAMALFIN,Smallcap,
+2026-04-23,SHAILY,Midcap,Plastic products
+2026-04-23,SILVERBND,Smallcap,Indices
+2026-04-26,JISLJALEQS,Smallcap,Plastic products
+2026-04-26,JKLAKSHMI,Midcap,Building Materials
+2026-04-26,ACC,Largecap,Building Materials
+2026-04-26,RESPONIND,Smallcap,Plastic products
+2026-04-26,GENESYS,Smallcap,I.T
+2026-04-26,STARPAPER,Smallcap,Building Materials
+2026-04-26,RICOAUTO,Smallcap,Auto
+2026-04-26,VESUVIUS,Midcap,Building Materials
+2026-04-26,BIOFILCHEM,Smallcap,Healthcare
+2026-04-26,CUB,Midcap,Bank
+2026-04-26,ALLDIGI,Smallcap,I.T
+2026-04-26,IDEA,Largecap,Telecom-Service
+2026-04-26,BVCL,Smallcap,Building Materials
+2026-04-26,DBREALTY,Midcap,Realty
+2026-04-26,INFOBEAN,Smallcap,I.T
+2026-04-26,DCAL,Smallcap,Healthcare
+2026-04-26,NIFTY50PR2XLEV,Smallcap,Indices
+2026-04-26,NIFTY50TR2XLEV,Smallcap,Indices
+2026-04-26,NIFTYSERVSECTOR,Smallcap,Indices
+2026-04-26,IDFNIFTYET,Smallcap,Indices
+2026-04-26,LICNETFGSC,Smallcap,Indices
+2026-04-26,ROUTE,Smallcap,I.T
+2026-04-26,MSUMI,Largecap,Auto
+2026-04-26,JSLL,Midcap,Healthcare
+2026-04-26,TATATECH,Largecap,I.T
+2026-04-26,BBNPPGOLD,Smallcap,Indices
+2026-04-26,AEGISVOPAK,Largecap,Transportation
+2026-04-26,JAINREC,Midcap,Metals & Mining
+2026-04-27,RELIANCE,Largecap,Energy
+2026-04-27,TIL,Smallcap,Industrials
+2026-04-27,AVONMORE,Smallcap,Financials
+2026-04-27,ORIENTBELL,Smallcap,Building Materials
+2026-04-27,LINC,Smallcap,Miscellaneous
+2026-04-27,MAHLIFE,Midcap,Realty
+2026-04-27,OIL,Largecap,Energy
+2026-04-27,INCREDIBLE,Smallcap,Metals & Mining
+2026-04-27,INTELLECT,Midcap,I.T
+2026-04-27,MANAKCOAT,Smallcap,Metals & Mining
+2026-04-27,PANACHE,Smallcap,I.T
+2026-04-27,ESAFSFB,Smallcap,Bank
+2026-04-27,IKS,Largecap,I.T
+2026-04-28,GODFRYPHLP,Largecap,FMCG
+2026-04-28,SUNDRMFAST,Midcap,Auto
+2026-04-28,SHIVATEX,Smallcap,Textiles
+2026-04-28,MAHASTEEL,Smallcap,Metals & Mining
+2026-04-28,BHARATSE,Smallcap,Auto
+2026-04-28,SHARIABEES,Smallcap,Indices
+2026-04-28,LCCINFOTEC,Smallcap,Services
+2026-04-28,PANSARI,Smallcap,Realty
+2026-04-28,LICNETFGSC,Smallcap,Indices
+2026-04-28,BSLNIFTY,Smallcap,Indices
+2026-04-28,SAPPHIRE,Midcap,Consumer Discretionary
+2026-04-28,VERANDA,Smallcap,Services
+2026-04-28,NIFTYTOP10EW,Smallcap,Indices
+2026-04-28,NIFTYCASE,Smallcap,Indices
+2026-04-29,PNC,Smallcap,Media
+2026-04-29,BHARTIARTL,Largecap,Telecom-Service
+2026-04-29,VARROC,Midcap,Auto
+2026-04-29,SJS,Midcap,Auto
+2026-05-03,SHREECEM,Largecap,Building Materials
+2026-05-03,EICHERMOT,Largecap,Auto
+2026-05-03,KALYANIFRG,Smallcap,Industrials
+2026-05-03,HNDFDS,Midcap,FMCG
+2026-05-03,POONAWALLA,Largecap,Financials
+2026-05-03,DBREALTY,Midcap,Realty
+2026-05-03,MUTHOOTFIN,Largecap,Financials
+2026-05-03,ERIS,Midcap,Healthcare
+2026-05-03,MAXHEALTH,Largecap,Healthcare
+2026-05-03,TARC,Smallcap,Realty
+2026-05-03,SENCO,Midcap,Consumer Discretionary
+2026-05-03,KALAMANDIR,Smallcap,Consumer Discretionary
+2026-05-03,MEDIASSIST,Smallcap,Miscellaneous
+2026-05-03,GOPAL,Smallcap,FMCG
+2026-05-03,GSEC10ABSL,Smallcap,Indices
+2026-05-03,AEGISVOPAK,Largecap,Transportation
+2026-05-03,SHRINGARMS,Smallcap,Consumer Discretionary
+2026-05-03,NEPHROPLUS,Midcap,Healthcare
+2026-05-04,DABUR,Largecap,FMCG
+2026-05-04,TIL,Smallcap,Industrials
+2026-05-04,LAKPRE,Smallcap,Industrials
+2026-05-04,MUTHOOTCAP,Smallcap,Financials
+2026-05-04,DOLPHIN,Smallcap,Energy
+2026-05-04,NGLFINE,Smallcap,Healthcare
+2026-05-04,SHARDACROP,Midcap,Chemicals
+2026-05-04,LICNETFN50,Smallcap,Indices
+2026-05-04,KNAGRI,Smallcap,FMCG
+2026-05-05,HINDPETRO,Largecap,Energy
+2026-05-05,MFSL,Largecap,Miscellaneous
+2026-05-05,PRIMESECU,Smallcap,Financials
+2026-05-05,RAIN,Midcap,Miscellaneous
+2026-05-05,M&M,Largecap,Auto
+2026-05-05,SRF,Largecap,Chemicals
+2026-05-05,ASTRAZEN,Largecap,Healthcare
+2026-05-05,SUPREMEIND,Largecap,Plastic products
+2026-05-05,SHRIRAMFIN,Largecap,Financials
+2026-05-05,VINATIORGA,Midcap,Chemicals
+2026-05-05,CHOICEIN,Midcap,Financials
+2026-05-05,AJANTPHARM,Largecap,Healthcare
+2026-05-05,UNOMINDA,Largecap,Auto
+2026-05-05,TICL,Smallcap,Realty
+2026-05-05,KNRCON,Smallcap,Realty
+2026-05-05,BAJAJFINSV,Largecap,Financials
+2026-05-05,SUMMITSEC,Smallcap,Financials
+2026-05-05,PROZONER,Smallcap,Miscellaneous
+2026-05-05,CIGNITITEC,Smallcap,I.T
+2026-05-05,INDIGO,Largecap,Transportation
+2026-05-05,ALKEM,Largecap,Healthcare
+2026-05-05,ICICIGI,Largecap,Financials
+2026-05-05,RPPL,Smallcap,Industrials
+2026-05-05,NIFTYSERVSECTOR,Smallcap,Indices
+2026-05-05,SETFNIFBK,Smallcap,Indices
+2026-05-05,IVZINNIFTY,Smallcap,Indices
+2026-05-05,AXISBNKETF,Smallcap,Indices
+2026-05-05,ETERNAL,Largecap,I.T
+2026-05-05,KRSNAA,Smallcap,Healthcare
+2026-05-05,ORIENTTECH,Smallcap,I.T
+2026-05-05,JUBLCPL,Smallcap,Chemicals
+2026-05-05,NIFTY100EW,Smallcap,Indices
+2026-05-05,SHRINGARMS,Smallcap,Consumer Discretionary
+2026-05-05,CRAMC,Smallcap,Financials
+2026-05-05,MOSERVICE,Smallcap,Indices
+2026-05-06,GLAXO,Largecap,Healthcare
+2026-05-06,GENESYS,Smallcap,I.T
+2026-05-06,TASTYBITE,Smallcap,FMCG
+2026-05-06,RICOAUTO,Smallcap,Auto
+2026-05-06,EIMCOELECO,Smallcap,Industrials
+2026-05-06,BYKE,Smallcap,Services
+2026-05-06,PPAP,Smallcap,Auto
+2026-05-06,HEALTHX,Smallcap,Financials
+2026-05-06,A2ZINFRA,Smallcap,Realty
+2026-05-06,PDSL,Smallcap,Textiles
+2026-05-06,VRLLOG,Smallcap,Transportation
+2026-05-06,ENDURANCE,Largecap,Auto
+2026-05-06,INDIAMART,Midcap,I.T
+2026-05-06,NUVOCO,Midcap,Building Materials
+2026-05-06,SIGACHI,Smallcap,Healthcare
+2026-05-06,PROTEAN,Smallcap,I.T
+2026-05-06,BBNPNBETF,Smallcap,Indices
+2026-05-06,CEWATER,Smallcap,Industrials
+2026-05-06,VENTIVE,Midcap,Services
+2026-05-07,PENINLAND,Smallcap,Realty
+2026-05-07,LUMAXIND,Smallcap,Auto
+2026-05-07,ONWARDTEC,Smallcap,I.T
+2026-05-07,BANARBEADS,Smallcap,Building Materials
+2026-05-07,ECLERX,Midcap,I.T
+2026-05-07,NORBTEAEXP,Smallcap,FMCG
+2026-05-07,GOCOLORS,Smallcap,Textiles
+2026-05-11,OIL,Largecap,Energy
+2026-05-11,INDIAVIX,Smallcap,Indices
+2026-05-12,HINDPETRO,Largecap,Energy
+2026-05-12,FOSECOIND,Smallcap,Chemicals
+2026-05-12,RHL,Smallcap,Services
+2026-05-12,URBANCO,Midcap,I.T
+2026-05-12,BHARATCOAL,Midcap,Metals & Mining
+2026-05-13,DRREDDY,Largecap,Healthcare
+2026-05-13,MFSL,Largecap,Miscellaneous
+2026-05-13,ITC,Largecap,FMCG
+2026-05-13,SAREGAMA,Midcap,Media
+2026-05-13,WELENT,Midcap,Realty
+2026-05-13,VASWANI,Smallcap,Metals & Mining
+2026-05-13,CPSEETF,Smallcap,Indices
+2026-05-13,MCL,Smallcap,Metals & Mining
+2026-05-13,KHADIM,Smallcap,Consumer Discretionary
+2026-05-13,NIFTY100LIQ15,Smallcap,Indices
+2026-05-13,ETERNAL,Largecap,I.T
+2026-05-13,NIFTYFINSRV2550,Smallcap,Indices
+2026-05-13,LICI,Largecap,Financials
+2026-05-13,SENCO,Midcap,Consumer Discretionary
+2026-05-13,NIFTYBETA,Smallcap,
+2026-05-14,UNITDSPR,Largecap,FMCG
+2026-05-14,BHARTIARTL,Largecap,Telecom-Service
+2026-05-14,PGIL,Midcap,Consumer Discretionary
+2026-05-14,KARURVYSYA,Largecap,Bank
+2026-05-14,SPECTRUM,Smallcap,Industrials
+2026-05-14,AKI,Smallcap,Consumer Discretionary

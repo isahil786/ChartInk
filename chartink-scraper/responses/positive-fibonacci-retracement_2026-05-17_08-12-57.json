@@ -1,0 +1,159 @@
+{
+  "screenerUrl": "https://chartink.com/screener/positive-fibonacci-retracement",
+  "screenerName": "positive-fibonacci-retracement",
+  "scanClause": "( {33489} ( latest close > ( 1 day ago high - 1 day ago low ) * 0.618 + 1 day ago low and latest close > 50 and latest volume > 500000 and latest rsi( 14 ) > 60 ) )",
+  "fetchedAt": "2026-05-17T08:12:57.936Z",
+  "totalResults": 16,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 16,
+    "recordsFiltered": 16,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "SOLARINDS",
+        "name": "Solar Industries India Limited",
+        "bsecode": "532725",
+        "close": 17314,
+        "per_chg": 3.89,
+        "volume": 562697
+      },
+      {
+        "sr": 2,
+        "nsecode": "MCX",
+        "name": "Multi Commodity Exchange Of India Limited",
+        "bsecode": "534091",
+        "close": 3391,
+        "per_chg": 1.55,
+        "volume": 3403551
+      },
+      {
+        "sr": 3,
+        "nsecode": "ADANIENT",
+        "name": "Adani Enterprises Limited",
+        "bsecode": "512599",
+        "close": 2716,
+        "per_chg": 0.11,
+        "volume": 6742083
+      },
+      {
+        "sr": 4,
+        "nsecode": "MANKIND",
+        "name": "Mankind Pharma Ltd",
+        "bsecode": "543904",
+        "close": 2503,
+        "per_chg": 1.66,
+        "volume": 1120942
+      },
+      {
+        "sr": 5,
+        "nsecode": "SUNPHARMA",
+        "name": "Sun Pharmaceuticals Industries Limited",
+        "bsecode": "524715",
+        "close": 1878.2,
+        "per_chg": 0.81,
+        "volume": 2756465
+      },
+      {
+        "sr": 6,
+        "nsecode": "ADANIPORTS",
+        "name": "Adani Ports And Special Economic Zone Limited",
+        "bsecode": "532921",
+        "close": 1795.1,
+        "per_chg": 1.22,
+        "volume": 5622212
+      },
+      {
+        "sr": 7,
+        "nsecode": "POLICYBZR",
+        "name": "PB Fintech Ltd",
+        "bsecode": "543390",
+        "close": 1688.3,
+        "per_chg": 0.41,
+        "volume": 1854796
+      },
+      {
+        "sr": 8,
+        "nsecode": "CIPLA",
+        "name": "Cipla Limited",
+        "bsecode": "500087",
+        "close": 1432.1,
+        "per_chg": -0.32,
+        "volume": 1138894
+      },
+      {
+        "sr": 9,
+        "nsecode": "LAURUSLABS",
+        "name": "Laurus Labs Limited",
+        "bsecode": "540222",
+        "close": 1323.6,
+        "per_chg": 0.62,
+        "volume": 2223101
+      },
+      {
+        "sr": 10,
+        "nsecode": "NAM-INDIA",
+        "name": "Nippon Life India Asset Management Ltd",
+        "bsecode": "540767",
+        "close": 1100.6,
+        "per_chg": 0.76,
+        "volume": 843168
+      },
+      {
+        "sr": 11,
+        "nsecode": "PNBHOUSING",
+        "name": "Pnb Housing Finance Limited",
+        "bsecode": "540173",
+        "close": 1069.4,
+        "per_chg": -0.03,
+        "volume": 523695
+      },
+      {
+        "sr": 12,
+        "nsecode": "MAXHEALTH",
+        "name": "Max Healthcare Institute Ltd",
+        "bsecode": "543220",
+        "close": 1050.1,
+        "per_chg": 0.05,
+        "volume": 1471140
+      },
+      {
+        "sr": 13,
+        "nsecode": "ZYDUSLIFE",
+        "name": "Zydus Lifesciences Ltd",
+        "bsecode": "532321",
+        "close": 1011.7,
+        "per_chg": 2.02,
+        "volume": 1996110
+      },
+      {
+        "sr": 14,
+        "nsecode": "MARICO",
+        "name": "Marico Limited",
+        "bsecode": "531642",
+        "close": 841.15,
+        "per_chg": 0.74,
+        "volume": 1462080
+      },
+      {
+        "sr": 15,
+        "nsecode": "BIOCON",
+        "name": "Biocon Limited",
+        "bsecode": "532523",
+        "close": 430.1,
+        "per_chg": 2.65,
+        "volume": 8177038
+      },
+      {
+        "sr": 16,
+        "nsecode": "CROMPTON",
+        "name": "Crompton Greaves Consumer Electricals Limited",
+        "bsecode": "539876",
+        "close": 301.95,
+        "per_chg": 4.5,
+        "volume": 18051421
+      }
+    ],
+    "link": "scanlink:5e6a7ffcfe9020074aa82382be37345c"
+  }
+}
