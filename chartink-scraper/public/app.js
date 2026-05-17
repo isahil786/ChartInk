@@ -1,0 +1,318 @@
+/* ── State ───────────────────────────────────────────────────── */
+let allScreeners = [];
+let activeSlug = null;
+let chartDaily = null;
+let chartSector = null;
+
+/* ── Boot ────────────────────────────────────────────────────── */
+document.addEventListener("DOMContentLoaded", () => {
+  loadScreenerList();
+  document.getElementById("btn-refresh").addEventListener("click", () => {
+    if (activeSlug) loadScreener(activeSlug);
+  });
+});
+
+/* ── Base path (injected by server into <meta name="base-path">) ── */
+const BASE = (document.querySelector('meta[name="base-path"]') || {}).content || "";
+
+/* ── Fetch helpers ───────────────────────────────────────────── */
+async function api(path) {
+  const res = await fetch(BASE + path);
+  if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+  return res.json();
+}
+
+/* ── Sidebar ─────────────────────────────────────────────────── */
+async function loadScreenerList() {
+  const nav = document.getElementById("nav-list");
+  try {
+    allScreeners = await api("/api/screeners");
+    nav.innerHTML = "";
+    allScreeners.forEach((s) => {
+      const btn = document.createElement("button");
+      btn.className = "nav-item";
+      btn.dataset.slug = s.slug;
+
+      const label = slugToTitle(s.slug);
+      const stocks = s.totalStocks ?? "—";
+      btn.innerHTML = `
+        <div>${label}</div>
+        <div class="nav-meta">${stocks} stocks today</div>
+      `;
+      btn.addEventListener("click", () => loadScreener(s.slug));
+      nav.appendChild(btn);
+    });
+
+    if (allScreeners.length > 0) loadScreener(allScreeners[0].slug);
+  } catch (e) {
+    nav.innerHTML = `<div class="nav-loading" style="color:#ef4444">Error: ${e.message}</div>`;
+  }
+}
+
+function slugToTitle(slug) {
+  return slug
+    .split("-")
+    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+    .join(" ");
+}
+
+/* ── Main dashboard loader ───────────────────────────────────── */
+async function loadScreener(slug) {
+  activeSlug = slug;
+
+  document.querySelectorAll(".nav-item").forEach((b) => {
+    b.classList.toggle("active", b.dataset.slug === slug);
+  });
+
+  document.getElementById("welcome").classList.add("hidden");
+  document.getElementById("dashboard").classList.remove("hidden");
+
+  document.getElementById("dash-title").textContent = slugToTitle(slug);
+  document.getElementById("dash-date-range").textContent = "Loading…";
+
+  try {
+    const [screenerData, backtestMeta, dailyData, sectorData] =
+      await Promise.all([
+        api(`/api/screeners/${slug}`),
+        api(`/api/backtests/${slug}`),
+        api(`/api/backtests/${slug}/daily`),
+        api(`/api/backtests/${slug}/sectors`),
+      ]);
+
+    renderStats(screenerData, backtestMeta);
+    renderStocksTable(screenerData.stocks);
+    renderDailyChart(dailyData);
+    renderSectorChart(sectorData);
+    renderTopSymbols(backtestMeta.summary.topSymbols ?? []);
+
+    const r = backtestMeta.summary.dateRange ?? {};
+    document.getElementById("dash-date-range").textContent =
+      r.from && r.to ? `Backtest range: ${r.from} → ${r.to}` : "";
+    document.getElementById("bt-range").textContent =
+      r.from && r.to ? `${r.from} → ${r.to}` : "";
+  } catch (e) {
+    document.getElementById("dash-date-range").textContent = "Error loading data: " + e.message;
+  }
+}
+
+/* ── Stat cards ──────────────────────────────────────────────── */
+function renderStats(screener, backtest) {
+  const s = screener.summary ?? {};
+  const b = backtest.summary ?? {};
+
+  const cards = [
+    {
+      label: "Stocks Today",
+      value: s.totalStocks ?? 0,
+      sub: `${s.gainers ?? 0} up · ${s.losers ?? 0} down`,
+      color: "",
+    },
+    {
+      label: "Avg % Change",
+      value: (s.avgPercentChange ?? 0) > 0
+        ? `+${s.avgPercentChange}%`
+        : `${s.avgPercentChange ?? 0}%`,
+      sub: s.topGainer ? `Best: ${s.topGainer.nsecode} (${s.topGainer.per_chg}%)` : "",
+      color: (s.avgPercentChange ?? 0) >= 0 ? "green" : "red",
+    },
+    {
+      label: "Total Signals",
+      value: (b.totalSignalOccurrences ?? 0).toLocaleString(),
+      sub: `Over ${b.totalDays ?? 0} trading days`,
+      color: "blue",
+    },
+    {
+      label: "Active Days",
+      value: b.activeDays ?? 0,
+      sub: `Avg ${b.avgSignalsPerActiveDay ?? 0} signals/day`,
+      color: "purple",
+    },
+    {
+      label: "Peak Date",
+      value: b.peakDate ?? "—",
+      sub: `${b.peakDaySignalCount ?? 0} signals on peak day`,
+      color: "",
+    },
+  ];
+
+  const container = document.getElementById("stat-cards");
+  container.innerHTML = cards
+    .map(
+      (c) => `
+      <div class="stat-card ${c.color}">
+        <div class="label">${c.label}</div>
+        <div class="value">${c.value}</div>
+        <div class="sub">${c.sub}</div>
+      </div>`
+    )
+    .join("");
+}
+
+/* ── Stocks table ────────────────────────────────────────────── */
+function renderStocksTable(stocks) {
+  const tbody = document.getElementById("stocks-tbody");
+  const empty = document.getElementById("stocks-empty");
+  const table = document.getElementById("stocks-table");
+
+  if (!stocks || stocks.length === 0) {
+    tbody.innerHTML = "";
+    table.classList.add("hidden");
+    empty.classList.remove("hidden");
+    return;
+  }
+
+  table.classList.remove("hidden");
+  empty.classList.add("hidden");
+
+  tbody.innerHTML = stocks
+    .map((s) => {
+      const chg = parseFloat(s["% Change"] ?? 0);
+      const cls = chg > 0 ? "change-pos" : chg < 0 ? "change-neg" : "";
+      const sign = chg > 0 ? "+" : "";
+      const vol = parseInt(s["Volume"] ?? 0).toLocaleString("en-IN");
+      return `
+        <tr>
+          <td>${s["Sr"] ?? ""}</td>
+          <td><span class="nse-code">${s["NSE Code"] ?? ""}</span></td>
+          <td>${s["Company Name"] ?? ""}</td>
+          <td>${s["BSE Code"] ?? ""}</td>
+          <td class="num">₹${parseFloat(s["Close (₹)"] ?? 0).toFixed(2)}</td>
+          <td class="num ${cls}">${sign}${chg.toFixed(2)}%</td>
+          <td class="num">${vol}</td>
+        </tr>`;
+    })
+    .join("");
+}
+
+/* ── Daily signals chart ─────────────────────────────────────── */
+function renderDailyChart(daily) {
+  const ctx = document.getElementById("chart-daily");
+  if (chartDaily) { chartDaily.destroy(); chartDaily = null; }
+
+  const labels = daily.map((d) => d.date);
+  const values = daily.map((d) => d.total);
+
+  chartDaily = new Chart(ctx, {
+    type: "line",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Daily Signals",
+          data: values,
+          borderColor: "#3b82f6",
+          backgroundColor: "rgba(59,130,246,0.10)",
+          borderWidth: 2,
+          pointRadius: 0,
+          pointHoverRadius: 4,
+          fill: true,
+          tension: 0.3,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: {
+            title: (items) => items[0].label,
+            label: (item) => ` ${item.raw} signals`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: "#64748b",
+            maxTicksLimit: 10,
+            maxRotation: 0,
+          },
+          grid: { color: "#1e2433" },
+        },
+        y: {
+          ticks: { color: "#64748b" },
+          grid: { color: "#1e2433" },
+          beginAtZero: true,
+        },
+      },
+    },
+  });
+}
+
+/* ── Sector bar chart ────────────────────────────────────────── */
+function renderSectorChart(sectors) {
+  const ctx = document.getElementById("chart-sector");
+  if (chartSector) { chartSector.destroy(); chartSector = null; }
+
+  const sorted = [...sectors].sort((a, b) => a.total - b.total);
+  const labels = sorted.map((s) => s.sector);
+  const values = sorted.map((s) => s.total);
+
+  const palette = [
+    "#3b82f6","#6366f1","#8b5cf6","#a78bfa","#06b6d4",
+    "#10b981","#22c55e","#84cc16","#f59e0b","#f97316",
+    "#ef4444","#ec4899","#14b8a6","#0ea5e9","#64748b",
+  ];
+
+  chartSector = new Chart(ctx, {
+    type: "bar",
+    data: {
+      labels,
+      datasets: [
+        {
+          label: "Total Signals",
+          data: values,
+          backgroundColor: labels.map((_, i) => palette[i % palette.length]),
+          borderRadius: 4,
+          borderWidth: 0,
+        },
+      ],
+    },
+    options: {
+      indexAxis: "y",
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          callbacks: { label: (item) => ` ${item.raw} signals` },
+        },
+      },
+      scales: {
+        x: {
+          ticks: { color: "#64748b" },
+          grid: { color: "#1e2433" },
+          beginAtZero: true,
+        },
+        y: {
+          ticks: { color: "#94a3b8", font: { size: 11 } },
+          grid: { display: false },
+        },
+      },
+    },
+  });
+}
+
+/* ── Top symbols list ────────────────────────────────────────── */
+function renderTopSymbols(symbols) {
+  const container = document.getElementById("top-symbols");
+  if (!symbols.length) { container.innerHTML = ""; return; }
+
+  const max = symbols[0]?.appearances ?? 1;
+  container.innerHTML = `
+    <h3>Top Symbols</h3>
+    ${symbols
+      .map((s) => {
+        const pct = Math.round((s.appearances / max) * 100);
+        return `
+          <div class="sym-row">
+            <span class="sym-name">${s.symbol}</span>
+            <div class="sym-bar-wrap"><div class="sym-bar" style="width:${pct}%"></div></div>
+            <span class="sym-count">${s.appearances}×</span>
+          </div>`;
+      })
+      .join("")}
+  `;
+}

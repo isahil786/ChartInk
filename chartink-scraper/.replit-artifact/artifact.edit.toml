@@ -1,0 +1,16 @@
+kind = "web"
+previewPath = "/dashboard"
+title = "Chartink Dashboard"
+version = "1.0.0"
+
+[[services]]
+localPort = 3000
+name = "Chartink Dashboard"
+paths = ["/dashboard"]
+
+[services.development]
+run = "cd chartink-scraper && node server.js"
+
+[services.development.env]
+PORT = "3000"
+BASE_PATH = "/dashboard"
