@@ -123,3 +123,58 @@ Both scripts automatically load `cookies.txt` if it exists.
 - The screener script waits 1.5 seconds between requests; backtest waits 2 seconds — to avoid rate limiting
 - Chartink does not provide an official public API; this tool uses the same endpoints the website uses internally
 - Public screeners work without login; private or deleted screeners may require cookies
+
+## Tool Verification
+
+| Tool | Command | Status |
+|------|---------|--------|
+| Screener | `node index.js <url>` | ✓ Public screeners fetch successfully |
+| Backtest | `node backtest.js <url>` | ✓ Backtests run with 26 sector groups |
+| Backtest | `node backtest.js -q <name>` | ✓ Custom queries work |
+| Custom Query | `node custom-query.js -q <name>` | ✓ On-demand scans work |
+| Processing | `node backtest.js --process` | ✓ Generates CSV + summary JSON |
+
+## API Server — `node server.js`
+
+Runs an Express server with endpoints for fetching and serving screener data.
+
+### API Endpoints
+
+| Endpoint | Description |
+|----------|-------------|
+| `GET /api/fetch?screener=<url>` | Fetch screener(s) by URL (no save) |
+| `GET /api/fetch?screener=<url1>&screener=<url2>` | Multiple URLs supported |
+| `GET /api/screeners` | List available processed screeners |
+| `GET /api/screeners/:slug` | Get stocks for a screener |
+| `GET /api/backtests/:slug` | Get backtest summary |
+| `GET /api/backtests/:slug/daily` | Get daily signal counts |
+| `GET /api/backtests/:slug/sectors` | Get sector totals |
+| `GET /api/backtests/:slug/stocks` | Get daily stocks list |
+
+### API: Fetch Screener by URL
+
+```bash
+# Single URL
+curl "http://localhost:3000/dashboard/api/fetch?screener=https://chartink.com/screener/ma-alignment"
+
+# Multiple URLs
+curl "http://localhost:3000/dashboard/api/fetch?screener=URL1&screener=URL2&screener=URL3"
+
+# With session cookies (for private screeners)
+curl "http://localhost:3000/dashboard/api/fetch?screener=URL&cookies=chartink_session=VALUE"
+```
+
+Note: CSRF token is extracted automatically from the page. Only use `cookies` parameter for private screeners requiring login.
+
+Returns:
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "url": "https://chartink.com/screener/...",
+      "result": { "screenerName": "...", "totalResults": N, "data": [...] }
+    }
+  ]
+}
+```

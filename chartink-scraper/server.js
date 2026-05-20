@@ -2,6 +2,7 @@ import express from "express";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
+import { runScreener } from "./src/chartink.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -107,6 +108,37 @@ app.get(`${BASE}/api/screeners/:slug`, (req, res) => {
   const { rows: stocks } = parseCsv(csvPath);
 
   res.json({ slug, summary, stocks });
+});
+
+// ─── API: fetch screener by URL (no save) ─────────────────────────────────────
+
+app.get(`${BASE}/api/fetch`, async (req, res) => {
+  const screenerParam = req.query.screener;
+  const cookies = req.query.cookies || "";
+
+  if (!screenerParam) {
+    return res.status(400).json({ error: "Missing required query parameter: screener" });
+  }
+
+  const urls = Array.isArray(screenerParam) ? screenerParam : [screenerParam];
+
+  if (urls.length > 5) {
+    return res.status(400).json({ error: "Maximum 5 screeners per request" });
+  }
+
+  try {
+    const results = [];
+    for (const url of urls) {
+      if (!url.startsWith("http")) {
+        return res.status(400).json({ error: `Invalid URL: ${url}` });
+      }
+      const result = await runScreener(url, cookies);
+      results.push({ url, result });
+    }
+    res.json({ success: true, data: results });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
 });
 
 // ─── API: backtest summary ────────────────────────────────────────────────────

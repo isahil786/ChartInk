@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: chartink-scraper
+    runtime: node
+    region: oregon
+    plan: free
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: BASE_PATH
+        value: /dashboard
+
+# For Docker deployment, use:
+# docker build -t chartink-scraper .
+# docker run -p 3000:3000 -e BASE_PATH=/dashboard chartink-scraper
