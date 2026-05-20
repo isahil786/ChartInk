@@ -15,9 +15,11 @@ document.addEventListener("DOMContentLoaded", () => {
 /* ── Base path (injected by server into <meta name="base-path">) ── */
 const BASE = (document.querySelector('meta[name="base-path"]') || {}).content || "";
 
+const API_BASE = BASE || window.location.pathname.split('/').slice(0, 2).join('/');
+
 /* ── Fetch helpers ───────────────────────────────────────────── */
 async function api(path) {
-  const res = await fetch(BASE + path);
+  const res = await fetch(API_BASE + path);
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
   return res.json();
 }

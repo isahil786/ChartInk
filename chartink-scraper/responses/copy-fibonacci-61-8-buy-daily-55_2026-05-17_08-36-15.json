@@ -1,0 +1,51 @@
+{
+  "screenerUrl": "https://chartink.com/screener/copy-fibonacci-61-8-buy-daily-55",
+  "screenerName": "copy-fibonacci-61-8-buy-daily-55",
+  "scanClause": "( {33489} ( ( {33489} ( latest low < ( latest max( 70 , latest high ) - ( ( latest max( 70 , latest high ) - latest min( 70 , latest low ) * 0.618 ) ) ) and 1 day ago  low >= ( 1 day ago  max( 70 , latest high )- ( ( 1 day ago  max( 70 , latest high )- 1 day ago  min( 70 , latest low )* 0.618 ) ) ) and latest max( 70 , latest high ) > latest max( 30 , 40 days ago high ) and 1 day ago min( 20 , latest low ) > latest low ) ) or( {33489} ( latest low < ( latest max( 50 , latest high ) - ( ( latest max( 50 , latest high ) - latest min( 50 , latest low ) * 0.618 ) ) ) and 1 day ago  low >= ( 1 day ago  max( 50 , latest high )- ( ( 1 day ago  max( 50 , latest high )- 1 day ago  min( 50 , latest low )* 0.618 ) ) ) and latest max( 50 , latest high ) > latest max( 20 , 30 days ago high ) and 1 day ago min( 15 , latest low ) > latest low ) ) or( {33489} ( latest low < ( latest max( 30 , latest high ) - ( ( latest max( 30 , latest high ) - latest min( 30 , latest low ) * 0.618 ) ) ) and 1 day ago  low >= ( 1 day ago  max( 30 , latest high )- ( ( 1 day ago  max( 30 , latest high )- 1 day ago  min( 30 , latest low )* 0.618 ) ) ) and latest max( 30 , latest high ) > latest max( 10 , 20 days ago high ) and 1 day ago min( 10 , latest low ) > latest low ) ) ) )",
+  "fetchedAt": "2026-05-17T08:36:15.628Z",
+  "totalResults": 4,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 4,
+    "recordsFiltered": 4,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "MUTHOOTFIN",
+        "name": "Muthoot Finance Limited",
+        "bsecode": "533398",
+        "close": 3311.4,
+        "per_chg": -6.22,
+        "volume": 5094743
+      },
+      {
+        "sr": 2,
+        "nsecode": "TIINDIA",
+        "name": "Tube Investments of India Ltd",
+        "bsecode": "540762",
+        "close": 2850.3,
+        "per_chg": 1.77,
+        "volume": 566267
+      },
+      {
+        "sr": 3,
+        "nsecode": "BPCL",
+        "name": "Bharat Petroleum Corporation Limited",
+        "bsecode": "500547",
+        "close": 284.45,
+        "per_chg": -3.58,
+        "volume": 14828416
+      },
+      {
+        "sr": 4,
+        "nsecode": "IOC",
+        "name": "Indian Oil Corporation Limited",
+        "bsecode": "530965",
+        "close": 134.48,
+        "per_chg": -4.12,
+        "volume": 30353032
+      }
+    ],
+    "link": "scanlink:a9ccc18902240be299fdcdad6b9fdac5"
+  }
+}

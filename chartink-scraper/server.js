@@ -173,7 +173,7 @@ app.get(`${BASE}/api/backtests/:slug/stocks`, (req, res) => {
 
 // ─── Start ────────────────────────────────────────────────────────────────────
 
-app.listen(PORT, () => {
+app.listen(PORT, "0.0.0.0", () => {
   console.log(`Chartink Dashboard running at http://localhost:${PORT}${BASE}/`);
   console.log(`API ready at http://localhost:${PORT}${BASE}/api/screeners`);
 });
