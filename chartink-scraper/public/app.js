@@ -3,6 +3,7 @@ let allScreeners = [];
 let activeSlug = null;
 let chartDaily = null;
 let chartSector = null;
+let currentFilter = "";
 
 /* ── Boot ────────────────────────────────────────────────────── */
 document.addEventListener("DOMContentLoaded", () => {
@@ -13,6 +14,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("fetch-url-btn").addEventListener("click", fetchByUrl);
   document.getElementById("fetch-url-input").addEventListener("keypress", (e) => {
     if (e.key === "Enter") fetchByUrl();
+  });
+  document.getElementById("filter-input").addEventListener("input", (e) => {
+    currentFilter = e.target.value.toLowerCase();
+    renderStocksTable(window.lastStocks || []);
   });
 });
 
@@ -124,6 +129,7 @@ async function loadScreener(slug) {
         api(`/api/backtests/${slug}/sectors`),
       ]);
 
+    window.lastStocks = screenerData.stocks;
     renderStats(screenerData, backtestMeta);
     renderStocksTable(screenerData.stocks);
     renderDailyChart(dailyData);
@@ -202,7 +208,13 @@ function renderStocksTable(stocks) {
   const empty = document.getElementById("stocks-empty");
   const table = document.getElementById("stocks-table");
 
-  if (!stocks || stocks.length === 0) {
+  const filtered = currentFilter
+    ? (stocks || []).filter((s) =>
+        Object.values(s).some((v) => String(v).toLowerCase().includes(currentFilter))
+      )
+    : stocks || [];
+
+  if (!filtered.length) {
     tbody.innerHTML = "";
     table.classList.add("hidden");
     empty.classList.remove("hidden");
@@ -212,7 +224,7 @@ function renderStocksTable(stocks) {
   table.classList.remove("hidden");
   empty.classList.add("hidden");
 
-  const sorted = sortState.col ? [...stocks].sort((a, b) => {
+  const sorted = sortState.col ? [...filtered].sort((a, b) => {
     let va = a[sortState.col] ?? "";
     let vb = b[sortState.col] ?? "";
     if (sortState.col === "Close (₹)") {
@@ -228,8 +240,8 @@ function renderStocksTable(stocks) {
       va = String(va).toLowerCase();
       vb = String(vb).toLowerCase();
     }
-    return sortState.dir === "asc" ? (va > vb ? 1 : va < vb ? -1 : 0) : (va < vb ? 1 : va > vb ? -1 : 0);
-  }) : stocks;
+return sortState.dir === "asc" ? (va > vb ? 1 : va < vb ? -1 : 0) : (va < vb ? 1 : va > vb ? -1 : 0);
+   }) : filtered;
 
   tbody.innerHTML = sorted
     .map((s) => {
