@@ -49,6 +49,40 @@ body { display: flex; }
 }
 
 /* ── Sidebar ─────────────────────────────────────────────────── */
+.fetch-url {
+  padding: 12px 20px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+#fetch-url-input {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 12px;
+  outline: none;
+}
+
+#fetch-url-input::placeholder { color: var(--muted); }
+
+.btn-fetch {
+  width: 100%;
+  padding: 8px 12px;
+  background: var(--accent);
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.btn-fetch:hover { opacity: 0.9; }
+
 .sidebar-header {
   padding: 24px 20px 20px;
   border-bottom: 1px solid var(--border);
@@ -337,6 +371,20 @@ tr:hover td { background: var(--bg3); }
 
 /* ── Utilities ───────────────────────────────────────────────── */
 .hidden { display: none !important; }
+
+.sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.sortable:hover span:first-child { color: var(--text); }
+
+.sort-active { color: var(--accent) !important; }
+
+.sortable .sort-indicator {
+  font-size: 10px;
+  opacity: 0.4;
+}
 
 /* ── Scrollbar ───────────────────────────────────────────────── */
 ::-webkit-scrollbar { width: 6px; height: 6px; }

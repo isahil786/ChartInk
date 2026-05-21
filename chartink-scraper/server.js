@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -7,6 +8,7 @@ import { runScreener } from "./src/chartink.js";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const app = express();
+app.use(cors());
 const PORT = process.env.PORT || 3000;
 const BASE = (process.env.BASE_PATH || "/dashboard").replace(/\/$/, "");
 
@@ -112,6 +114,10 @@ app.get(`${BASE}/api/screeners/:slug`, (req, res) => {
 
 // ─── API: fetch screener by URL (no save) ─────────────────────────────────────
 
+app.get(`${BASE}/fetch`, (req, res) => {
+  res.redirect(`${BASE}/api/fetch${req.url.slice(BASE.length + 6)}`);
+});
+
 app.get(`${BASE}/api/fetch`, async (req, res) => {
   const screenerParam = req.query.screener;
   const cookies = req.query.cookies || "";
@@ -133,7 +139,31 @@ app.get(`${BASE}/api/fetch`, async (req, res) => {
         return res.status(400).json({ error: `Invalid URL: ${url}` });
       }
       const result = await runScreener(url, cookies);
-      results.push({ url, result });
+      const rawData = result.data?.data || [];
+      const stocks = rawData.map((d) => ({
+        sr: d.sr,
+        "NSE Code": d.nsecode || "",
+        "Company Name": d.name || "",
+        "BSE Code": d.bsecode || "",
+        "Close (₹)": d.close || 0,
+        "% Change": d.per_chg || 0,
+        Volume: d.volume || 0,
+      }));
+      const gains = stocks.filter((s) => (s["% Change"] || 0) > 0).length;
+      const losers = stocks.filter((s) => (s["% Change"] || 0) < 0).length;
+      const avgChg = stocks.reduce((sum, s) => sum + (s["% Change"] || 0), 0) / (stocks.length || 1);
+      const topGainer = stocks.reduce((best, s) => Math.max(best?.["% Change"] || 0, s["% Change"] || 0) === (s["% Change"] || 0) ? s : best, null);
+      const summary = {
+        totalStocks: stocks.length,
+        gains: gains,
+        losers: losers,
+        avgPercentChange: avgChg,
+        topGainer: topGainer ? { nsecode: topGainer["NSE Code"], per_chg: topGainer["% Change"] } : null,
+      };
+      results.push({
+        url,
+        result: { ...result, summary, stocks },
+      });
     }
     res.json({ success: true, data: results });
   } catch (err) {

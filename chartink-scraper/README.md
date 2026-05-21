@@ -138,6 +138,10 @@ Both scripts automatically load `cookies.txt` if it exists.
 
 Runs an Express server with endpoints for fetching and serving screener data.
 
+### CORS
+
+The API supports cross-origin requests. All endpoints include `Access-Control-Allow-Origin: *` header.
+
 ### API Endpoints
 
 | Endpoint | Description |

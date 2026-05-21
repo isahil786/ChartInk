@@ -10,6 +10,10 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("btn-refresh").addEventListener("click", () => {
     if (activeSlug) loadScreener(activeSlug);
   });
+  document.getElementById("fetch-url-btn").addEventListener("click", fetchByUrl);
+  document.getElementById("fetch-url-input").addEventListener("keypress", (e) => {
+    if (e.key === "Enter") fetchByUrl();
+  });
 });
 
 /* ── Base path (injected by server into <meta name="base-path">) ── */
@@ -22,6 +26,45 @@ async function api(path) {
   const res = await fetch(API_BASE + path);
   if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
   return res.json();
+}
+
+/* ── Fetch by URL ─────────────────────────────────────────────── */
+async function fetchByUrl() {
+  const input = document.getElementById("fetch-url-input");
+  const url = input.value.trim();
+  if (!url || !url.startsWith("http")) {
+    alert("Please enter a valid URL");
+    return;
+  }
+  const btn = document.getElementById("fetch-url-btn");
+  const originalText = btn.textContent;
+  btn.textContent = "Fetching...";
+  btn.disabled = true;
+  try {
+    const data = await api(`/fetch?screener=${encodeURIComponent(url)}`);
+    if (!data.success) throw new Error(data.error || "Fetch failed");
+    const result = data.data[0].result;
+    allScreeners.unshift({ slug: result.screenerName, ...result.summary });
+    showScreener(result);
+  } catch (e) {
+    alert("Error: " + e.message);
+  } finally {
+    btn.textContent = originalText;
+    btn.disabled = false;
+    input.value = "";
+  }
+}
+
+function showScreener(result) {
+  activeSlug = result.screenerName;
+  window.lastStocks = result.stocks;
+  document.getElementById("welcome").classList.add("hidden");
+  document.getElementById("dashboard").classList.remove("hidden");
+  document.getElementById("dash-title").textContent = slugToTitle(result.screenerName);
+  document.getElementById("dash-date-range").textContent = "";
+  document.getElementById("bt-range").textContent = "";
+  renderStats({ summary: result.summary }, { summary: {} });
+  renderStocksTable(result.stocks);
 }
 
 /* ── Sidebar ─────────────────────────────────────────────────── */
@@ -151,6 +194,9 @@ function renderStats(screener, backtest) {
 }
 
 /* ── Stocks table ────────────────────────────────────────────── */
+let sortState = { col: null, dir: "asc" };
+let sortHeadersSetup = false;
+
 function renderStocksTable(stocks) {
   const tbody = document.getElementById("stocks-tbody");
   const empty = document.getElementById("stocks-empty");
@@ -166,7 +212,26 @@ function renderStocksTable(stocks) {
   table.classList.remove("hidden");
   empty.classList.add("hidden");
 
-  tbody.innerHTML = stocks
+  const sorted = sortState.col ? [...stocks].sort((a, b) => {
+    let va = a[sortState.col] ?? "";
+    let vb = b[sortState.col] ?? "";
+    if (sortState.col === "Close (₹)") {
+      va = parseFloat(va) || 0;
+      vb = parseFloat(vb) || 0;
+    } else if (sortState.col === "% Change") {
+      va = parseFloat(va) || 0;
+      vb = parseFloat(vb) || 0;
+    } else if (sortState.col === "Volume") {
+      va = parseInt(va) || 0;
+      vb = parseInt(vb) || 0;
+    } else {
+      va = String(va).toLowerCase();
+      vb = String(vb).toLowerCase();
+    }
+    return sortState.dir === "asc" ? (va > vb ? 1 : va < vb ? -1 : 0) : (va < vb ? 1 : va > vb ? -1 : 0);
+  }) : stocks;
+
+  tbody.innerHTML = sorted
     .map((s) => {
       const chg = parseFloat(s["% Change"] ?? 0);
       const cls = chg > 0 ? "change-pos" : chg < 0 ? "change-neg" : "";
@@ -184,6 +249,44 @@ function renderStocksTable(stocks) {
         </tr>`;
     })
     .join("");
+}
+
+function setupSortHeaders() {
+  if (sortHeadersSetup) return;
+  sortHeadersSetup = true;
+  const headers = document.querySelectorAll("#stocks-table th");
+  const cols = ["Sr", "NSE Code", "Company Name", "BSE Code", "Close (₹)", "% Change", "Volume"];
+  headers.forEach((th, i) => {
+    if (!cols[i]) return;
+    th.classList.add("sortable");
+    th.innerHTML = `<span>${th.textContent}</span><span class="sort-indicator"></span>`;
+    th.addEventListener("click", () => {
+      const col = cols[i];
+      if (sortState.col === col) {
+        sortState.dir = sortState.dir === "asc" ? "desc" : "asc";
+      } else {
+        sortState.col = col;
+        sortState.dir = "asc";
+      }
+      updateSortIndicators();
+      renderStocksTable(window.lastStocks || []);
+    });
+  });
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  setupSortHeaders();
+});
+
+function updateSortIndicators() {
+  document.querySelectorAll("#stocks-table th").forEach(th => th.classList.remove("sort-active"));
+  const ths = document.querySelectorAll("#stocks-table th");
+  const cols = ["Sr", "NSE Code", "Company Name", "BSE Code", "Close (₹)", "% Change", "Volume"];
+  const idx = cols.indexOf(sortState.col);
+  if (idx >= 0) {
+    ths[idx].classList.add("sort-active");
+    ths[idx].querySelector(".sort-indicator").textContent = sortState.dir === "asc" ? "▲" : "▼";
+  }
 }
 
 /* ── Daily signals chart ─────────────────────────────────────── */
