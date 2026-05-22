@@ -1,0 +1,462 @@
+import { PipelineProcessor, PIPELINE_TYPES } from './src/pipeline.js';
+import { runScreener } from './src/chartink.js';
+import { runBacktest } from './src/backtest.js';
+import {
+  loadProbabilityTable,
+  saveProbabilityTable,
+  updateTableWithResult,
+} from './src/probability.js';
+import fs from 'fs';
+import path from 'path';
+
+const SCRAPER_URLS = {
+  day_trading: {
+    stage_0: [
+      'https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout',
+      'https://chartink.com/screener/pro-trader',
+      'https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy',
+      'https://chartink.com/screener/stocks-in-uptrend-66',
+      'https://chartink.com/screener/intraday-trending-stocks-20',
+    ],
+    stage_1: [
+      'https://chartink.com/screener/15-min-breakout-with-high-volume',
+      'https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles',
+    ],
+    stage_2: [
+      'https://chartink.com/screener/adx-rsi-and-macd-breakout-stocks',
+      'https://chartink.com/screener/strong-bullish-swing-ver-2-with-volume',
+    ],
+    stage_3: [
+      'https://chartink.com/screener/rsi-between-30-to-70-vol-5lcs-sma-gt-20-gt-50-gt-200',
+      'https://chartink.com/screener/ichimoku-swing-trading-5',
+    ],
+  },
+  weekly_swing: {
+    stage_0: [
+      'https://chartink.com/screener/22day-ha-inside-breakout-with-volume',
+      'https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective',
+      'https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart',
+    ],
+    stage_1: [
+      'https://chartink.com/screener/potential-breakout-152',
+      'https://chartink.com/screener/bullish-stocks-screener-1',
+    ],
+    stage_2: [
+      'https://chartink.com/screener/rising-price-and-volume-within-bollinger-band-and-rsi-70',
+      'https://chartink.com/screener/weekly-buy-find-trading-zones',
+    ],
+  },
+  multi_timeframe: {
+    weekly: {
+      stage_0: [
+        'https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart',
+        'https://chartink.com/screener/22day-ha-inside-breakout-with-volume',
+      ],
+      stage_1: [
+        'https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective',
+      ],
+    },
+    daily: {
+      stage_0: [
+        'https://chartink.com/screener/stocks-in-uptrend-66',
+        'https://chartink.com/screener/pro-trader',
+        'https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout',
+      ],
+      stage_1: [
+        'https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy',
+      ],
+    },
+    hourly: {
+      stage_0: [
+        'https://chartink.com/screener/strong-bullish-swing-ver-2-with-volume',
+        'https://chartink.com/screener/adx-rsi-and-macd-breakout-stocks',
+      ],
+    },
+    minute_15: {
+      stage_0: [
+        'https://chartink.com/screener/15-min-breakout-with-high-volume',
+      ],
+      stage_1: [
+        'https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles',
+      ],
+    },
+    minute_5: {
+      stage_0: [
+        'https://chartink.com/screener/intraday-trending-stocks-20',
+      ],
+    },
+  },
+};
+
+const FORMATTED_DIR = path.join(process.cwd(), 'state', 'formatted-backtests');
+
+function loadCookies() {
+  const cookieFile = path.join(process.cwd(), 'cookies.txt');
+  if (fs.existsSync(cookieFile)) {
+    return fs.readFileSync(cookieFile, 'utf8').trim();
+  }
+  return '';
+}
+
+function ensureFormattedDir() {
+  if (!fs.existsSync(FORMATTED_DIR)) {
+    fs.mkdirSync(FORMATTED_DIR, { recursive: true });
+  }
+}
+
+function formatBacktestForIntegration(backtestResult, screenerName) {
+  const tradeTimes = backtestResult.data?.metaData?.[0]?.tradeTimes || [];
+  const formatIST = (ts) => new Date(ts).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
+  const formatted = {
+    screener: screenerName,
+    scanClause: backtestResult.scanClause,
+    fetchedAt: backtestResult.fetchedAt,
+    sequences: [],
+    tradeDates: tradeTimes,
+    tradeDatesFormatted: tradeTimes.map(formatIST),
+    sectorGroups: backtestResult.sectorGroups,
+  };
+
+  if (backtestResult.data?.aggregatedStockList && backtestResult.data?.metaData?.[0]?.tradeTimes) {
+    const tradeTimes = backtestResult.data.metaData[0].tradeTimes;
+    const aggregatedList = backtestResult.data.aggregatedStockList;
+
+    for (let idx = 0; idx < tradeTimes.length; idx++) {
+      const tradeTime = tradeTimes[idx];
+      const seenSymbols = new Set();
+      const stocks = [];
+
+      for (let i = 0; i < aggregatedList.length; i++) {
+        const group = aggregatedList[i];
+        if (idx < group.length) {
+          const symbol = group[idx * 3];
+          const marketCap = group[idx * 3 + 1];
+          const sector = group[idx * 3 + 2];
+          if (typeof symbol === 'string' && symbol.length <= 10 && /^[A-Z]+$/.test(symbol) && !seenSymbols.has(symbol)) {
+            seenSymbols.add(symbol);
+            stocks.push({
+              symbol: symbol,
+              marketCap: marketCap,
+              sector: sector,
+            });
+          }
+        }
+      }
+
+      formatted.sequences.push({
+        groupName: 'aggregated',
+        tradeTime: tradeTime,
+        tradeTimeFormatted: new Date(tradeTime).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }),
+        count: stocks.length,
+        stocks: stocks,
+      });
+    }
+  } else if (backtestResult.data?.aggregatedStockList) {
+    for (const group of backtestResult.data.aggregatedStockList) {
+      const seenSymbols = new Set();
+      const stocks = [];
+      for (let i = 0; i < group.length; i += 3) {
+        const symbol = group[i];
+        const marketCap = group[i + 1];
+        const sector = group[i + 2];
+        if (typeof symbol === 'string' && symbol.length <= 10 && /^[A-Z]+$/.test(symbol) && !seenSymbols.has(symbol)) {
+          seenSymbols.add(symbol);
+          stocks.push({
+            symbol: symbol,
+            marketCap: marketCap,
+            sector: sector,
+          });
+        }
+      }
+      formatted.sequences.push({
+        groupName: 'aggregated',
+        tradeTimes: formatted.tradeDates,
+        count: stocks.length,
+        stocks: stocks,
+      });
+    }
+  }
+
+  return formatted;
+}
+
+async function runBacktestAndFormat(screenerUrl, cookies) {
+  console.log(`  Running backtest: ${screenerUrl}`);
+  const backtestResult = await runBacktest(screenerUrl, 160, cookies);
+  const screenerName = backtestResult.screenerName;
+
+  ensureFormattedDir();
+  const formatted = formatBacktestForIntegration(backtestResult, screenerName);
+  const filename = `${screenerName}_${backtestResult.fetchedAt.slice(0, 10)}.json`;
+  const filepath = path.join(FORMATTED_DIR, filename);
+  fs.writeFileSync(filepath, JSON.stringify(formatted, null, 2), 'utf8');
+
+  console.log(`  Saved formatted backtest to: ${filepath}`);
+  return formatted;
+}
+
+async function updateProbabilityWithBacktest(screenerName, stageKey, formattedBacktest, table, pipelineType) {
+  const success = formattedBacktest.sequences.length > 0;
+  const features = {
+    stage0_screener: stageKey === 'stage_0' ? screenerName : null,
+    stage1_screener: stageKey === 'stage_1' ? screenerName : null,
+    stage2_screener: stageKey === 'stage_2' ? screenerName : null,
+    stage3_screener: stageKey === 'stage_3' ? screenerName : null,
+    time_bucket: 'any',
+    compression_quality: 'medium',
+    market_regime: 'normal',
+    pipeline_type: pipelineType,
+  };
+
+  updateTableWithResult(table, features, success);
+}
+
+async function runPipeline(pipelineType, processor, cookies, runBacktests = false, sharedTable = null) {
+  const config = SCRAPER_URLS[pipelineType];
+  if (!config) {
+    console.error(`Unknown pipeline type: ${pipelineType}`);
+    return;
+  }
+
+  console.log(`\n${'='.repeat(50)}`);
+  console.log(`Running ${pipelineType} pipeline`);
+  console.log(`${'='.repeat(50)}`);
+
+  const table = sharedTable || loadProbabilityTable();
+
+  const results = {
+    stage_0: [],
+    stage_1: [],
+    stage_2: [],
+    stage_3: [],
+  };
+
+  if (runBacktests) {
+    console.log('\nRunning backtests for probability update...');
+  }
+
+  const stageUrls = (urls) => Array.isArray(urls) ? urls : [urls];
+
+  console.log('\nStage 0 - Setup Detection');
+  for (const url of stageUrls(config.stage_0)) {
+    const stage0Result = await runScreener(url, cookies);
+    results.stage_0 = [...results.stage_0, ...(stage0Result.data?.data || [])];
+    processor.processStage0(stage0Result.data?.data || [], url, pipelineType);
+    if (runBacktests) {
+      const formatted = await runBacktestAndFormat(url, cookies);
+      await updateProbabilityWithBacktest(url, 'stage_0', formatted, table, pipelineType);
+    }
+  }
+  console.log(`  Found ${results.stage_0.length} stocks in Stage 0`);
+
+  console.log('\nStage 1 - Early Expansion');
+  let stage1PassedCount = 0;
+  for (const url of stageUrls(config.stage_1)) {
+    const stage1Result = await runScreener(url, cookies);
+    const stage1Symbols = (stage1Result.data?.data || []).map((s) => s.nsecode || s.symbol);
+    const stage1Results = processor.processStage1(stage1Symbols, url, pipelineType);
+    stage1PassedCount += stage1Results.length;
+    if (runBacktests) {
+      const formatted = await runBacktestAndFormat(url, cookies);
+      await updateProbabilityWithBacktest(url, 'stage_1', formatted, table, pipelineType);
+    }
+  }
+  console.log(`  Found ${stage1PassedCount} stocks passed to Stage 1`);
+
+  console.log('\nStage 2 - Confirmation');
+  let stage2PassedCount = 0;
+  for (const url of stageUrls(config.stage_2)) {
+    const stage2Result = await runScreener(url, cookies);
+    const stage2Symbols = (stage2Result.data?.data || []).map((s) => s.nsecode || s.symbol);
+    const stage2Results = processor.processStage2(stage2Symbols, url, pipelineType);
+    stage2PassedCount += stage2Results.length;
+    if (runBacktests) {
+      const formatted = await runBacktestAndFormat(url, cookies);
+      await updateProbabilityWithBacktest(url, 'stage_2', formatted, table, pipelineType);
+    }
+  }
+  console.log(`  Found ${stage2PassedCount} stocks passed to Stage 2`);
+
+  console.log('\nStage 3 - Validation');
+  let stage3PassedCount = 0;
+  const stage3Results = [];
+  for (const url of stageUrls(config.stage_3 || [])) {
+    const stage3Result = await runScreener(url, cookies);
+    const stage3Symbols = (stage3Result.data?.data || []).map((s) => s.nsecode || s.symbol);
+    const results3 = processor.processStage3(stage3Symbols, url, pipelineType);
+    stage3PassedCount += results3.length;
+    stage3Results.push(...results3);
+    if (runBacktests) {
+      const formatted = await runBacktestAndFormat(url, cookies);
+      await updateProbabilityWithBacktest(url, 'stage_3', formatted, table, pipelineType);
+    }
+  }
+  console.log(`  Found ${stage3PassedCount} stocks passed to Stage 3`);
+
+  console.log('\nEntry Evaluation');
+  for (const { symbol } of stage3Results) {
+    const entryResult = processor.evaluateEntry(symbol, pipelineType, 100);
+    if (entryResult.entry) {
+      console.log(`  ENTRY: ${symbol} (prob: ${(entryResult.probability * 100).toFixed(1)}%)`);
+    }
+  }
+
+  if (!config.stage_3 || config.stage_3.length === 0) {
+    console.log(
+      '\nNote: Weekly swing pipeline has no Stage 3 - entering after Stage 2 confirmation'
+    );
+  }
+
+  if (runBacktests) {
+    console.log('\nProbability table updated');
+  }
+
+  return results;
+}
+
+async function runMultiTimeframePipeline(processor, cookies, runBacktests = false, sharedTable = null) {
+  const config = SCRAPER_URLS.multi_timeframe;
+  console.log(`\n${'='.repeat(50)}`);
+  console.log('Running Multi-Timeframe Pipeline');
+  console.log(`${'='.repeat(50)}`);
+
+  let candidates = null;
+
+  const timeframes = ['weekly', 'daily', 'hourly', 'minute_15', 'minute_5'];
+  const stageNames = {
+    weekly: 'Weekly Analysis',
+    daily: 'Daily Setup',
+    hourly: 'Hourly Confirmation',
+    minute_15: '15-Min Breakout',
+    minute_5: '5-Min Momentum',
+  };
+
+  for (const timeframe of timeframes) {
+    const tfConfig = config[timeframe];
+    console.log(`\n${stageNames[timeframe]}`);
+    const tfResults = new Set();
+
+    for (const url of tfConfig.stage_0) {
+      const result = await runScreener(url, cookies);
+      const symbols = (result.data?.data || []).map((s) => s.nsecode || s.symbol);
+      
+      if (!candidates) {
+        symbols.forEach((s) => tfResults.add(s));
+      } else {
+        symbols.forEach((s) => {
+          if (candidates.has(s)) tfResults.add(s);
+        });
+      }
+    }
+
+    if (!candidates) {
+      candidates = tfResults;
+      console.log(`  Found ${candidates.size} stocks from ${timeframe}`);
+    } else {
+      candidates = tfResults;
+      console.log(`  Filtered to ${candidates.size} stocks from ${timeframe}`);
+    }
+
+    if (candidates.size === 0) {
+      console.log('\nNo candidates remaining - pipeline stopped');
+      return { stage_0: [], stage_1: [], stage_2: [], stage_3: [] };
+    }
+  }
+
+  console.log(`\nFinal candidates: ${candidates.size} stocks`);
+  console.log(`  ${[...candidates].slice(0, 10).join(', ')}${candidates.size > 10 ? '...' : ''}`);
+
+  const finalResults = { stage_0: [...candidates], stage_1: [], stage_2: [], stage_3: [] };
+  
+  for (const symbol of candidates) {
+    processor.processStage0([{nsecode: symbol}], 'multi-timeframe', 'day_trading');
+  }
+  
+  return finalResults;
+}
+
+function printStatus(processor) {
+  const { state } = processor.getState();
+  console.log('\n' + '='.repeat(50));
+  console.log('Pipeline Status');
+  console.log('='.repeat(50));
+
+  const stageCounts = { stage_0: 0, stage_1: 0, stage_2: 0, stage_3: 0, entry: 0, failed: 0 };
+  Object.values(state.stocks).forEach((stock) => {
+    Object.values(stock.pipelines).forEach((p) => {
+      if (stageCounts.hasOwnProperty(p.stage)) {
+        stageCounts[p.stage]++;
+      }
+    });
+  });
+
+  console.log(`Stage 0: ${stageCounts.stage_0} stocks`);
+  console.log(`Stage 1: ${stageCounts.stage_1} stocks`);
+  console.log(`Stage 2: ${stageCounts.stage_2} stocks`);
+  console.log(`Stage 3: ${stageCounts.stage_3} stocks`);
+  console.log(`Entries: ${stageCounts.entry} stocks`);
+  console.log(`Failed:  ${stageCounts.failed} stocks`);
+  console.log(`Total stocks tracked: ${Object.keys(state.stocks).length}`);
+}
+
+async function main() {
+  const args = process.argv.slice(2);
+  const cookies = loadCookies();
+  const runBacktests = args.includes('--backtest');
+
+  console.log('Chartink Pipeline Processor');
+  console.log('===========================');
+  if (runBacktests) {
+    console.log('Mode: Backtest + Pipeline');
+  }
+
+  const processor = new PipelineProcessor();
+  let sharedTable = null;
+  if (runBacktests) {
+    sharedTable = loadProbabilityTable();
+    processor.setProbabilityTable(sharedTable);
+  }
+
+  try {
+    if (args.includes('--day')) {
+      await runPipeline(PIPELINE_TYPES.DAY_TRADING, processor, cookies, runBacktests, sharedTable);
+    }
+
+    if (args.includes('--weekly')) {
+      await runPipeline(PIPELINE_TYPES.WEEKLY_SWING, processor, cookies, runBacktests, sharedTable);
+    }
+
+    if (args.includes('--multi')) {
+      await runMultiTimeframePipeline(processor, cookies, runBacktests, sharedTable);
+    }
+
+    if (args.includes('--status')) {
+      printStatus(processor);
+    }
+
+    if (!args.includes('--day') && !args.includes('--weekly') && !args.includes('--multi') && !args.includes('--status')) {
+      console.log('\nUsage:');
+      console.log('  node pipeline-runner.js --day         Run day trading pipeline');
+      console.log('  node pipeline-runner.js --weekly    Run weekly swing pipeline');
+      console.log('  node pipeline-runner.js --multi     Run multi-timeframe pipeline');
+      console.log('  node pipeline-runner.js --status    Show pipeline status');
+      console.log('  node pipeline-runner.js --backtest  Run with backtest + probability update');
+      console.log('');
+      await runPipeline(PIPELINE_TYPES.DAY_TRADING, processor, cookies, runBacktests, sharedTable);
+      await runPipeline(PIPELINE_TYPES.WEEKLY_SWING, processor, cookies, runBacktests, sharedTable);
+    }
+
+    if (runBacktests && sharedTable) {
+      saveProbabilityTable(sharedTable);
+      console.log('\nProbability table updated');
+    }
+
+    const result = processor.cleanup(!runBacktests || !sharedTable);
+    console.log(`\nCleanup complete: ${result.stateSaved ? 'state saved' : 'state not saved'}`);
+  } catch (error) {
+    console.error('Pipeline error:', error.message);
+    process.exit(1);
+  }
+}
+
+main();

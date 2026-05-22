@@ -194,6 +194,64 @@ Same as regular backtest, saved in `responses/backtests/`.
 
 ---
 
+## Pipeline Processor — `node pipeline-runner.js`
+
+Multi-timeframe stock filtering pipeline with probability prediction engine. Implements the plan from `plan.md` for day trading and weekly swing setups.
+
+### Pipeline Stages
+
+| Stage   | Day Trading                                 | Weekly Swing         |
+| ------- | ------------------------------------------- | -------------------- |
+| Stage 0 | 5-min setup detection (NR7, volume squeeze) | Daily base building  |
+| Stage 1 | 5-min early expansion (volume breakout)     | Daily impulse candle |
+| Stage 2 | 15-min confirmation (VWAP, ADX)             | Weekly confirmation  |
+| Stage 3 | 30-min validation (Supertrend, MACD)        | -                    |
+
+### Run
+
+```bash
+# Run day trading pipeline
+npm run pipeline:day
+
+# Run weekly swing pipeline
+npm run pipeline:weekly
+
+# Run all pipelines
+node pipeline-runner.js
+
+# Check pipeline status
+node pipeline-runner.js --status
+```
+
+### Pipeline Configuration
+
+Default screeners are configured in `pipeline-runner.js`. Override by setting `SCRAPER_URLS` environment variable or modify the config object.
+
+### State & Probability
+
+- **State**: `state/pipeline-state.json` - tracks stock progression through stages
+- **Probability**: `state/probability/lookup-table.json` - historical success rates for scanner sequences
+
+### Entry Criteria
+
+A stock enters only when:
+
+1. Appears in Stage 3 screener within configured time window
+2. Probability ≥ 60% based on historical backtest data
+3. Position size calculated using 1-2% risk per trade
+
+### Commands
+
+| Command                     | Description                      |
+| --------------------------- | -------------------------------- |
+| `npm run pipeline`          | Run all pipelines                |
+| `npm run pipeline:day`      | Day trading pipeline             |
+| `npm run pipeline:weekly`   | Weekly swing pipeline            |
+| `npm run pipeline:status`   | Show pipeline status             |
+| `npm run train:probability` | Train probability from backtests |
+
+---
+
 ## Notes
 
 | Tool         | Command                    | Status                                |
@@ -208,37 +266,37 @@ Same as regular backtest, saved in `responses/backtests/`.
 
 `custom-queries.json` contains 28 predefined queries:
 
-| ID | Name | Description |
-|----|------|-------------|
-| `ma-alignment` | MA Alignment | Short-term EMA > long-term EMA |
-| `rsi-divergence` | RSI Divergence | Bullish RSI divergence setup |
-| `bollinger-squeeze` | Bollinger Squeeze | Bollinger Bands contraction |
-| `volume-spike` | Volume Spike | 3x average volume |
-| `morning-star` | Morning Star | Bullish reversal pattern |
-| `ema-crossover` | EMA Crossover | EMA 9 > EMA 21 |
-| `macd-bullish` | MACD Bullish | MACD turning positive |
-| `price-channel` | Price Channel | Breaking 20-period high |
-| `low-float` | Low Float Stocks | Small range high volume |
-| `fibonacci-retracement` | Fibonacci Retracement | 38-50% retracement zone |
-| `fib-buy` | Fibonacci Buy Zone | Above 61.8% retracement |
-| `fib-sell` | Fibonacci Sell Zone | 38-50% retracement zone |
-| `fib-rally` | Fibonacci Rally | 50-70% of recent high |
-| `positive-fib` | Positive Fibonacci | RSI > 60, volume > 500k |
-| `fib-618-buy` | Fibonacci 61.8% Buy | At 61.8% retracement |
-| `large-caps` | Large Cap Stocks | Close > 100, volume > 500k |
-| `green-stocks` | Green Stocks | Above 200 SMA |
-| `volatile-stocks` | Volatile Stocks | 5%+ intraday range |
-| `active-stocks` | Active Stocks | High volume growth |
-| `mid-caps` | Mid Cap Stocks | Close 50-500, high volume |
-| `breakout-52wk` | 52 Week High Breakout | New 52-week high |
-| `strong-volume` | Strong Volume | High volume growth |
-| `low-price-high-volume` | Low Price High Volume | Affordable active stocks |
-| `moving-average-rising` | Moving Average Rising | Multiple MAs up |
-| `near-52wk-high` | Near 52 Week High | Within 5% of 52wk high |
-| `fib-252-50` | Fibonacci 252 High 50% | Near 250-day high |
-| `fib-252-618` | Fibonacci 252 High 61.8% | Near 250-day high |
-| `fib-252-78` | Fibonacci 252 High 78% | Near 250-day high |
-| `fib-252-highlow` | Fibonacci 252 High/Low | Near 250-day high |
+| ID                      | Name                     | Description                    |
+| ----------------------- | ------------------------ | ------------------------------ |
+| `ma-alignment`          | MA Alignment             | Short-term EMA > long-term EMA |
+| `rsi-divergence`        | RSI Divergence           | Bullish RSI divergence setup   |
+| `bollinger-squeeze`     | Bollinger Squeeze        | Bollinger Bands contraction    |
+| `volume-spike`          | Volume Spike             | 3x average volume              |
+| `morning-star`          | Morning Star             | Bullish reversal pattern       |
+| `ema-crossover`         | EMA Crossover            | EMA 9 > EMA 21                 |
+| `macd-bullish`          | MACD Bullish             | MACD turning positive          |
+| `price-channel`         | Price Channel            | Breaking 20-period high        |
+| `low-float`             | Low Float Stocks         | Small range high volume        |
+| `fibonacci-retracement` | Fibonacci Retracement    | 38-50% retracement zone        |
+| `fib-buy`               | Fibonacci Buy Zone       | Above 61.8% retracement        |
+| `fib-sell`              | Fibonacci Sell Zone      | 38-50% retracement zone        |
+| `fib-rally`             | Fibonacci Rally          | 50-70% of recent high          |
+| `positive-fib`          | Positive Fibonacci       | RSI > 60, volume > 500k        |
+| `fib-618-buy`           | Fibonacci 61.8% Buy      | At 61.8% retracement           |
+| `large-caps`            | Large Cap Stocks         | Close > 100, volume > 500k     |
+| `green-stocks`          | Green Stocks             | Above 200 SMA                  |
+| `volatile-stocks`       | Volatile Stocks          | 5%+ intraday range             |
+| `active-stocks`         | Active Stocks            | High volume growth             |
+| `mid-caps`              | Mid Cap Stocks           | Close 50-500, high volume      |
+| `breakout-52wk`         | 52 Week High Breakout    | New 52-week high               |
+| `strong-volume`         | Strong Volume            | High volume growth             |
+| `low-price-high-volume` | Low Price High Volume    | Affordable active stocks       |
+| `moving-average-rising` | Moving Average Rising    | Multiple MAs up                |
+| `near-52wk-high`        | Near 52 Week High        | Within 5% of 52wk high         |
+| `fib-252-50`            | Fibonacci 252 High 50%   | Near 250-day high              |
+| `fib-252-618`           | Fibonacci 252 High 61.8% | Near 250-day high              |
+| `fib-252-78`            | Fibonacci 252 High 78%   | Near 250-day high              |
+| `fib-252-highlow`       | Fibonacci 252 High/Low   | Near 250-day high              |
 
 ## API Server — `node server.js`
 

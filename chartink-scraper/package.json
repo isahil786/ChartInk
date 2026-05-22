@@ -4,14 +4,15 @@
   "description": "Fetch Chartink screener data and save responses to disk",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "start": "node server.js",
-    "fetch": "node index.js",
-    "query": "node custom-query.js",
-    "backtest": "node backtest.js",
-    "backtest:custom": "node backtest.js",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+"scripts": {
+    "start": "node pipeline-runner.js",
+    "pipeline": "node pipeline-runner.js",
+    "pipeline:day": "node pipeline-runner.js --day",
+    "pipeline:weekly": "node pipeline-runner.js --weekly",
+    "pipeline:status": "node pipeline-runner.js --status",
+    "train:probability": "node train-probability.js",
+    "lint": "eslint src *.js",
+    "format": "prettier --write src *.js"
   },
   "dependencies": {
     "axios": "^1.7.2",

@@ -1,0 +1,1383 @@
+{
+  "byStage": {
+    "stage_0": {
+      "day_trading": [
+        {
+          "symbol": "FORCEMOT",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "SUPREMEIND",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "CEATLTD",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "JUBLCPL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "DALBHARAT",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "GKWLIMITED",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "MFSL",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "ASTRAL",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "AAVAS",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "XPROINDIA",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "DPABHUSHAN",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "AHLUCONT",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "GOKEX",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "ASHAPURMIN",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "HDFCLIFE",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "BANCOINDIA",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "UNIPARTS",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "AXISBNKETF",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "SETFNIFBK",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "BANKETF",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "SRM",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "ASAL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "SUPRAJIT",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "SOTL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "MIDHANI",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "AEROFLEX",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "SUNFLAG",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "FDC",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "CEIGALL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "TAJGVK",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "ADFFOODS",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "JSWINFRA",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "LICNFNHGP",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "JAYAGROGN",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "STARCEMENT",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "CGCL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "IITL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "GAIL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "CYBERTECH",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "MUNJALSHOW",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "REDTAPE",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "BOMDYEING",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "APCL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "WEBELSOLAR",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "SHEMAROO",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "YATRA",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "NBCC",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "SHAHALLOYS",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "KREBSBIO",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "PASUPTAC",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "GINNIFILA",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "GUJRAFFIA",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "NARMADA",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "JAIPURKURT",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "TFL",
+          "enteredAt": "2026-05-23 02:42:57.151 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "scanTime": "2026-05-22T21:12:57.151Z"
+        },
+        {
+          "symbol": "COCKERILL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "PERSISTENT",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "BAYERCROP",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "KDDL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "STYLAMIND",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "NGLFINE",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "GODFRYPHLP",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "MPHASIS",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "COLPAL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "KMEW",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "BEML",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "SASKEN",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "BAJAJFINSV",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "DSSL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "GRAVITA",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "BHARATRAS",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "AVANTIFEED",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "FINCABLES",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "CHENNPETRO",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "ABSLAMC",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "ICEMAKE",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "INDIASHLTR",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "MAYURUNIQ",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "INTELLECT",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "TIPSMUSIC",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "ALICON",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "THYROCARE",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "SYNGENE",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "DYCL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "GREENPLY",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "NIFTYETF",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "CAPACITE",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "HINDOILEXP",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "IPL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "MAANALU",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "HECPROJECT",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "EKC",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "XELPMOC",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "IRFC",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "WCIL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "HDFCSENSEX",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "SHRIRAMPPS",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "NEXT50IETF",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "SINGERIND",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "LLOYDSENGG",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "IDFCFIRSTB",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "SUZLON",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "PROZONER",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "GLOBECIVIL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "SAGILITY",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "FCL",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "GOLDCASE",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "MIDCAP",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "CCAVENUE",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "SEPC",
+          "enteredAt": "2026-05-23 02:42:57.789 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "scanTime": "2026-05-22T21:12:57.789Z"
+        },
+        {
+          "symbol": "POLYCAB",
+          "enteredAt": "2026-05-23 02:42:58.204 IST",
+          "stage0_screener": "https://chartink.com/screener/stocks-in-uptrend-66",
+          "scanTime": "2026-05-22T21:12:58.204Z"
+        },
+        {
+          "symbol": "TATAELXSI",
+          "enteredAt": "2026-05-23 02:42:58.204 IST",
+          "stage0_screener": "https://chartink.com/screener/stocks-in-uptrend-66",
+          "scanTime": "2026-05-22T21:12:58.204Z"
+        },
+        {
+          "symbol": "HINDALCO",
+          "enteredAt": "2026-05-23 02:42:58.204 IST",
+          "stage0_screener": "https://chartink.com/screener/stocks-in-uptrend-66",
+          "scanTime": "2026-05-22T21:12:58.204Z"
+        },
+        {
+          "symbol": "VBL",
+          "enteredAt": "2026-05-23 02:42:58.204 IST",
+          "stage0_screener": "https://chartink.com/screener/stocks-in-uptrend-66",
+          "scanTime": "2026-05-22T21:12:58.204Z"
+        },
+        {
+          "symbol": "PAGEIND",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "BOSCHLTD",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "POWERINDIA",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "DIXON",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "OFSS",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "AMBER",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "LTM",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "SIEMENS",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "KAYNES",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "MCX",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "PIIND",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "MANKIND",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "GLENMARK",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "POLICYBZR",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "NUVAMA",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "AUROPHARMA",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "ADANIENSOL",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "PAYTM",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "MAXHEALTH",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "PREMIERENE",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "KFINTECH",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "ABCAPITAL",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        },
+        {
+          "symbol": "SAIL",
+          "enteredAt": "2026-05-23 02:42:58.516 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "scanTime": "2026-05-22T21:12:58.516Z"
+        }
+      ],
+      "weekly_swing": [
+        {
+          "symbol": "MFSL",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "SUPRAJIT",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "RCF",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "NBCC",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "KDDL",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "BCG",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "POWERINDIA",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "OFSS",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "MCX",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "POLICYBZR",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "AUROPHARMA",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "SOLARINDS",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "FORTIS",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "DELHIVERY",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "BIOCON",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "NMDC",
+          "enteredAt": "2026-05-23 02:43:01.580 IST",
+          "stage0_screener": "https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective",
+          "scanTime": "2026-05-22T21:13:01.580Z"
+        },
+        {
+          "symbol": "HONAUT",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "BAJAJHLDNG",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "WENDT",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "FIEMIND",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "COFORGE",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "BETA",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "INDNIPPON",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "PROTEAN",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "MINDACORP",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "WEWORK",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "TTKPRESTIG",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "INDUSTOWER",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "AARTIDRUGS",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "IGIL",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "CMSINFO",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "GOPAL",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "FSL",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "VAIBHAVGBL",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "SHRINGARMS",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "STALLION",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "RESPONIND",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "DAMCAPITAL",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "SHAREINDIA",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "KNRCON",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "IEX",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        },
+        {
+          "symbol": "SPIC",
+          "enteredAt": "2026-05-23 02:43:01.980 IST",
+          "stage0_screener": "https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart",
+          "scanTime": "2026-05-22T21:13:01.980Z"
+        }
+      ]
+    },
+    "stage_1": {
+      "day_trading": [
+        {
+          "symbol": "BANKBEES",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "TALBROAUTO",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "ACMESOLAR",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "IXIGO",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "SAMHI",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "RCF",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "OCCLLTD",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "NFL",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "ALPHA",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "PRITIKAUTO",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "TITAN",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "TVSMOTOR",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "BHARTIARTL",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "WABAG",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "TECHM",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "RELIANCE",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "TECHNOE",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "DRREDDY",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "TDPOWERSYS",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "HDFCBANK",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "GRAPHITE",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "SBICARD",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "POONAWALLA",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "TMPV",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "RBLBANK",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "ITC",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "NIFTYBEES",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "CRAMC",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "JIOFIN",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "CMPDI",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "SOLARWORLD",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "DCXINDIA",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "GROWW",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "FINPIPE",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "MARKOLINES",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "IOC",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "GOLDBEES",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "VINCOFE",
+          "enteredAt": "2026-05-23 02:42:59.286 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles",
+          "scanTime": "2026-05-22T21:12:59.286Z"
+        },
+        {
+          "symbol": "EXCELSOFT",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "BANKIETF",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "BCG",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        },
+        {
+          "symbol": "NAUKRI",
+          "enteredAt": "2026-05-23 02:42:58.895 IST",
+          "stage0_screener": "https://chartink.com/screener/intraday-trending-stocks-20",
+          "stage1_screener": "https://chartink.com/screener/15-min-breakout-with-high-volume",
+          "scanTime": "2026-05-22T21:12:58.895Z"
+        }
+      ]
+    }
+  },
+  "lastUpdated": "2026-05-22T21:13:03.322Z"
+}

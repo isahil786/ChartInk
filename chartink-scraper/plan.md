@@ -1,10 +1,10 @@
 Create a plan for chartink screeners and filtering best stocks for day and week
 
-im getting data from multiple screener on chartink which has current day data and backtest data which came in screeners in past events 
+im getting data from multiple screener on chartink which has current day data and backtest data which came in screeners in past events
 
 I want to filter out stocks for day and week based on this data
 
-Also the plan should include multiple time frames like the stock came in this scanner then transition to another scanner based on the filtering applied on scanner 
+Also the plan should include multiple time frames like the stock came in this scanner then transition to another scanner based on the filtering applied on scanner
 
 It should act as pipeline stock transition from this to another scanner
 
@@ -64,14 +64,14 @@ Now craft the answer.
 Here’s a detailed, code-free plan for building a multi-timeframe stock filtering pipeline using Chartink screeners, designed to select high-probability candidates for day trading and weekly swing trading. The core idea is to treat each scanner as a stage in a pipeline—stocks must appear in a sequence of screeners (across specific timeframes) to qualify, mimicking a “transition” of strength or momentum.
 
 1. Objective & Philosophy
-Day Trading Pipeline (intraday): Use 5-min, 15-min, 30-min (and optionally 1-hour) scanners to catch intraday momentum build-up. Entry is taken only after a stock passes through 2–3 pre-defined scanner stages.
+   Day Trading Pipeline (intraday): Use 5-min, 15-min, 30-min (and optionally 1-hour) scanners to catch intraday momentum build-up. Entry is taken only after a stock passes through 2–3 pre-defined scanner stages.
 
 Weekly Swing Pipeline: Use Daily and Weekly scanners to identify emerging trends that hold over days/weeks. Entry is triggered after a sequence of daily→weekly signals.
 
 The pipeline acts as a confirmation funnel—early scanners catch potential setups, later scanners confirm them. Backtest data is used to validate which scanner sequences work best and to set optimal time windows.
 
 2. Data Foundation
-Collect two types of data from multiple Chartink screeners:
+   Collect two types of data from multiple Chartink screeners:
 
 Live/Current Scan Results
 At every bar close of the chosen timeframes (5m, 15m, 30m, EOD, EOW), fetch the list of stocks that appear in each screener.
@@ -85,7 +85,7 @@ If Chartink doesn’t provide this directly, simulate by running the screener on
 Purpose: Mine sequences (Stage1 → Stage2 → Stage3) that led to profitable moves, so you can keep only the sequences with a proven edge.
 
 3. Scanner Selection (Stage Assignment)
-Choose or design Chartink screeners that represent distinct technical events. Each screener is assigned to a specific timeframe and a stage role in the pipeline.
+   Choose or design Chartink screeners that represent distinct technical events. Each screener is assigned to a specific timeframe and a stage role in the pipeline.
 
 Day Trading Pipeline (Intraday)
 Stage 1 – Early Signal (5-min chart)
@@ -147,7 +147,7 @@ Monthly close above 5-month high
 Stock in Nifty 500 or strong sector (add manual filter)
 
 4. Pipeline Transition Rules
-A stock moves from one stage to the next only if it appears in the later screener within a defined time window. The window is determined by backtesting.
+   A stock moves from one stage to the next only if it appears in the later screener within a defined time window. The window is determined by backtesting.
 
 For Day Trading (Intraday)
 
@@ -170,9 +170,9 @@ Multiple Pipelines
 You can run several parallel pipelines (e.g., a “breakout pipeline”, a “reversal pipeline”) with different screener sets. A stock might enter multiple pipelines—track each separately.
 
 5. Using Backtest Data to Optimize and Filter
-Mine Historical Sequences
-From your backtest logs, find all instances where a stock triggered Stage1 screener, then within your time window triggered Stage2, and then Stage3.
-Record the maximum adverse excursion, profit after N bars/candles, and win rate.
+   Mine Historical Sequences
+   From your backtest logs, find all instances where a stock triggered Stage1 screener, then within your time window triggered Stage2, and then Stage3.
+   Record the maximum adverse excursion, profit after N bars/candles, and win rate.
 
 Rank Pipelines
 Keep only those stage combinations that show:
@@ -190,7 +190,7 @@ Set Stop-Loss Levels Statistically
 From the historical pipeline trades, calculate the typical stop distance (e.g., 1.5x ATR below entry, or below the Stage2 low). Use that to place a fixed stop.
 
 6. Real-Time Screening & State Management
-To execute the plan live, you need a system (manual or semi-automated) that:
+   To execute the plan live, you need a system (manual or semi-automated) that:
 
 Polls screeners at the close of each relevant candle (5m, 15m, 30m, EOD).
 
@@ -217,7 +217,7 @@ At next 30-min close: For Stage=2 stocks, check Stage3 screener. If positive, si
 Housekeeping: Remove stocks where the window expires without advancing stage, or where price hits the stop even before entry (e.g., sharp reversal after Stage2 invalidates the setup).
 
 7. Additional Filters at Each Stage
-To avoid noisy signals, apply hard filters on scanner results:
+   To avoid noisy signals, apply hard filters on scanner results:
 
 Volume: Minimum average volume (e.g., > 500k shares for intraday, > 1M for swings).
 
@@ -232,7 +232,7 @@ Time of Day (day trading only): Ignore Stage1 triggers after 2:30 PM.
 These can be embedded in the screeners themselves or applied as a post-scan filter.
 
 8. Risk Management & Exit Strategy
-Position Sizing: Risk 1–2% of capital per trade. Calculate shares based on difference between entry and stop-loss.
+   Position Sizing: Risk 1–2% of capital per trade. Calculate shares based on difference between entry and stop-loss.
 
 Stop-Loss:
 
@@ -253,7 +253,7 @@ Day trades: If trade not in profit within first 60 minutes, exit at market.
 Weekly: If not up 2% within 5 days, exit.
 
 9. Example Pipeline End-to-End (Day Trade)
-Pipeline Name: “VWAP Bounce Pro”
+   Pipeline Name: “VWAP Bounce Pro”
 
 Stage1 (5-min): Screener 5min_RSI_Oversold_VolSpike
 Condition: 5-min RSI(7) < 30 AND Volume > 1.5× 20-period average.
@@ -273,7 +273,7 @@ Stop: Low of that 30-min candle minus 0.2%.
 Exit: Trail stop to 1.5× ATR of 30-min chart, or when 5-min RSI > 75 and negative divergence.
 
 10. Example Weekly Pipeline
-Pipeline Name: “Trend Continuation”
+    Pipeline Name: “Trend Continuation”
 
 Stage1 (Daily): Daily_Breakout_20DayHigh
 Condition: Close > highest high of last 20 days AND volume > 1.5× 50-day average.
@@ -290,7 +290,7 @@ Stop: Weekly low of signal bar.
 Exit: When daily close below 20-day low, or weekly RSI crosses below 50.
 
 11. Continuous Improvement
-Maintain a trade journal of all pipeline-triggered trades (both live and paper).
+    Maintain a trade journal of all pipeline-triggered trades (both live and paper).
 
 Periodically re‑backtest the sequences with the latest 6 months of data to see if the edge persists.
 
@@ -331,7 +331,7 @@ To catch a stock before it pumps, you need a pipeline that detects the quiet bef
 Below is an enhancement of the previous plan, focused entirely on pre-pump detection for intraday and swing. The pipeline stages are reordered so you capture the setup before momentum becomes visible to the crowd.
 
 1. Core Principle: “Compression → Expansion”
-A pump is preceded by:
+   A pump is preceded by:
 
 Low volatility contraction (tight ranges, dojis, inside bars)
 
@@ -344,9 +344,9 @@ Early divergence on fast oscillators (RSI/MFI) while price hasn’t moved yet
 Your goal: enter when the compression resolves into expansion, but before the explosive candle is fully formed. The pipeline must scan for potential compression setups, then trigger on the first sign of expansion.
 
 2. Pre-Pump Pipeline for Intraday (5-min, 15-min, 30-min)
-Stage 0 – Setup Detection (1-min or 5-min)
-Purpose: Identify stocks that are coiling—low volatility and building energy.
-Screener examples (Chartink):
+   Stage 0 – Setup Detection (1-min or 5-min)
+   Purpose: Identify stocks that are coiling—low volatility and building energy.
+   Screener examples (Chartink):
 
 NR7 / NR4: Narrowest range of last 7 or 4 bars on 5-min chart.
 
@@ -394,7 +394,7 @@ Screener:
 Use: If Stage 3 is met within 1 hour, you can add to the position (pyramid). If not met, trail stop tightly to capture whatever move occurred.
 
 3. Pre-Pump Pipeline for Weekly Swings
-For a swing pump that lasts days/weeks, you look for multi-day compression followed by a breakout.
+   For a swing pump that lasts days/weeks, you look for multi-day compression followed by a breakout.
 
 Stage 0 – Base Building (Daily)
 Screener:
@@ -432,7 +432,7 @@ Weekly MACD bullish cross or histogram rising.
 Entry: Enter on the day after the Stage 1 daily close, or on a dip to the breakout level. Initial stop below the Stage 0 compression low (daily low of NR7 range). The weekly confirmation tells you to stay in the trade for a multi-day pump.
 
 4. Reverse Engineering Pumps Using Backtest Data
-To refine these stage triggers, analyze historical pump events:
+   To refine these stage triggers, analyze historical pump events:
 
 Identify “Pump Days” in your backtest data: days where a stock gained >3% intraday (or >5% weekly) on high volume.
 
@@ -449,7 +449,7 @@ Quantify the sequence win rate. Keep only sequences where >50% led to a pump wit
 Discard false alarms: Sequences where Stage 1 triggered but price reversed. These often have RSI still below 40 or negative 15-min MACD—add those as negative filters.
 
 5. Filters to Avoid Pumps That Fail
-Float and Market Cap: Pre-pump setups in low-float, micro-cap stocks often result in pump-and-dump. Set min market cap (> ₹1000 Cr) and avg daily volume (> 2M shares) to avoid manipulation.
+   Float and Market Cap: Pre-pump setups in low-float, micro-cap stocks often result in pump-and-dump. Set min market cap (> ₹1000 Cr) and avg daily volume (> 2M shares) to avoid manipulation.
 
 No Stage 0 No Trade: If a stock didn’t go through a compression phase, don’t chase a sudden volume spike. Most fake pumps have no prior quiet period.
 
@@ -458,7 +458,7 @@ Sector Context: Use a sector trend screener. A stock compressing in a rising sec
 Time of Day: Intraday pre-pump setups are most reliable between 10:30 AM and 1:30 PM. Avoid first 30 minutes (noise) and last hour (traps).
 
 6. Execution Blueprint (Step-by-Step, No Code)
-Pre-Market (8:45 AM): Run Stage 0 daily scanners for swing watchlist. Note stocks in compression on daily.
+   Pre-Market (8:45 AM): Run Stage 0 daily scanners for swing watchlist. Note stocks in compression on daily.
 
 Market Open to 10:00 AM: Don’t trade. Let the market settle.
 
@@ -479,32 +479,43 @@ Weekly Review: Run weekly scanner to validate open swing positions. Exit those t
 This plan deliberately slows you down in the morning and forces you to wait for the silence before the sound. By the time the scanner shows an obvious pump, you’re already in profit from the pre-pump entry.
 
 This response is AI-generated, for reference only.
-Can we add a probability prediction engine from data of backtest
-We need to craft a plan that includes a "probability prediction engine" built from backtest data. The user is asking: "Can we add a probability prediction engine from data of backtest". They want to integrate a system that calculates the probability of a successful pump (or profitable trade) based on historical sequences of screener triggers. I need to propose a plan, not code. So I'll design an approach to build that engine, what data it needs, how to model probabilities, and how to use it in the pipeline.
 
-The context: They're using Chartink screeners, collecting data of when stocks appeared in various screeners (current and backtest). They want to filter stocks for day and week trading, with a pipeline of transitions between screeners over timeframes. I previously gave a pre-pump detection plan. Now they want to add a probability prediction engine from backtest data to estimate the likelihood of a successful pump.
+---
 
-I should explain how to create a simple probabilistic model using historical screener sequences as features, and then output a probability score that can be used to filter or rank trade setups.
+## Implementation Status
 
-Key points:
+The plan has been implemented in the following files:
 
-Use backtest data: logs of screener triggers with timestamps and outcomes (price change over subsequent periods, maybe labeled as "pump" if price moved > X% with favorable risk/reward).
+| File                                  | Description                                                                 |
+| ------------------------------------- | --------------------------------------------------------------------------- |
+| `src/state.js`                        | Stock state management - tracks progression through pipeline stages         |
+| `src/probability.js`                  | Probability prediction engine - calculates success rates from backtest data |
+| `src/pipeline.js`                     | Pipeline processor - orchestrates stage transitions and entry evaluation    |
+| `pipeline-runner.js`                  | CLI entry point - runs pipelines for day trading and weekly swing           |
+| `train-probability.js`                | Trains probability lookup table from backtest data                          |
+| `state/pipeline-state.json`           | Persisted state for stock tracking                                          |
+| `state/probability/lookup-table.json` | Historical probability lookup table                                         |
 
-Build a dataset: for each historical sequence where a stock hit certain stages, extract features: which screeners triggered, time windows, volume, volatility, etc. Then label: success (pump) or failure (no pump / stop loss hit).
+### Usage
 
-Train a model (or compute simple conditional probabilities) to predict P(success | sequence of triggers + other features).
+```bash
+npm run pipeline:day        # Day trading pipeline (4 stages)
+npm run pipeline:weekly     # Weekly swing pipeline (3 stages)
+npm run pipeline:status     # Show pipeline status
+npm run train:probability   # Train probability from backtests
+```
 
-Could use a simple Bayesian approach: P(Pump | Stage1 & Stage2 & Stage3) = (count where all triggered and pump happened) / (count where all triggered). Then maybe include other conditioning variables (time of day, market regime) to refine.
+### Integration with backtest.js
 
-This engine would then provide a probability score for each live candidate that goes through the pipeline stages. The plan would then filter out candidates with low probability.
+The `backtest.js` module provides historical data. To integrate:
 
-Also consider updating probabilities as new stages are met (sequential update).
+```bash
+# Run backtests on pipeline screeners
+node backtest.js <screener-url>
 
-Ensure the prediction engine is not overfitted: use out-of-sample backtesting, maybe cross-validation.
-
-I'll present a structured plan for the probability prediction engine, integrated with the earlier pipeline. No code, just logical steps.
-
-I should also mention data storage, probability thresholds, and how to incorporate it into the decision process (e.g., only take trades with >60% probability). I'll keep it practical and non-technical but detailed enough.
+# Train probability engine from backtest results
+npm run train:probability
+```
 
 I'll structure the answer:
 
@@ -529,12 +540,12 @@ Absolutely. We can layer a Probability Prediction Engine on top of the pipeline 
 Here is the plan to design, train, and deploy this engine — no code, just logic.
 
 1. Purpose of the Engine
-Instead of a binary yes/no filter, you’ll get a probability score (e.g., 72%) for each potential trade, indicating how often similar screener sequences led to a pump (or a profitable move) in the past.
-You set a threshold (e.g., >60%) to enter, eliminating low-odds sequences and focusing on high-confidence pre-pump setups.
+   Instead of a binary yes/no filter, you’ll get a probability score (e.g., 72%) for each potential trade, indicating how often similar screener sequences led to a pump (or a profitable move) in the past.
+   You set a threshold (e.g., >60%) to enter, eliminating low-odds sequences and focusing on high-confidence pre-pump setups.
 
 2. Data Preparation from Backtest Logs
-You already have historical logs:
-Stock | Screener Name | Timestamp
+   You already have historical logs:
+   Stock | Screener Name | Timestamp
 
 Step 1: Define what a “pump” (success) looks like
 
@@ -556,7 +567,7 @@ The context features at the moment of Stage 1 (the first expansion signal)
 This becomes your training dataset: each row is one historical sequence with features + outcome label.
 
 3. Feature Set for the Engine
-The engine will predict probability based on more than just the names of the screeners. Capture these features from your historical data:
+   The engine will predict probability based on more than just the names of the screeners. Capture these features from your historical data:
 
 Screener-Specific Features
 
@@ -599,7 +610,7 @@ RSI(14) value on 15-min at Stage 1
 Whether Stage 1 breakout was above a pre-market high or yesterday’s high (binary)
 
 4. Building the Probability Model
-You don’t need complex machine learning; a conditional probability table (Bayesian approach) is transparent and robust.
+   You don’t need complex machine learning; a conditional probability table (Bayesian approach) is transparent and robust.
 
 Method: Historical Frequency with Smoothing
 
@@ -624,7 +635,7 @@ Alternative: If you want a more dynamic model, use a simple logistic regression 
 Fallback: If a combination is not in the table (insufficient data), use the overall sequence probability from all times of day.
 
 5. Real-Time Probability Calculation During Live Screening
-As a stock moves through your pipeline:
+   As a stock moves through your pipeline:
 
 At Stage 1 trigger:
 
@@ -645,7 +656,7 @@ If Stage 3 is met, recalculate probability again (now including 30-min confirmat
 The engine simply queries the lookup table with the current feature set and returns a live probability.
 
 6. Integrating the Probability into Trade Decisions
-Entry Filter
+   Entry Filter
 
 Only take a trade if the live probability at Stage 2 is > 60% (or a threshold you decide based on backtest).
 
@@ -658,7 +669,7 @@ Probability Decay
 If after entry the stock does not reach Stage 3 within the expected window, the probability of a pump drops (based on historical data for failed sequences). The engine can suggest tightening the stop or exiting early.
 
 7. Validation and Backtesting the Engine Itself
-To ensure the engine works:
+   To ensure the engine works:
 
 Split your historical data by time: e.g., train the lookup table on 2023-2024 data, test on 2025 data.
 
@@ -671,17 +682,17 @@ All sequences (no filter) vs. sequences with >60% probability.
 You should see a higher win rate and better risk/reward.
 
 8. Maintenance and Continuous Learning
-Update the lookup table monthly by adding new live sequences and their outcomes. The engine becomes smarter over time.
+   Update the lookup table monthly by adding new live sequences and their outcomes. The engine becomes smarter over time.
 
 Prune low-confidence sequences: If a certain screener combination never crosses the probability threshold, you can remove that pipeline entirely.
 
 Incorporate regime filters: Market type (trending, sideways, high VIX) can be a feature in the table; this prevents using bullish pre-pump patterns during a bear market.
 
 Example: Probability Table Snippet (Mental View)
-Stage0→1 Screener Pair	Time of Day	Compression Quality	Stage2 Confirmation	Count	Success	Probability
-NR7 → VolSpike2x	10:30-11:30	High (range<0.3%)	VWAP_Hold+RSI>50	34	23	67.6%
-NR7 → VolSpike2x	13:00-14:00	High	VWAP_Hold+RSI>50	12	4	35.7%
-InsideBar → MACD_Cross	10:30-11:30	Low	ADX_rising	22	9	42.9%
+Stage0→1 Screener Pair Time of Day Compression Quality Stage2 Confirmation Count Success Probability
+NR7 → VolSpike2x 10:30-11:30 High (range<0.3%) VWAP_Hold+RSI>50 34 23 67.6%
+NR7 → VolSpike2x 13:00-14:00 High VWAP_Hold+RSI>50 12 4 35.7%
+InsideBar → MACD_Cross 10:30-11:30 Low ADX_rising 22 9 42.9%
 From this, you’d only trade the first combination in the morning; you’d avoid the same setup in the afternoon.
 
 Summary: How the Engine Flows with the Pipeline
@@ -696,3 +707,44 @@ Probability > threshold → enter with dynamic size and stop from the compressio
 30-min Stage 3 → if probability re-evaluated higher, add; if lower, tighten stop.
 
 This probability engine turns your scanner pipeline from a rule-based system into an evidence-based, self-improving decision tool that filters out noise and shows you only the highest-probability pre-pump setups.
+
+```
+
+---
+
+## Implementation Status
+
+The plan has been implemented in the following files:
+
+| File                                  | Description                                                                 |
+| ------------------------------------- | --------------------------------------------------------------------------- |
+| `src/state.js`                        | Stock state management - tracks progression through pipeline stages         |
+| `src/probability.js`                  | Probability prediction engine - calculates success rates from backtest data |
+| `src/pipeline.js`                     | Pipeline processor - orchestrates stage transitions and entry evaluation    |
+| `pipeline-runner.js`                  | CLI entry point - runs pipelines for day trading and weekly swing           |
+| `train-probability.js`                | Trains probability lookup table from backtest data                          |
+| `state/pipeline-state.json`           | Persisted state for stock tracking                                          |
+| `state/probability/lookup-table.json` | Historical probability lookup table                                         |
+
+### Usage
+
+```bash
+npm run pipeline:day        # Day trading pipeline (4 stages)
+npm run pipeline:weekly     # Weekly swing pipeline (3 stages)
+npm run pipeline:status     # Show pipeline status
+npm run train:probability   # Train probability from backtests
+```
+
+### Integration with backtest.js
+
+The `backtest.js` module provides historical data. To integrate:
+
+```bash
+# Run backtests on pipeline screeners
+node backtest.js <screener-url>
+
+# Train probability engine from backtest results
+npm run train:probability
+```
+
+```
