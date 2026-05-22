@@ -23,23 +23,23 @@ const DEFAULT_PIPELINE_CONFIG = {
   day_trading: {
     name: 'Day Trading Pipeline',
     stages: {
-      stage_0: { timeframe: '5m', name: 'Stage 0 - Accumulation Detection' },
-      stage_1: { timeframe: '5m', name: 'Stage 1 - Breakout Confirmation' },
-      stage_2: { timeframe: '15m', name: 'Stage 2 - Momentum Validation' },
-      stage_3: { timeframe: '30m', name: 'Stage 3 - Entry Trigger' },
+      stage_0: { timeframe: '30m', name: 'Stage 0 - Higher Timeframe Setup' },
+      stage_1: { timeframe: '15m', name: 'Stage 1 - Mid Timeframe Confirmation' },
+      stage_2: { timeframe: '5m', name: 'Stage 2 - Entry Setup' },
+      stage_3: { timeframe: '5m', name: 'Stage 3 - Final Entry Trigger' },
     },
     windows: {
-      stage_0_to_1: 30,
+      stage_0_to_1: 60,
       stage_1_to_2: 30,
-      stage_2_to_3: 60,
+      stage_2_to_3: 30,
     },
   },
   weekly_swing: {
     name: 'Weekly Swing Pipeline',
     stages: {
-      stage_0: { timeframe: 'daily', name: 'Stage 0 - Accumulation Base' },
-      stage_1: { timeframe: 'daily', name: 'Stage 1 - Impulse Candle' },
-      stage_2: { timeframe: 'weekly', name: 'Stage 2 - Weekly Breakout' },
+      stage_0: { timeframe: 'weekly', name: 'Stage 0 - Weekly Setup' },
+      stage_1: { timeframe: 'daily', name: 'Stage 1 - Daily Confirmation' },
+      stage_2: { timeframe: 'daily', name: 'Stage 2 - Entry Preparation' },
     },
     windows: {
       stage_0_to_1: 1440,

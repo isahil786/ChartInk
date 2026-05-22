@@ -1,0 +1,250 @@
+# Pipeline Summary
+
+## Configuration
+- **Pipeline Type:** day_trading
+- **Timeframe Order:** Higher → Lower (confirmed on higher TF, drilled down to lower TF)
+- **Probability Threshold:** 0.6
+
+## Stage Results
+
+| Stage | Timeframe | Stocks Found | Description |
+|-------|-----------|--------------|-------------|
+| Stage 0 | rsi-between-30-to-70-vol-5lcs-sma-gt-20-gt-50-gt-200 | 233 | Setup Detection |
+| Stage 1 | accumulation-distribution | 0 | Confirmation |
+| Stage 2 | potential-breakout-152 | 0 | Entry Setup |
+| Stage 3 | accumulation-stocks | 0 | Final Trigger |
+
+### Stage 0 Stocks (175)
+- JNKINDIA
+- SIEMENS
+- ADANIENSOL
+- LAURUSLABS
+- PNBHOUSING
+- SONACOMS
+- NATIONALUM
+- ANGELONE
+- NYKAA
+- BANDHANBNK
+- AMBER
+- EICHERMOT
+- GVT&D
+- TITAN
+- DATAPATTNS
+- NETWEB
+- MCX
+- WAAREEENER
+- GRSE
+- GLENMARK
+- BHARATFORG
+- GESHIP
+- NESTLEIND
+- ADANIGREEN
+- DRREDDY
+- TDPOWERSYS
+- AXISBANK
+- WELCORP
+- JINDALSTEL
+- NAM-INDIA
+- CCL
+- SYRMA
+- LIQUIDBEES
+- PREMIERENE
+- AUBANK
+- INDUSINDBK
+- ATHERENERG
+- PARAS
+- ASTERDM
+- GRANULES
+- GRAPHITE
+- GVPIL
+- GALLANTT
+- KRISHANA
+- GMDCLTD
+- HEG
+- HSCL
+- MANINDS
+- RKFORGE
+- JSWENERGY
+- HINDCOPPER
+- STARHEALTH
+- APOLLOPIPE
+- AARTIIND
+- SKYGOLD
+- COALINDIA
+- EBGNG
+- DELHIVERY
+- PFC
+- PRECWIRE
+- TATAPOWER
+- AEROFLEX
+- PRAJIND
+- NTPC
+- AGIIL
+- SMSPHARMA
+- IGIL
+- ABCAPITAL
+- NLCINDIA
+- STYLEBAAZA
+- RBLBANK
+- SCI
+- BLISSGVS
+- FLAIR
+- POWERGRID
+- GPIL
+- ACMESOLAR
+- KARURVYSYA
+- FEDERALBNK
+- LTF
+- KTKBANK
+- SILVERIETF
+- SILVER
+- SBISILVER
+- SOUTHWEST
+- HDFCSILVER
+- SILVERBEES
+- CUB
+- VIYASH
+- WALCHANNAG
+- SANDUMA
+- JINDALSAW
+- BELRISE
+- ENGINERSIN
+- MARKSANS
+- SATIN
+- TATASTEEL
+- PTC
+- DIACABS
+- GULPOLY
+- RATNAVEER
+- DCBBANK
+- CESC
+- GAEL
+- GRMOVER
+- GOLDETF
+- J&KBANK
+- GOLDIETF
+- HDFCGOLD
+- SETFGOLD
+- GOLDBETA
+- GOLD1
+- GOLDBEES
+- MUFIN
+- ICICIB22
+- CUPID
+- RICOAUTO
+- EDELWEISS
+- SAMBHV
+- NTPCGREEN
+- CPSEETF
+- JAYNECOIND
+- MODEFENCE
+- DJML
+- ARFIN
+- MAHABANK
+- BODALCHEM
+- TFCILTD
+- EQUITASBNK
+- IFCI
+- ONEPOINT
+- CONFIPET
+- MOCAPITAL
+- UJJIVANSFB
+- PAISALO
+- DWARKESH
+- MSPL
+- SOUTHBANK
+- MIRCELECTR
+- NARMADA
+- DHANBANK
+- ATALREAL
+- SILVERCASE
+- GROWWSLVR
+- HARDWYN
+- TATSILV
+- SILVER1
+- PHARMABEES
+- GOLDCASE
+- HEALTHY
+- GROWWGOLD
+- TATAGOLD
+- METAL
+- METALIETF
+- KESORAMIND
+- ABSLPSE
+- AFIL
+- SHAH
+- KSHITIJPOL
+- POWERINDIA
+- POLYCAB
+- BSE
+- RADICO
+- ENRIN
+- MANKIND
+- TATACOMM
+- POLICYBZR
+- TATACONSUM
+- PAYTM
+- 360ONE
+- MAXHEALTH
+- VBL
+- HUDCO
+- YESBANK
+- IDEA
+
+### Stage 1 Stocks (36)
+- FORTIS
+- ADANIPORTS
+- JSWSTEEL
+- HINDALCO
+- CGPOWER
+- HINDZINC
+- BIOCON
+- BHEL
+- VEDL
+- SAIL
+- MOTHERSON
+- GRASIM
+- SUNPHARMA
+- AUROPHARMA
+- MARICO
+- OIL
+- TALBROAUTO
+- CEIGALL
+- ONGC
+- ADANIPOWER
+- NMDC
+- SOLARINDS
+- BAJAJ-AUTO
+- OFSS
+- APOLLOHOSP
+- CUMMINSIND
+- KEI
+- TORNTPHARM
+- ADANIENT
+- ASIANPAINT
+- GODFRYPHLP
+- COLPAL
+- PIDILITIND
+- CIPLA
+- ZYDUSLIFE
+- MOTILALOFS
+
+### Stage 2 Stocks (1)
+- DIVISLAB
+
+## Probability Table
+- **Total Sequences:** 105
+- **Trained At:** 2026-05-22T22:40:47.679Z
+
+## Gate Statistics
+- **Passed:** 38
+- **Blocked:** 16
+- **Skipped:** 0
+
+## Entry Candidates
+- **DIVISLAB**
+  - Stage 0: ichimoku-swing-trading-5
+  - Stage 1: accumulation-distribution
+  - Stage 2: potential-breakout-152
+
+Generated: 2026-05-22T22:54:03.678Z
