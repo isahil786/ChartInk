@@ -12,19 +12,18 @@ import path from 'path';
 const SCRAPER_URLS = {
   day_trading: {
     stage_0: [
-      'https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout',
-      'https://chartink.com/screener/pro-trader',
-      'https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy',
-      'https://chartink.com/screener/stocks-in-uptrend-66',
-      'https://chartink.com/screener/intraday-trending-stocks-20',
+      'https://chartink.com/screener/accumulation-stocks',
+      'https://chartink.com/screener/stock-before-break-out',
+      'https://chartink.com/screener/base-pattern',
+      'https://chartink.com/screener/ready-to-breakout-shares',
     ],
     stage_1: [
-      'https://chartink.com/screener/15-min-breakout-with-high-volume',
-      'https://chartink.com/screener/intraday-stocks-rising-with-increase-in-volume-on-15-minute-candles',
+      'https://chartink.com/screener/potential-breakout-152',
+      'https://chartink.com/screener/breakout-after-accumulation-like-tata-power',
     ],
     stage_2: [
-      'https://chartink.com/screener/adx-rsi-and-macd-breakout-stocks',
-      'https://chartink.com/screener/strong-bullish-swing-ver-2-with-volume',
+      'https://chartink.com/screener/accumulation-distribution',
+      'https://chartink.com/screener/stocks-coming-out-of-base',
     ],
     stage_3: [
       'https://chartink.com/screener/rsi-between-30-to-70-vol-5lcs-sma-gt-20-gt-50-gt-200',
@@ -33,8 +32,8 @@ const SCRAPER_URLS = {
   },
   weekly_swing: {
     stage_0: [
-      'https://chartink.com/screener/22day-ha-inside-breakout-with-volume',
-      'https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective',
+      'https://chartink.com/screener/accumulation-stocks',
+      'https://chartink.com/screener/breakout-after-accumulation-like-tata-power',
       'https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart',
     ],
     stage_1: [
@@ -49,8 +48,8 @@ const SCRAPER_URLS = {
   multi_timeframe: {
     weekly: {
       stage_0: [
+        'https://chartink.com/screener/breakout-after-accumulation-like-tata-power',
         'https://chartink.com/screener/zero-to-multibagger-rsi-above-50-on-weekly-chart',
-        'https://chartink.com/screener/22day-ha-inside-breakout-with-volume',
       ],
       stage_1: [
         'https://chartink.com/screener/eod-intra-day-long-list-weekly-impulse-daily-corrective',
@@ -58,12 +57,11 @@ const SCRAPER_URLS = {
     },
     daily: {
       stage_0: [
-        'https://chartink.com/screener/stocks-in-uptrend-66',
-        'https://chartink.com/screener/pro-trader',
-        'https://chartink.com/screener/rsi-supertrend-4-1-positive-volume-breakout',
+        'https://chartink.com/screener/accumulation-stocks',
+        'https://chartink.com/screener/stock-before-break-out',
       ],
       stage_1: [
-        'https://chartink.com/screener/market-start-and-market-end-strong-shares-for-buy',
+        'https://chartink.com/screener/potential-breakout-152',
       ],
     },
     hourly: {

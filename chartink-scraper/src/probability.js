@@ -136,6 +136,53 @@ export function calculateProbability(table, features) {
   };
 }
 
+export function calculateFallbackProbability(table, features) {
+  const pipelineType = features.pipeline_type || 'day_trading';
+  const stageScreeners = [
+    features.stage0_screener,
+    features.stage1_screener,
+    features.stage2_screener,
+    features.stage3_screener,
+  ].filter(Boolean);
+
+  let totalProb = 0;
+  let count = 0;
+
+  for (const screener of stageScreeners) {
+    const stageFeatures = {
+      stage0_screener: features.stage0_screener === screener ? screener : null,
+      stage1_screener: features.stage1_screener === screener ? screener : null,
+      stage2_screener: features.stage2_screener === screener ? screener : null,
+      stage3_screener: features.stage3_screener === screener ? screener : null,
+      pipeline_type: pipelineType,
+    };
+    const result = calculateProbability(table, stageFeatures);
+    if (result.probability !== null) {
+      totalProb += result.probability;
+      count++;
+    }
+  }
+
+  if (count === 0) {
+    return {
+      probability: DEFAULT_THRESHOLD,
+      threshold: DEFAULT_THRESHOLD,
+      confidence: 'low',
+      successCount: 0,
+      totalCount: stageScreeners.length,
+      reason: 'Using default threshold - no individual stage data',
+    };
+  }
+
+  return {
+    probability: totalProb / count,
+    confidence: 'low',
+    successCount: count,
+    totalCount: stageScreeners.length,
+    reason: 'Fallback probability from individual stages',
+  };
+}
+
 export function getProbabilityThreshold(features, table) {
   const result = calculateProbability(table, features);
   if (result.probability === null) return DEFAULT_THRESHOLD;
@@ -147,7 +194,11 @@ export function getProbabilityThreshold(features, table) {
 }
 
 export function shouldEnter(features, table, customThreshold = null) {
-  const result = calculateProbability(table, features);
+  let result = calculateProbability(table, features);
+
+  if (result.probability === null) {
+    result = calculateFallbackProbability(table, features);
+  }
 
   if (result.probability === null) {
     return {
@@ -156,7 +207,7 @@ export function shouldEnter(features, table, customThreshold = null) {
     };
   }
 
-  const threshold = customThreshold ?? getProbabilityThreshold(features, table);
+  const threshold = customThreshold ?? result.threshold ?? getProbabilityThreshold(features, table);
 
   return {
     shouldEnter: result.probability >= threshold,
@@ -184,6 +235,156 @@ export function trainFromBacktest(table, backtestResults, outcomeFunction) {
     updateTableWithResult(table, features, success);
   }
 
+  saveProbabilityTable(table);
+  return table;
+}
+
+const FORMATTED_DIR = path.join(process.cwd(), 'state', 'formatted-backtests');
+
+const PIPELINE_STAGE_MAP = {
+  day_trading: {
+    accumulation_stocks: 'stage_0',
+    stock_before_break_out: 'stage_0',
+    base_pattern: 'stage_0',
+    ready_to_breakout_shares: 'stage_0',
+    potential_breakout_152: 'stage_1',
+    breakout_after_accumulation_like_tata_power: 'stage_1',
+    accumulation_distribution: 'stage_2',
+    stocks_coming_out_of_base: 'stage_2',
+    rsi_between_30_to_70_vol_5lcs_sma_gt_20_gt_50_gt_200: 'stage_3',
+    ichimoku_swing_trading_5: 'stage_3',
+  },
+  weekly_swing: {
+    accumulation_stocks: 'stage_0',
+    breakout_after_accumulation_like_tata_power: 'stage_0',
+    zero_to_multibagger_rsi_above_50_on_weekly_chart: 'stage_0',
+    potential_breakout_152: 'stage_1',
+    bullish_stocks_screener_1: 'stage_1',
+    rising_price_and_volume_within_bollinger_band_and_rsi_70: 'stage_2',
+    weekly_buy_find_trading_zones: 'stage_2',
+  },
+};
+
+function loadFormattedBacktests() {
+  const files = fs.readdirSync(FORMATTED_DIR).filter(f => f.endsWith('.json'));
+  const results = new Map();
+  for (const file of files) {
+    const data = JSON.parse(fs.readFileSync(path.join(FORMATTED_DIR, file), 'utf8'));
+    results.set(data.screener, data);
+  }
+  return results;
+}
+
+function getPipelineStageMap() {
+  return PIPELINE_STAGE_MAP;
+}
+
+export function trainFromFormattedBacktests(table, options = {}) {
+  const backtests = loadFormattedBacktests();
+  const stageMap = getPipelineStageMap();
+  const useSimple = options.simple !== false;
+  const progressEvery = options.progressEvery || 3;
+
+  for (const [pipelineType, screenerMap] of Object.entries(stageMap)) {
+    const screenerByKey = {};
+    for (const [key, stage] of Object.entries(screenerMap)) {
+      const url = `https://chartink.com/screener/${key.replace(/_/g, '-')}`;
+      screenerByKey[url] = { url, stage };
+    }
+
+    const stageToScreenerUrls = {};
+    for (const { url, stage } of Object.values(screenerByKey)) {
+      if (!stageToScreenerUrls[stage]) stageToScreenerUrls[stage] = [];
+      stageToScreenerUrls[stage].push(url);
+    }
+
+    let totalStockAppearances = 0;
+    for (const bt of backtests.values()) {
+      for (const seq of bt.sequences || []) {
+        totalStockAppearances += (seq.stocks || []).length;
+      }
+    }
+
+    let processed = 0;
+    let reportedPct = 0;
+
+    const stockPaths = {};
+    for (const [screenerName, bt] of backtests) {
+      const pipelineTypeOfBt = bt.pipeline_type || 'day_trading';
+      if (pipelineTypeOfBt !== pipelineType) continue;
+
+      const screenerUrl = `https://chartink.com/screener/${screenerName}`;
+
+      for (const seq of bt.sequences || []) {
+        for (const stock of seq.stocks || []) {
+          const symbol = stock.symbol;
+          if (!stockPaths[symbol]) stockPaths[symbol] = { stage_0: [], stage_1: [], stage_2: [], stage_3: [] };
+          const stage = screenerByKey[screenerUrl]?.stage;
+          if (stage && stageToScreenerUrls[stage]?.length > 0) {
+            stockPaths[symbol][stage].push(screenerName);
+          }
+          processed++;
+          if (options.onProgress) {
+            const pct = Math.floor((processed / totalStockAppearances) * 100);
+            if (pct >= reportedPct + progressEvery) {
+              reportedPct = pct - (pct % progressEvery);
+              options.onProgress(pipelineType, reportedPct);
+            }
+          }
+        }
+      }
+    }
+
+    const stageKeys = ['stage_0', 'stage_1', 'stage_2', 'stage_3'];
+    for (const [, stages] of Object.entries(stockPaths)) {
+      const maxIdx = Math.max(
+        stages.stage_3.length > 0 ? 3 : -1,
+        stages.stage_2.length > 0 ? 2 : -1,
+        stages.stage_1.length > 0 ? 1 : -1,
+        stages.stage_0.length > 0 ? 0 : -1,
+      );
+      if (maxIdx < 0) continue;
+
+      const features = {
+        stage0_screener: stages.stage_0[0] ? `https://chartink.com/screener/${stages.stage_0[0]}` : null,
+        stage1_screener: stages.stage_1[0] ? `https://chartink.com/screener/${stages.stage_1[0]}` : null,
+        stage2_screener: stages.stage_2[0] ? `https://chartink.com/screener/${stages.stage_2[0]}` : null,
+        stage3_screener: stages.stage_3[0] ? `https://chartink.com/screener/${stages.stage_3[0]}` : null,
+        time_bucket: 'any',
+        compression_quality: 'medium',
+        market_regime: 'normal',
+        pipeline_type: pipelineType,
+      };
+
+      if (useSimple) {
+        updateTableWithResult(table, features, true);
+        continue;
+      }
+
+      const outcome = maxIdx >= stageKeys.length - 1 ? 1 : 0;
+      updateTableWithResult(table, features, Boolean(outcome));
+
+      for (let i = 0; i < maxIdx; i++) {
+        const partialFeatures = {
+          stage0_screener: i >= 0 && stages.stage_0[0] ? `https://chartink.com/screener/${stages.stage_0[0]}` : null,
+          stage1_screener: i >= 1 && stages.stage_1[0] ? `https://chartink.com/screener/${stages.stage_1[0]}` : null,
+          stage2_screener: i >= 2 && stages.stage_2[0] ? `https://chartink.com/screener/${stages.stage_2[0]}` : null,
+          stage3_screener: i >= 3 && stages.stage_3[0] ? `https://chartink.com/screener/${stages.stage_3[0]}` : null,
+          time_bucket: 'any',
+          compression_quality: 'medium',
+          market_regime: 'normal',
+          pipeline_type: pipelineType,
+        };
+        const transSuccess = i < maxIdx - 1 || maxIdx >= stageKeys.length - 1;
+        updateTableWithResult(table, partialFeatures, Boolean(transSuccess));
+      }
+    }
+
+    if (options.onProgress) options.onProgress(pipelineType, 100);
+  }
+
+  table.metadata.formattedBacktestsTrainedAt = new Date().toISOString();
+  table.metadata.trainingSequenceCount = table.metadata.totalSequences;
   saveProbabilityTable(table);
   return table;
 }
