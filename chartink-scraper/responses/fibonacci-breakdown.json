@@ -1,0 +1,10 @@
+{
+  "queryName": "Fibonacci Breakdown",
+  "scanClause": "(close < (high(20) - low(20)) * 0.382 + low(20)) and (close(1) > (high(20) - low(20)) * 0.382 + low(20))",
+  "fetchedAt": "2026-05-21T21:56:06.189Z",
+  "totalResults": 0,
+  "data": {
+    "data": [],
+    "scan_error": "There was a error in running your scan"
+  }
+}

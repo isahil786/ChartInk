@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "custom-query",
+  "screenerUrl": "https://chartink.com/screener",
+  "screenerName": "Fibonacci Momentum",
+  "scanClause": "(close > (highest(high, 100) - (highest(high, 100) - lowest(low, 100)) * 0.5)) and (close < (highest(high, 100) - (highest(high, 100) - lowest(low, 100)) * 0.382)) and (volume > sma(volume, 20, 0) * 1.2)",
+  "maxRows": 160,
+  "fetchedAt": "2026-05-21T21:57:16.887Z",
+  "sectorGroups": 0,
+  "data": {
+    "link": "scanlink:1c8e22d4439a2335222f7c46f2f37cfb"
+  }
+}

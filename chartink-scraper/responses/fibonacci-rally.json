@@ -1,0 +1,140 @@
+{
+  "queryName": "Fibonacci Rally",
+  "scanClause": "({cash} ( latest close > Max(50, High) * 0.5 and latest close < Max(50, High) * 0.7 and latest volume > 100000 ))",
+  "fetchedAt": "2026-05-21T22:29:17.421Z",
+  "totalResults": 14,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 14,
+    "recordsFiltered": 14,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "KAYNES",
+        "name": "Kaynes Technology India Ltd",
+        "bsecode": "535493",
+        "close": 3174.9,
+        "per_chg": 5.79,
+        "volume": 2230040
+      },
+      {
+        "sr": 2,
+        "nsecode": "JAINREC",
+        "name": "Jain Resource Recycling Ltd",
+        "bsecode": "544537",
+        "close": 383.9,
+        "per_chg": -2.04,
+        "volume": 2817383
+      },
+      {
+        "sr": 3,
+        "nsecode": "LEMERITE",
+        "name": "Le Merite Exports Ltd",
+        "bsecode": "535447",
+        "close": 341.2,
+        "per_chg": -18.17,
+        "volume": 506290
+      },
+      {
+        "sr": 4,
+        "nsecode": "PFOCUS",
+        "name": "Prime Focus Limited",
+        "bsecode": "532748",
+        "close": 252.4,
+        "per_chg": -1.35,
+        "volume": 404505
+      },
+      {
+        "sr": 5,
+        "nsecode": "NIITMTS",
+        "name": "NIIT Learning Systems Ltd",
+        "bsecode": "543952",
+        "close": 224.8,
+        "per_chg": -2.89,
+        "volume": 588057
+      },
+      {
+        "sr": 6,
+        "nsecode": "PINELABS",
+        "name": "Pine Labs Ltd",
+        "bsecode": null,
+        "close": 148.32,
+        "per_chg": -0.64,
+        "volume": 5080368
+      },
+      {
+        "sr": 7,
+        "nsecode": "FINOPB",
+        "name": "Fino Payments Bank Ltd",
+        "bsecode": "543386",
+        "close": 120.86,
+        "per_chg": -0.48,
+        "volume": 256024
+      },
+      {
+        "sr": 8,
+        "nsecode": "WEL",
+        "name": "Wonder Electricals Ltd",
+        "bsecode": "535344",
+        "close": 97.8,
+        "per_chg": -7.66,
+        "volume": 938198
+      },
+      {
+        "sr": 9,
+        "nsecode": "IDBI",
+        "name": "Idbi Bank Limited",
+        "bsecode": "500116",
+        "close": 72.9,
+        "per_chg": -0.55,
+        "volume": 8032650
+      },
+      {
+        "sr": 10,
+        "nsecode": "TAKE",
+        "name": "Take Solutions Limited",
+        "bsecode": "532890",
+        "close": 28.14,
+        "per_chg": 5,
+        "volume": 233952
+      },
+      {
+        "sr": 11,
+        "nsecode": "RMDRIP",
+        "name": "R M Drip & Sprinklers Systems Ltd",
+        "bsecode": "535010",
+        "close": 18.69,
+        "per_chg": -4.01,
+        "volume": 767337
+      },
+      {
+        "sr": 12,
+        "nsecode": "AAKASH",
+        "name": "Aakash Exploration Services Ltd",
+        "bsecode": "535076",
+        "close": 8.97,
+        "per_chg": -0.33,
+        "volume": 108382
+      },
+      {
+        "sr": 13,
+        "nsecode": "CEREBRAINT",
+        "name": "Cerebra Integrated Technologies Limited",
+        "bsecode": "532413",
+        "close": 3.14,
+        "per_chg": 0.32,
+        "volume": 263645
+      },
+      {
+        "sr": 14,
+        "nsecode": "SANWARIA",
+        "name": "Sanwaria Agro Oils Limited",
+        "bsecode": "519260",
+        "close": 0.24,
+        "per_chg": 0,
+        "volume": 300137
+      }
+    ],
+    "link": "scanlink:a4d1ead5c650b2d76e3cdc8da5a52a5b"
+  }
+}

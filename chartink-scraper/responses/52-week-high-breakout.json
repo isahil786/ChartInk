@@ -1,0 +1,13 @@
+{
+  "queryName": "52 Week High Breakout",
+  "scanClause": "({cash} ( latest close > Max(252, High) and 1 day ago close <= Max(252, High) ))",
+  "fetchedAt": "2026-05-21T22:29:26.331Z",
+  "totalResults": 0,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 0,
+    "recordsFiltered": 0,
+    "data": [],
+    "link": "scanlink:3e11e487068a1fc6b61666d8a58a7ce6"
+  }
+}

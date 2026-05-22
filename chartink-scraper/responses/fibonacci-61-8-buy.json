@@ -1,0 +1,23 @@
+{
+  "queryName": "Fibonacci 61.8% Buy",
+  "scanClause": "({cash} ( latest low > Min(55, Low) + (Max(55, High) - Min(55, Low)) * 0.618 and 1 day ago low <= Min(55, Low) + (Max(55, High) - Min(55, Low)) * 0.618 ))",
+  "fetchedAt": "2026-05-21T22:29:21.953Z",
+  "totalResults": 1,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 1,
+    "recordsFiltered": 1,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "NEXTMEDIA",
+        "name": "Next Mediaworks Limited",
+        "bsecode": "532416",
+        "close": 4.05,
+        "per_chg": -1.46,
+        "volume": 25499
+      }
+    ],
+    "link": "scanlink:362fb7a86db28efd33dfa0329666c013"
+  }
+}

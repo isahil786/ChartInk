@@ -3,26 +3,21 @@ let allScreeners = [];
 let activeSlug = null;
 let chartDaily = null;
 let chartSector = null;
-let currentFilter = "";
 
 /* ── Boot ────────────────────────────────────────────────────── */
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
   loadScreenerList();
-  document.getElementById("btn-refresh").addEventListener("click", () => {
+  document.getElementById('btn-refresh').addEventListener('click', () => {
     if (activeSlug) loadScreener(activeSlug);
   });
-  document.getElementById("fetch-url-btn").addEventListener("click", fetchByUrl);
-  document.getElementById("fetch-url-input").addEventListener("keypress", (e) => {
-    if (e.key === "Enter") fetchByUrl();
-  });
-  document.getElementById("filter-input").addEventListener("input", (e) => {
-    currentFilter = e.target.value.toLowerCase();
-    renderStocksTable(window.lastStocks || []);
+  document.getElementById('fetch-url-btn').addEventListener('click', fetchByUrl);
+  document.getElementById('fetch-url-input').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') fetchByUrl();
   });
 });
 
 /* ── Base path (injected by server into <meta name="base-path">) ── */
-const BASE = (document.querySelector('meta[name="base-path"]') || {}).content || "";
+const BASE = (document.querySelector('meta[name="base-path"]') || {}).content || '';
 
 const API_BASE = BASE || window.location.pathname.split('/').slice(0, 2).join('/');
 
@@ -35,61 +30,61 @@ async function api(path) {
 
 /* ── Fetch by URL ─────────────────────────────────────────────── */
 async function fetchByUrl() {
-  const input = document.getElementById("fetch-url-input");
+  const input = document.getElementById('fetch-url-input');
   const url = input.value.trim();
-  if (!url || !url.startsWith("http")) {
-    alert("Please enter a valid URL");
+  if (!url || !url.startsWith('http')) {
+    alert('Please enter a valid URL');
     return;
   }
-  const btn = document.getElementById("fetch-url-btn");
+  const btn = document.getElementById('fetch-url-btn');
   const originalText = btn.textContent;
-  btn.textContent = "Fetching...";
+  btn.textContent = 'Fetching...';
   btn.disabled = true;
   try {
     const data = await api(`/fetch?screener=${encodeURIComponent(url)}`);
-    if (!data.success) throw new Error(data.error || "Fetch failed");
+    if (!data.success) throw new Error(data.error || 'Fetch failed');
     const result = data.data[0].result;
     allScreeners.unshift({ slug: result.screenerName, ...result.summary });
     showScreener(result);
   } catch (e) {
-    alert("Error: " + e.message);
+    alert('Error: ' + e.message);
   } finally {
     btn.textContent = originalText;
     btn.disabled = false;
-    input.value = "";
+    input.value = '';
   }
 }
 
 function showScreener(result) {
   activeSlug = result.screenerName;
   window.lastStocks = result.stocks;
-  document.getElementById("welcome").classList.add("hidden");
-  document.getElementById("dashboard").classList.remove("hidden");
-  document.getElementById("dash-title").textContent = slugToTitle(result.screenerName);
-  document.getElementById("dash-date-range").textContent = "";
-  document.getElementById("bt-range").textContent = "";
+  document.getElementById('welcome').classList.add('hidden');
+  document.getElementById('dashboard').classList.remove('hidden');
+  document.getElementById('dash-title').textContent = slugToTitle(result.screenerName);
+  document.getElementById('dash-date-range').textContent = '';
+  document.getElementById('bt-range').textContent = '';
   renderStats({ summary: result.summary }, { summary: {} });
   renderStocksTable(result.stocks);
 }
 
 /* ── Sidebar ─────────────────────────────────────────────────── */
 async function loadScreenerList() {
-  const nav = document.getElementById("nav-list");
+  const nav = document.getElementById('nav-list');
   try {
-    allScreeners = await api("/api/screeners");
-    nav.innerHTML = "";
+    allScreeners = await api('/api/screeners');
+    nav.innerHTML = '';
     allScreeners.forEach((s) => {
-      const btn = document.createElement("button");
-      btn.className = "nav-item";
+      const btn = document.createElement('button');
+      btn.className = 'nav-item';
       btn.dataset.slug = s.slug;
 
       const label = slugToTitle(s.slug);
-      const stocks = s.totalStocks ?? "—";
+      const stocks = s.totalStocks ?? '—';
       btn.innerHTML = `
         <div>${label}</div>
         <div class="nav-meta">${stocks} stocks today</div>
       `;
-      btn.addEventListener("click", () => loadScreener(s.slug));
+      btn.addEventListener('click', () => loadScreener(s.slug));
       nav.appendChild(btn);
     });
 
@@ -101,35 +96,33 @@ async function loadScreenerList() {
 
 function slugToTitle(slug) {
   return slug
-    .split("-")
+    .split('-')
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(" ");
+    .join(' ');
 }
 
 /* ── Main dashboard loader ───────────────────────────────────── */
 async function loadScreener(slug) {
   activeSlug = slug;
 
-  document.querySelectorAll(".nav-item").forEach((b) => {
-    b.classList.toggle("active", b.dataset.slug === slug);
+  document.querySelectorAll('.nav-item').forEach((b) => {
+    b.classList.toggle('active', b.dataset.slug === slug);
   });
 
-  document.getElementById("welcome").classList.add("hidden");
-  document.getElementById("dashboard").classList.remove("hidden");
+  document.getElementById('welcome').classList.add('hidden');
+  document.getElementById('dashboard').classList.remove('hidden');
 
-  document.getElementById("dash-title").textContent = slugToTitle(slug);
-  document.getElementById("dash-date-range").textContent = "Loading…";
+  document.getElementById('dash-title').textContent = slugToTitle(slug);
+  document.getElementById('dash-date-range').textContent = 'Loading…';
 
   try {
-    const [screenerData, backtestMeta, dailyData, sectorData] =
-      await Promise.all([
-        api(`/api/screeners/${slug}`),
-        api(`/api/backtests/${slug}`),
-        api(`/api/backtests/${slug}/daily`),
-        api(`/api/backtests/${slug}/sectors`),
-      ]);
+    const [screenerData, backtestMeta, dailyData, sectorData] = await Promise.all([
+      api(`/api/screeners/${slug}`),
+      api(`/api/backtests/${slug}`),
+      api(`/api/backtests/${slug}/daily`),
+      api(`/api/backtests/${slug}/sectors`),
+    ]);
 
-    window.lastStocks = screenerData.stocks;
     renderStats(screenerData, backtestMeta);
     renderStocksTable(screenerData.stocks);
     renderDailyChart(dailyData);
@@ -137,12 +130,11 @@ async function loadScreener(slug) {
     renderTopSymbols(backtestMeta.summary.topSymbols ?? []);
 
     const r = backtestMeta.summary.dateRange ?? {};
-    document.getElementById("dash-date-range").textContent =
-      r.from && r.to ? `Backtest range: ${r.from} → ${r.to}` : "";
-    document.getElementById("bt-range").textContent =
-      r.from && r.to ? `${r.from} → ${r.to}` : "";
+    document.getElementById('dash-date-range').textContent =
+      r.from && r.to ? `Backtest range: ${r.from} → ${r.to}` : '';
+    document.getElementById('bt-range').textContent = r.from && r.to ? `${r.from} → ${r.to}` : '';
   } catch (e) {
-    document.getElementById("dash-date-range").textContent = "Error loading data: " + e.message;
+    document.getElementById('dash-date-range').textContent = 'Error loading data: ' + e.message;
   }
 }
 
@@ -153,40 +145,39 @@ function renderStats(screener, backtest) {
 
   const cards = [
     {
-      label: "Stocks Today",
+      label: 'Stocks Today',
       value: s.totalStocks ?? 0,
       sub: `${s.gainers ?? 0} up · ${s.losers ?? 0} down`,
-      color: "",
+      color: '',
     },
     {
-      label: "Avg % Change",
-      value: (s.avgPercentChange ?? 0) > 0
-        ? `+${s.avgPercentChange}%`
-        : `${s.avgPercentChange ?? 0}%`,
-      sub: s.topGainer ? `Best: ${s.topGainer.nsecode} (${s.topGainer.per_chg}%)` : "",
-      color: (s.avgPercentChange ?? 0) >= 0 ? "green" : "red",
+      label: 'Avg % Change',
+      value:
+        (s.avgPercentChange ?? 0) > 0 ? `+${s.avgPercentChange}%` : `${s.avgPercentChange ?? 0}%`,
+      sub: s.topGainer ? `Best: ${s.topGainer.nsecode} (${s.topGainer.per_chg}%)` : '',
+      color: (s.avgPercentChange ?? 0) >= 0 ? 'green' : 'red',
     },
     {
-      label: "Total Signals",
+      label: 'Total Signals',
       value: (b.totalSignalOccurrences ?? 0).toLocaleString(),
       sub: `Over ${b.totalDays ?? 0} trading days`,
-      color: "blue",
+      color: 'blue',
     },
     {
-      label: "Active Days",
+      label: 'Active Days',
       value: b.activeDays ?? 0,
       sub: `Avg ${b.avgSignalsPerActiveDay ?? 0} signals/day`,
-      color: "purple",
+      color: 'purple',
     },
     {
-      label: "Peak Date",
-      value: b.peakDate ?? "—",
+      label: 'Peak Date',
+      value: b.peakDate ?? '—',
       sub: `${b.peakDaySignalCount ?? 0} signals on peak day`,
-      color: "",
+      color: '',
     },
   ];
 
-  const container = document.getElementById("stat-cards");
+  const container = document.getElementById('stat-cards');
   container.innerHTML = cards
     .map(
       (c) => `
@@ -196,89 +187,95 @@ function renderStats(screener, backtest) {
         <div class="sub">${c.sub}</div>
       </div>`
     )
-    .join("");
+    .join('');
 }
 
 /* ── Stocks table ────────────────────────────────────────────── */
-let sortState = { col: null, dir: "asc" };
+let sortState = { col: null, dir: 'asc' };
 let sortHeadersSetup = false;
 
 function renderStocksTable(stocks) {
-  const tbody = document.getElementById("stocks-tbody");
-  const empty = document.getElementById("stocks-empty");
-  const table = document.getElementById("stocks-table");
+  const tbody = document.getElementById('stocks-tbody');
+  const empty = document.getElementById('stocks-empty');
+  const table = document.getElementById('stocks-table');
 
-  const filtered = currentFilter
-    ? (stocks || []).filter((s) =>
-        Object.values(s).some((v) => String(v).toLowerCase().includes(currentFilter))
-      )
-    : stocks || [];
-
-  if (!filtered.length) {
-    tbody.innerHTML = "";
-    table.classList.add("hidden");
-    empty.classList.remove("hidden");
+  if (!stocks || stocks.length === 0) {
+    tbody.innerHTML = '';
+    table.classList.add('hidden');
+    empty.classList.remove('hidden');
     return;
   }
 
-  table.classList.remove("hidden");
-  empty.classList.add("hidden");
+  table.classList.remove('hidden');
+  empty.classList.add('hidden');
 
-  const sorted = sortState.col ? [...filtered].sort((a, b) => {
-    let va = a[sortState.col] ?? "";
-    let vb = b[sortState.col] ?? "";
-    if (sortState.col === "Close (₹)") {
-      va = parseFloat(va) || 0;
-      vb = parseFloat(vb) || 0;
-    } else if (sortState.col === "% Change") {
-      va = parseFloat(va) || 0;
-      vb = parseFloat(vb) || 0;
-    } else if (sortState.col === "Volume") {
-      va = parseInt(va) || 0;
-      vb = parseInt(vb) || 0;
-    } else {
-      va = String(va).toLowerCase();
-      vb = String(vb).toLowerCase();
-    }
-return sortState.dir === "asc" ? (va > vb ? 1 : va < vb ? -1 : 0) : (va < vb ? 1 : va > vb ? -1 : 0);
-   }) : filtered;
+  const sorted = sortState.col
+    ? [...stocks].sort((a, b) => {
+        let va = a[sortState.col] ?? '';
+        let vb = b[sortState.col] ?? '';
+        if (sortState.col === 'Close (₹)') {
+          va = parseFloat(va) || 0;
+          vb = parseFloat(vb) || 0;
+        } else if (sortState.col === '% Change') {
+          va = parseFloat(va) || 0;
+          vb = parseFloat(vb) || 0;
+        } else if (sortState.col === 'Volume') {
+          va = parseInt(va) || 0;
+          vb = parseInt(vb) || 0;
+        } else {
+          va = String(va).toLowerCase();
+          vb = String(vb).toLowerCase();
+        }
+        return sortState.dir === 'asc'
+          ? va > vb
+            ? 1
+            : va < vb
+              ? -1
+              : 0
+          : va < vb
+            ? 1
+            : va > vb
+              ? -1
+              : 0;
+      })
+    : stocks;
 
   tbody.innerHTML = sorted
     .map((s) => {
-      const chg = parseFloat(s["% Change"] ?? 0);
-      const cls = chg > 0 ? "change-pos" : chg < 0 ? "change-neg" : "";
-      const sign = chg > 0 ? "+" : "";
-      const vol = parseInt(s["Volume"] ?? 0).toLocaleString("en-IN");
+      const chg = parseFloat(s['% Change'] ?? 0);
+      const cls = chg > 0 ? 'change-pos' : chg < 0 ? 'change-neg' : '';
+      const sign = chg > 0 ? '+' : '';
+      const vol = parseInt(s['Volume'] ?? 0).toLocaleString('en-IN');
       return `
         <tr>
-          <td>${s["Sr"] ?? ""}</td>
-          <td><span class="nse-code">${s["NSE Code"] ?? ""}</span></td>
-          <td>${s["Company Name"] ?? ""}</td>
-          <td>${s["BSE Code"] ?? ""}</td>
-          <td class="num">₹${parseFloat(s["Close (₹)"] ?? 0).toFixed(2)}</td>
+          <td>${s['Sr'] ?? ''}</td>
+          <td><span class="nse-code">${s['NSE Code'] ?? ''}</span></td>
+          <td>${s['Company Name'] ?? ''}</td>
+          <td>${s['BSE Code'] ?? ''}</td>
+          <td class="num">₹${parseFloat(s['Close (₹)'] ?? 0).toFixed(2)}</td>
           <td class="num ${cls}">${sign}${chg.toFixed(2)}%</td>
           <td class="num">${vol}</td>
         </tr>`;
     })
-    .join("");
+    .join('');
 }
 
 function setupSortHeaders() {
   if (sortHeadersSetup) return;
   sortHeadersSetup = true;
-  const headers = document.querySelectorAll("#stocks-table th");
-  const cols = ["Sr", "NSE Code", "Company Name", "BSE Code", "Close (₹)", "% Change", "Volume"];
+  const headers = document.querySelectorAll('#stocks-table th');
+  const cols = ['Sr', 'NSE Code', 'Company Name', 'BSE Code', 'Close (₹)', '% Change', 'Volume'];
   headers.forEach((th, i) => {
     if (!cols[i]) return;
-    th.classList.add("sortable");
+    th.classList.add('sortable');
     th.innerHTML = `<span>${th.textContent}</span><span class="sort-indicator"></span>`;
-    th.addEventListener("click", () => {
+    th.addEventListener('click', () => {
       const col = cols[i];
       if (sortState.col === col) {
-        sortState.dir = sortState.dir === "asc" ? "desc" : "asc";
+        sortState.dir = sortState.dir === 'asc' ? 'desc' : 'asc';
       } else {
         sortState.col = col;
-        sortState.dir = "asc";
+        sortState.dir = 'asc';
       }
       updateSortIndicators();
       renderStocksTable(window.lastStocks || []);
@@ -286,39 +283,42 @@ function setupSortHeaders() {
   });
 }
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener('DOMContentLoaded', () => {
   setupSortHeaders();
 });
 
 function updateSortIndicators() {
-  document.querySelectorAll("#stocks-table th").forEach(th => th.classList.remove("sort-active"));
-  const ths = document.querySelectorAll("#stocks-table th");
-  const cols = ["Sr", "NSE Code", "Company Name", "BSE Code", "Close (₹)", "% Change", "Volume"];
+  document.querySelectorAll('#stocks-table th').forEach((th) => th.classList.remove('sort-active'));
+  const ths = document.querySelectorAll('#stocks-table th');
+  const cols = ['Sr', 'NSE Code', 'Company Name', 'BSE Code', 'Close (₹)', '% Change', 'Volume'];
   const idx = cols.indexOf(sortState.col);
   if (idx >= 0) {
-    ths[idx].classList.add("sort-active");
-    ths[idx].querySelector(".sort-indicator").textContent = sortState.dir === "asc" ? "▲" : "▼";
+    ths[idx].classList.add('sort-active');
+    ths[idx].querySelector('.sort-indicator').textContent = sortState.dir === 'asc' ? '▲' : '▼';
   }
 }
 
 /* ── Daily signals chart ─────────────────────────────────────── */
 function renderDailyChart(daily) {
-  const ctx = document.getElementById("chart-daily");
-  if (chartDaily) { chartDaily.destroy(); chartDaily = null; }
+  const ctx = document.getElementById('chart-daily');
+  if (chartDaily) {
+    chartDaily.destroy();
+    chartDaily = null;
+  }
 
   const labels = daily.map((d) => d.date);
   const values = daily.map((d) => d.total);
 
   chartDaily = new Chart(ctx, {
-    type: "line",
+    type: 'line',
     data: {
       labels,
       datasets: [
         {
-          label: "Daily Signals",
+          label: 'Daily Signals',
           data: values,
-          borderColor: "#3b82f6",
-          backgroundColor: "rgba(59,130,246,0.10)",
+          borderColor: '#3b82f6',
+          backgroundColor: 'rgba(59,130,246,0.10)',
           borderWidth: 2,
           pointRadius: 0,
           pointHoverRadius: 4,
@@ -342,15 +342,15 @@ function renderDailyChart(daily) {
       scales: {
         x: {
           ticks: {
-            color: "#64748b",
+            color: '#64748b',
             maxTicksLimit: 10,
             maxRotation: 0,
           },
-          grid: { color: "#1e2433" },
+          grid: { color: '#1e2433' },
         },
         y: {
-          ticks: { color: "#64748b" },
-          grid: { color: "#1e2433" },
+          ticks: { color: '#64748b' },
+          grid: { color: '#1e2433' },
           beginAtZero: true,
         },
       },
@@ -360,26 +360,41 @@ function renderDailyChart(daily) {
 
 /* ── Sector bar chart ────────────────────────────────────────── */
 function renderSectorChart(sectors) {
-  const ctx = document.getElementById("chart-sector");
-  if (chartSector) { chartSector.destroy(); chartSector = null; }
+  const ctx = document.getElementById('chart-sector');
+  if (chartSector) {
+    chartSector.destroy();
+    chartSector = null;
+  }
 
   const sorted = [...sectors].sort((a, b) => a.total - b.total);
   const labels = sorted.map((s) => s.sector);
   const values = sorted.map((s) => s.total);
 
   const palette = [
-    "#3b82f6","#6366f1","#8b5cf6","#a78bfa","#06b6d4",
-    "#10b981","#22c55e","#84cc16","#f59e0b","#f97316",
-    "#ef4444","#ec4899","#14b8a6","#0ea5e9","#64748b",
+    '#3b82f6',
+    '#6366f1',
+    '#8b5cf6',
+    '#a78bfa',
+    '#06b6d4',
+    '#10b981',
+    '#22c55e',
+    '#84cc16',
+    '#f59e0b',
+    '#f97316',
+    '#ef4444',
+    '#ec4899',
+    '#14b8a6',
+    '#0ea5e9',
+    '#64748b',
   ];
 
   chartSector = new Chart(ctx, {
-    type: "bar",
+    type: 'bar',
     data: {
       labels,
       datasets: [
         {
-          label: "Total Signals",
+          label: 'Total Signals',
           data: values,
           backgroundColor: labels.map((_, i) => palette[i % palette.length]),
           borderRadius: 4,
@@ -388,7 +403,7 @@ function renderSectorChart(sectors) {
       ],
     },
     options: {
-      indexAxis: "y",
+      indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
@@ -399,12 +414,12 @@ function renderSectorChart(sectors) {
       },
       scales: {
         x: {
-          ticks: { color: "#64748b" },
-          grid: { color: "#1e2433" },
+          ticks: { color: '#64748b' },
+          grid: { color: '#1e2433' },
           beginAtZero: true,
         },
         y: {
-          ticks: { color: "#94a3b8", font: { size: 11 } },
+          ticks: { color: '#94a3b8', font: { size: 11 } },
           grid: { display: false },
         },
       },
@@ -414,8 +429,11 @@ function renderSectorChart(sectors) {
 
 /* ── Top symbols list ────────────────────────────────────────── */
 function renderTopSymbols(symbols) {
-  const container = document.getElementById("top-symbols");
-  if (!symbols.length) { container.innerHTML = ""; return; }
+  const container = document.getElementById('top-symbols');
+  if (!symbols.length) {
+    container.innerHTML = '';
+    return;
+  }
 
   const max = symbols[0]?.appearances ?? 1;
   container.innerHTML = `
@@ -430,6 +448,6 @@ function renderTopSymbols(symbols) {
             <span class="sym-count">${s.appearances}×</span>
           </div>`;
       })
-      .join("")}
+      .join('')}
   `;
 }

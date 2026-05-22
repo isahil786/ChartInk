@@ -1,0 +1,206 @@
+[
+  {
+    "id": "ma-alignment",
+    "name": "MA Alignment",
+    "description": "Stocks where short-term EMA crosses above long-term EMA",
+    "scan": "({cash} ( latest close > 20 day ema and 20 day ema > 50 day ema and 50 day ema > 200 day ema ))"
+  },
+  {
+    "id": "rsi-divergence",
+    "name": "RSI Divergence",
+    "description": "Stocks making higher highs while price makes lower highs",
+    "scan": "({cash} ( latest close > 1 day ago close and 14 day rsi < 1 day ago 14 day rsi and latest close > 100 ))"
+  },
+  {
+    "id": "bollinger-squeeze",
+    "name": "Bollinger Squeeze",
+    "description": "Stocks with Bollinger Bands contraction",
+    "scan": "({cash} ( 20 day bollinger upper - 20 day bollinger lower < 20 day bollinger upper * 0.02 ))"
+  },
+  {
+    "id": "volume-spike",
+    "name": "Volume Spike",
+    "description": "Stocks with 3x average volume",
+    "scan": "({cash} ( latest volume > 20 day sma volume * 3 and latest close > 1 day ago close ))"
+  },
+  {
+    "id": "morning-star",
+    "name": "Morning Star",
+    "description": "Bullish reversal pattern",
+    "scan": "({cash} ( 2 day ago close > 2 day ago open and latest close < 2 day ago close * 0.98 and latest close > 1 day ago close * 1.01 ))"
+  },
+  {
+    "id": "doji-engulfing",
+    "name": "Doji Engulfing",
+    "description": "Bullish engulfing with doji",
+    "scan": "({cash} ( 1 day ago close < 1 day ago open and latest close > latest open and (latest high - latest low) < (1 day ago high - 1 day ago low) * 0.5 ))"
+  },
+  {
+    "id": "ema-crossover",
+    "name": "EMA Crossover",
+    "description": "EMA 9 crossing above EMA 21",
+    "scan": "({cash} ( latest 9 day ema > 21 day ema and 1 day ago 9 day ema <= 21 day ema ))"
+  },
+  {
+    "id": "macd-bullish",
+    "name": "MACD Bullish",
+    "description": "MACD histogram turning positive",
+    "scan": "({cash} ( 12 26 9 day macd > 0 and 1 day ago 12 26 9 day macd <= 0 ))"
+  },
+  {
+    "id": "price-channel",
+    "name": "Price Channel Breakout",
+    "description": "Breaking above 20-period high",
+    "scan": "({cash} ( latest close > Max(20, High) and 1 day ago close <= Max(20, High) ))"
+  },
+  {
+    "id": "low-float",
+    "name": "Low Float Stocks",
+    "description": "Small price range stocks with high volume",
+    "scan": "({cash} ( latest close > 2 and latest close < 20 and latest volume > 100000 and Max(52, High) - Min(52, Low) < latest close * 0.5 ))"
+  },
+  {
+    "id": "fibonacci-retracement",
+    "name": "Fibonacci Retracement",
+    "description": "Stocks near 38-50% Fibonacci retracement",
+    "scan": "({cash} ( latest close > Min(100, Low) + (Max(100, High) - Min(100, Low)) * 0.382 and latest close < Min(100, Low) + (Max(100, High) - Min(100, Low)) * 0.5 ))"
+  },
+  {
+    "id": "fib-buy",
+    "name": "Fibonacci Buy Zone",
+    "description": "Stocks above 61.8% fib retracement with strong close",
+    "scan": "({cash} ( latest close > Min(5, Low) + (Max(5, High) - Min(5, Low)) * 0.618 and latest close > Max(5, High) ))"
+  },
+  {
+    "id": "fib-sell",
+    "name": "Fibonacci Sell Zone",
+    "description": "Stocks in Fibonacci 38-50% retracement zone",
+    "scan": "({cash} ( daily close > ( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 + ( 0.5 * ( 1 day ago high - 1 day ago low ) ) and 1 day ago close <= ( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 + ( 0.5 * ( 1 day ago high - 1 day ago low ) ) and daily close > ( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 + ( 0.382 * ( 1 day ago high - 1 day ago low ) ) and 1 day ago close <= ( 1 day ago high + 1 day ago low + 1 day ago close ) / 3 + ( 0.382 * ( 1 day ago high - 1 day ago low ) ) ))"
+  },
+  {
+    "id": "fib-rally",
+    "name": "Fibonacci Rally",
+    "description": "Stocks between 50-70% of recent high",
+    "scan": "({cash} ( latest close > Max(50, High) * 0.5 and latest close < Max(50, High) * 0.7 and latest volume > 100000 ))"
+  },
+  {
+    "id": "fib-breakout",
+    "name": "Fibonacci Breakout",
+    "description": "Stocks breaking above 50% retracement",
+    "scan": "({cash} ( latest close > Max(50, High) * 0.5 and latest close > Min(50, Low) * 1.5 ))"
+  },
+  {
+    "id": "fib-strong",
+    "name": "Strong Fibonacci",
+    "description": "Stocks above 50% of 52wk high",
+    "scan": "({cash} ( latest close > Max(250, High) * 0.5 and latest close > 50 and latest volume > 100000 ))"
+  },
+  {
+    "id": "fib-levels",
+    "name": "Fibonacci Levels",
+    "description": "Stocks at key Fibonacci levels (38-61.8%)",
+    "scan": "({cash} ( latest close >= Min(100, Low) + (Max(100, High) - Min(100, Low)) * 0.382 and latest close <= Min(100, Low) + (Max(100, High) - Min(100, Low)) * 0.618 ))"
+  },
+  {
+    "id": "positive-fib",
+    "name": "Positive Fibonacci",
+    "description": "Stocks with positive fibonacci setup",
+    "scan": "( {33489} ( daily close > ( 1 day ago high - 1 day ago low ) * 0.618 + 1 day ago low and daily close > 50 and daily volume > 500000 and daily rsi( 14 ) > 60 ))"
+  },
+  {
+    "id": "fib-momentum",
+    "name": "Fibonacci Momentum",
+    "description": "Stocks in 38-50% retracement with volume confirmation",
+    "scan": "( {33489} ( daily close > Min(100, Low) + (Max(100, High) - Min(100, Low)) * 0.5 and daily close < Min(100, Low) + (Max(100, High) - Min(100, Low)) * 0.382 and daily volume > 20 day sma volume * 1.2 ))"
+  },
+  {
+    "id": "fib-618-buy",
+    "name": "Fibonacci 61.8% Buy",
+    "description": "Stocks at 61.8% retracement level",
+    "scan": "({cash} ( latest low > Min(55, Low) + (Max(55, High) - Min(55, Low)) * 0.618 and 1 day ago low <= Min(55, Low) + (Max(55, High) - Min(55, Low)) * 0.618 ))"
+  },
+  {
+    "id": "large-caps",
+    "name": "Large Cap Stocks",
+    "description": "Large cap stocks above 100",
+    "scan": "({cash} ( latest close > 100 and latest volume > 500000 ))"
+  },
+  {
+    "id": "green-stocks",
+    "name": "Green Stocks",
+    "description": "Stocks above 200 SMA",
+    "scan": "({cash} ( latest close > 200 day sma and latest close > 50 ))"
+  },
+  {
+    "id": "volatile-stocks",
+    "name": "Volatile Stocks",
+    "description": "High volatility stocks",
+    "scan": "({cash} ( (latest high - latest low) / latest close > 0.05 and latest volume > 100000 ))"
+  },
+  {
+    "id": "active-stocks",
+    "name": "Active Stocks",
+    "description": "Stocks with above average volume",
+    "scan": "({cash} ( latest volume > 20 day sma volume * 1.3 and latest close > 50 and latest close < 500 ))"
+  },
+  {
+    "id": "mid-caps",
+    "name": "Mid Cap Stocks",
+    "description": "Mid cap stocks above 50",
+    "scan": "({cash} ( latest close > 50 and latest close < 500 and latest volume > 200000 ))"
+  },
+  {
+    "id": "breakout-52wk",
+    "name": "52 Week High Breakout",
+    "description": "Breaking above 52 week high",
+    "scan": "({cash} ( latest close > Max(252, High) and 1 day ago close <= Max(252, High) ))"
+  },
+  {
+    "id": "strong-volume",
+    "name": "Strong Volume",
+    "description": "High volume stocks with strong price action",
+    "scan": "({cash} ( latest volume > 200000 and latest close > 1 day ago close * 1.05 ))"
+  },
+  {
+    "id": "low-price-high-volume",
+    "name": "Low Price High Volume",
+    "description": "Affordable stocks with high trading activity",
+    "scan": "({cash} ( latest close < 50 and latest close > 5 and latest volume > 500000 ))"
+  },
+  {
+    "id": "moving-average-rising",
+    "name": "Moving Average Rising",
+    "description": "Multiple MAs trending upward",
+    "scan": "({cash} ( 20 day sma > 20 day ago sma and 50 day sma > 50 day ago sma and 200 day sma > 200 day ago sma ))"
+  },
+  {
+    "id": "near-52wk-high",
+    "name": "Near 52 Week High",
+    "description": "Stocks within 5% of 52 week high",
+    "scan": "({cash} ( latest close > Max(252, High) * 0.95 ))"
+  },
+  {
+    "id": "fib-252-50",
+    "name": "Fibonacci 252 High 50%",
+    "description": "Stocks near 250-day high (50% rule)",
+    "scan": "({cash} ( latest close > Max(252, High) * 0.9 and latest volume > 100000 ))"
+  },
+  {
+    "id": "fib-252-618",
+    "name": "Fibonacci 252 High 61.8%",
+    "description": "Stocks near 250-day high (61.8% rule)",
+    "scan": "({cash} ( latest close > Max(252, High) * 0.9 and latest volume > 50000 ))"
+  },
+  {
+    "id": "fib-252-78",
+    "name": "Fibonacci 252 High 78%",
+    "description": "Stocks near 250-day high (78% rule)",
+    "scan": "({cash} ( latest close > Max(252, High) * 0.9 and latest volume > 50000 ))"
+  },
+  {
+    "id": "fib-252-highlow",
+    "name": "Fibonacci 252 High/Low",
+    "description": "Stocks near 250-day high with volume",
+    "scan": "({cash} ( latest close > Max(252, High) * 0.9 and latest volume > 50000 ))"
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "custom-query",
+  "screenerUrl": "https://chartink.com/screener",
+  "screenerName": "Green Stocks",
+  "scanClause": "({cash} ( latest close > 200 day sma and latest close > 50 ))",
+  "maxRows": 160,
+  "fetchedAt": "2026-05-21T22:01:09.437Z",
+  "sectorGroups": 0,
+  "data": {
+    "link": "scanlink:b90711109806fa5eda6153d140bb5933"
+  }
+}

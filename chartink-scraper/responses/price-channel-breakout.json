@@ -1,0 +1,13 @@
+{
+  "queryName": "Price Channel Breakout",
+  "scanClause": "({cash} ( latest close > Max(20, High) and 1 day ago close <= Max(20, High) ))",
+  "fetchedAt": "2026-05-21T22:29:13.855Z",
+  "totalResults": 0,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 0,
+    "recordsFiltered": 0,
+    "data": [],
+    "link": "scanlink:4159068acb210c5a72db0266ddad8554"
+  }
+}

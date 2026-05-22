@@ -1,94 +1,89 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chartink Dashboard</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-</head>
-<body>
-
-  <aside id="sidebar">
-    <div class="sidebar-header">
-      <div class="logo">📈 Chartink</div>
-      <div class="logo-sub">Dashboard</div>
-    </div>
-    <div class="fetch-url">
-      <input type="url" id="fetch-url-input" placeholder="Paste screener URL..." />
-      <button id="fetch-url-btn" class="btn-fetch">Fetch</button>
-    </div>
-    <nav id="nav-list">
-      <div class="nav-loading">Loading screeners…</div>
-    </nav>
-  </aside>
-
-  <main id="main">
-    <div id="welcome" class="welcome">
-      <div class="welcome-icon">📊</div>
-      <h2>Select a screener from the sidebar</h2>
-      <p>Screener results and backtest analysis will appear here.</p>
-    </div>
-
-    <div id="dashboard" class="hidden">
-
-      <header class="dash-header">
-        <div>
-          <h1 id="dash-title"></h1>
-          <div id="dash-date-range" class="dash-subtitle"></div>
-        </div>
-        <button id="btn-refresh" class="btn-refresh" title="Re-select">↺ Refresh</button>
-      </header>
-
-      <section class="stat-cards" id="stat-cards"></section>
-
-      <div class="panels">
-
-        <section class="panel panel-stocks">
-          <h2 class="panel-title">Today's Stocks</h2>
-          <div class="filter-wrap">
-            <input type="text" id="filter-input" placeholder="Filter stocks..." />
-          </div>
-          <div class="table-wrap">
-            <table id="stocks-table">
-              <thead>
-                <tr>
-                  <th>#</th>
-                  <th>NSE Code</th>
-                  <th>Company</th>
-                  <th>BSE Code</th>
-                  <th class="num">Close (₹)</th>
-                  <th class="num">% Change</th>
-                  <th class="num">Volume</th>
-                </tr>
-              </thead>
-              <tbody id="stocks-tbody"></tbody>
-            </table>
-            <div id="stocks-empty" class="empty-msg hidden">No stocks matched today.</div>
-          </div>
-        </section>
-
-        <section class="panel panel-charts">
-          <h2 class="panel-title">Backtest — Daily Signals <span id="bt-range" class="panel-subtitle"></span></h2>
-          <div class="chart-wrap">
-            <canvas id="chart-daily"></canvas>
-          </div>
-        </section>
-
-        <section class="panel panel-sector">
-          <h2 class="panel-title">Sector Breakdown</h2>
-          <div class="sector-grid">
-            <div class="chart-wrap chart-wrap-sector">
-              <canvas id="chart-sector"></canvas>
-            </div>
-            <div id="top-symbols" class="top-symbols"></div>
-          </div>
-        </section>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chartink Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <aside id="sidebar">
+      <div class="sidebar-header">
+        <div class="logo">📈 Chartink</div>
+        <div class="logo-sub">Dashboard</div>
       </div>
-    </div>
-  </main>
+      <div class="fetch-url">
+        <input type="url" id="fetch-url-input" placeholder="Paste screener URL..." />
+        <button id="fetch-url-btn" class="btn-fetch">Fetch</button>
+      </div>
+      <nav id="nav-list">
+        <div class="nav-loading">Loading screeners…</div>
+      </nav>
+    </aside>
 
-  <script src="app.js"></script>
-</body>
+    <main id="main">
+      <div id="welcome" class="welcome">
+        <div class="welcome-icon">📊</div>
+        <h2>Select a screener from the sidebar</h2>
+        <p>Screener results and backtest analysis will appear here.</p>
+      </div>
+
+      <div id="dashboard" class="hidden">
+        <header class="dash-header">
+          <div>
+            <h1 id="dash-title"></h1>
+            <div id="dash-date-range" class="dash-subtitle"></div>
+          </div>
+          <button id="btn-refresh" class="btn-refresh" title="Re-select">↺ Refresh</button>
+        </header>
+
+        <section class="stat-cards" id="stat-cards"></section>
+
+        <div class="panels">
+          <section class="panel panel-stocks">
+            <h2 class="panel-title">Today's Stocks</h2>
+            <div class="table-wrap">
+              <table id="stocks-table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>NSE Code</th>
+                    <th>Company</th>
+                    <th>BSE Code</th>
+                    <th class="num">Close (₹)</th>
+                    <th class="num">% Change</th>
+                    <th class="num">Volume</th>
+                  </tr>
+                </thead>
+                <tbody id="stocks-tbody"></tbody>
+              </table>
+              <div id="stocks-empty" class="empty-msg hidden">No stocks matched today.</div>
+            </div>
+          </section>
+
+          <section class="panel panel-charts">
+            <h2 class="panel-title">
+              Backtest — Daily Signals <span id="bt-range" class="panel-subtitle"></span>
+            </h2>
+            <div class="chart-wrap">
+              <canvas id="chart-daily"></canvas>
+            </div>
+          </section>
+
+          <section class="panel panel-sector">
+            <h2 class="panel-title">Sector Breakdown</h2>
+            <div class="sector-grid">
+              <div class="chart-wrap chart-wrap-sector">
+                <canvas id="chart-sector"></canvas>
+              </div>
+              <div id="top-symbols" class="top-symbols"></div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
 </html>

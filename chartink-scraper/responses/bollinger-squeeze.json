@@ -1,0 +1,10 @@
+{
+  "queryName": "Bollinger Squeeze",
+  "scanClause": "({cash} ( 20 day bollinger upper - 20 day bollinger lower < 20 day bollinger upper * 0.02 ))",
+  "fetchedAt": "2026-05-21T22:29:10.297Z",
+  "totalResults": 0,
+  "data": {
+    "data": [],
+    "scan_error": "There was a error in running your scan"
+  }
+}

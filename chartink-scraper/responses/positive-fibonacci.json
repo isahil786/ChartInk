@@ -1,0 +1,185 @@
+{
+  "queryName": "Positive Fibonacci",
+  "scanClause": "( {33489} ( daily close > ( 1 day ago high - 1 day ago low ) * 0.618 + 1 day ago low and daily close > 50 and daily volume > 500000 and daily rsi( 14 ) > 60 ))",
+  "fetchedAt": "2026-05-21T22:29:20.602Z",
+  "totalResults": 19,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 19,
+    "recordsFiltered": 19,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "BAJAJ-AUTO",
+        "name": "Bajaj Auto Limited",
+        "bsecode": "532977",
+        "close": 10667,
+        "per_chg": 1.95,
+        "volume": 522986
+      },
+      {
+        "sr": 2,
+        "nsecode": "APOLLOHOSP",
+        "name": "Apollo Hospitals Enterprise Limited",
+        "bsecode": "508869",
+        "close": 8308.5,
+        "per_chg": 2.85,
+        "volume": 1425124
+      },
+      {
+        "sr": 3,
+        "nsecode": "KEI",
+        "name": "Kei Industries Limited",
+        "bsecode": "517569",
+        "close": 5237,
+        "per_chg": 2.29,
+        "volume": 550071
+      },
+      {
+        "sr": 4,
+        "nsecode": "GRASIM",
+        "name": "Grasim Industries Limited",
+        "bsecode": "500300",
+        "close": 3154.5,
+        "per_chg": 6.17,
+        "volume": 4417489
+      },
+      {
+        "sr": 5,
+        "nsecode": "ASIANPAINT",
+        "name": "Asian Paints Limited",
+        "bsecode": "500820",
+        "close": 2598.8,
+        "per_chg": 0.01,
+        "volume": 1031843
+      },
+      {
+        "sr": 6,
+        "nsecode": "SUNPHARMA",
+        "name": "Sun Pharmaceuticals Industries Limited",
+        "bsecode": "524715",
+        "close": 1891.3,
+        "per_chg": 0.59,
+        "volume": 1605806
+      },
+      {
+        "sr": 7,
+        "nsecode": "POLICYBZR",
+        "name": "PB Fintech Ltd",
+        "bsecode": "543390",
+        "close": 1819.3,
+        "per_chg": -0.58,
+        "volume": 1110039
+      },
+      {
+        "sr": 8,
+        "nsecode": "ADANIPORTS",
+        "name": "Adani Ports And Special Economic Zone Limited",
+        "bsecode": "532921",
+        "close": 1793.3,
+        "per_chg": 1.17,
+        "volume": 1628329
+      },
+      {
+        "sr": 9,
+        "nsecode": "AUROPHARMA",
+        "name": "Aurobindo Pharma Limited",
+        "bsecode": "524804",
+        "close": 1546.7,
+        "per_chg": 1.92,
+        "volume": 1013775
+      },
+      {
+        "sr": 10,
+        "nsecode": "HINDALCO",
+        "name": "Hindalco Industries Limited",
+        "bsecode": "500440",
+        "close": 1099.3,
+        "per_chg": 1.27,
+        "volume": 4584559
+      },
+      {
+        "sr": 11,
+        "nsecode": "MAXHEALTH",
+        "name": "Max Healthcare Institute Ltd",
+        "bsecode": "543220",
+        "close": 1091.1,
+        "per_chg": 1.43,
+        "volume": 2764467
+      },
+      {
+        "sr": 12,
+        "nsecode": "CGPOWER",
+        "name": "CG Power and Industrial Solutions Ltd",
+        "bsecode": "500093",
+        "close": 864.9,
+        "per_chg": 1.37,
+        "volume": 2811644
+      },
+      {
+        "sr": 13,
+        "nsecode": "VBL",
+        "name": "Varun Beverages Limited",
+        "bsecode": "540180",
+        "close": 519.85,
+        "per_chg": 1.14,
+        "volume": 6850797
+      },
+      {
+        "sr": 14,
+        "nsecode": "BHEL",
+        "name": "Bharat Heavy Electricals Limited",
+        "bsecode": "500103",
+        "close": 408.15,
+        "per_chg": -0.06,
+        "volume": 8203336
+      },
+      {
+        "sr": 15,
+        "nsecode": "ANGELONE",
+        "name": "Angel One Ltd",
+        "bsecode": null,
+        "close": 339.65,
+        "per_chg": 4.51,
+        "volume": 25211127
+      },
+      {
+        "sr": 16,
+        "nsecode": "MANAPPURAM",
+        "name": "Manappuram Finance Limited",
+        "bsecode": "531213",
+        "close": 322.4,
+        "per_chg": 1.02,
+        "volume": 7531083
+      },
+      {
+        "sr": 17,
+        "nsecode": "CROMPTON",
+        "name": "Crompton Greaves Consumer Electricals Limited",
+        "bsecode": "539876",
+        "close": 291.85,
+        "per_chg": 0.43,
+        "volume": 1355199
+      },
+      {
+        "sr": 18,
+        "nsecode": "SAMMAANCAP",
+        "name": "Sammaan Capital Ltd",
+        "bsecode": "535789",
+        "close": 154.26,
+        "per_chg": 8.79,
+        "volume": 120079677
+      },
+      {
+        "sr": 19,
+        "nsecode": "MOTHERSON",
+        "name": "Samvardhana Motherson International Ltd",
+        "bsecode": "517334",
+        "close": 137,
+        "per_chg": 3.65,
+        "volume": 65674007
+      }
+    ],
+    "link": "scanlink:ceaa252fbc7395f59066a1ee3109f519"
+  }
+}

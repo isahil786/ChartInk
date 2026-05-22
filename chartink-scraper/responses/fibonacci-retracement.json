@@ -1,0 +1,140 @@
+{
+  "queryName": "Fibonacci Retracement",
+  "scanClause": "({cash} ( latest close > Min(100, Low) + (Max(100, High) - Min(100, Low)) * 0.382 and latest close < Min(100, Low) + (Max(100, High) - Min(100, Low)) * 0.5 ))",
+  "fetchedAt": "2026-05-21T22:29:15.264Z",
+  "totalResults": 14,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 14,
+    "recordsFiltered": 14,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "ABCOTS",
+        "name": "AB Cotspin India Ltd",
+        "bsecode": "535425",
+        "close": 217.25,
+        "per_chg": -0.64,
+        "volume": 42111
+      },
+      {
+        "sr": 2,
+        "nsecode": "FINOPB",
+        "name": "Fino Payments Bank Ltd",
+        "bsecode": "543386",
+        "close": 120.86,
+        "per_chg": -0.48,
+        "volume": 256024
+      },
+      {
+        "sr": 3,
+        "nsecode": "RAJESHEXPO",
+        "name": "Rajesh Exports Limited",
+        "bsecode": "531500",
+        "close": 107.39,
+        "per_chg": -1.19,
+        "volume": 110514
+      },
+      {
+        "sr": 4,
+        "nsecode": "SYSTMTXC",
+        "name": "Systematix Corporate Services Ltd",
+        "bsecode": "526506",
+        "close": 67,
+        "per_chg": -0.4,
+        "volume": 82694
+      },
+      {
+        "sr": 5,
+        "nsecode": "MANAKALUCO",
+        "name": "Manaksia Aluminium Company Limited",
+        "bsecode": "539045",
+        "close": 33.9,
+        "per_chg": 1.95,
+        "volume": 49839
+      },
+      {
+        "sr": 6,
+        "nsecode": "HILTON",
+        "name": "Hilton Metal Forging Limited",
+        "bsecode": "532847",
+        "close": 21.3,
+        "per_chg": -0.65,
+        "volume": 125400
+      },
+      {
+        "sr": 7,
+        "nsecode": "RAJTV",
+        "name": "Raj Television Network Limited",
+        "bsecode": "532826",
+        "close": 20.63,
+        "per_chg": 0.49,
+        "volume": 16081
+      },
+      {
+        "sr": 8,
+        "nsecode": "LEXUS",
+        "name": "Lexus Granito (India) Ltd",
+        "bsecode": "535001",
+        "close": 18.7,
+        "per_chg": 1.69,
+        "volume": 27217
+      },
+      {
+        "sr": 9,
+        "nsecode": "BESTAGRO",
+        "name": "Best Agrolife Ltd",
+        "bsecode": "539660",
+        "close": 16.95,
+        "per_chg": 0.71,
+        "volume": 150973
+      },
+      {
+        "sr": 10,
+        "nsecode": "ASMS",
+        "name": "Bartronics India Ltd",
+        "bsecode": "532694",
+        "close": 7.31,
+        "per_chg": -0.54,
+        "volume": 353021
+      },
+      {
+        "sr": 11,
+        "nsecode": "FLEXITUFF",
+        "name": "Flexituff International Limited",
+        "bsecode": "533638",
+        "close": 7.19,
+        "per_chg": 3.9,
+        "volume": 18449
+      },
+      {
+        "sr": 12,
+        "nsecode": "CEREBRAINT",
+        "name": "Cerebra Integrated Technologies Limited",
+        "bsecode": "532413",
+        "close": 3.14,
+        "per_chg": 0.32,
+        "volume": 263645
+      },
+      {
+        "sr": 13,
+        "nsecode": "MEP",
+        "name": "Mep Infrastructure Developers Limited",
+        "bsecode": "539126",
+        "close": 0.97,
+        "per_chg": -1.02,
+        "volume": 136775
+      },
+      {
+        "sr": 14,
+        "nsecode": "NAVKARURB",
+        "name": "Navkar Urbanstructure Ltd",
+        "bsecode": "531494",
+        "close": 0.81,
+        "per_chg": 1.25,
+        "volume": 1137468
+      }
+    ],
+    "link": "scanlink:a2bb40aaa9f1220fe06de20d10bd86e1"
+  }
+}

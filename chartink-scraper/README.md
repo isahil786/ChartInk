@@ -43,6 +43,7 @@ responses/
 ```
 
 Each file contains:
+
 - `screenerUrl` — original URL
 - `screenerName` — slug from the URL
 - `scanClause` — scan formula extracted from the page
@@ -90,6 +91,7 @@ responses/
 ```
 
 Each file contains:
+
 - `sourceUrl` — input URL
 - `screenerUrl` — screener page used for CSRF + scan clause
 - `screenerName` — slug
@@ -124,15 +126,119 @@ Both scripts automatically load `cookies.txt` if it exists.
 - Chartink does not provide an official public API; this tool uses the same endpoints the website uses internally
 - Public screeners work without login; private or deleted screeners may require cookies
 
-## Tool Verification
+---
 
-| Tool | Command | Status |
-|------|---------|--------|
-| Screener | `node index.js <url>` | ✓ Public screeners fetch successfully |
-| Backtest | `node backtest.js <url>` | ✓ Backtests run with 26 sector groups |
-| Backtest | `node backtest.js -q <name>` | ✓ Custom queries work |
-| Custom Query | `node custom-query.js -q <name>` | ✓ On-demand scans work |
-| Processing | `node backtest.js --process` | ✓ Generates CSV + summary JSON |
+## Custom Query — `node custom-query.js`
+
+Run custom scan clauses without needing a screener URL.
+
+### Configure `custom-queries.json`
+
+Add query definitions with `id`, `name`, and `scan` fields:
+
+```json
+[
+  {
+    "id": "large-caps",
+    "name": "Large Cap Stocks",
+    "scan": "(close > 100) and (volume > 500000)"
+  }
+]
+```
+
+> Note: Query results depend on current market conditions. Some predefined queries may return 0 results if no stocks match the technical criteria. Use broader scans like `(close > 50) and (volume > 200000)` for guaranteed results.
+
+### Run
+
+```bash
+# Use predefined query
+npm run query -- ma-alignment
+
+# Or pass scan clause directly
+npm run query -- "(close > 100) and (volume > 200000)"
+
+# Using node directly
+node custom-query.js ma-alignment
+node custom-query.js "(close > 100) and (volume > 200000)"
+```
+
+### Output
+
+Saved in `responses/` as JSON files named after the query.
+
+> Note: Query results depend on current market conditions. Some predefined queries may return 0 results if no stocks match the technical criteria.
+
+---
+
+## Custom Backtest — `node backtest.js`
+
+Run backtests on custom scan clauses.
+
+### Run
+
+```bash
+# Use predefined query (from custom-queries.json)
+npm run backtest -- ma-alignment
+
+# Or pass scan clause directly
+npm run backtest -- "(close > 100) and (volume > 200000)"
+
+# Using node directly
+node backtest.js ma-alignment
+node backtest.js "(close > 100) and (volume > 200000)"
+```
+
+### Output
+
+Same as regular backtest, saved in `responses/backtests/`.
+
+---
+
+## Notes
+
+| Tool         | Command                    | Status                                |
+| ------------ | -------------------------- | ------------------------------------- |
+| Screener     | `npm run fetch`            | ✓ Public screeners fetch successfully |
+| Backtest     | `npm run backtest <url>`   | ✓ Backtests run with 26 sector groups |
+| Backtest     | `npm run backtest <query>` | ✓ Custom queries work                 |
+| Custom Query | `npm run query <query>`    | ✓ On-demand scans work                |
+| Indicators   | `/indicators/batch`        | ✓ 11 indicator types supported        |
+
+## Available Custom Queries
+
+`custom-queries.json` contains 28 predefined queries:
+
+| ID | Name | Description |
+|----|------|-------------|
+| `ma-alignment` | MA Alignment | Short-term EMA > long-term EMA |
+| `rsi-divergence` | RSI Divergence | Bullish RSI divergence setup |
+| `bollinger-squeeze` | Bollinger Squeeze | Bollinger Bands contraction |
+| `volume-spike` | Volume Spike | 3x average volume |
+| `morning-star` | Morning Star | Bullish reversal pattern |
+| `ema-crossover` | EMA Crossover | EMA 9 > EMA 21 |
+| `macd-bullish` | MACD Bullish | MACD turning positive |
+| `price-channel` | Price Channel | Breaking 20-period high |
+| `low-float` | Low Float Stocks | Small range high volume |
+| `fibonacci-retracement` | Fibonacci Retracement | 38-50% retracement zone |
+| `fib-buy` | Fibonacci Buy Zone | Above 61.8% retracement |
+| `fib-sell` | Fibonacci Sell Zone | 38-50% retracement zone |
+| `fib-rally` | Fibonacci Rally | 50-70% of recent high |
+| `positive-fib` | Positive Fibonacci | RSI > 60, volume > 500k |
+| `fib-618-buy` | Fibonacci 61.8% Buy | At 61.8% retracement |
+| `large-caps` | Large Cap Stocks | Close > 100, volume > 500k |
+| `green-stocks` | Green Stocks | Above 200 SMA |
+| `volatile-stocks` | Volatile Stocks | 5%+ intraday range |
+| `active-stocks` | Active Stocks | High volume growth |
+| `mid-caps` | Mid Cap Stocks | Close 50-500, high volume |
+| `breakout-52wk` | 52 Week High Breakout | New 52-week high |
+| `strong-volume` | Strong Volume | High volume growth |
+| `low-price-high-volume` | Low Price High Volume | Affordable active stocks |
+| `moving-average-rising` | Moving Average Rising | Multiple MAs up |
+| `near-52wk-high` | Near 52 Week High | Within 5% of 52wk high |
+| `fib-252-50` | Fibonacci 252 High 50% | Near 250-day high |
+| `fib-252-618` | Fibonacci 252 High 61.8% | Near 250-day high |
+| `fib-252-78` | Fibonacci 252 High 78% | Near 250-day high |
+| `fib-252-highlow` | Fibonacci 252 High/Low | Near 250-day high |
 
 ## API Server — `node server.js`
 
@@ -144,16 +250,16 @@ The API supports cross-origin requests. All endpoints include `Access-Control-Al
 
 ### API Endpoints
 
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/fetch?screener=<url>` | Fetch screener(s) by URL (no save) |
-| `GET /api/fetch?screener=<url1>&screener=<url2>` | Multiple URLs supported |
-| `GET /api/screeners` | List available processed screeners |
-| `GET /api/screeners/:slug` | Get stocks for a screener |
-| `GET /api/backtests/:slug` | Get backtest summary |
-| `GET /api/backtests/:slug/daily` | Get daily signal counts |
-| `GET /api/backtests/:slug/sectors` | Get sector totals |
-| `GET /api/backtests/:slug/stocks` | Get daily stocks list |
+| Endpoint                                         | Description                        |
+| ------------------------------------------------ | ---------------------------------- |
+| `GET /api/fetch?screener=<url>`                  | Fetch screener(s) by URL (no save) |
+| `GET /api/fetch?screener=<url1>&screener=<url2>` | Multiple URLs supported            |
+| `GET /api/screeners`                             | List available processed screeners |
+| `GET /api/screeners/:slug`                       | Get stocks for a screener          |
+| `GET /api/backtests/:slug`                       | Get backtest summary               |
+| `GET /api/backtests/:slug/daily`                 | Get daily signal counts            |
+| `GET /api/backtests/:slug/sectors`               | Get sector totals                  |
+| `GET /api/backtests/:slug/stocks`                | Get daily stocks list              |
 
 ### API: Fetch Screener by URL
 
@@ -171,6 +277,7 @@ curl "http://localhost:3000/dashboard/api/fetch?screener=URL&cookies=chartink_se
 Note: CSRF token is extracted automatically from the page. Only use `cookies` parameter for private screeners requiring login.
 
 Returns:
+
 ```json
 {
   "success": true,

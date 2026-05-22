@@ -1,0 +1,10 @@
+{
+  "queryName": "RSI Divergence",
+  "scanClause": "({cash} ( latest close > 1 day ago close and 14 day rsi < 1 day ago 14 day rsi and latest close > 100 ))",
+  "fetchedAt": "2026-05-21T22:29:09.523Z",
+  "totalResults": 0,
+  "data": {
+    "data": [],
+    "scan_error": "There was a error in running your scan"
+  }
+}

@@ -1,35 +1,31 @@
-import { runScreener } from "./src/chartink.js";
-import { saveResponse, ensureResponsesDir } from "./src/storage.js";
-import fs from "fs";
-import path from "path";
+import { runScreener } from './src/chartink.js';
+import { saveResponse, ensureResponsesDir } from './src/storage.js';
+import fs from 'fs';
+import path from 'path';
 
-const SCREENERS_FILE = path.join(process.cwd(), "screeners.json");
+const SCREENERS_FILE = path.join(process.cwd(), 'screeners.json');
 
 function loadScreeners() {
-  const args = process.argv.slice(2).filter((a) => a.startsWith("http"));
+  const args = process.argv.slice(2).filter((a) => a.startsWith('http'));
   if (args.length > 0) return args;
 
   if (fs.existsSync(SCREENERS_FILE)) {
-    const content = JSON.parse(fs.readFileSync(SCREENERS_FILE, "utf8"));
+    const content = JSON.parse(fs.readFileSync(SCREENERS_FILE, 'utf8'));
     if (Array.isArray(content) && content.length > 0) return content;
   }
 
-  console.error("No screener URLs found.");
-  console.error(
-    "  Option 1: Add URLs to screeners.json (array of strings)"
-  );
-  console.error(
-    "  Option 2: Pass URLs as arguments — node index.js <url1> <url2>"
-  );
+  console.error('No screener URLs found.');
+  console.error('  Option 1: Add URLs to screeners.json (array of strings)');
+  console.error('  Option 2: Pass URLs as arguments — node index.js <url1> <url2>');
   process.exit(1);
 }
 
 function loadCookies() {
-  const cookieFile = path.join(process.cwd(), "cookies.txt");
+  const cookieFile = path.join(process.cwd(), 'cookies.txt');
   if (fs.existsSync(cookieFile)) {
-    return fs.readFileSync(cookieFile, "utf8").trim();
+    return fs.readFileSync(cookieFile, 'utf8').trim();
   }
-  return "";
+  return '';
 }
 
 async function main() {
@@ -39,10 +35,10 @@ async function main() {
   ensureResponsesDir();
 
   console.log(`\nChartink Screener Fetcher`);
-  console.log(`${"=".repeat(40)}`);
+  console.log(`${'='.repeat(40)}`);
   console.log(`Screeners to fetch: ${screeners.length}`);
   if (cookies) console.log(`Session cookies: loaded from cookies.txt`);
-  console.log(`${"=".repeat(40)}`);
+  console.log(`${'='.repeat(40)}`);
 
   const results = [];
   const errors = [];
@@ -73,7 +69,7 @@ async function main() {
     }
   }
 
-  console.log(`\n${"=".repeat(40)}`);
+  console.log(`\n${'='.repeat(40)}`);
   console.log(`Done`);
   console.log(`  Succeeded : ${results.length}`);
   console.log(`  Failed    : ${errors.length}`);
@@ -100,7 +96,7 @@ async function main() {
     console.log(`  Then paste it into cookies.txt as: chartink_session=<value>`);
   }
 
-  console.log("");
+  console.log('');
 }
 
 main();

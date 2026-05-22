@@ -1,24 +1,24 @@
-import fs from "fs";
-import path from "path";
+import fs from 'fs';
+import path from 'path';
 
 // ─── CSV helpers ────────────────────────────────────────────────────────────
 
 function escapeCsv(val) {
-  if (val === null || val === undefined) return "";
+  if (val === null || val === undefined) return '';
   const s = String(val);
-  if (s.includes(",") || s.includes('"') || s.includes("\n")) {
+  if (s.includes(',') || s.includes('"') || s.includes('\n')) {
     return `"${s.replace(/"/g, '""')}"`;
   }
   return s;
 }
 
 function rowToCsv(row) {
-  return row.map(escapeCsv).join(",");
+  return row.map(escapeCsv).join(',');
 }
 
 function writeCsv(filePath, headers, rows) {
   const lines = [rowToCsv(headers), ...rows.map(rowToCsv)];
-  fs.writeFileSync(filePath, lines.join("\n") + "\n", "utf8");
+  fs.writeFileSync(filePath, lines.join('\n') + '\n', 'utf8');
 }
 
 // ─── Screener processor ──────────────────────────────────────────────────────
@@ -27,18 +27,10 @@ export function processScreener(raw) {
   const stocks = raw.data?.data ?? [];
 
   if (stocks.length === 0) {
-    return { type: "screener", rows: 0, csv: null, summary: null };
+    return { type: 'screener', rows: 0, csv: null, summary: null };
   }
 
-  const headers = [
-    "Sr",
-    "NSE Code",
-    "BSE Code",
-    "Company Name",
-    "Close (₹)",
-    "% Change",
-    "Volume",
-  ];
+  const headers = ['Sr', 'NSE Code', 'BSE Code', 'Company Name', 'Close (₹)', '% Change', 'Volume'];
 
   const rows = stocks.map((s) => [
     s.sr,
@@ -53,12 +45,8 @@ export function processScreener(raw) {
   // Summary stats
   const gainers = stocks.filter((s) => s.per_chg > 0);
   const losers = stocks.filter((s) => s.per_chg < 0);
-  const avgChange = (
-    stocks.reduce((sum, s) => sum + s.per_chg, 0) / stocks.length
-  ).toFixed(2);
-  const avgVolume = Math.round(
-    stocks.reduce((sum, s) => sum + s.volume, 0) / stocks.length
-  );
+  const avgChange = (stocks.reduce((sum, s) => sum + s.per_chg, 0) / stocks.length).toFixed(2);
+  const avgVolume = Math.round(stocks.reduce((sum, s) => sum + s.volume, 0) / stocks.length);
 
   const summary = {
     totalStocks: stocks.length,
@@ -66,17 +54,11 @@ export function processScreener(raw) {
     losers: losers.length,
     avgPercentChange: Number(avgChange),
     avgVolume,
-    topGainer: stocks.reduce(
-      (best, s) => (s.per_chg > best.per_chg ? s : best),
-      stocks[0]
-    ),
-    topLoser: stocks.reduce(
-      (worst, s) => (s.per_chg < worst.per_chg ? s : worst),
-      stocks[0]
-    ),
+    topGainer: stocks.reduce((best, s) => (s.per_chg > best.per_chg ? s : best), stocks[0]),
+    topLoser: stocks.reduce((worst, s) => (s.per_chg < worst.per_chg ? s : worst), stocks[0]),
   };
 
-  return { type: "screener", rows: stocks.length, headers, csvRows: rows, summary };
+  return { type: 'screener', rows: stocks.length, headers, csvRows: rows, summary };
 }
 
 // ─── Backtest processor ──────────────────────────────────────────────────────
@@ -87,7 +69,7 @@ function tsToDate(ms) {
 
 export function processBacktest(raw) {
   const data = raw.data;
-  if (!data) return { type: "backtest", error: "No data found" };
+  if (!data) return { type: 'backtest', error: 'No data found' };
 
   const aggregatedStockList = data.aggregatedStockList ?? [];
   const groupData = data.groupData ?? {};
@@ -103,7 +85,7 @@ export function processBacktest(raw) {
 
   // ── 1. Daily stocks CSV ──────────────────────────────────────────────────
   // aggregatedStockList[i] = flat array of [symbol, cap, sector, ...]
-  const dailyHeaders = ["Date", "Symbol", "Cap Type", "Sector"];
+  const dailyHeaders = ['Date', 'Symbol', 'Cap Type', 'Sector'];
   const dailyRows = [];
 
   for (let i = 0; i < numDays; i++) {
@@ -121,14 +103,12 @@ export function processBacktest(raw) {
   // ── 2. Sector counts pivot CSV ───────────────────────────────────────────
   // groupData = { "0": { name, results: [{ formula: [count x numDays] }] }, ... }
   const sectorEntries = Object.values(groupData).map((g) => {
-    const counts = g.results?.[0]
-      ? Object.values(g.results[0])[0]
-      : new Array(numDays).fill(0);
+    const counts = g.results?.[0] ? Object.values(g.results[0])[0] : new Array(numDays).fill(0);
     return { name: g.name, counts };
   });
 
   const sectorNames = sectorEntries.map((e) => e.name);
-  const sectorHeaders = ["Date", "Total Signals", ...sectorNames];
+  const sectorHeaders = ['Date', 'Total Signals', ...sectorNames];
   const sectorRows = [];
 
   for (let i = 0; i < numDays; i++) {
@@ -172,8 +152,7 @@ export function processBacktest(raw) {
     totalDays: numDays,
     activeDays,
     totalSignalOccurrences: totalSignals,
-    avgSignalsPerActiveDay:
-      activeDays > 0 ? (totalSignals / activeDays).toFixed(2) : 0,
+    avgSignalsPerActiveDay: activeDays > 0 ? (totalSignals / activeDays).toFixed(2) : 0,
     peakDate: dateLabel(peakDayIdx),
     peakDaySignalCount: peakCount,
     topSymbols,
@@ -181,7 +160,7 @@ export function processBacktest(raw) {
   };
 
   return {
-    type: "backtest",
+    type: 'backtest',
     totalDays: numDays,
     totalSignals,
     dailyHeaders,
@@ -194,10 +173,10 @@ export function processBacktest(raw) {
 
 // ─── Write processed outputs ─────────────────────────────────────────────────
 
-const PROCESSED_DIR = path.join(process.cwd(), "processed");
+const PROCESSED_DIR = path.join(process.cwd(), 'processed');
 
 export function ensureProcessedDirs() {
-  ["", "screeners", "backtests"].forEach((sub) => {
+  ['', 'screeners', 'backtests'].forEach((sub) => {
     const dir = path.join(PROCESSED_DIR, sub);
     if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
   });
@@ -205,7 +184,7 @@ export function ensureProcessedDirs() {
 
 export function writeScreenerOutput(result, screenerName) {
   ensureProcessedDirs();
-  const base = path.join(PROCESSED_DIR, "screeners", screenerName);
+  const base = path.join(PROCESSED_DIR, 'screeners', screenerName);
 
   // CSV
   const csvPath = `${base}.csv`;
@@ -213,14 +192,14 @@ export function writeScreenerOutput(result, screenerName) {
 
   // Summary JSON
   const summaryPath = `${base}_summary.json`;
-  fs.writeFileSync(summaryPath, JSON.stringify(result.summary, null, 2), "utf8");
+  fs.writeFileSync(summaryPath, JSON.stringify(result.summary, null, 2), 'utf8');
 
   return { csvPath, summaryPath };
 }
 
 export function writeBacktestOutput(result, screenerName) {
   ensureProcessedDirs();
-  const base = path.join(PROCESSED_DIR, "backtests", screenerName);
+  const base = path.join(PROCESSED_DIR, 'backtests', screenerName);
 
   // Daily stocks CSV
   const dailyCsvPath = `${base}_daily_stocks.csv`;
@@ -232,7 +211,7 @@ export function writeBacktestOutput(result, screenerName) {
 
   // Summary JSON
   const summaryPath = `${base}_summary.json`;
-  fs.writeFileSync(summaryPath, JSON.stringify(result.summary, null, 2), "utf8");
+  fs.writeFileSync(summaryPath, JSON.stringify(result.summary, null, 2), 'utf8');
 
   return { dailyCsvPath, sectorCsvPath, summaryPath };
 }

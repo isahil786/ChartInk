@@ -1,0 +1,13 @@
+{
+  "queryName": "Fibonacci Buy Zone",
+  "scanClause": "({cash} ( latest close > Min(5, Low) + (Max(5, High) - Min(5, Low)) * 0.618 and latest close > Max(5, High) ))",
+  "fetchedAt": "2026-05-21T22:29:15.917Z",
+  "totalResults": 0,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 0,
+    "recordsFiltered": 0,
+    "data": [],
+    "link": "scanlink:dc315e7ca839260239fb497690349554"
+  }
+}

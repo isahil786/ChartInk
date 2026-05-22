@@ -1,0 +1,122 @@
+{
+  "queryName": "Morning Star",
+  "scanClause": "({cash} ( 2 day ago close > 2 day ago open and latest close < 2 day ago close * 0.98 and latest close > 1 day ago close * 1.01 ))",
+  "fetchedAt": "2026-05-21T22:29:11.718Z",
+  "totalResults": 12,
+  "data": {
+    "draw": 1,
+    "recordsTotal": 12,
+    "recordsFiltered": 12,
+    "data": [
+      {
+        "sr": 1,
+        "nsecode": "SIYSIL",
+        "name": "Siyaram Silk Mills Limited",
+        "bsecode": "503811",
+        "close": 590.75,
+        "per_chg": 3.05,
+        "volume": 372211
+      },
+      {
+        "sr": 2,
+        "nsecode": "BIMETAL",
+        "name": "Bimetal Bearings Ltd",
+        "bsecode": "505681",
+        "close": 571.45,
+        "per_chg": 3.52,
+        "volume": 178
+      },
+      {
+        "sr": 3,
+        "nsecode": "BALRAMCHIN",
+        "name": "Balrampur Chini Mills Limited",
+        "bsecode": "500038",
+        "close": 537.45,
+        "per_chg": 1.26,
+        "volume": 257585
+      },
+      {
+        "sr": 4,
+        "nsecode": "MANYAVAR",
+        "name": "Vedant Fashions Ltd",
+        "bsecode": "543463",
+        "close": 422.2,
+        "per_chg": 1.72,
+        "volume": 173588
+      },
+      {
+        "sr": 5,
+        "nsecode": "JITFINFRA",
+        "name": "JITF Infra Logistics Ltd",
+        "bsecode": "540311",
+        "close": 286.7,
+        "per_chg": 1.2,
+        "volume": 14112
+      },
+      {
+        "sr": 6,
+        "nsecode": "KREBSBIO",
+        "name": "Krebs Biochemicals And Industries Limited",
+        "bsecode": "524518",
+        "close": 56.07,
+        "per_chg": 1.65,
+        "volume": 1781
+      },
+      {
+        "sr": 7,
+        "nsecode": "SHRIKRISH",
+        "name": "Shri Krishna Devcon Ltd",
+        "bsecode": "531080",
+        "close": 43.2,
+        "per_chg": 2.59,
+        "volume": 614
+      },
+      {
+        "sr": 8,
+        "nsecode": "DSFCL",
+        "name": "DCM Shriram Fine Chemicals Ltd",
+        "bsecode": "544703",
+        "close": 27.47,
+        "per_chg": 2.5,
+        "volume": 88984
+      },
+      {
+        "sr": 9,
+        "nsecode": "MERCANTILE",
+        "name": "Mercantile Ventures Ltd",
+        "bsecode": "538942",
+        "close": 25.26,
+        "per_chg": 1.85,
+        "volume": 10606
+      },
+      {
+        "sr": 10,
+        "nsecode": "GAYAPROJ",
+        "name": "Gayatri Projects Limited",
+        "bsecode": "532767",
+        "close": 16.84,
+        "per_chg": 2.06,
+        "volume": 165977
+      },
+      {
+        "sr": 11,
+        "nsecode": "DRCSYSTEMS",
+        "name": "DRC Systems India Ltd",
+        "bsecode": "543268",
+        "close": 15.36,
+        "per_chg": 1.19,
+        "volume": 137372
+      },
+      {
+        "sr": 12,
+        "nsecode": "PRAXIS",
+        "name": "Praxis Home Retail Ltd",
+        "bsecode": "540901",
+        "close": 7.3,
+        "per_chg": 1.11,
+        "volume": 4374
+      }
+    ],
+    "link": "scanlink:23cdf4da0194038003f57886bde49a2b"
+  }
+}

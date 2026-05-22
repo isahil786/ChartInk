@@ -1,0 +1,12 @@
+{
+  "sourceUrl": "custom-query",
+  "screenerUrl": "https://chartink.com/screener",
+  "screenerName": "EMA Crossover",
+  "scanClause": "({cash} ( latest 9 day ema > 21 day ema and 1 day ago 9 day ema <= 21 day ema ))",
+  "maxRows": 160,
+  "fetchedAt": "2026-05-21T21:58:53.661Z",
+  "sectorGroups": 0,
+  "data": {
+    "link": "scanlink:61711b919b38e06a6a0c2513555515b5"
+  }
+}
