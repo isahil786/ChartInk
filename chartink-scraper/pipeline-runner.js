@@ -104,7 +104,7 @@ function ensureFormattedDir() {
   }
 }
 
-function formatBacktestForIntegration(backtestResult, screenerName) {
+function formatBacktestForIntegration(backtestResult, screenerName, pipelineType = 'day_trading') {
   const tradeTimes = backtestResult.data?.metaData?.[0]?.tradeTimes || [];
   const formatIST = (ts) => new Date(ts).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' });
   const formatted = {
@@ -115,6 +115,7 @@ function formatBacktestForIntegration(backtestResult, screenerName) {
     tradeDates: tradeTimes,
     tradeDatesFormatted: tradeTimes.map(formatIST),
     sectorGroups: backtestResult.sectorGroups,
+    pipeline_type: pipelineType,
   };
 
   if (backtestResult.data?.aggregatedStockList && backtestResult.data?.metaData?.[0]?.tradeTimes) {
@@ -180,13 +181,13 @@ function formatBacktestForIntegration(backtestResult, screenerName) {
   return formatted;
 }
 
-async function runBacktestAndFormat(screenerUrl, cookies) {
+async function runBacktestAndFormat(screenerUrl, cookies, pipelineType = 'day_trading') {
   console.log(`  Running backtest: ${screenerUrl}`);
   const backtestResult = await runBacktest(screenerUrl, 160, cookies);
   const screenerName = backtestResult.screenerName;
 
   ensureFormattedDir();
-  const formatted = formatBacktestForIntegration(backtestResult, screenerName);
+  const formatted = formatBacktestForIntegration(backtestResult, screenerName, pipelineType);
   const filename = `${screenerName}_${backtestResult.fetchedAt.slice(0, 10)}.json`;
   const filepath = path.join(FORMATTED_DIR, filename);
   fs.writeFileSync(filepath, JSON.stringify(formatted, null, 2), 'utf8');
@@ -243,7 +244,7 @@ async function runPipeline(pipelineType, processor, cookies, runBacktests = fals
     results.stage_0 = [...results.stage_0, ...(stage0Result.data?.data || [])];
     processor.processStage0(stage0Result.data?.data || [], url, pipelineType);
     if (runBacktests) {
-      const formatted = await runBacktestAndFormat(url, cookies);
+      const formatted = await runBacktestAndFormat(url, cookies, pipelineType);
       await updateProbabilityWithBacktest(url, 'stage_0', formatted, table, pipelineType);
     }
   }
@@ -257,7 +258,7 @@ async function runPipeline(pipelineType, processor, cookies, runBacktests = fals
     const stage1Results = processor.processStage1(stage1Symbols, url, pipelineType);
     stage1PassedCount += stage1Results.length;
     if (runBacktests) {
-      const formatted = await runBacktestAndFormat(url, cookies);
+      const formatted = await runBacktestAndFormat(url, cookies, pipelineType);
       await updateProbabilityWithBacktest(url, 'stage_1', formatted, table, pipelineType);
     }
   }
@@ -265,13 +266,15 @@ async function runPipeline(pipelineType, processor, cookies, runBacktests = fals
 
   console.log('\nStage 2 - Confirmation');
   let stage2PassedCount = 0;
+  const stage2Results = [];
   for (const url of stageUrls(config.stage_2)) {
     const stage2Result = await runScreener(url, cookies);
     const stage2Symbols = (stage2Result.data?.data || []).map((s) => s.nsecode || s.symbol);
-    const stage2Results = processor.processStage2(stage2Symbols, url, pipelineType);
-    stage2PassedCount += stage2Results.length;
+    const results2 = processor.processStage2(stage2Symbols, url, pipelineType);
+    stage2Results.push(...results2);
+    stage2PassedCount += results2.length;
     if (runBacktests) {
-      const formatted = await runBacktestAndFormat(url, cookies);
+      const formatted = await runBacktestAndFormat(url, cookies, pipelineType);
       await updateProbabilityWithBacktest(url, 'stage_2', formatted, table, pipelineType);
     }
   }
@@ -280,21 +283,25 @@ async function runPipeline(pipelineType, processor, cookies, runBacktests = fals
   console.log('\nStage 3 - Validation');
   let stage3PassedCount = 0;
   const stage3Results = [];
-  for (const url of stageUrls(config.stage_3 || [])) {
+  const stage3Urls = config.stage_3 && config.stage_3.length > 0 ? stageUrls(config.stage_3) : [];
+  for (const url of stage3Urls) {
     const stage3Result = await runScreener(url, cookies);
     const stage3Symbols = (stage3Result.data?.data || []).map((s) => s.nsecode || s.symbol);
     const results3 = processor.processStage3(stage3Symbols, url, pipelineType);
     stage3PassedCount += results3.length;
     stage3Results.push(...results3);
     if (runBacktests) {
-      const formatted = await runBacktestAndFormat(url, cookies);
+      const formatted = await runBacktestAndFormat(url, cookies, pipelineType);
       await updateProbabilityWithBacktest(url, 'stage_3', formatted, table, pipelineType);
     }
   }
   console.log(`  Found ${stage3PassedCount} stocks passed to Stage 3`);
 
   console.log('\nEntry Evaluation');
-  for (const { symbol } of stage3Results) {
+  const entryCandidates = new Set();
+  stage3Results.forEach(r => entryCandidates.add(r.symbol));
+  stage2Results.forEach(r => entryCandidates.add(r.symbol));
+  for (const symbol of entryCandidates) {
     const entryResult = processor.evaluateEntry(symbol, pipelineType, 100);
     if (entryResult.entry) {
       console.log(`  ENTRY: ${symbol} (prob: ${(entryResult.probability * 100).toFixed(1)}%)`);
@@ -314,7 +321,7 @@ async function runPipeline(pipelineType, processor, cookies, runBacktests = fals
   return results;
 }
 
-async function runMultiTimeframePipeline(processor, cookies, runBacktests = false, sharedTable = null) {
+async function runMultiTimeframePipeline(processor, cookies, _runBacktests = false, _sharedTable = null) {
   const config = SCRAPER_URLS.multi_timeframe;
   console.log(`\n${'='.repeat(50)}`);
   console.log('Running Multi-Timeframe Pipeline');
@@ -384,7 +391,7 @@ function printStatus(processor) {
   const stageCounts = { stage_0: 0, stage_1: 0, stage_2: 0, stage_3: 0, entry: 0, failed: 0 };
   Object.values(state.stocks).forEach((stock) => {
     Object.values(stock.pipelines).forEach((p) => {
-      if (stageCounts.hasOwnProperty(p.stage)) {
+      if (Object.hasOwn(stageCounts, p.stage)) {
         stageCounts[p.stage]++;
       }
     });

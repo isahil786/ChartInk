@@ -41,7 +41,7 @@ async function main() {
       time_bucket: 'any',
       compression_quality: 'medium',
       market_regime: 'normal',
-      pipeline_type: 'day_trading',
+      pipeline_type: backtestData.pipeline_type || 'day_trading',
       success: backtestData.sequences.length > 0 && backtestData.sectorGroups > 0,
     };
     backtestResults.push(result);

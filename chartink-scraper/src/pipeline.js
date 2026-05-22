@@ -131,6 +131,8 @@ export class PipelineProcessor {
 
   processStage3(stockSymbols, screenerName, pipelineType = PIPELINE_TYPES.DAY_TRADING) {
     const results = [];
+    const windowMinutes = this.config[pipelineType]?.windows?.stage_2_to_3;
+    if (windowMinutes === undefined) return results;
 
     for (const symbol of stockSymbols) {
       const stockState = getStockState(this.state, symbol);
@@ -142,7 +144,6 @@ export class PipelineProcessor {
       const now = new Date();
       const minutesElapsed = (now - stage2Time) / 60000;
 
-      const windowMinutes = this.config[pipelineType].windows.stage_2_to_3;
       if (minutesElapsed > windowMinutes) {
         markStockFailed(this.state, symbol, pipelineType, 'Stage 2 timeout');
         continue;
@@ -161,11 +162,19 @@ export class PipelineProcessor {
     return results;
   }
 
+  getEntryStage(pipelineType = PIPELINE_TYPES.DAY_TRADING) {
+    if (pipelineType === PIPELINE_TYPES.WEEKLY_SWING) {
+      return PIPELINE_STAGES.STAGE_2;
+    }
+    return PIPELINE_STAGES.STAGE_3;
+  }
+
   evaluateEntry(symbol, pipelineType = PIPELINE_TYPES.DAY_TRADING, entryPrice = null) {
     const stockState = getStockState(this.state, symbol);
     const pipeline = stockState?.pipelines?.[pipelineType];
+    const entryStage = this.getEntryStage(pipelineType);
 
-    if (!pipeline || pipeline.stage !== PIPELINE_STAGES.STAGE_3) {
+    if (!pipeline || pipeline.stage !== entryStage) {
       return { entry: false, reason: 'Not in entry stage' };
     }
 
