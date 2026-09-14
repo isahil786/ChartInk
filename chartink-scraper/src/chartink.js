@@ -70,9 +70,19 @@ export function extractScanClause(html) {
       if (scanObj.atlas_query) {
         return decodeHtmlEntities(scanObj.atlas_query).trim();
       }
+      // Some screeners use scan_run_token instead of atlas_query
+      if (scanObj.scan_run_token) {
+        return scanObj.scan_run_token;
+      }
     } catch {
       // fall through
     }
+  }
+
+  // Fallback: try to find scan_run_token directly in the HTML
+  const tokenMatch = html.match(/scan_run_token["']\s*:\s*["']([^"']+)["']/);
+  if (tokenMatch) {
+    return tokenMatch[1];
   }
 
   return null;
