@@ -1,9 +1,11 @@
 import express from 'express';
 import cors from 'cors';
+import axios from 'axios';
+import * as cheerio from 'cheerio';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import { runScreener } from './src/chartink.js';
+import { runScreener, extractScanClause, extractCsrfToken } from './src/chartink.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -15,6 +17,8 @@ const BASE = (process.env.BASE_PATH || '/dashboard').replace(/\/$/, '');
 const PROCESSED = path.join(__dirname, 'processed');
 const SCREENERS_DIR = path.join(PROCESSED, 'screeners');
 const BACKTESTS_DIR = path.join(PROCESSED, 'backtests');
+
+const BROWSER_UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 
 // ─── CSV parser ───────────────────────────────────────────────────────────────
 
@@ -58,6 +62,26 @@ function parseCsv(filePath) {
       return obj;
     });
   return { headers, rows };
+}
+
+// ─── Fetch HTML from Chartink with optional session cookies ────────────────────
+
+async function fetchHtml(url, cookies = '') {
+  const jarConfig = {};
+  if (cookies) {
+    jarConfig.headers = { Cookie: cookies };
+  }
+
+  const response = await axios.get(url, {
+    headers: {
+      'User-Agent': BROWSER_UA,
+      Accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+      ...jarConfig.headers,
+    },
+    timeout: 15000,
+  });
+
+  return response.data;
 }
 
 // ─── Slugs ────────────────────────────────────────────────────────────────────
@@ -182,6 +206,78 @@ app.get(`${BASE}/api/fetch`, async (req, res) => {
       });
     }
     res.json({ success: true, data: results });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ─── API: scanner metadata (scan_run_token, scan clause) ──────────────────────
+
+app.get(`${BASE}/api/scanner/:slug`, async (req, res) => {
+  const slug = req.params.slug;
+  const url = `https://chartink.com/screener/${slug}`;
+
+  try {
+    const html = await fetchHtml(url, req.query.cookies || '');
+    const $ = cheerio.load(html);
+
+    const scanClause = extractScanClause(html);
+
+    // HTML entities like &quot; in the page
+    const scanRunTokenMatch =
+      html.match(/scan_run_token["']\s*:\s*["']([^"']+)["']/) ||
+      html.match(/scan_run_token&quot;:&quot;([^&"]+)/);
+
+    const scanIdMatch = html.match(/scan_id["']\s*:\s*["']([^"']+)["']/) ||
+      html.match(/scan_id&quot;:&quot;([^&"]+)/);
+
+    res.json({
+      slug,
+      url,
+      scanClause: scanClause || null,
+      scanRunToken: scanRunTokenMatch ? scanRunTokenMatch[1] : null,
+      scanId: scanIdMatch ? scanIdMatch[1] : null,
+    });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// ─── API: oapi — proxy Chartink indicator data ──────────────────────────────────
+
+app.get(`${BASE}/api/oapi`, async (req, res) => {
+  const symbol = req.query.symbol || 'AURUS';
+  const timeframe = req.query.timeframe || '15 minutes';
+  const scanRunToken = req.query.scan_run_token || '';
+  const scanId = req.query.scan_id || '';
+  const useLive = req.query.use_live !== '0' ? '1' : '0';
+  const size = req.query.size || '200';
+  const limit = req.query.limit || size;
+  const end_time = req.query.end_time || Math.floor(Date.now() / 1000) * 1000;
+
+  const form = new URLSearchParams({
+    query: `select open, high, low, close, volume, Close as 'indicatorsetid1layerId0c5d603e-0f47-40ee-99da-af54c5a46217', filternumber({scan-link:${scanRunToken}}) as 'indicatorsetid1layerId0c5d603e-0f47-40ee-99da-af54c5a46217-color' where symbol='${symbol}'`,
+    use_live: useLive === '1' ? '1' : '0',
+    limit: limit,
+    size: size,
+    widget_id: '-1',
+    end_time: end_time,
+    timeframe: timeframe,
+    symbol: symbol,
+    scan_link: `scanlink:${scanRunToken}`,
+  });
+
+  try {
+    const response = await axios.post('https://chartink.com/oapi', form.toString(), {
+      headers: {
+        'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+        'User-Agent': BROWSER_UA,
+        Accept: 'application/json, text/javascript, */*; q=0.01',
+        'X-Requested-With': 'XMLHttpRequest',
+      },
+      timeout: 30000,
+    });
+    res.json(response.data);
   } catch (err) {
     res.status(500).json({ error: err.message });
   }
