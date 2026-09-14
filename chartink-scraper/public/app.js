@@ -3,6 +3,7 @@ let allScreeners = [];
 let activeSlug = null;
 let chartDaily = null;
 let chartSector = null;
+let chartOapi = null;
 
 /* ── Boot ────────────────────────────────────────────────────── */
 document.addEventListener('DOMContentLoaded', () => {
@@ -14,6 +15,14 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('fetch-url-input').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') fetchByUrl();
   });
+
+  // Tab switching
+  document.querySelectorAll('.tab-btn').forEach((btn) => {
+    btn.addEventListener('click', () => switchTab(btn.dataset.tab));
+  });
+
+  // Charting fetch
+  document.getElementById('btn-fetch-chart').addEventListener('click', fetchOapi);
 });
 
 /* ── Base path (injected by server into <meta name="base-path">) ── */
@@ -153,7 +162,9 @@ function renderStats(screener, backtest) {
     {
       label: 'Avg % Change',
       value:
-        (s.avgPercentChange ?? 0) > 0 ? `+${s.avgPercentChange}%` : `${s.avgPercentChange ?? 0}%`,
+        (s.avgPercentChange ?? 0) > 0
+          ? `+${(s.avgPercentChange ?? 0).toFixed(2)}%`
+          : `${(s.avgPercentChange ?? 0).toFixed(2)}%`,
       sub: s.topGainer ? `Best: ${s.topGainer.nsecode} (${s.topGainer.per_chg}%)` : '',
       color: (s.avgPercentChange ?? 0) >= 0 ? 'green' : 'red',
     },
@@ -448,6 +459,195 @@ function renderTopSymbols(symbols) {
             <span class="sym-count">${s.appearances}×</span>
           </div>`;
       })
-      .join('')}
-  `;
+      .join('')}`;
 }
+
+/* ── Tab switching ───────────────────────────────────────────── */
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab-btn').forEach((b) => b.classList.toggle('active', b.dataset.tab === tab));
+
+  const dashboardEl = document.getElementById('dashboard');
+  const chartingEl = document.getElementById('charting-tab');
+
+  if (tab === 'charting') {
+    dashboardEl.classList.add('hidden');
+    chartingEl.classList.remove('hidden');
+  } else {
+    dashboardEl.classList.remove('hidden');
+    chartingEl.classList.add('hidden');
+  }
+}
+
+/* ── Fetch scanner metadata ──────────────────────────────────── */
+
+async function fetchScannerMeta(slug) {
+  return api(`/api/scanner/${slug}`);
+}
+
+/* ── Fetch oapi indicator data ───────────────────────────────── */
+
+async function fetchOapi() {
+  const symbol = document.getElementById('chart-symbol').value.trim();
+  const slug = document.getElementById('chart-screener-slug').value.trim();
+  const timeframe = document.getElementById('chart-timeframe').value;
+  const size = document.getElementById('chart-size').value;
+
+  const errorEl = document.getElementById('chart-error');
+  const metaEl = document.getElementById('scanner-meta');
+  errorEl.classList.add('hidden');
+  metaEl.innerHTML = '';
+
+  if (!slug) {
+    errorEl.textContent = 'Please enter a screener slug';
+    errorEl.classList.remove('hidden');
+    return;
+  }
+
+  try {
+    const meta = await fetchScannerMeta(slug);
+
+    metaEl.innerHTML = `
+      <div class="meta-row"><span>Scan Clause</span><span>${meta.scanClause || 'N/A'}</span></div>
+      <div class="meta-row"><span>Scan Run Token</span><span>${meta.scanRunToken || 'N/A'}</span></div>
+      <div class="meta-row"><span>Scan ID</span><span>${meta.scanId || 'N/A'}</span></div>
+    `;
+
+    const scanRunToken = meta.scanRunToken || '';
+    const scanId = meta.scanId || '';
+
+    const params = new URLSearchParams({
+      symbol,
+      timeframe,
+      scan_run_token: scanRunToken,
+      scan_id: scanId,
+      size: size,
+    });
+
+    const oapiData = await api(`/api/oapi?${params.toString()}`);
+
+    renderOapiData(oapiData, timeframe);
+  } catch (e) {
+    errorEl.textContent = 'Error: ' + e.message;
+    errorEl.classList.remove('hidden');
+  }
+}
+
+/* ── Render oapi data ────────────────────────────────────────── */
+
+function renderOapiData(data, timeframe) {
+  const tbody = document.getElementById('oapi-tbody');
+  const emptyEl = document.getElementById('oapi-empty');
+  const container = document.getElementById('oapi-table');
+
+  // Parse Chartink oapi format: groupData has arrays of values per field
+  const tradeTimes = data.metaData?.[0]?.tradeTimes || [];
+  const groupData = data.groupData || [];
+
+  // Flatten groupData into row objects
+  const rows = [];
+  if (groupData.length > 0 && tradeTimes.length > 0) {
+    const results = groupData[0].results || [];
+    const fields = ['open', 'high', 'low', 'close', 'volume'];
+
+    for (let i = 0; i < tradeTimes.length; i++) {
+      const row = { timestamp: tradeTimes[i] };
+      results.forEach((r) => {
+        fields.forEach((f) => {
+          if (r[f] && Array.isArray(r[f])) {
+            row[f] = r[f][i];
+          }
+        });
+      });
+      rows.push(row);
+    }
+  }
+
+  if (!rows.length) {
+    emptyEl.textContent = 'No data returned';
+    emptyEl.classList.remove('hidden');
+    container.classList.add('hidden');
+    return;
+  }
+
+  emptyEl.classList.add('hidden');
+  container.classList.remove('hidden');
+
+  tbody.innerHTML = rows
+    .map((r) => {
+      const ts = r.timestamp || r.time || r.datetime || r.date || '';
+      const dateStr = ts ? new Date(ts).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) : '';
+      return `
+        <tr>
+          <td>${dateStr}</td>
+          <td>${r.open ?? '—'}</td>
+          <td>${r.high ?? '—'}</td>
+          <td>${r.low ?? '—'}</td>
+          <td>${r.close ?? '—'}</td>
+          <td>${r.volume ?? '—'}</td>
+        </tr>`;
+    })
+    .join('');
+
+  renderOapiChart(rows, timeframe);
+}
+
+/* ── Render oapi chart ───────────────────────────────────────── */
+
+function renderOapiChart(rows, timeframe) {
+  const ctx = document.getElementById('chart-oapi');
+  if (chartOapi) {
+    chartOapi.destroy();
+    chartOapi = null;
+  }
+
+  const labels = rows.map((r) => {
+    const ts = r.timestamp || r.time || r.datetime || r.date || '';
+    return ts ? new Date(ts).toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' }) : '';
+  });
+  const values = rows.map((r) => parseFloat(r.close ?? r.c) || 0);
+
+  chartOapi = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: [
+        {
+          label: `Close (${timeframe})`,
+          data: values,
+          borderColor: '#3b82f6',
+          backgroundColor: 'rgba(59,130,246,0.10)',
+          borderWidth: 2,
+          pointRadius: 0,
+          pointHoverRadius: 4,
+          fill: true,
+          tension: 0.3,
+        },
+      ],
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: true },
+        tooltip: {
+          callbacks: {
+            title: (items) => items[0].label,
+            label: (item) => ` Close: ${item.raw}`,
+          },
+        },
+      },
+      scales: {
+        x: {
+          ticks: { color: '#64748b' },
+          grid: { color: '#1e2433' },
+        },
+        y: {
+          ticks: { color: '#64748b' },
+          grid: { color: '#1e2433' },
+        },
+      },
+    },
+  });
+}
+
