@@ -17,6 +17,10 @@
         <input type="url" id="fetch-url-input" placeholder="Paste screener URL..." />
         <button id="fetch-url-btn" class="btn-fetch">Fetch</button>
       </div>
+      <div class="tab-switcher">
+        <button id="tab-screeners" class="tab-btn active" data-tab="screeners">Screeners</button>
+        <button id="tab-charting" class="tab-btn" data-tab="charting">Charting</button>
+      </div>
       <nav id="nav-list">
         <div class="nav-loading">Loading screeners…</div>
       </nav>
@@ -80,9 +84,64 @@
               <div id="top-symbols" class="top-symbols"></div>
             </div>
           </section>
-        </div>
       </div>
-    </main>
+    </div>
+
+    <!-- Charting Tab -->
+    <div id="charting-tab" class="hidden">
+      <header class="dash-header">
+        <div>
+          <h1 id="charting-title">Stock Charting</h1>
+          <div id="charting-subtitle" class="dash-subtitle">Fetch indicator data from Chartink oapi</div>
+        </div>
+      </header>
+
+      <div class="charting-controls">
+        <input type="text" id="chart-symbol" placeholder="Symbol (e.g., AURUS)" value="AURUS" />
+        <input type="text" id="chart-screener-slug" placeholder="Screener slug" />
+        <select id="chart-timeframe">
+          <option value="15 minutes">15 minutes</option>
+          <option value="5 minutes">5 minutes</option>
+          <option value="1 hour">1 hour</option>
+          <option value="1 day">1 day</option>
+        </select>
+        <input type="number" id="chart-size" placeholder="Size" value="200" min="1" max="500" />
+        <button id="btn-fetch-chart" class="btn-fetch">Fetch</button>
+      </div>
+
+      <div class="charting-info">
+        <div id="scanner-meta" class="scanner-meta"></div>
+        <div id="chart-error" class="chart-error hidden"></div>
+      </div>
+
+      <section class="panel panel-charting">
+        <h2 class="panel-title">Indicator Data</h2>
+        <div class="chart-wrap">
+          <canvas id="chart-oapi"></canvas>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2 class="panel-title">Raw Data</h2>
+        <div class="table-wrap">
+          <table id="oapi-table">
+            <thead>
+              <tr>
+                <th>Date/Time</th>
+                <th>Open</th>
+                <th>High</th>
+                <th>Low</th>
+                <th>Close</th>
+                <th>Volume</th>
+              </tr>
+            </thead>
+            <tbody id="oapi-tbody"></tbody>
+          </table>
+          <div id="oapi-empty" class="empty-msg hidden">No data. Enter a screener slug and fetch.</div>
+        </div>
+      </section>
+    </div>
+  </main>
 
     <script src="app.js"></script>
   </body>
