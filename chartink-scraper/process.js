@@ -22,7 +22,7 @@ function loadJsonFiles(dir) {
 function slugFromFileName(file) {
   // e.g. "copy-fibonacci-61-8-buy-daily-55_2026-05-17_07-31-01.json"
   // → "copy-fibonacci-61-8-buy-daily-55"
-  return file.replace(/_\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}\.json$/, '');
+  return file.replace(/_\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}\.json$/, '').replace(/\.json$/, '');
 }
 
 function printSummaryBox(label, lines) {
