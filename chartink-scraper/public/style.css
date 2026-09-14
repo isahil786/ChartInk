@@ -442,6 +442,108 @@ tr:hover td {
   display: none !important;
 }
 
+.tab-switcher {
+  display: flex;
+  border-bottom: 1px solid var(--border);
+}
+
+.tab-btn {
+  flex: 1;
+  padding: 12px 8px;
+  background: none;
+  border: none;
+  color: var(--muted);
+  font-size: 12.5px;
+  font-weight: 600;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: all 0.15s;
+}
+
+.tab-btn:hover {
+  color: var(--text);
+  background: var(--bg3);
+}
+
+.tab-btn.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.charting-controls {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.charting-controls input,
+.charting-controls select {
+  padding: 8px 10px;
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+  font-size: 13px;
+  outline: none;
+}
+
+.charting-controls input {
+  flex: 1;
+  min-width: 100px;
+}
+
+.charting-controls select {
+  width: 140px;
+}
+
+#btn-fetch-chart {
+  padding: 8px 16px;
+  font-size: 12.5px;
+}
+
+.charting-info {
+  margin-bottom: 16px;
+}
+
+.scanner-meta {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 14px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.scanner-meta .meta-row {
+  display: flex;
+  justify-content: space-between;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
+.scanner-meta .meta-row span {
+  font-family: monospace;
+  font-size: 11px;
+  color: var(--text);
+  word-break: break-all;
+}
+
+.chart-error {
+  background: rgba(239, 68, 68, 0.1);
+  border: 1px solid var(--red);
+  border-radius: 6px;
+  padding: 10px 14px;
+  color: var(--red);
+  font-size: 12px;
+}
+
+#charting-tab {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 .sortable {
   cursor: pointer;
   user-select: none;
